@@ -16,4 +16,10 @@ a:active {
 /*      text-decoration: none;  */
 }
 
+h2.subtitle{
+  text-decoration: none;
+}  
 
+h3.title {
+  text-decoration: none;
+} 
