@@ -610,34 +610,34 @@ window.Quarto = {
 </ul>
 <p>Supply:</p>
 <p><span id="eq-gdpsupply"><span class="math display">\[\begin{split} &amp;
-Y = C + S + T + M - X
+Y = C + S + T + M - F
 \end{split} \tag{1}\]</span></span></p>
 <p><span id="eq-ecoincome"><span class="math display">\[\begin{split} &amp;
-Y = W  + Y_P + Y_B + T_B + Y_G - Z_G
+Y = L  + Y_H + Y_A + T_A + Y_G - Z_G
 \end{split} \tag{2}\]</span></span></p>
 <p>Demand:</p>
 <p><span id="eq-gdpdemand"><span class="math display">\[\begin{split} &amp;
-V_I = C + I + G + X - M
+V_I = C + I + G + F - M
 \end{split} \tag{3}\]</span></span></p>
 <p>Equilibrium:</p>
 <p><span id="eq-ecoequi"><span class="math display">\[\begin{split} &amp;
 Y = V_I       \\&amp;
-W - C = S = I        \\&amp;
-C + S = W        \\&amp;
+L - C = S = I        \\&amp;
+C + S = L        \\&amp;
 C + I = R
 \end{split} \tag{4}\]</span></span></p>
 <p>Domestic Production &amp; International Trade:</p>
 <p><span id="eq-gdp"><span class="math display">\[\begin{split} &amp;
-V_S = Y + T - B + D
+V_S = Y + T - G_A + D_A
 \end{split} \tag{5}\]</span></span></p>
 <p><span id="eq-gdp"><span class="math display">\[\begin{split} &amp;
-V_S = V_I + R_M - R_X
+V_S = V_I + R_M - R_F
 \end{split} \tag{6}\]</span></span></p>
 <p><span id="eq-nnpnsp"><span class="math display">\[\begin{split} &amp;
-V_N = V_S - D
+V_N = V_S - D_A
 \end{split} \tag{7}\]</span></span></p>
 <p><span id="eq-nnp"><span class="math display">\[\begin{split} &amp;
-V_N = Y + T - B
+V_N = Y + T - G_A
 \end{split} \tag{8}\]</span></span></p>
 <p>Productivity &amp; Monetary Value:</p>
 <p><span id="eq-moneyquant"><span class="math display">\[\begin{split} &amp;
@@ -645,13 +645,14 @@ P \cdot V_I = U \cdot Q
 \end{split} \tag{9}\]</span></span></p>
 <p><br>
 <br>
-Assuming no waste.</p>
-<p><span class="math inline">\(A =\)</span> Assets = Property Capital = shortterm capital (cash, debtors, storage) + longterm capital (mobile, nonmobile investements)<br>
-<span class="math inline">\(L =\)</span> Liabilities = Financial Capital = exogen capital (kreditors, loans, bonds) + endogen capital (property financials, reserves, shares)<br>
-<span class="math inline">\(C =\)</span> Expenses = efforts of human, and consumptions from machinary and infrastructure for production<br>
-<span class="math inline">\(Y =\)</span> Incompe = Earnings from production (yields for supplying goods and services to a market demand, sales and financial returns from investments)&nbsp;</p>
-<p>Balance of capital (usage of capital for production though possessed assets): <span class="math inline">\(A = L + R\)</span><br>
-Profit or Loss from Work (resultant value from input efforts): <span class="math inline">\(R = Y - C\)</span></p>
+</p>
+<p><span class="math inline">\(A =\)</span> Assets represent “Property Capital” which basically consist of “Working Capital” and “Structural Capital”.</p>
+<p><span class="math inline">\(B =\)</span> Liabilities represent “Financial Capital” which basically consist of “Exogen Funds” and “Endogen Funds”.</p>
+<p><span class="math inline">\(X =\)</span> Expenses represent “Work Efforts” of human, and consumptions from machinery and infrastructure to “Supply Production”.</p>
+<p><span class="math inline">\(Y =\)</span> Income represent “Received Earnings” achieved with production to “Satisfy Demand”.</p>
+<p><span class="math inline">\(R =\)</span> Profit or Loss from executed work (resultant value from input efforts) is represented by <span class="math inline">\(R = Y - X\)</span></p>
+<p>The “transfer of energy” between all subsystems is mapped in balancing out theirs capital (usage of capital for production though possessed assets): <span class="math inline">\(A = B + R\)</span></p>
+<p>Assuming open trade and no waste.</p>
 <p><br>
 <br>
 </p>
@@ -671,56 +672,52 @@ td, th {
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><span class="math inline">\(C =\)</span> Consumption of Private Households</td>
-<td><span class="math inline">\(S =\)</span> Savings</td>
-</tr>
-<tr class="even">
 <td><span class="math inline">\(T =\)</span> Taxes</td>
-<td><span class="math inline">\(M =\)</span> Import of Goods and Services</td>
-</tr>
-<tr class="odd">
-<td><span class="math inline">\(G =\)</span> Governent Expenses, incl.&nbsp;Social Insurances</td>
-<td><span class="math inline">\(X =\)</span> Export of Goods and Services</td>
+<td><span class="math inline">\(M =\)</span> Import of Goods and Services from foreing symstes</td>
 </tr>
 <tr class="even">
-<td><span class="math inline">\(Y =\)</span> National Income of Economy, total Turnover</td>
-<td><span class="math inline">\(B =\)</span> Subsidies</td>
+<td><span class="math inline">\(G =\)</span> Governent Expenses, incl.&nbsp;Social Insurances</td>
+<td><span class="math inline">\(F =\)</span> Export of Goods and Services to foreign system</td>
 </tr>
 <tr class="odd">
-<td><span class="math inline">\(D =\)</span> Depreciations (Reinvestments)</td>
+<td><span class="math inline">\(Y =\)</span> Income of Economy from Turnover</td>
+<td><span class="math inline">\(G_A =\)</span> Governental Subsidies</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(D_A =\)</span> Depreciations (Reinvestments) on Assets</td>
 <td><span class="math inline">\(V_N =\)</span> Net Naötional Production, Society NNP</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td><span class="math inline">\(Q =\)</span> Monetary Quantity</td>
 <td><span class="math inline">\(U =\)</span> Monetary Turnover Velocity</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="math inline">\(V_I =\)</span> Gross Domestic Product GDP = <span class="math inline">\(\frac{Output}{Input}\)</span>, Tradevolume</td>
 <td><span class="math inline">\(P =\)</span> Price niveau (Inflation adjusted Value)</td>
 </tr>
-<tr class="even">
-<td><span class="math inline">\(W =\)</span> Wages (Salaries, …)</td>
+<tr class="odd">
+<td><span class="math inline">\(L =\)</span> Wages from Labor Work (Salaries, …)</td>
 <td><span class="math inline">\(R =\)</span> Returns, Earnings, Gains</td>
 </tr>
-<tr class="odd">
-<td><span class="math inline">\(Y_B =\)</span> Income of priv. Business (Companies, Services, Real Estate Rentals, Retained Profits)</td>
-<td><span class="math inline">\(Y_P =\)</span> Income from priv. Capital (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)</td>
-</tr>
 <tr class="even">
-<td><span class="math inline">\(T_B =\)</span> Tax on Capital of Comapies (Business Assets)</td>
+<td><span class="math inline">\(Y_A =\)</span> Income of priv. Business Households (Companies, Services, Real Estate Rentals, Retained Profits)</td>
+<td><span class="math inline">\(Y_H =\)</span> Income from priv. Capital Households (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(T_A=\)</span> Tax on Capital of Corprate Compaies (Business Assets)</td>
 <td><span class="math inline">\(Y_G =\)</span> Governmental Income from Assets, Services, Social Institutions/Insurances</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><span class="math inline">\(Z_G =\)</span> Interests on Governmental Debt</td>
 <td><span class="math inline">\(V_S =\)</span> Gross National Produkt, Society GNP</td>
 </tr>
-<tr class="even">
-<td><span class="math inline">\(I =\)</span> Investments on Assets, incl.&nbsp;Storage Change</td>
-<td><span class="math inline">\(R_M =\)</span> Capital Earnings and Wages from Abroad</td>
-</tr>
 <tr class="odd">
-<td><span class="math inline">\(R_X\)</span> Capital Earnings and Wages to Abroad</td>
-<td>…</td>
+<td><span class="math inline">\(I =\)</span> Investments on Assets, incl.&nbsp;Storage Change</td>
+<td><span class="math inline">\(R_M =\)</span> Capital Earnings and Wages from Abroad (from Foreign System)</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(R_F\)</span> Capital Earnings and Wages to Abroad (to Foreign System)</td>
+<td><span class="math inline">\(X =\)</span> Expensens, costs from work efforts</td>
 </tr>
 </tbody>
 </table>
