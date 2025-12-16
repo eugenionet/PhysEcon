@@ -585,26 +585,30 @@ window.Quarto = {
 <li>juristic law</li>
 </ul>
 <p>Modelling movement (change of state) under constraints:</p>
-<p><span id="eq-lagrange"><span class="math display">\[\begin{split} &amp;
-\text{Lagrange:}     \\&amp;
+<ol type="1">
+<li><p>Movement ist charecterized by change of energy, Lagrangian <span class="math inline">\(\mathcal{L} \neq 0\)</span>: <span id="eq-lagrangian"><span class="math display">\[\begin{split} &amp;
 \mathcal{L} = E_{kin} - E_{pot} \\&amp;
-\\&amp;
-\text{Constraining Forces:}    \\&amp;
-F_i + F_i' = F_i + \sum_{k=1}^{s_d} \lambda_k a_{ki} = \frac{d}{dt} \left( \frac{\partial \mathcal{L}}{\partial v_i} \right) - \frac{\partial \mathcal{L}}{\partial r_i}  \\&amp;
-\\&amp;
-\text{Constraining Conditions:}    \\&amp;
-\sum_{l=1}^f a_{kl} v_l + b_k = 0   \\&amp;
-\\&amp;
-\text{Hamilton:}     \\&amp;
-\mathcal{H} = \sum_i p_i v_i - \mathcal{L} \\&amp;
-\\&amp;
-\text{Movement (Change of State)}:    \\&amp;
+\end{split} \tag{1}\]</span></span></p></li>
+<li><p>Rest is characterized by unchanged energy, Hamiltonian <span class="math inline">\(\mathcal{H} = E_{kin} + E_{pot} = const.\)</span>: <span id="eq-hamiltonian"><span class="math display">\[\begin{split} &amp;
+\mathcal{H} = \sum_i p_i v_i - \mathcal{L}
+\end{split} \tag{2}\]</span></span></p></li>
+<li><p>Movement happens within constraints of forces: <span id="eq-constrainforce"><span class="math display">\[\begin{split} &amp;
+\hat{F_i} + \tilde{F_i} = \hat{F_i} + \sum_{k=1}^{s_d} \lambda_k a_{ki} = \frac{d}{dt} \left( \frac{\partial \mathcal{L}}{\partial v_i} \right) - \frac{\partial \mathcal{L}}{\partial r_i}  
+\end{split} \tag{3}\]</span></span></p>
+<p>and at same time, constraining conditions delimitate movement: <span id="eq-constraincondition"><span class="math display">\[\begin{split} &amp;
+\sum_{l=1}^f a_{kl} v_l + b_k = 0
+\end{split} \tag{4}\]</span></span></p></li>
+<li><p>Change of state/position is characterized by movement: <span id="eq-movement"><span class="math display">\[\begin{split} &amp;
 \dot r_i = v_i = \frac{\partial\mathcal{H}}{\partial p_i}   \qquad
 \dot p_i = F_i = - \frac{\partial\mathcal{H}}{\partial r_i}
-\end{split} \tag{1}\]</span></span></p>
-<p><span class="math inline">\(s_d =\)</span> constraints   <span class="math inline">\(F_i' = \sum_{k=1}^{s_d} \lambda_k a_{ki} =\)</span> unknown constraining forces</p>
-<p><span class="math inline">\(i = 1,...,f =\)</span> dedrees of freedom   <span class="math inline">\(k = 1,...,s_d =\)</span> constraints</p>
-<p><span class="math inline">\(a_{ki} =\)</span> Eigenvectors   <span class="math inline">\(\lambda_k(t) =\)</span> Eigenvalues</p>
+\end{split} \tag{5}\]</span></span></p></li>
+</ol>
+<p>where:</p>
+<p><span class="math inline">\(s_d =\)</span> constraints   <span class="math inline">\(i = 1,...,f =\)</span> dedrees of freedom   <span class="math inline">\(k = 1,...,s_d =\)</span> constraints</p>
+<p><span class="math inline">\(\hat{F_i} =\)</span> known constraining forces   <span class="math inline">\(\tilde{F_i} = \sum_{k=1}^{s_d} \lambda_k a_{ki} =\)</span> unknown constraining forces</p>
+<p><span class="math inline">\(\lambda_k(t) =\)</span> Eigenvalues for transformation of reference system</p>
+<p><span class="math inline">\(a_{ki} =\)</span> Eigenvectors of transformation matrix</p>
+<p><span class="math inline">\(\lambda_k \cdot \vec r_{move} = \lambda_k \cdot \left( a_{ki} \right)_{matrix}\)</span></p>
 
 
 
