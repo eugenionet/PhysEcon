@@ -830,7 +830,8 @@ Productivity = \frac{Output}{Input} = \frac{Y}{W}
 \text{target:}            \hspace{3cm}     z = c^T \cdot x \\&amp;
 \text{min. constraints:}  \hspace{0.7cm}   \left[ a_{ki} \right] \cdot x \ge b   \\&amp;
 \text{max. constraints:}  \hspace{0.6cm}   \left[ a_{ki} \right] \cdot x \le b   \\&amp;
-\text{condition:}         \hspace{2.3cm}   x \ge 0
+\text{condition:}         \hspace{2.3cm}   x \ge 0   \\&amp;
+\text{work:}         \hspace{3.2cm}   F \cdot z = p \cdot \dot z
 \end{split} \tag{24}\]</span></span></p>
 <ol start="2" type="1">
 <li><p>Duality situation modelling:</p>
@@ -840,10 +841,12 @@ Productivity = \frac{Output}{Input} = \frac{Y}{W}
 \text{target min.:}         \hspace{1.8cm}      z = c^T \cdot x     \\&amp;
 \text{min. constraints:}    \hspace{0.6cm}      \left[ a_{ki} \right] \cdot x \ge b   \\&amp;
 \text{condition:}           \hspace{2.2cm}      x \ge 0       \\&amp;
+\text{work:}         \hspace{3.2cm}   F \cdot z = p \cdot \dot z        \\&amp;
 \textit{ and}    \\&amp;
 \text{target max.:}         \hspace{1.8cm}      h = b^T \cdot y \\&amp;
 \text{max. constraints:}    \hspace{0.6cm}      \left[ a_{ki} \right]^T \cdot y \le c   \\&amp;
-\text{condition:}           \hspace{2.2cm}      y \ge 0
+\text{condition:}           \hspace{2.2cm}      y \ge 0         \\&amp;
+\text{work:}         \hspace{3.2cm}   F \cdot h = p \cdot \dot h
 \end{split} \tag{25}\]</span></span></p>
 <ol start="3" type="1">
 <li>Normalization:</li>
@@ -852,7 +855,8 @@ Productivity = \frac{Output}{Input} = \frac{Y}{W}
 \text{target:}              \hspace{3cm}      z = c^T \cdot x \\&amp;
 \text{min. constraints:}    \hspace{0.7cm}    \left[ a_{ki} \right] - x_{n+k} \cdot x = b   \\&amp;
 \text{max. constraints:}    \hspace{0.6cm}    \left[ a_{ki} \right] + x_{n+k} \cdot x = b   \\&amp;
-\text{condition:}           \hspace{2.3cm}    x \ge 0
+\text{condition:}           \hspace{2.3cm}    x \ge 0       \\&amp;
+\text{work:}         \hspace{3.2cm}   F \cdot z = p \cdot \dot z
 \end{split} \tag{26}\]</span></span></p>
 <ol start="4" type="1">
 <li>Solutioan with <a href="https://cbom.atozmath.com/CBOM/Simplex.aspx?q=sm">Simplex algorithm</a>{:target=“_blank”}</li>
