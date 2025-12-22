@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Physics Concepts as Indicative Framework to Ex-ante Model Systems of Economies",
+    "title": "Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante",
     "section": "",
     "text": "1 Abstract\n  2 Introduction\n  3 Work and Energy\n  4 Constrains and Conditions\n  5 Determinism and Uncertainity\n  6 Ex-ante Framing and Post-ante Optimization\n  7 Productiviy and Value\n  8 Hypothesis and Conjecture\n  9 Acronyms\n  \n  9.1 Acronyms of Physics: Chapter 3\n  9.2 Acronyms of Economy: Chapter 7\nWORKING NOTES DRAFT",
     "crumbs": [
@@ -14,7 +14,7 @@
   {
     "objectID": "index.html#sec-acroworkenergy",
     "href": "index.html#sec-acroworkenergy",
-    "title": "Physics Concepts as Indicative Framework to Ex-ante Model Systems of Economies",
+    "title": "Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante",
     "section": "9.1 Acronyms of Physics: Chapter 3",
     "text": "9.1 Acronyms of Physics: Chapter 3\n\n\n\n\n\n\n\n\\(A =\\) Action\n\\(E = E_{kin} + E_{pot} =\\) total Energy\n\n\n\\(t =\\) time\n\\(r =\\) space (distance between two points, one-dimensional length)\n\n\n\\(v =\\) velocity\n\\(c =\\) light speed\n\n\n\\(p =\\) momentum\n\\(F =\\) Force\n\n\n\\(I =\\) Inertia\n\\(\\mathcal{L} =\\) Lagrangian\n\n\n\\(\\mathcal{H} =\\) Hamiltonian\n\\(\\mathcal{K} =\\) kinetic Energy\n\n\n\\(\\mathcal{U} =\\) effective potential Energy (\\(\\in E_{pot}\\))\n\\(\\mathcal{V} =\\) potential Energy (\\(\\in E_{pot}\\))\n\n\n\\(\\mathcal{Z} = \\frac{1}{2}\\frac{L_0^2}{mr^2} =\\) Centrifugal Potential\n\\(V = r_1 \\cdot r_2 \\cdot r_3 =\\) Volume\n\n\n\\(\\mathcal{k} =\\) Wave Vector (“curvature”)\n\\(W =\\) Work (done vs. received)\n\n\n\\(P =\\) Pressure\n\\(L_0 =\\) angular momentum\n\n\n\\(T =\\) endogen Temperature\n\\(H =\\) exogen Heat\n\n\n\\(U =\\) endogen Energy (\\(E_{kin} + E_{pot}\\))\n\\(\\Phi = \\frac{\\mathcal{V}}{q} =\\) Electric Potential\n\n\n\\(\\mathcal{A} =\\) Magnetic Potential\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(g_0 =\\) Gas constant\n\\(m =\\) mass\n\n\n\\({\\epsilon}_0 =\\) electric constant\n\\({\\mu}_0 =\\) magnetic constant\n\n\n\\(\\mathcal{E} =\\) Electric Field\n\\(\\mathcal{B} =\\) Magnetic Field\n\n\n\\(n =\\) amount of particles (objects)\nH\\(\\mathcal{C} = m \\cdot c_0 = \\frac{\\Delta H}{\\Delta T}  =\\) heat capacity\n\n\n\\(c_0 = \\frac{1}{m}\\frac{\\Delta H}{\\Delta T} =\\) specific heat\n\\(S = b_0 \\cdot \\ln(\\Omega) =\\) Entropy (macro state)\n\n\n\\(l =\\) Moll quantity\n\\(\\Omega =\\) micro states\n\n\n\\(z =\\) amount of constraints (boundry conditions)\n\\(f = 3n \\pm z =\\) degrees of freedom\n\n\n\\(\\kappa = \\frac{c_P}{c_V} = \\frac{f+2}{f} =\\) adiabaty\n\\(\\iota = \\kappa\\) ↔︎ adiabat\n\n\n\\(\\iota = 0\\) ↔︎ isobar\n\\(\\iota = 1\\) ↔︎ isotherm\n\n\n\\(\\iota = \\infty\\) ↔︎ isochor\n…",
     "crumbs": [
@@ -26,7 +26,7 @@
   {
     "objectID": "index.html#sec-acroeconom",
     "href": "index.html#sec-acroeconom",
-    "title": "Physics Concepts as Indicative Framework to Ex-ante Model Systems of Economies",
+    "title": "Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante",
     "section": "9.2 Acronyms of Economy: Chapter 7",
     "text": "9.2 Acronyms of Economy: Chapter 7\n\n\n\n\n\n\n\n\\(T =\\) Taxes\n\\(M =\\) Import of Goods and Services from foreing symstes\n\n\n\\(G =\\) Governent Expenses, incl. Social Insurances\n\\(X =\\) Export of Goods and Services to foreign system\n\n\n\\(Y =\\) Income of Economy from Turnover\n\\(G_A =\\) Governental Subsidies\n\n\n\\(D_A =\\) Depreciations (Reinvestments) on Assets\n\\(V_N =\\) Net Naötional Production, Society NNP\n\n\n\\(N =\\) Monetary Quantity\n\\(Q =\\) Monetary Turnover Velocity\n\n\n\\(V_I =\\) Gross Domestic Product GDP = \\(\\frac{Output}{Input}\\), Tradevolume\n\\(P =\\) Price niveau (Inflation adjusted Value)\n\n\n\\(L =\\) Wages from Labor Work (Salaries, …)\n\\(R =\\) Returns, Earnings, Gains\n\n\n\\(Y_A =\\) Income of priv. Business Households (Companies, Services, Real Estate Rentals, Retained Profits)\n\\(Y_H =\\) Income from priv. Capital Households (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)\n\n\n\\(T_A=\\) Tax on Capital of Corprate Compaies (Business Assets)\n\\(Y_G =\\) Governmental Income from Assets, Services, Social Institutions/Insurances\n\n\n\\(Z_G =\\) Interests on Governmental Debt\n\\(V_S =\\) Gross National Produkt, Society GNP\n\n\n\\(I =\\) Investments on Assets, incl. Storage Change\n\\(R_M =\\) Capital Earnings and Wages from Abroad (from Foreign System)\n\n\n\\(R_X\\) Capital Earnings and Wages to Abroad (to Foreign System)\n\\(W =\\) Expensens, costs from human and machinary work efforts\n\n\n\n\n\n\nsee also [1]",
     "crumbs": [
@@ -143,7 +143,7 @@
   {
     "objectID": "dummy.html",
     "href": "dummy.html",
-    "title": "Physics Concepts as Indicative Framework to Model Systems of Economy",
+    "title": "Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante",
     "section": "",
     "text": "working paper draft  UNDER CONSTRUCTION\n\n\n\n\n\n\n\n\nReferences\n\n1. Cockshott WP (2011) Classical Econophysics. Routledge Advances in Experimental; Computable Economics\n\n\n2. Wladyslaw W (2013) Macroeconometric Models, 1st ed. Springer\n\n\n3. Lichtenegger K (2015) Schlüsselkonzepte zur Physik, 1st ed. Springer Spektrum\n\n\n4. Padmanabhan T (2015) Sleeping Beauties in Theoretical Physics, 1st ed. Springer\n\n\n5. Wachter A, Hoeber H (2005) Compendium of Theoretical Physics. Springer\n\n\n6. Carter M (2001) Foundations of Mathematical Economics. The MIT Press\n\n\n7. Michaelides PG (2025) 21 Equations that Shaped the World Economy, 1st ed. Palgrave Macmillan Cham\n\n\n8. Pires da Cruz J (2025) Introduction to the Physics of the Economy and Finance, 1st ed. Springer Cham\n\n\n9. Cass D, Shell K (2014) The Hamiltonian Approach to Dynamic Economics, 1st ed. Elsevier, Academic Press\n\n\n10. Haven E, Khrennikov AI, Robinson T (2017) Quantum Methods in Social Science - A First Course. World Scientific, Publishing Europe Ltd",
     "crumbs": [
