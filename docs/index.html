@@ -667,7 +667,7 @@ p = \frac{1}{v} \sqrt{E^2 - (mv^2)^2}
 \qquad
 F = \dot p = \frac{d}{dt}p
 \end{split} \tag{3}\]</span></span></p>
-<p>Energy total: <span id="eq-energy"><span class="math display">\[\begin{split} &amp;
+<p>Energy total: <span id="eq-energytotal"><span class="math display">\[\begin{split} &amp;
 E = Motion_{Energy} + Rest_{Energy} = E_{kin} + E_{pot}
 \end{split} \tag{4}\]</span></span></p>
 <p><br>
@@ -677,12 +677,9 @@ E = Motion_{Energy} + Rest_{Energy} = E_{kin} + E_{pot}
 <section id="sec-workenergy" class="level1" data-number="4">
 <h1 data-number="4"><span class="header-section-number">4</span> Work and Energy</h1>
 <p><span class="math inline">\(\exists\)</span> Work done or received <span class="math inline">\(W \neq 0 \Rrightarrow \exists\)</span> Change of State (“Displacement”, “Deformation”) <span class="math inline">\(r \neq 0\)</span>:</p>
-<p><span id="eq-energykin"><span class="math display">\[\begin{split} &amp;
-E_{kin} \coloneqq \mathcal{K} = \frac{1}{2}pv
+<p><span id="eq-energy"><span class="math display">\[\begin{split} &amp;
+E = \mathcal{K} + \mathcal{U}  \qquad  E_{kin} \coloneqq \mathcal{K} = \frac{1}{2}pv   \qquad   E_{pot} \coloneqq \mathcal{U} = \mathcal{V} + \mathcal{Z}
 \end{split} \tag{5}\]</span></span></p>
-<p><span id="eq-energypot"><span class="math display">\[\begin{split} &amp;
-E_{pot} \coloneqq \mathcal{U} = \mathcal{V} + \mathcal{Z}
-\end{split} \tag{6}\]</span></span></p>
 <p>Energy is conserved in konservative systems; There is no work in closed path between two points (loop) of any shape under path variation, hence the “Principle of Action” applies (extremities of bumps and saddles exist): <span class="math inline">\(\delta A = 0\)</span></p>
 <p>Potentials: <span id="eq-potential"><span class="math display">\[\begin{split} &amp;
 \mathcal{U} = \mathcal{V} + \mathcal{Z}
@@ -696,61 +693,61 @@ E_{pot} \coloneqq \mathcal{U} = \mathcal{V} + \mathcal{Z}
       \sim \frac{1}{r}e^{\mu r} : \text{Yukawa Potential}, \text{"Photon mass" } m_{\gamma} = \mu \frac{\hbar}{c} \\
       ...
     \end{cases}
-\end{split} \tag{7}\]</span></span></p>
+\end{split} \tag{6}\]</span></span></p>
 <p>Centrifugal Potential: <span id="eq-centrifugalpot"><span class="math display">\[\begin{split} &amp;
 \mathcal{Z} = \frac{1}{2} \frac{1}{m} \left( \frac{L_0}{r} \right)^2 \text{, angular momentum}=L_0
-\end{split} \tag{8}\]</span></span></p>
+\end{split} \tag{7}\]</span></span></p>
 <p><span id="eq-workaction"><span class="math display">\[\begin{split} &amp;
 W = \partial_t A = \partial_t (E \cdot t) = \partial_t (p ⋅ r) = F_1 \cdot r_1 + p_2 \cdot v_2 =
     \begin{cases}
       F \cdot r \\
       p \cdot v
     \end{cases}
-\end{split} \tag{9}\]</span></span></p>
+\end{split} \tag{8}\]</span></span></p>
 <p>Geometrical: <span id="eq-workgeom"><span class="math display">\[\begin{split} &amp;
 W = F \cdot r = mr \cdot a = I ⋅ \frac{v}{t} =  \frac{p}{t} ⋅ tv = Ft \cdot v =  pv = mv^2
-\end{split} \tag{10}\]</span></span></p>
+\end{split} \tag{9}\]</span></span></p>
 <p>Analytical:</p>
 <p><span id="eq-lagrange"><span class="math display">\[\begin{split} &amp;
 \mathcal{L} = \mathcal{L}(r,\dot r,t) = E_{kin} - E_{pot}
-\end{split} \tag{11}\]</span></span></p>
+\end{split} \tag{10}\]</span></span></p>
 <p><span id="eq-hamilton"><span class="math display">\[\begin{split} &amp;
 \mathcal{H} = \mathcal{H}(r,p,t) = \sum_i^f \dot r_i p_i - \mathcal{L}
 \stackrel{konserv.}{=}
 E_{kin} + E_{pot} = const.
-\end{split} \tag{12}\]</span></span></p>
+\end{split} \tag{11}\]</span></span></p>
 <p><span id="eq-action"><span class="math display">\[\begin{split} &amp;
 A = E \cdot t = p \cdot r
 \stackrel{\mathcal{H}=0}{=}
 \int_{t_0}^{t_x} \mathcal{L} dt
-\end{split} \tag{13}\]</span></span></p>
+\end{split} \tag{12}\]</span></span></p>
 <p><span id="eq-workanal"><span class="math display">\[\begin{split} &amp;
 W = p \cdot v = \mathcal{L} + \mathcal{H} = (\mathcal{K} - \mathcal{U}) + \mathcal{H}
 \\&amp; \stackrel{konserv.}{=}
 (\mathcal{K} - \mathcal{U}) + (\mathcal{K} + \mathcal{U}) = (\mathcal{K} - \mathcal{U}) + E
-\end{split} \tag{14}\]</span></span></p>
+\end{split} \tag{13}\]</span></span></p>
 <p>Electro Magnetic: <span id="eq-workelmag"><span class="math display">\[\begin{split} &amp;
-W = \mathcal{L} + \mathcal{H} = \left( \frac{1}{2}mv^2 - q(\Phi - \vec{\mathcal{A}} \cdot \vec{v}) \right) + \left( \frac{1}{2} \frac{1}{m} (\vec{p} - q\vec{\mathcal{A}})^2 + q\Phi \right)\end{split} \tag{15}\]</span></span></p>
+W = \mathcal{L} + \mathcal{H} = \left( \frac{1}{2}mv^2 - q(\Phi - \vec{\mathcal{A}} \cdot \vec{v}) \right) + \left( \frac{1}{2} \frac{1}{m} (\vec{p} - q\vec{\mathcal{A}})^2 + q\Phi \right)\end{split} \tag{14}\]</span></span></p>
 <p>Relativistic: <span id="eq-workrel"><span class="math display">\[\begin{split} &amp;
 W = p \cdot v = \frac{v}{c} \sqrt{E^2 - (mc^2)^2}
-\end{split} \tag{16}\]</span></span></p>
+\end{split} \tag{15}\]</span></span></p>
 <p>Thermal: <span id="eq-workthermal"><span class="math display">\[\begin{split} &amp;
 W = Fr = PV^{\iota} = T \cdot V^{\frac{f+2}{f}} = T \cdot V^{(\frac{c_P}{c_V}-1)} = TV^{\kappa-1} = T \cdot l \cdot g_0 = T \cdot n \cdot b_0 = T \cdot m \cdot c_0
-\end{split} \tag{17}\]</span></span></p>
+\end{split} \tag{16}\]</span></span></p>
 <p>Thermo Statistical: <span id="eq-workthemostat"><span class="math display">\[\begin{split} &amp;
 W = \mathcal{L} + \mathcal{H} = ΔU - ΔH = \Delta(T \cdot \Delta S - P \cdot \Delta V) - \Delta(T\cdot S)
-\end{split} \tag{18}\]</span></span></p>
+\end{split} \tag{17}\]</span></span></p>
 <p>Quantistic:</p>
 <p><span id="eq-workquant"><span class="math display">\[\begin{split} &amp;
 W = p \cdot v = ħ\mathcal{k} \cdot ω = ℎν\mathcal{k} = E\mathcal{k}
-\end{split} \tag{19}\]</span></span></p>
+\end{split} \tag{18}\]</span></span></p>
 <p><span id="eq-uncertainity"><span class="math display">\[\begin{split} &amp;
 \Delta A = \Delta p  \cdot \Delta r = \Delta E \cdot \Delta t \ge \frac{1}{2} \hbar
-\end{split} \tag{20}\]</span></span></p>
+\end{split} \tag{19}\]</span></span></p>
 <p><br>
 <br>
 </p>
-<p>see description of “movement” <a href="#eq-movement" class="quarto-xref">Equation&nbsp;25</a></p>
+<p>see description of “movement” <a href="#eq-movement" class="quarto-xref">Equation&nbsp;24</a></p>
 <p>acronyms see <a href="#sec-acroworkenergy" class="quarto-xref">Section&nbsp;10.1</a></p>
 <p><br>
 <br>
@@ -774,26 +771,26 @@ W = p \cdot v = ħ\mathcal{k} \cdot ω = ℎν\mathcal{k} = E\mathcal{k}
 \frac{\partial \mathcal{L}}{\partial r} = F
 \qquad
 \frac{\partial \mathcal{L}}{\partial v} = p
-\end{split} \tag{21}\]</span></span></p></li>
+\end{split} \tag{20}\]</span></span></p></li>
 <li><p>Movement happens within constraints of forces. Constrains are observable, whereas forces might be unknown. Therefore <span class="math inline">\(r\)</span> can be determined from <span class="math inline">\(\mathcal{L}\)</span> (Energy and Work) of the system at rest <span class="math inline">\(F=0\)</span>, instead than from “searching” all acting forces <span class="math inline">\(F_i\)</span>: <span id="eq-constrainforce"><span class="math display">\[\begin{split} &amp;
 F_{total} = \hat{F_i} + \tilde{F_i} = \hat{F_i} + \sum_{k=1}^{s_d} \lambda_k a_{ki} = \frac{d}{dt} \left( \frac{\partial \mathcal{L}}{\partial v_i} \right) - \frac{\partial \mathcal{L}}{\partial r_i}
 = \begin{cases}
 = 0    : \exists \text{ Equilibrium} \\
 \neq 0 : \exists \text{ Movement}
   \end{cases}
-\end{split} \tag{22}\]</span></span></p>
+\end{split} \tag{21}\]</span></span></p>
 <p>and at same time solving for constraining conditions delimitating movement: <span id="eq-constraincondition"><span class="math display">\[\begin{split} &amp;
 \sum_{l=1}^f a_{kl} v_l + b_k = 0
-\end{split} \tag{23}\]</span></span></p></li>
+\end{split} \tag{22}\]</span></span></p></li>
 <li><p>Rest is characterized by unchanged energy, Hamiltonian <span class="math inline">\(\mathcal{H} = E_{kin} + E_{pot} = const.\)</span>. There is movement from state of rest if <span class="math inline">\(\mathcal{H} \neq 0\)</span>: <span id="eq-hamiltonian"><span class="math display">\[\begin{split} &amp;
 \mathcal{H} = \sum_i p_i v_i - \mathcal{L} = pv - \mathcal{L}  = Fr - \mathcal{L} = W - \mathcal{L}  = (\Delta E - \Delta H) - \mathcal{L}
-\end{split} \tag{24}\]</span></span></p></li>
+\end{split} \tag{23}\]</span></span></p></li>
 <li><p>Change of state/position is characterized by movement: <span id="eq-movement"><span class="math display">\[\begin{split} &amp;
 \dot r_i = v_i = \frac{\partial\mathcal{H}}{\partial p_i}   \qquad
 \dot p_i = F_i = - \frac{\partial\mathcal{H}}{\partial r_i}
-\end{split} \tag{25}\]</span></span></p></li>
+\end{split} \tag{24}\]</span></span></p></li>
 </ol>
-<p>see description of “work” <a href="#eq-workgeom" class="quarto-xref">Equation&nbsp;10</a></p>
+<p>see description of “work” <a href="#eq-workgeom" class="quarto-xref">Equation&nbsp;9</a></p>
 <p>where:</p>
 <p><span class="math inline">\(s_d =\)</span> constraints   <span class="math inline">\(i = 1,...,f =\)</span> dedrees of freedom   <span class="math inline">\(k = 1,...,s_d =\)</span> constraints</p>
 <p><span class="math inline">\(\hat{F_i} =\)</span> known constraining forces   <span class="math inline">\(\tilde{F_i} = \sum_{k=1}^{s_d} \lambda_k a_{ki} =\)</span> unknown constraining forces</p>
@@ -812,7 +809,7 @@ F_{total} = \hat{F_i} + \tilde{F_i} = \hat{F_i} + \sum_{k=1}^{s_d} \lambda_k a_{
 <li>Statistical approximation</li>
 <li>Prognosis matching Determinism</li>
 </ul>
-<p>see <a href="#eq-uncertainity" class="quarto-xref">Equation&nbsp;20</a></p>
+<p>see <a href="#eq-uncertainity" class="quarto-xref">Equation&nbsp;19</a></p>
 <p><br>
 <br>
 </p>
@@ -897,7 +894,7 @@ Linear optimization to achieve target states “<span class="math inline">\(z, h
 \text{min. constraints:}  \hphantom{max.}               \left[ a_{ki} \right] \cdot x \ge b   \\&amp;
 \text{max. constraints:}  \hphantom{min.}               \left[ a_{ki} \right] \cdot x \le b   \\&amp;
 \text{condition:}         \hphantom{max.raints:}        x \ge 0   \\&amp;
-\end{split} \tag{26}\]</span></span></p>
+\end{split} \tag{25}\]</span></span></p>
 <ol start="2" type="1">
 <li><p>Duality situation modelling:</p>
 <p>minimize efforts = <span class="math inline">\(z\)</span> and maximize return = <span class="math inline">\(h\)</span></p></li>
@@ -910,7 +907,7 @@ Linear optimization to achieve target states “<span class="math inline">\(z, h
 \text{target max.:}         \hphantom{ andints:}      h = b^T \cdot y \\&amp;
 \text{max. constraints:}    \hphantom{ and}           \left[ a_{ki} \right]^T \cdot y \le c   \\&amp;
 \text{condition:}           \hphantom{ andraints:}    y \ge 0         \\&amp;
-\end{split} \tag{27}\]</span></span></p>
+\end{split} \tag{26}\]</span></span></p>
 <ol start="3" type="1">
 <li>Normalization:</li>
 </ol>
@@ -919,7 +916,7 @@ Linear optimization to achieve target states “<span class="math inline">\(z, h
 \text{min. constraints:}    \hphantom{max.}    \left( \left[ a_{ki} \right] - x_{n+k} \right) \cdot x = b   \\&amp;
 \text{max. constraints:}    \hphantom{min.}    \left( \left[ a_{ki} \right] + x_{n+k} \right) \cdot x = b   \\&amp;
 \text{condition:}           \hphantom{max.raints:}    x \ge 0       \\&amp;
-\end{split} \tag{28}\]</span></span></p>
+\end{split} \tag{27}\]</span></span></p>
 <ol start="4" type="1">
 <li>Solution with <a href="https://cbom.atozmath.com/CBOM/Simplex.aspx?q=sm">Simplex algorithm</a></li>
 </ol>
@@ -955,38 +952,38 @@ acronyms see <a href="#sec-acroeconom" class="quarto-xref">Section&nbsp;10.2</a>
 <p>Supply is provided by the income <span class="math inline">\(Y\)</span>:</p>
 <p><span id="eq-ecoincome"><span class="math display">\[\begin{split} &amp;
 Y = L  + Y_H + Y_A + T_A + Y_G - Z_G
-\end{split} \tag{29}\]</span></span></p>
+\end{split} \tag{28}\]</span></span></p>
 <p><span id="eq-gdpsupply"><span class="math display">\[\begin{split} &amp;
 Y = C + S + T + M - X
-\end{split} \tag{30}\]</span></span></p>
+\end{split} \tag{29}\]</span></span></p>
 <p>Demand is satisfied by the production <span class="math inline">\(V_I\)</span>:</p>
 <p><span id="eq-gdpdemand"><span class="math display">\[\begin{split} &amp;
 V_I = C + I + G + X - M
-\end{split} \tag{31}\]</span></span></p>
+\end{split} \tag{30}\]</span></span></p>
 <p>Equilibrium:</p>
 <p><span id="eq-ecoequi"><span class="math display">\[\begin{split} &amp;
 Y = V_I       \\&amp;
 L - C = S = I        \\&amp;
 C + S = L        \\&amp;
 C + I = R
-\end{split} \tag{32}\]</span></span></p>
+\end{split} \tag{31}\]</span></span></p>
 <p>Domestic Production &amp; International Trade:</p>
 <p><span id="eq-gdp"><span class="math display">\[\begin{split} &amp;
 V_S = Y + T - G_A + D_A
-\end{split} \tag{33}\]</span></span></p>
+\end{split} \tag{32}\]</span></span></p>
 <p><span id="eq-nnp"><span class="math display">\[\begin{split} &amp;
 V_N = V_S - D_A
-\end{split} \tag{34}\]</span></span></p>
+\end{split} \tag{33}\]</span></span></p>
 <p><span id="eq-gdp"><span class="math display">\[\begin{split} &amp;
 V_I = V_S - R_M + R_X
-\end{split} \tag{35}\]</span></span></p>
+\end{split} \tag{34}\]</span></span></p>
 <p>Monetary Value of Production:</p>
 <p><span id="eq-moneyquant"><span class="math display">\[\begin{split} &amp;
 P \cdot V_I = Q \cdot N
-\end{split} \tag{36}\]</span></span></p>
+\end{split} \tag{35}\]</span></span></p>
 <p>Macro Productivity: <span id="eq-productivity"><span class="math display">\[\begin{split} &amp;
 Productivity = \frac{Output}{Input} = \frac{V_I}{Y}
-\end{split} \tag{37}\]</span></span><br>
+\end{split} \tag{36}\]</span></span><br>
 <br>
 </p>
 <p>We track production at microeconomic level through (acronyms see <a href="#sec-acroeconom" class="quarto-xref">Section&nbsp;10.2</a>):</p>
@@ -998,25 +995,25 @@ Productivity = \frac{Output}{Input} = \frac{V_I}{Y}
 <p>The “transfer of energy” between all subsystems is mapped in balancing out theirs capital (usage of capital for production though possessed assets): <span class="math inline">\(A = B + R\)</span></p>
 <p>Micro Productivity: <span id="eq-microprod"><span class="math display">\[\begin{split} &amp;
 Productivity = \frac{Output}{Input} = \frac{Y}{W}
-\end{split} \tag{38}\]</span></span></p>
+\end{split} \tag{37}\]</span></span></p>
 <p><br>
 <br>
 </p>
 </section>
 <section id="sec-hypothesis" class="level1" data-number="9">
 <h1 data-number="9"><span class="header-section-number">9</span> Hypothesis and Conjecture</h1>
-<p>Conjecture of <a href="#eq-moneyquant" class="quarto-xref">Equation&nbsp;36</a> and <a href="#eq-workthermal" class="quarto-xref">Equation&nbsp;17</a></p>
+<p>Conjecture of <a href="#eq-moneyquant" class="quarto-xref">Equation&nbsp;35</a> and <a href="#eq-workthermal" class="quarto-xref">Equation&nbsp;16</a></p>
 <p>How consistently map economic measures to the quantities of nature to model the economical system?</p>
 <p>Input: <span id="eq-ecoinput"><span class="math display">\[\begin{split} &amp;
 Input = f_0(Resouces, Labor, Capital) \text{ = Work = } \Delta\text{Energy} = p \cdot v
-\end{split} \tag{39}\]</span></span></p>
+\end{split} \tag{38}\]</span></span></p>
 <p>Output: <span id="eq-ecooutput"><span class="math display">\[\begin{split} &amp;
 Output \text{ = Goods + Services = Production = } \Delta\text{State} = V_I
-\end{split} \tag{40}\]</span></span></p>
+\end{split} \tag{39}\]</span></span></p>
 <p>Productivity: <span id="eq-ecooutput"><span class="math display">\[\begin{split} &amp;
 Productivity = \frac{Output}{Input} = \frac{\Delta State}{\Delta Energy} = \frac{Production}{Work} = \frac{V_I}{pv}
-\end{split} \tag{41}\]</span></span></p>
-<p>see description of “movement” <a href="#eq-movement" class="quarto-xref">Equation&nbsp;25</a></p>
+\end{split} \tag{40}\]</span></span></p>
+<p>see description of “movement” <a href="#eq-movement" class="quarto-xref">Equation&nbsp;24</a></p>
 <br>
 <br>
 
@@ -1085,24 +1082,24 @@ Table&nbsp;2: Core Measurements
 <p><br>
 <br>
 </p>
-<p>As a first approach, considering the geometrical perspective of the concept of “work” (<a href="#eq-workgeom" class="quarto-xref">Equation&nbsp;10</a>), applied to economical measurements, so to satisfy the following system:</p>
+<p>As a first approach, considering the geometrical perspective of the concept of “work” (<a href="#eq-workgeom" class="quarto-xref">Equation&nbsp;9</a>), applied to economical measurements, so to satisfy the following system:</p>
 <p><span class="math inline">\(f_A(Assets) = f_B(Liabilities + Gain)\)</span> = “momentum” <span class="math inline">\(p\)</span> from initial state <span class="math inline">\(r_0\)</span> to new state <span class="math inline">\(r_1\)</span>, where the change of state is <span class="math inline">\(r = r_1 - r_0\)</span></p>
 <p>Matter substance, object movement/change: <span id="eq-physassets"><span class="math display">\[\begin{split} &amp;
 A = f_A = F \cdot t = p
-\end{split} \tag{42}\]</span></span></p>
+\end{split} \tag{41}\]</span></span></p>
 <p>Space of movement, maneuverability: <span id="eq-physliabilities"><span class="math display">\[\begin{split} &amp;
 B + R = f_B = m \cdot v = p
-\end{split} \tag{43}\]</span></span></p>
+\end{split} \tag{42}\]</span></span></p>
 <p>Work input (efforts, costs) through labor force, machines and infrastructure applied, and materials consumed for production: <span id="eq-physexpens"><span class="math display">\[\begin{split} &amp;
 W = f_0 = F \cdot r = m \cdot \frac{v}{t} \cdot r = p \cdot v
-\end{split} \tag{44}\]</span></span></p>
+\end{split} \tag{43}\]</span></span></p>
 <p>Energy transfer, energy change, profit or loss: <span id="eq-phyincome"><span class="math display">\[\begin{split} &amp;
 Y = \Delta E = \frac{1}{2} pv + \mathcal{U}
-\end{split} \tag{45}\]</span></span></p>
+\end{split} \tag{44}\]</span></span></p>
 <p>Production value inflation adjusted: <span id="eq-physprod"><span class="math display">\[\begin{split} &amp;
 P \cdot V_I = \sum Y_{adjust} = \sum (W + R)_{adjust} = \Delta U - \Delta H = Q \cdot N
-\end{split} \tag{46}\]</span></span></p>
-<p>see <a href="#eq-workthemostat" class="quarto-xref">Equation&nbsp;18</a> and <a href="#eq-workgeom" class="quarto-xref">Equation&nbsp;10</a></p>
+\end{split} \tag{45}\]</span></span></p>
+<p>see <a href="#eq-workthemostat" class="quarto-xref">Equation&nbsp;17</a> and <a href="#eq-workgeom" class="quarto-xref">Equation&nbsp;9</a></p>
 <p>Thus, to be determined are <span class="math inline">\(v\)</span> (economy velocity) and <span class="math inline">\(p\)</span> (financial structure). Eventually, determine <span class="math inline">\(r\)</span> = “state change through trajectory” (substance change to the new assets structure) by given <span class="math inline">\(v\)</span> = “velocity of movement” (Business speed = monetary value, price with inflation), or determine <span class="math inline">\(v\)</span> by given <span class="math inline">\(r\)</span>. The individual positions <span class="math inline">\(\{ i,j,l,m \}\)</span> of Liabilities <span class="math inline">\(\{ B_i + R_j \}_k\)</span>, Assets <span class="math inline">\(\{ A_m \}_k\)</span>, and Expenses <span class="math inline">\(\{ W_l \}_k\)</span> shall be grouped in sets <span class="math inline">\(\{ k \}\)</span>, so to satisfy <span class="math inline">\(f_k(i,j) = f_k(m) = f_k(l) = \{ pv \}_k\)</span>.</p>
 <p>The constraints shall be modelled with the Lagrangian. Hence, “Work” shall be derived from the Hamiltonian which leads to the identification of the “movement” (= change, transformation) of the trajectory (= path to new state) with <span class="math inline">\(\dot r = v\)</span> and <span class="math inline">\(\dot p = F\)</span>.</p>
 <p>Experiment design: <strong><span class="math inline">\(p\)</span> and <span class="math inline">\(v\)</span> are modelled ex-ante with means of CONSTRAINTS from contractual agreement and from given juristic legislation, in such a way that physics laws are satisfied. Decisions making occure within this ex-ante frame.</strong></p>
