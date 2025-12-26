@@ -1,0 +1,13 @@
+
+
+Nature strives through Physics to behave economical by using its resources in an austere way: Principle of Least Action.
+
+Economy - not pre-given by natural laws - is constructed as social set of co-living rules to allocate, distribute and share (natural and non-natural) resources. Ex-ante modelling economic systems by rules (contractual, legislative, judicative, executive).
+
+The state (situation, position) of the Economy can be described by e.g. Assets, Liabilities, Expenses, Incomes, Profitability, Productivity, etc.. The Economy changes through time from a state $r_0=$ "start" to a state $r_1=$ "end". For the state to change, work is applied by processing limited resources (e.g. access to raw materials and availability of intermediate goods), constrained capital (e.g. financial funds, interest rates, and inflation), as well as labor capacity (e.g machines and human force).
+
+How can a trajectory $r = r_1 - r_0$ between two states be modelled by work $W$, which is applied for the change of the state to occure: searching the condition by defing target state through "path of chage" $=r$?
+
+$$\begin{split} &
+r = f(x_i) = \int A = \int \int W = \int \int (\mathcal{L} + \mathcal{H}) = \int \int (\Delta E - \Delta H)
+\end{split}$${#eq-intro}

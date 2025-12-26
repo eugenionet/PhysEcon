@@ -1,0 +1,60 @@
+Framing contracts and jurisdiction ahead to match $p = \text{"Economy Funds"}$ and $v = \text{"Economy Velocity"}$ that can be modelled with typical approaches for fuction $z = \text{"arrival state"}$ depending on $x = \text{"starting state"}$, so that "work" $W = F \cdot r =  F \cdot (z - x)$:
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+| Type              | Model                | Linearisation                        |
+| :---------------- | :------------------- | :----------------------------------- |
+| Linear            | $z = a + bx$         | $z = a + bx$                         |
+| Gemetric          | $z = a \cdot x^b$    | $\log z = \log a + b \cdot (\log x)$ |
+| Exponential deca. | $z = a \cdot b^x$    | $\log z = \log a + (\log b) \cdot x$ |
+| Exponential nat.  | $z = a \cdot e^{bx}$ | $\ln z = \ln a + bx$                 |
+| Periodical        |                      |                                      |
+| Polynomial        |                      |                                      |
+| Taylor            |                      |                                      |
+: Modelling Functions {#tbl-modeling}
+
+\
+\
+Linear optimization to achieve target states "$z, h$":
+
+1. Oneness situaiton modelling:
+   
+   minimize efforts = $z$ or maximizie return = $z$
+
+$$\begin{split} &
+\text{target:}            \hphantom{min.nstraints:}     z = c^T \cdot x \\&
+\text{min. constraints:}  \hphantom{max.}               \left[ a_{ki} \right] \cdot x \ge b   \\&
+\text{max. constraints:}  \hphantom{min.}               \left[ a_{ki} \right] \cdot x \le b   \\&
+\text{condition:}         \hphantom{max.raints:}        x \ge 0   \\&
+\end{split}$${#eq-situationopt}
+
+2. Duality situation modelling:
+   
+   minimize efforts = $z$ and maximize return = $h$
+
+$$\begin{split} &
+\text{target min.:}         \hphantom{ andints:}      z = c^T \cdot x     \\&
+\text{min. constraints:}    \hphantom{ and}           \left[ a_{ki} \right] \cdot x \ge b   \\&
+\text{condition:}           \hphantom{ andraints:}    x \ge 0       \\&
+\textit{ and}    \\&
+\text{target max.:}         \hphantom{ andints:}      h = b^T \cdot y \\&
+\text{max. constraints:}    \hphantom{ and}           \left[ a_{ki} \right]^T \cdot y \le c   \\&
+\text{condition:}           \hphantom{ andraints:}    y \ge 0         \\&
+\end{split}$${#eq-situationdual}
+
+
+3. Normalization:
+
+$$\begin{split} &
+\text{target:}              \hphantom{min.nstraints:}      z = c^T \cdot x \\&
+\text{min. constraints:}    \hphantom{max.}    \left( \left[ a_{ki} \right] - x_{n+k} \right) \cdot x = b   \\&
+\text{max. constraints:}    \hphantom{min.}    \left( \left[ a_{ki} \right] + x_{n+k} \right) \cdot x = b   \\&
+\text{condition:}           \hphantom{max.raints:}    x \ge 0       \\&
+\end{split}$${#eq-optnorm}
+   
+4. Solution with [Simplex algorithm](https://cbom.atozmath.com/CBOM/Simplex.aspx?q=sm)
+
+multilinear and exponential models ...
+

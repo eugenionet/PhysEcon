@@ -1,131 +1,95 @@
 ---
-title: <center> Physics Concepts as Indicative Framework for Modelling Systems of Economy </center>
+title: Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante
 
-subtitle: <center> Coincise Notes on Explorations and Conjectures of Natural Laws as sensored by the Anthropological Mind to Develop Allocation Structures of Finite Resouces </center>
+subtitle: Coincise Notes and Conjectures Explorations of Natural Laws to Preliminarly Structure Economies
 
-bibliography: references.bib
+author: Eugenio Net
+date: today
+
+bibliography: references.bib  
 csl: diabetologia.csl
 
 nocite: |
-  @*
+  @*  
 ---
+
+
+---
+
 
 \
 \
 <p style="text-align: center; color: slategray;">
-*working paper draft*
+*WORKING NOTES DRAFT* <br>
 </p>
 \
 \
 
-# 1. Abstract
 
-...
+# Abstract {#sec-abstract}
+
+{{< include Content/abstract.qmd >}}
 \
 \
 
 
-# 2. Introduction
+# Introduction {#sec-introduction}
 
-The state (situation, position) of the Economy can be described by e.g. Assets, Liabilities, Costs, Earnings, Productivity, etc.. The Economy changes through time from a state $r_{init}=$ "start" to a state $r=$ "final". For the state to change (e.g. GDP growth), work is applied by processing limited resources (e.g. raw materials and minerals), constrained capital, and labor capacity.
-
-Human kind has evolved also by "copying" from nature. Learning from nature, how can "work" be modelled?
-
-The state (position) $r$ shall be modelled by the work $W$ applied for the change (dispacement): $r = \int A = \int \int W$
-
-\
-\
-
-# 3. Method & Approach
-
-$$\begin{split} &
-\pm W = \partial A = \partial(E \cdot t) = \nabla(p ⋅ r)   \\&
-\stackrel{Geometrical}{=} F \cdot r = mr \cdot a = I ⋅ \frac{v}{t} =  \frac{p}{t} ⋅ tv = Ft \cdot v =  pv = mv^2 \\&
-\stackrel{Analytical}{=} \mathcal{L} + \mathcal{H} = (\mathcal{K} - \mathcal{U}) + (\mathcal{K} + \mathcal{U}) = (\mathcal{K} - (\mathcal{V} + \mathcal{Z})) + (\mathcal{K} + \mathcal{U}) = (\mathcal{K} - \mathcal{U}) + E   \\&
-\stackrel{ElectroMagnetic}{=}  \left( \frac{1}{2}mv^2 - q(\Phi - \vec{\mathcal{A}} \cdot \vec{v}) \right) + \left( \frac{1}{2} \frac{1}{m} (\vec{p} - q\vec{\mathcal{A}})^2 + q\Phi \right)   \\&
-\stackrel{Relativistic}{=} \frac{v}{c} \sqrt{E^2 - (mc^2)^2}   \\&
-\stackrel{ThermoStatistical}{=} ΔY - ΔH = \Delta(T \cdot \Delta S - P \cdot \Delta V) - \Delta(T\cdot S) \\&
-= PV^{\iota} = T \cdot V^{\frac{f+2}{f}} = T \cdot V^{(\frac{c_P}{c_V}-1)} = T \cdot V^{\kappa-1} = T \cdot l \cdot g_0 = T \cdot n \cdot b_0 = T \cdot m \cdot c_0    \\&
-\stackrel{Quantistic}{=} ħ\mathcal{k} \cdot ω = ℎν\mathcal{k} = E\mathcal{k}    \\&
-\end{split}$$
-
-\
-\
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-|
-| - | - |
-| $A =$ Action                                                 | $E = E_{kin} + E_{pot} =$ total Energy | 
-| $t =$ time                                                   | $r =$ space |              
-| $v =$ velocity                                               | $c =$ light speed | 
-| $p =$ momentum                                               | $F =$ Force | 
-| $I =$ Inertia                                                | $\mathcal{L} =$ Lagrangian | 
-| $\mathcal{H} =$ Hamiltonian                                  | $\mathcal{K} =$ kinetic Energy | 
-| $\mathcal{U} =$ effective potential Energy ($\in E_{pot}$)   | $\mathcal{V} =$ potential Energy ($\in E_{pot}$) | 
-| $\mathcal{Z} = \frac{1}{2}\frac{L_0^2}{mr^2} =$ Centrifugal Potential | $V = r_1 \cdot r_2 \cdot r_3 =$ Volume | 
-| $\mathcal{k} =$ Wave Vector ("curvature")                    | $W =$ Work (done vs. received) | 
-| $P =$ Pressure                                               | $L_0 =$ angular momentum | 
-| $T =$ endogen Temperature                                    | $H =$ exogen Heat | 
-| $Y =$ endogen Energy ($E_{kin} + E_{pot}$)                   | $\Phi = \frac{\mathcal{V}}{q} =$ Electric Potential |                                                      
-| $\mathcal{A} =$ Magnetic Potential                           | $b_0 =$ Boltzmann constant | 
-| $g_0 =$ Gas constant | $m =$ mass                            | $q =$ charge | 
-| ${\epsilon}_0 =$ electric constant                           | ${\mu}_0 =$ magnetic constant | 
-| $\mathcal{E} =$ Electric Field                               | $\mathcal{B} =$ Magnetic Field | 
-| $n =$ amount of particles                                    | <sub>H</sub>$\mathcal{C} = m \cdot c_0 = \frac{\Delta H}{\Delta T}  =$ heat capacity | 
-| $c_0 = \frac{1}{m}\frac{\Delta H}{\Delta T} =$ specific heat | $S = b_0 \cdot \ln(\Omega) =$ Entropy (macro state) | 
-| $l =$ Moll quantity                                          | $\Omega =$ micro states | 
-| $z =$ amount of constraints (boundry conditions)             | $f = 3n \pm z =$ degrees of freedom | 
-| $\kappa = \frac{c_P}{c_V} = \frac{f+2}{f} =$ adiabaty        | $\iota = \kappa$ &harr; adiabat | 
-| $\iota = 0$ &harr; isobar                                    | $\iota = 1$ &harr; isotherm | 
-| $\iota = \infty$ &harr; isochor                              | ... | 
-\
-\
-
-# 4. Hypothesis & Conjecture
-
-How can economical measures be mapped to those natural quantities to consistently model the system?
-
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-| Economy     |             |            | Physics  |
-| -           | -           | -          | -        |
-| Assets      | Resources   |            | Matter   |
-| Liabilities | Capital     |            | Space    |
-| Expenses    | Labor       | Work       | Momentum |
-| Income      |             | Energy     | Time     |
-
-\
-\
-
-# 5. Concept & Model
-
-
-\
-\
-
-# 6. Analysis & Synthesis
-
-...
-\
-\
-
-# 7. Conclusion & Follow-up
-
-...
+{{< include Content/intro.qmd >}}
 \
 \
 
 
+# Motion and State Change {#sec-motion}
+
+{{< include Content/motion.qmd >}}
 \
 \
-see also @eckhard_theoretische_2006
+
+# Work and Energy {#sec-workenergy}
+
+{{< include Content/work-energy.qmd >}}
+\
+\
+
+# Constrains and Conditions {#sec-constraints}
+
+{{< include Content/constraints.qmd >}}
+\
+\
+
+# Determinism and Uncertainity {#sec-determinism}
+
+{{< include Content/determinism.qmd >}}
+\
+\
 
 
+# Ex-ante Framing and Post-ante Optimization {#sec-optimization}
+
+{{< include Content/optimization.qmd >}}
+\
+\
+
+# Productiviy and Value {#sec-productivityvalue}
+
+{{< include Content/econom.qmd >}}
+\
+\
+
+# Hypothesis and Conjecture {#sec-hypothesis}
+
+{{< include Content/hypothesis.qmd >}}
+\
+\
 
 
+# Acronyms
+
+{{< include Content/acronyms.qmd >}}
+\
+\
+
+
+{{< include Content/prefooter.qmd >}}
+___

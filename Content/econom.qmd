@@ -1,0 +1,101 @@
+
+Society's living requires:
+
+- "Resources" are processed to create goods to be consumed
+- "Labor" is used to process goods and services
+- "Capital" intermediates value between goods and services
+
+Society organizes in groups of households:
+
+- natural households
+- juristic corporations
+- governmental institutions
+
+Households cooperate though exchange (trade) of goods and services between "Demand" and "Supply" using monetary valuation:
+
+- Goods Market Production, Inventory, Trade $\rightarrow$ "Price" for value of production
+- Labor Market Employment, Demographic Structure, Work Capabilities $\rightarrow$ "Wage" for value of labor
+- Capital Market Savings, Investments, Exchange $\rightarrow$ "Interest" for value of capital
+
+\
+acronyms see @sec-acroeconom
+\
+\
+
+
+Supply is provided by the income $Y$:
+
+$$\begin{split} &
+Y = L  + Y_H + Y_A + T_A + Y_G - Z_G
+\end{split}$${#eq-ecoincome}
+
+$$\begin{split} &
+Y = C + S + T + M - X
+\end{split}$${#eq-gdpsupply}
+
+
+Demand is satisfied by the production $V_I$:
+
+$$\begin{split} &
+V_I = C + I + G + X - M
+\end{split}$${#eq-gdpdemand}
+
+
+Equilibrium:
+
+$$\begin{split} &
+Y = V_I       \\&
+L - C = S = I        \\&
+C + S = L        \\&
+C + I = R
+\end{split}$${#eq-ecoequi}
+
+
+Domestic Production & International Trade:
+
+$$\begin{split} &
+V_S = Y + T - G_A + D_A
+\end{split}$${#eq-gdp}
+
+$$\begin{split} &
+V_N = V_S - D_A
+\end{split}$${#eq-nnp}
+
+$$\begin{split} &
+V_I = V_S - R_M + R_X
+\end{split}$${#eq-gdp}
+
+
+
+Monetary Value of Production:
+
+$$\begin{split} &
+P \cdot V_I = Q \cdot N
+\end{split}$${#eq-moneyquant}
+
+Macro Productivity:
+$$\begin{split} &
+Productivity = \frac{Output}{Input} = \frac{V_I}{Y}
+\end{split}$${#eq-productivity}
+\
+\
+
+We track production at microeconomic level through (acronyms see @sec-acroeconom):
+
+$A =$ Assets represent "Property Capital" which consist of "Current Capital" and "Structural Capital". Those investments are required for the production processes.
+
+$B =$ Liabilities represent "Financial Capital" which consist of "Exogen Funds" and "Endogen Funds". Later includes "Equity Capital" and "Retained Gains". Those funds do finance Assets.
+
+$W =$ Expenses represent "Work Efforts" to "Supply Production" with use of Assets.
+
+$Y =$ Income represents "Received Earnings" achieved with production to "Satisfy Demand". Parts of the gains will be retained to finance Assets.
+
+$R =$ Gain, Profit or Loss from executed work (resultant value from input efforts) is represented by $R = Y - W$
+
+The "transfer of energy" between all subsystems is mapped in balancing out theirs capital (usage of capital for production though possessed assets): $A = B + R$
+
+Micro Productivity:
+$$\begin{split} &
+Productivity = \frac{Output}{Input} = \frac{Y}{W}
+\end{split}$${#eq-microprod}
+

@@ -3,7 +3,12 @@
 $body-bg: #382f2f;
 $body-color: #f7f4f4;
 $link-color: #E6E6FA;
-//$toc-color: #d72323;
+$toc-color: #2fa4e7;
 
 // Code blocks
 $code-block-bg-alpha: -.9;
+
+.header-section-number {
+  color: #2fa4e7 !important;
+ }
+

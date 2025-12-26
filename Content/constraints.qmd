@@ -1,0 +1,62 @@
+
+Constraints:
+
+- initial state, starting conditions
+- acting boundary conditions (to move within): e.g. demography, economical and political stability, labor force, education and know-how, health and technological level
+- access to limited resources: e.g. chemical elements, minerals, fuels, commodities, trade and transportations, etc.
+- contractual agreements and covenants, legal assurance
+- juristic law framework
+
+
+
+Modelling movement (change of state) under constraints:
+
+1. Movement ist charecterized by change of energy, Lagrangian $\mathcal{L} \neq 0$:
+$$\begin{split} &
+\mathcal{L} = \mathcal{K} - \mathcal{U}
+\qquad
+\frac{\partial \mathcal{L}}{\partial r} = F
+\qquad
+\frac{\partial \mathcal{L}}{\partial v} = p
+\end{split}$${#eq-lagrangian}
+
+2. Movement happens within constraints of forces. Constrains are observable, whereas forces might be unknown. Therefore, $r$ can be determined from $\mathcal{L}$ (Energy and Work) of the **system at rest $F=0$**, instead than from "searching" all acting forces $F_i$. In general, unknow forces at motion are defined by solving the Eigenvalueproblem. Solving for **$\mathcal{L}$** at equilibirium:
+$$\begin{split} &
+F_{total} = \hat{F_i} + \tilde{F_i} = \hat{F_i} + \sum_{k=1}^{s_d} \lambda_k a_{ki} = \frac{d}{dt} \left( \frac{\partial \mathcal{L}}{\partial v_i} \right) - \frac{\partial \mathcal{L}}{\partial r_i} 
+= \begin{cases}
+    = 0    : \text{ Equilibrium} \\
+    \neq 0 : \text{ Movement}
+  \end{cases}
+\end{split}$${#eq-constrainforce}
+
+    and at same time solving for constraining conditions that hold the system at rest (equilibrium):
+$$\begin{split} &
+\sum_{l=1}^f a_{kl} v_l + b_k = 0
+\end{split}$${#eq-constraincondition}
+
+3. Rest is characterized by unchanged energy, Hamiltonian $\mathcal{H} = E_{kin} + E_{pot} = const.$. There is movement from state of rest if the new $\mathcal{H} \neq 0$ differs from the initial one. Using the found solution for the Lagrangian $\mathcal{L}$ containing the constraints, the Hamiltonian for the energy is deduced:
+$$\begin{split} &
+\mathcal{H} = \sum_i p_i v_i - \mathcal{L} = pv - \mathcal{L}  = Fr - \mathcal{L} = W - \mathcal{L}  = (\Delta E - \Delta H) - \mathcal{L}
+\end{split}$${#eq-hamiltonian}
+
+4. Change of state/position is characterized by movement. Eventually, by solving the new system of differential equations, from the found solution of the energy $\mathcal{H}$, the set ${r,v,p}$ which describe the movement (and thus the change of state), is deduced:
+$$\begin{split} &
+\dot r_i = v_i = \frac{\partial\mathcal{H}}{\partial p_i}   \qquad
+\dot p_i = F_i = - \frac{\partial\mathcal{H}}{\partial r_i}
+\end{split}$${#eq-movement}
+
+see description of "work" @eq-workgeom
+
+where:
+
+$s_d =$ constraints   &emsp;    $i = 1,...,f =$ dedrees of freedom   &emsp;    $k = 1,...,s_d =$ constraints
+
+$\hat{F_i} =$ known constraining forces   &emsp;    $\tilde{F_i} = \sum_{k=1}^{s_d} \lambda_k a_{ki} =$ unknown constraining forces
+
+$\lambda_k(t) =$ Eigenvalues for transformation of reference system
+
+$a_{ki} =$ Eigenvectors of transformation matrix
+
+$\lambda_k \cdot \vec r_i = \lambda_k \cdot \left[ a_{ki} \right]_{matrix}$
+
+ 

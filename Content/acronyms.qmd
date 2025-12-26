@@ -1,0 +1,57 @@
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+
+
+## Acronyms of Physics: [Chapter @sec-workenergy]    {#sec-acroworkenergy}
+|                                                                       |                                                                                      |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| $A =$ Action                                                          | $E = E_{kin} + E_{pot} =$ total energy                                               |
+| $t =$ time                                                            | $r =$ dpace (distance between two points, one-dimensional length)                    |
+| $v =$ velocity                                                        | $c =$ light speed                                                                    |
+| $p =$ momentum                                                        | $F =$ force                                                                          |
+| $I =$ inertia                                                         | $\mathcal{L} =$ Lagrangian                                                           |
+| $\mathcal{H} =$ Hamiltonian                                           | $\mathcal{K} =$ kinetic Energy                                                       |
+| $\mathcal{U} =$ effective potential Energy ($\in E_{pot}$)            | $\mathcal{V} =$ potential Energy ($\in E_{pot}$)                                     |
+| $\mathcal{Z} = \frac{1}{2}\frac{L_0^2}{mr^2} =$ Centrifugal Potential | $V = r_1 \cdot r_2 \cdot r_3 =$ Volume                                               |
+| $\mathcal{k} =$ Wave Vector ("curvature")                             | $W =$ Work (done vs. received)                                                       |
+| $P =$ Pressure                                                        | $L_0 =$ angular momentum                                                             |
+| $T =$ endogen Temperature                                             | $H =$ exogen Heat                                                                    |
+| $U =$ endogen Energy ($E_{kin} + E_{pot}$)                            | $\Phi = \frac{\mathcal{V}}{q} =$ Electric Potential                                  |
+| $\mathcal{A} =$ Magnetic Potential                                    | $b_0 =$ Boltzmann constant                                                           |
+| $g_0 =$ Gas constant                                                  | $m =$ mass                                                                           |
+| $q =$ charge                                                          | $$n =$ amount of objectes (particles density $n=\frac{N}{V}$), $n=2$ and $f=1$       |
+| ${\epsilon}_0 =$ electric constant                                    | $f = 3n \pm z =$ degrees of freedom, $f=1$ and $n=2$                                 |
+| ${\mu}_0 =$ magnetic constant                                         | $\mathcal{B} =$ Magnetic Field                                                       |
+| $\mathcal{E} =$ Electric Field                                        | <sub>H</sub>$\mathcal{C} = m \cdot c_0 = \frac{\Delta H}{\Delta T}  =$ heat capacity |
+| $c_0 = \frac{1}{m}\frac{\Delta H}{\Delta T} =$ specific heat          | $S = b_0 \cdot \ln(\Omega) =$ Entropy (macro state)                                  |
+| $l =$ Moll quantity                                                   | $\Omega =$ micro states                                                              |
+| $z =$ amount of constraints (boundry conditions)                      | $b_0 =$ Boltzmann constant                                                           |
+| $\kappa = \frac{c_P}{c_V} = \frac{f+2}{f} =$ adiabaty                 | $\iota = \kappa$ &harr; adiabat                                                      |
+| $\iota = 0$ &harr; isobar                                             | $\iota = 1$ &harr; isotherm                                                          |
+| $\iota = \infty$ &harr; isochor                                       | ...                                                                                  |
+| ...                                                                   | ...                                                                                  |
+
+
+
+## Acronyms of Economy: [Chapter @sec-productivityvalue]     {#sec-acroeconom}
+|                                                                                                          
+| - | - |
+| $T =$ Taxes                                                                                              | $M =$ Import of Goods and Services from foreing symstes
+| $G =$ Governent Expenses, incl. Social Insurances                                                        | $X =$ Export of Goods and Services to foreign system
+| $Y =$ Income of Economy from Turnover                                                                    | $G_A =$ Governental Subsidies
+| $D_A =$ Depreciations (Reinvestments) on Assets                                                          | $V_N =$ Net Naötional Production, Society NNP
+| $N =$ Monetary Quantity                                                                                  | $Q =$ Monetary Turnover Velocity
+| $V_I =$ Gross Domestic Product GDP = $\frac{Output}{Input}$, Tradevolume                                 | $P =$ Price niveau (Inflation adjusted Value)
+| $L =$ Wages from Labor Work (Salaries, ...)                                                              | $R =$ Returns, Earnings, Gains
+| $Y_A =$ Income of priv. Business Households (Companies, Services, Real Estate Rentals, Retained Profits) | $Y_H =$ Income from priv. Capital Households (Interests, Coupons, Dividends, ... of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)
+| $T_A=$ Tax on Capital of Corprate Compaies (Business Assets)                                             | $Y_G =$ Governmental Income from Assets, Services, Social Institutions/Insurances
+| $Z_G =$ Interests on Governmental Debt                                                                   | $V_S =$ Gross National Produkt, Society GNP
+| $I =$ Investments on Assets, incl. Storage Change                                                        | $R_M =$ Capital Earnings and Wages from Abroad (from Foreign System)
+| $R_X$ Capital Earnings and Wages to Abroad (to Foreign System)                                           | $W =$ Expensens, costs from human and machinary work efforts
+
+
+
+

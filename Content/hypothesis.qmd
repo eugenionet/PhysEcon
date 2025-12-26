@@ -1,0 +1,79 @@
+
+Conjecture of @eq-moneyquant and @eq-workthermal 
+
+How consistently map economic measures to the quantities of nature to model the economical system?
+
+Input:
+$$\begin{split} &
+Input = f_0(Resouces, Labor, Capital) \text{ = Work = } \Delta\text{Energy} = p \cdot v
+\end{split}$${#eq-ecoinput}
+
+
+Output:
+$$\begin{split} &
+Output \text{ = Goods + Services = Production = } \Delta\text{State} = V_I 
+\end{split}$${#eq-ecooutput}
+
+
+Productivity:
+$$\begin{split} &
+Productivity = \frac{Output}{Input} = \frac{\Delta State}{\Delta Energy} = \frac{Production}{Work} = \frac{V_I}{pv}
+\end{split}$${#eq-ecooutput}
+
+see description of "movement" @eq-movement
+
+\
+\
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+| **Economy** | $\rightarrow$ |            | $\leftarrow$ | **Physics** |
+| ----------- | :------------ | :--------: | -----------: | ----------: |
+| Resources   | Assets        |            |        Force |      Matter |
+| Capital     | Liabilities   |            |     Momentum |       Space |
+| Labor       | Expenses      |            |         Work |             |
+|             | Income        | Production |       Energy |        Time |
+: Core Measurements {#tbl-coremeasuremnts}
+
+\
+\
+
+As a first approach, considering the geometrical perspective of the concept of "work" (@eq-workgeom), applied to economical measurements, so to satisfy the following system:
+
+$f_A(Assets) = f_B(Liabilities + Gain)$ = "momentum" $p$ from initial state $r_0$ to new state $r_1$, where the change of state is $r = r_1 - r_0$
+
+Matter substance, object movement/change: 
+$$\begin{split} &
+A = f_A = F \cdot t = p
+\end{split}$${#eq-physassets}
+
+Space of movement, maneuverability: 
+$$\begin{split} &
+B + R = f_B = m \cdot v = p
+\end{split}$${#eq-physliabilities}
+
+Work input (efforts, costs) through labor force, machines and infrastructure applied, and materials consumed for production: 
+$$\begin{split} &
+W = f_0 = F \cdot r = m \cdot \frac{v}{t} \cdot r = p \cdot v
+\end{split}$${#eq-physexpens}
+
+Energy transfer, energy change, profit or loss: 
+$$\begin{split} &
+Y = \Delta E = \frac{1}{2} pv + \mathcal{U}
+\end{split}$${#eq-phyincome}
+
+Production value inflation adjusted:
+$$\begin{split} &
+P \cdot V_I = \sum Y_{adjust} = \sum (W + R)_{adjust} = \Delta U - \Delta H = Q \cdot N
+\end{split}$${#eq-physprod}
+
+see @eq-workthemostat and @eq-workgeom
+
+Thus, to be determined are $v$ (economy velocity) and $p$ (financial structure). Eventually, determine $r$ = "state change through trajectory" (substance change to the new assets structure) by given $v$ = "velocity of movement" (Business speed = monetary value, price with inflation), or determine $v$ by given $r$. The individual positions $\{ i,j,l,m \}$ of Liabilities $\{ B_i + R_j \}_k$, Assets $\{ A_m \}_k$, and Expenses $\{ W_l \}_k$ shall be grouped in sets $\{ k \}$, so to satisfy $f_k(i,j) = f_k(m) = f_k(l) = \{ pv \}_k$.
+
+The constraints shall be modelled with the Lagrangian. Hence, "Work" shall be derived from the Hamiltonian which leads to the identification of the "movement" (= change, transformation) of the trajectory (= path to new state) with $\dot r = v$ and $\dot p = F$.
+
+Experiment design: **$p$ and $v$ are modelled ex-ante with means of CONSTRAINTS from contractual agreement and from given juristic legislation, in such a way that physics laws are satisfied. Decisions making occure within this ex-ante frame.**
+

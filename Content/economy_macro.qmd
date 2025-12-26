@@ -1,0 +1,110 @@
+
+MACRO ECONOMY: GDP, Inflation, Import & Export, International Trade, Foreign Exchange, Money Quantity, Unemployment, 
+
+Goods Market (Production, Lager), Capital Market (Savings, Investments), Labor Market (Employment, Population Structure), Price vs. Value, Demand vs. Supply, Access to Resources, Trade & International Contracts
+
+Assumin no waste.
+
+
+Supply: 
+
+$$\begin{split} &
+E = C + S + T + M - X
+\end{split}$${#eq-gdpsupply}
+
+$$\begin{split} &
+E = W  + E_P + E_B + T_B + E_G - Z_G
+\end{split}$${#eq-ecoincome}
+
+
+Demand:
+
+$$\begin{split} &
+V_I = C + I + G + X - M
+\end{split}$${#eq-gdpdemand}
+
+
+Equilibrium:
+
+$$\begin{split} &
+E = V_I       \\&
+W - C = S = I        \\&
+C + S = W        \\&
+C + I = R
+\end{split}$${#eq-ecoequi}
+
+
+Domestic Production & International Trade:
+
+$$\begin{split} &
+V_S = E + T - B + D
+\end{split}$${#eq-gdp}
+
+$$\begin{split} &
+V_S = V_I + R_M - R_X
+\end{split}$${#eq-gdp}
+
+$$\begin{split} &
+V_N = V_S - D
+\end{split}$${#eq-nnpnsp}
+
+$$\begin{split} &
+V_N = E + T - B
+\end{split}$${#eq-nnp}
+
+
+Productivity & Monetary Value:
+
+$$\begin{split} &
+P \cdot V_I = U \cdot Q
+\end{split}$${#eq-moneyquant}
+
+\
+\
+acronyms see @sec-acroecomacro
+
+\
+\
+
+<details> <summary>acronyms</summary>
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+|                                                                                               
+| - | - |
+| $C =$ Consumption of Private Households                                                       | $S =$ Savings
+| $T =$ Taxes                                                                                   | $M =$ Import of Goods and Services
+| $G =$ Governent Expenses, incl. Social Insurances                                             | $X =$ Export of Goods and Services
+| $E =$ National Income of total Economy, Turnover                                              | $B =$ Subsidies
+| $D =$ Depreciations (Reinvestments)                                                           | $V_N =$ Net Naötional Production, Society NNP
+| $Q =$ Monetary Quantity                                                                       | $U =$ Monetary Turnover Velocity
+| $V_I =$ Gross Domestic Product GDP = $\frac{Output}{Input}$, Tradevolume                      | $P =$ Price niveau (Inflation adjusted Value)
+| $W =$ Wages (Salaries, ...)                                                                   | $R =$ Returns, Earnings, Gains
+| $E_B =$ Income of priv. Business (Companies, Services, Real Estate Rentals, Retained Profits) | $E_P =$ Income from priv. Capital (Interests, Coupons, Dividends, ... of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)
+| $T_B =$ Tax on Capital of Comapies (Business Assets)                                          | $E_G =$ Governmental Income from Assets, Services, Social Institutions/Insurances
+| $Z_G =$ Interests on Governmental Debt                                                        | $V_S =$ Gross National Produkt, Society GNP
+| $I =$ Investments on Assets, incl. Storage Change                                             | $R_M =$ Capital Earnings and Wages from Abroad
+| $R_X$ Capital Earnings and Wages to Abroad                                                    | ...
+</details>
+
+Input:
+
+$$\begin{split} &
+Input = f(Resouces, Labor, Capital) \text{ = Work = } \Delta Energy
+\end{split}$${#eq-ecoinput}
+
+
+Output:
+
+$$\begin{split} &
+Output = V_I \text{ = Goods + Services = Production = } \Delta State
+\end{split}$${#eq-ecooutput}
+
+
+Productivity:
+
+$$\begin{split} &
+Productivity = \frac{Output}{Input} = \frac{\Delta State}{\Delta Energy} = \frac{Production}{Work} = \frac{V_I}{p \cdot v}
+\end{split}$${#eq-ecooutput}

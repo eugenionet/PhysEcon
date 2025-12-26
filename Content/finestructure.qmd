@@ -1,0 +1,15 @@
+Infinity, Finess of the World - The "Fine Structure"
+
+$$\begin{split} &
+\frac{1}{ c \epsilon_{0} } = 
+c \mu_{0} \qquad
+\frac{1}{c^2} = 
+\epsilon_{0} \mu_{0}
+\end{split}$${#eq-fnestructure}
+
+$$
+\mathfrak{f} = 
+\frac{1}{4\pi \epsilon_0} \frac{e^2}{\hbar c} = 
+\frac{1}{2} \frac{1}{h} c \mu_0  e^2 \approx \frac{1}{1369...}
+$$
+

@@ -1,0 +1,12 @@
+
+- Determinism through contratcting & jurisdiction
+- Uncertainity minimizsations
+- Statistical approximation
+- Prognosis matching Determinism
+
+see @eq-uncertainity
+
+
+
+
+

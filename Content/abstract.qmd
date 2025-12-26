@@ -1,0 +1,7 @@
+
+An exploratory attempt ...
+
+Interconnection network between movement, force, momentum, energy, and work.
+Describing systems with Lagrangian and Hamltonian when constraints and starting conditions exist.
+Modeling systems and optimisation with constraints and conditions.
+Interwoven system of macro- and microeconomie under constraints, limitations, and conditions.

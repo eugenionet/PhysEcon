@@ -2,19 +2,31 @@ project:
   type: website
   output-dir: docs
 
-website:  
-  title: "Physica"
-  comments:
-    hypothesis: 
-      theme: classic # clean
-      openSidebar: false 
+header-include:
+  - \usepackage{<packages>}  # LaTex
+
+website:
+  title: "PHYSECON"
+  page-footer: |
+    &copy; 2026 Eugenio Net. | 
+      [PDF script](https://eugenionet.github.io/physecon/index.pdf) |
+      Update at [eugenionet.github.io/physecon](https://eugenionet.github.io/physecon/) | 
+      [Contact](mailto:eugenionetweb@gmail.com?subject=Working%20Paper%20Economy-Physics&body=Body%20text) to collaborate
   navbar:
     background: MidnightBlue   # primary  # Navy 
     search: true
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: dummy.qmd
+        text: Contribute
+      - href: mailto:eugenionetweb@gmail.com?subject=Working%20Paper%20Economy-Physics&body=Body%20text
+        text: Contact
+      - href: https://www.researchgate.net/login?_sg=GVPRQCDS6NDU-YgTVOp8WJPPcGkOTjrVnKYT-SENPkZYSmRb9li_cjw9cbtoFy1MrMYmNVUez5YPVsOwZ8UvUQ&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImluZGV4IiwicGFnZSI6ImluZGV4IiwicG9zaXRpb24iOiJnbG9iYWxIZWFkZXIifX0
+        target: "_blank"
+        text: ResearchGate
     tools:
       - icon: feather   # https://icons.getbootstrap.com/
         menu:
@@ -36,69 +48,102 @@ website:
           - text: Chemical Elements
             href: https://ptable.com/?lang=en#Properties # https://periodic-table.rsc.org/
             target: "_blank"
+          - text: Economy Fundamentals
+            href: https://socialsci.libretexts.org/Bookshelves/Economics/Introductory_Comprehensive_Economics/Economics_(Boundless)/01%3A_Principles_of_Economics/1.06%3A_Differences_Between_Macroeconomics_and_Microeconomics
+            target: "_blank"
   sidebar:
     style: "floating"
     search: true
     contents:
-      - text: "Introduction"
-        href: introduction.qmd
-      - section: "Overview"
-        href: overview-summary.qmd
+      - text: "Synopsis"
+        href: dummy.qmd
+      - section: "Projects"
         contents:
-          - text: "EconoPhys"
+          - text: "PhysEcon"
             href: index.qmd
+          - text: "PhysFina"
+            href: dummy.qmd
+      - section: "Topics"
+        contents:
+          - text: "Periodicity"
+            href: Content/2pi.qmd
+          - text: "Velocity - Movement of Matter in Space and Time"
+            href: Content/lightspeed.qmd
+          - text: "Matter and Refraction"
+            href: Content/refraction.qmd
+          - text: "Metric"
+            href: Content/metric.qmd
+          - text: "Finestructure"
+            href: Content/finestructure.qmd
           - text: "Static, Kinetic, Dynamic"
-            href: Mechanics.qmd
+            href: dummy.qmd
           - text: "Lagrange-Hamilton"
-            href: Lagrange-Hamilton.qmd
+            href: dummy.qmd
           - text: "Space Time Matter"
-            href: Space_Time_Matter.qmd
+            href: dummy.qmd
           - text: "Degrees of Freedom"
-            href: dimensionfreedom.qmd
+            href: dummy.qmd
           - text: "Movement & State"
-            href: Movement_State.qmd
+            href: dummy.qmd
           - text: "Restrictions & Constraints, Boundries & Limitations"
-            href: limits.qmd  
+            href: dummy.qmd
           - text: "Equilibrium & Laborsystem"
-            href: equilibrium.qmd
+            href: dummy.qmd
           - text: "Work & Energy, Information"
-            href: Work_Energy.qmd
+            href: dummy.qmd
           - text: "Force and Momenta"
-            href: momentum.qmd
+            href: dummy.qmd
           - text: "Entropy & Enthalpy"
-            href: Entrorpy_Enthalpy.qmd
+            href: dummy.qmd
           - text: "Symmetry & Conservation"
-            href: Symmetry_Conservation.qmd
+            href: dummy.qmd
           - text: "Reversability"
-            href: Reversability.qmd
+            href: dummy.qmd
           - text: "Refraction & Medium"
-            href: Refraction.qmd
+            href: dummy.qmd
           - text: "Action & Path"
-            href: Action.qmd
+            href: dummy.qmd
           - text: "Potentials"
-            href: Potentials.qmd
+            href: dummy.qmd
           - text: "Renormalization"
-            href: Renormalization.qmd
+            href: dummy.qmd
           - text: "Continum & Quantum"
-            href: continumquantum.qmd
+            href: dummy.qmd
+          - text: "Probability, Liklyhood & Prediction"
+            href: dummy.qmd
+          - text: "Optimization & Variation"
+            href: dummy.qmd
           - text: "Micro & Macro"
-            href: micromacro.qmd
-      - section: "Economical Models"
+            href: dummy.qmd
+      - section: "Resources"
+        href: dummy.qmd
         contents:
-          - section_2a.qmd
-          - section_2b.qmd
-          - section_2c.qmd
-      - section: section_3_advanced.qmd
-        contents:
-          - section_3a.qmd
-          - section_3b.qmd
-          - section_3c.qmd
+          - text: "Sources"
+            href: dummy.qmd
 
 
 format:
+  pdf:      #TERMINAL: quarto install tinytex
+    toc: true
+#    default
+#    documentclass: book    # book    # article    # scrartcl
+    include-in-header: 
+      text:
+        \usepackage{hyperref, mathtools, amsmath, scrlayer-scrpage}
+        \rohead{
+          \hrule
+        }
+        \lofoot{
+          \vspace*{10px} \hrule 
+          \tiny{
+            \vspace*{3px} 
+            \copyright \ \
+            Update at \href{https://eugenionet.github.io/physecon/}{eugenionet.github.io/physecon}
+            }
+        }
   html:
     page-layout: article    # full  # custom
-    keep-tex: true
+    keep-tex: false
 #    include-in-header: 
 #      - text: \usepackage{mathtools, amsmath} 
     respect-user-color-scheme: true
@@ -109,7 +154,18 @@ format:
 #      - brand
     css: styles.css
     toc: true
+    toc-title: "Content"
+    toc-location: right
 #    linkcolor: grey    # urlcolor: green
+#    subtitle: numbered
+#    smooth-scroll: true
+    number-sections: true
+
+other-links:
+  - text: "see also"
+    href: https://quarto.org/docs/output-formats/html-basics.html
+  
+
 
 
 
