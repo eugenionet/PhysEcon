@@ -1,0 +1,228 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante",
+    "section": "",
+    "text": "WORKING NOTES DRAFT",
+    "crumbs": [
+      "Home",
+      "Projects",
+      "PhysEcon"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-acroworkenergy",
+    "href": "index.html#sec-acroworkenergy",
+    "title": "Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante",
+    "section": "10.1 Acronyms of Physics: Chapter 4",
+    "text": "10.1 Acronyms of Physics: Chapter 4\n\n\n\n\n\n\n\n\\(A =\\) Action\n\\(E = E_{kin} + E_{pot} =\\) total energy\n\n\n\\(t =\\) time\n\\(r =\\) dpace (distance between two points, one-dimensional length)\n\n\n\\(v =\\) velocity\n\\(c =\\) light speed\n\n\n\\(p =\\) momentum\n\\(F =\\) force\n\n\n\\(I =\\) inertia\n\\(\\mathcal{L} =\\) Lagrangian\n\n\n\\(\\mathcal{H} =\\) Hamiltonian\n\\(\\mathcal{K} =\\) kinetic Energy\n\n\n\\(\\mathcal{U} =\\) effective potential Energy (\\(\\in E_{pot}\\))\n\\(\\mathcal{V} =\\) potential Energy (\\(\\in E_{pot}\\))\n\n\n\\(\\mathcal{Z} = \\frac{1}{2}\\frac{L_0^2}{mr^2} =\\) Centrifugal Potential\n\\(V = r_1 \\cdot r_2 \\cdot r_3 =\\) Volume\n\n\n\\(\\mathcal{k} =\\) Wave Vector (“curvature”)\n\\(W =\\) Work (done vs. received)\n\n\n\\(P =\\) Pressure\n\\(L_0 =\\) angular momentum\n\n\n\\(T =\\) endogen Temperature\n\\(H =\\) exogen Heat\n\n\n\\(U =\\) endogen Energy (\\(E_{kin} + E_{pot}\\))\n\\(\\Phi = \\frac{\\mathcal{V}}{q} =\\) Electric Potential\n\n\n\\(\\mathcal{A} =\\) Magnetic Potential\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(g_0 =\\) Gas constant\n\\(m =\\) mass\n\n\n\\(q =\\) charge\n$\\(n =\\) amount of objectes (particles density \\(n=\\frac{N}{V}\\)), \\(n=2\\) and \\(f=1\\)\n\n\n\\({\\epsilon}_0 =\\) electric constant\n\\(f = 3n \\pm z =\\) degrees of freedom, \\(f=1\\) and \\(n=2\\)\n\n\n\\({\\mu}_0 =\\) magnetic constant\n\\(\\mathcal{B} =\\) Magnetic Field\n\n\n\\(\\mathcal{E} =\\) Electric Field\nH\\(\\mathcal{C} = m \\cdot c_0 = \\frac{\\Delta H}{\\Delta T}  =\\) heat capacity\n\n\n\\(c_0 = \\frac{1}{m}\\frac{\\Delta H}{\\Delta T} =\\) specific heat\n\\(S = b_0 \\cdot \\ln(\\Omega) =\\) Entropy (macro state)\n\n\n\\(l =\\) Moll quantity\n\\(\\Omega =\\) micro states\n\n\n\\(z =\\) amount of constraints (boundry conditions)\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(\\kappa = \\frac{c_P}{c_V} = \\frac{f+2}{f} =\\) adiabaty\n\\(\\iota = \\kappa\\) ↔︎ adiabat\n\n\n\\(\\iota = 0\\) ↔︎ isobar\n\\(\\iota = 1\\) ↔︎ isotherm\n\n\n\\(\\iota = \\infty\\) ↔︎ isochor\n…\n\n\n…\n…",
+    "crumbs": [
+      "Home",
+      "Projects",
+      "PhysEcon"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-acroeconom",
+    "href": "index.html#sec-acroeconom",
+    "title": "Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante",
+    "section": "10.2 Acronyms of Economy: Chapter 8",
+    "text": "10.2 Acronyms of Economy: Chapter 8\n\n\n\n\n\n\n\n\\(T =\\) Taxes\n\\(M =\\) Import of Goods and Services from foreing symstes\n\n\n\\(G =\\) Governent Expenses, incl. Social Insurances\n\\(X =\\) Export of Goods and Services to foreign system\n\n\n\\(Y =\\) Income of Economy from Turnover\n\\(G_A =\\) Governental Subsidies\n\n\n\\(D_A =\\) Depreciations (Reinvestments) on Assets\n\\(V_N =\\) Net Naötional Production, Society NNP\n\n\n\\(N =\\) Monetary Quantity\n\\(Q =\\) Monetary Turnover Velocity\n\n\n\\(V_I =\\) Gross Domestic Product GDP = \\(\\frac{Output}{Input}\\), Tradevolume\n\\(P =\\) Price niveau (Inflation adjusted Value)\n\n\n\\(L =\\) Wages from Labor Work (Salaries, …)\n\\(R =\\) Returns, Earnings, Gains\n\n\n\\(Y_A =\\) Income of priv. Business Households (Companies, Services, Real Estate Rentals, Retained Profits)\n\\(Y_H =\\) Income from priv. Capital Households (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)\n\n\n\\(T_A=\\) Tax on Capital of Corprate Compaies (Business Assets)\n\\(Y_G =\\) Governmental Income from Assets, Services, Social Institutions/Insurances\n\n\n\\(Z_G =\\) Interests on Governmental Debt\n\\(V_S =\\) Gross National Produkt, Society GNP\n\n\n\\(I =\\) Investments on Assets, incl. Storage Change\n\\(R_M =\\) Capital Earnings and Wages from Abroad (from Foreign System)\n\n\n\\(R_X\\) Capital Earnings and Wages to Abroad (to Foreign System)\n\\(W =\\) Expensens, costs from human and machinary work efforts\n\n\n\n\n\n\nsee also [1]",
+    "crumbs": [
+      "Home",
+      "Projects",
+      "PhysEcon"
+    ]
+  },
+  {
+    "objectID": "Content/work-energy.html",
+    "href": "Content/work-energy.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "\\(\\exists\\) Work done or received \\(W \\neq 0 \\Rrightarrow \\exists\\) Change of State (“Displacement”, “Deformation”) \\(r \\neq 0\\):\n\\[\\begin{split} &\nE = \\mathcal{K} + \\mathcal{U}  \\qquad  E_{kin} \\coloneqq \\mathcal{K} = \\frac{1}{2}pv   \\qquad   E_{pot} \\coloneqq \\mathcal{U} = \\mathcal{V} + \\mathcal{Z}\n\\end{split} \\tag{1}\\]\nEnergy is conserved in konservative systems; There is no work in closed path between two points (loop) of any shape under path variation, hence the “Principle of Action” applies (extremities of bumps and saddles exist): \\(\\delta A = 0\\)\nPotentials: \\[\\begin{split} &\n\\mathcal{U} = \\mathcal{V} + \\mathcal{Z}\n\\\\&\n\\mathcal{V}\n    \\begin{cases}\n      = \\frac{1}{2} kr^2 : \\text{isotrop harmonical oscilator central field Potential, } \\\\\n        \\qquad \\text{closed bounded path, } \\text{\"spring constant\" } k = m\\omega^2 = 2\\pi \\cdot \\nu  \\\\\n      = -\\frac{1}{r}\\alpha: \\text{gravitational central field Potential, } \\\\\n        \\qquad \\text{closed bounded path, } \\alpha = \\left( \\frac{2\\pi}{\\Delta \\varphi} \\right)^2 = const. \\\\\n      \\sim \\frac{1}{r}e^{\\mu r} : \\text{Yukawa Potential}, \\text{\"Photon mass\" } m_{\\gamma} = \\mu \\frac{\\hbar}{c} \\\\\n      ...\n    \\end{cases}\n\\end{split} \\tag{2}\\]\nCentrifugal Potential: \\[\\begin{split} &\n\\mathcal{Z} = \\frac{1}{2} \\frac{1}{m} \\left( \\frac{L_0}{r} \\right)^2 \\text{, angular momentum}=L_0\n\\end{split} \\tag{3}\\]\nWork: \\[\\begin{split} &\nW = \\partial_t A = \\partial_t (E \\cdot t) = \\partial_t (p ⋅ r) = F_1 \\cdot r_1 + p_2 \\cdot v_2 =\n    \\begin{cases}\n      F \\cdot r \\\\\n      p \\cdot v\n    \\end{cases}\n\\end{split} \\tag{4}\\]\nGeometrical:\n\\[\\begin{split} &\nW = F \\cdot r = mr \\cdot a = I ⋅ \\frac{v}{t} =  \\frac{p}{t} ⋅ tv = Ft \\cdot v =  pv = mv^2\n\\end{split} \\tag{5}\\]\nAnalytical:\n\\[\\begin{split} &\n\\mathcal{L} = \\mathcal{L}(r,\\dot r,t) = E_{kin} - E_{pot}\n\\end{split} \\tag{6}\\]\n\\[\\begin{split} &\n\\mathcal{H} = \\mathcal{H}(r,p,t) = \\sum_i^f \\dot r_i p_i - \\mathcal{L}\n\\stackrel{konserv.}{=}\nE_{kin} + E_{pot} = const.\n\\end{split} \\tag{7}\\]\n\\[\\begin{split} &\nA = E \\cdot t = p \\cdot r\n\\stackrel{\\mathcal{H}=0}{=}\n\\int_{t_0}^{t_x} \\mathcal{L} dt\n\\end{split} \\tag{8}\\]\n\\[\\begin{split} &\nW = p \\cdot v = \\mathcal{L} + \\mathcal{H} = (\\mathcal{K} - \\mathcal{U}) + \\mathcal{H}\n\\\\& \\stackrel{konserv.}{=}\n(\\mathcal{K} - \\mathcal{U}) + (\\mathcal{K} + \\mathcal{U}) = (\\mathcal{K} - \\mathcal{U}) + E\n\\end{split} \\tag{9}\\]\nElectro Magnetic:\n\\[\\begin{split} &\nW = \\mathcal{L} + \\mathcal{H} = \\left( \\frac{1}{2}mv^2 - q(\\Phi - \\vec{\\mathcal{A}} \\cdot \\vec{v}) \\right) + \\left( \\frac{1}{2} \\frac{1}{m} (\\vec{p} - q\\vec{\\mathcal{A}})^2 + q\\Phi \\right)\\end{split} \\tag{10}\\]\nRelativistic:\n\\[\\begin{split} &\nW = p \\cdot v = \\frac{v}{c} \\sqrt{E^2 - (mc^2)^2}\n\\end{split} \\tag{11}\\]\nThermal:\n\\[\\begin{split} &\nW = Fr = PV^{\\iota} = T \\cdot V^{\\frac{f+2}{f}} = T \\cdot V^{(\\frac{c_P}{c_V}-1)} = TV^{\\kappa-1}  \\\\&\n= T \\cdot l \\cdot g_0 = T \\cdot n \\cdot b_0 = T \\cdot m \\cdot c_0\n\\end{split} \\tag{12}\\]\nThermo Statistical:\n\\[\\begin{split} &\nW = \\mathcal{L} + \\mathcal{H} = ΔU - ΔH = \\Delta(T \\cdot \\Delta S - P \\cdot \\Delta V) - \\Delta(T\\cdot S)\n\\end{split} \\tag{13}\\]\nQuantistic:\n\\[\\begin{split} &\nW = p \\cdot v = ħ\\mathcal{k} \\cdot ω = ℎν\\mathcal{k} = E\\mathcal{k}\n\\end{split} \\tag{14}\\]\n\\[\\begin{split} &\n\\Delta A = \\Delta p  \\cdot \\Delta r = \\Delta E \\cdot \\Delta t \\ge \\frac{1}{2} \\hbar\n\\end{split} \\tag{15}\\]\n\n\n\nsee description of “movement” ?@eq-movement\nacronyms see ?@sec-acroworkenergy"
+  },
+  {
+    "objectID": "Content/radiation_orientation.html",
+    "href": "Content/radiation_orientation.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Orientation of Radiation:\n\n\n\nRadiation\n\n\n\\(\\vartheta =\\) reflection angle for redirected radiation \\(A_{r\\parallel}\\) parallel to \\(\\alpha\\) from matter \n\\(\\theta =\\) diffraction angle for redirected radiation \\(A_{r\\perp}\\) orthogonal to \\(\\alpha\\) from matter \n\\(\\varpi = \\beta_1 + \\beta_2 =\\) angle of converging body surfaces (point tip of prismic medium), spread angle of prism\n\\(\\varsigma =\\) deviation angle of redirected ray beam after refraction (transmission) and diffraction\n\\(u_g =\\) aperture angle (acceptance) from sender source (at distance \\(g\\))\n\\(w_b =\\) inclination angle at observer receiver (at distance \\(b\\))\n\\(\\varepsilon =\\) visual angle from observer/receiver (of eye)"
+  },
+  {
+    "objectID": "Content/optimization.html",
+    "href": "Content/optimization.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Framing contracts and jurisdiction ahead to match \\(p = \\text{\"Economy Funds\"}\\) and \\(v = \\text{\"Economy Velocity\"}\\) that can be modelled with typical approaches for fuction \\(z = \\text{\"arrival state\"}\\) depending on \\(x = \\text{\"starting state\"}\\), so that “work” \\(W = F \\cdot r =  F \\cdot (z - x)\\):\n\n\n\n\nTable 1: Modelling Functions\n\n\n\n\n\n\n\n\n\n\nType\nModel\nLinearisation\n\n\n\n\nLinear\n\\(z = a + bx\\)\n\\(z = a + bx\\)\n\n\nGemetric\n\\(z = a \\cdot x^b\\)\n\\(\\log z = \\log a + b \\cdot (\\log x)\\)\n\n\nExponential deca.\n\\(z = a \\cdot b^x\\)\n\\(\\log z = \\log a + (\\log b) \\cdot x\\)\n\n\nExponential nat.\n\\(z = a \\cdot e^{bx}\\)\n\\(\\ln z = \\ln a + bx\\)\n\n\nPeriodical\n\n\n\n\nPolynomial\n\n\n\n\nTaylor\n\n\n\n\n\n\n\n\n\n\nLinear optimization to achieve target states “\\(z, h\\)”:\n\nOneness situaiton modelling:\nminimize efforts = \\(z\\) or maximizie return = \\(z\\)\n\n\\[\\begin{split} &\n\\text{target:}            \\hphantom{min.nstraints:}     z = c^T \\cdot x \\\\&\n\\text{min. constraints:}  \\hphantom{max.}               \\left[ a_{ki} \\right] \\cdot x \\ge b   \\\\&\n\\text{max. constraints:}  \\hphantom{min.}               \\left[ a_{ki} \\right] \\cdot x \\le b   \\\\&\n\\text{condition:}         \\hphantom{max.raints:}        x \\ge 0   \\\\&\n\\end{split} \\tag{1}\\]\n\nDuality situation modelling:\nminimize efforts = \\(z\\) and maximize return = \\(h\\)\n\n\\[\\begin{split} &\n\\text{target min.:}         \\hphantom{ andints:}      z = c^T \\cdot x     \\\\&\n\\text{min. constraints:}    \\hphantom{ and}           \\left[ a_{ki} \\right] \\cdot x \\ge b   \\\\&\n\\text{condition:}           \\hphantom{ andraints:}    x \\ge 0       \\\\&\n\\textit{ and}    \\\\&\n\\text{target max.:}         \\hphantom{ andints:}      h = b^T \\cdot y \\\\&\n\\text{max. constraints:}    \\hphantom{ and}           \\left[ a_{ki} \\right]^T \\cdot y \\le c   \\\\&\n\\text{condition:}           \\hphantom{ andraints:}    y \\ge 0         \\\\&\n\\end{split} \\tag{2}\\]\n\nNormalization:\n\n\\[\\begin{split} &\n\\text{target:}              \\hphantom{min.nstraints:}      z = c^T \\cdot x \\\\&\n\\text{min. constraints:}    \\hphantom{max.}    \\left( \\left[ a_{ki} \\right] - x_{n+k} \\right) \\cdot x = b   \\\\&\n\\text{max. constraints:}    \\hphantom{min.}    \\left( \\left[ a_{ki} \\right] + x_{n+k} \\right) \\cdot x = b   \\\\&\n\\text{condition:}           \\hphantom{max.raints:}    x \\ge 0       \\\\&\n\\end{split} \\tag{3}\\]\n\nSolution with Simplex algorithm\n\nmultilinear and exponential models …"
+  },
+  {
+    "objectID": "Content/metric.html",
+    "href": "Content/metric.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Distance and Size (observability, identification, measurability, metric)\nMetric, Distance and Size:\nr = radial distance, d = diametral size\n\\[\\begin{split} &\nr\\lambda =\nd^2 cos^2(\\vartheta) =\n\\left( d \\cdot cos( \\frac{\\pi}{2} - \\alpha ) \\right)^2 =\n\\left( d \\cdot sin( \\frac{\\pi}{2} - \\beta ) \\right)^2\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Metric"
+    ]
+  },
+  {
+    "objectID": "Content/intro.html",
+    "href": "Content/intro.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Nature strives through Physics to behave economical by using its resources in an austere way: Principle of Least Action.\nEconomy - not pre-given by natural laws - is constructed as social set of co-living rules to allocate, distribute and share (natural and non-natural) resources. Ex-ante modelling economic systems by rules (contractual, legislative, judicative, executive).\nThe state (situation, position) of the Economy can be described by e.g. Assets, Liabilities, Expenses, Incomes, Profitability, Productivity, etc.. The Economy changes through time from a state \\(r_0=\\) “start” to a state \\(r_1=\\) “end”. For the state to change, work is applied by processing limited resources (e.g. access to raw materials and availability of intermediate goods), constrained capital (e.g. financial funds, interest rates, and inflation), as well as labor capacity (e.g machines and human force).\nHow can a trajectory \\(r = r_1 - r_0\\) between two states be modelled by work \\(W\\), which is applied for the change of the state to occure: searching the condition by defing target state through “path of chage” \\(=r\\)?\n\\[\\begin{split} &\nr = f(x_i) = \\int A = \\int \\int W = \\int \\int (\\mathcal{L} + \\mathcal{H}) = \\int \\int (\\Delta E - \\Delta H)\n\\end{split} \\tag{1}\\]"
+  },
+  {
+    "objectID": "Content/finestructure.html",
+    "href": "Content/finestructure.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Infinity, Finess of the World - The “Fine Structure”\n\\[\\begin{split} &\n\\frac{1}{ c \\epsilon_{0} } =\nc \\mu_{0} \\qquad\n\\frac{1}{c^2} =\n\\epsilon_{0} \\mu_{0}\n\\end{split} \\tag{1}\\]\n\\[\n\\mathfrak{f} =\n\\frac{1}{4\\pi \\epsilon_0} \\frac{e^2}{\\hbar c} =\n\\frac{1}{2} \\frac{1}{h} c \\mu_0  e^2 \\approx \\frac{1}{1369...}\n\\]",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Finestructure"
+    ]
+  },
+  {
+    "objectID": "Content/economy_macro.html",
+    "href": "Content/economy_macro.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "MACRO ECONOMY: GDP, Inflation, Import & Export, International Trade, Foreign Exchange, Money Quantity, Unemployment,\nGoods Market (Production, Lager), Capital Market (Savings, Investments), Labor Market (Employment, Population Structure), Price vs. Value, Demand vs. Supply, Access to Resources, Trade & International Contracts\nAssumin no waste.\nSupply:\n\\[\\begin{split} &\nE = C + S + T + M - X\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\nE = W  + E_P + E_B + T_B + E_G - Z_G\n\\end{split} \\tag{2}\\]\nDemand:\n\\[\\begin{split} &\nV_I = C + I + G + X - M\n\\end{split} \\tag{3}\\]\nEquilibrium:\n\\[\\begin{split} &\nE = V_I       \\\\&\nW - C = S = I        \\\\&\nC + S = W        \\\\&\nC + I = R\n\\end{split} \\tag{4}\\]\nDomestic Production & International Trade:\n\\[\\begin{split} &\nV_S = E + T - B + D\n\\end{split} \\tag{5}\\]\n\\[\\begin{split} &\nV_S = V_I + R_M - R_X\n\\end{split} \\tag{6}\\]\n\\[\\begin{split} &\nV_N = V_S - D\n\\end{split} \\tag{7}\\]\n\\[\\begin{split} &\nV_N = E + T - B\n\\end{split} \\tag{8}\\]\nProductivity & Monetary Value:\n\\[\\begin{split} &\nP \\cdot V_I = U \\cdot Q\n\\end{split} \\tag{9}\\]\n\n\nacronyms see ?@sec-acroecomacro\n\n\n\n\n\nacronyms\n\n\n\n\n\n\n\n\n\n\\(C =\\) Consumption of Private Households\n\\(S =\\) Savings\n\n\n\\(T =\\) Taxes\n\\(M =\\) Import of Goods and Services\n\n\n\\(G =\\) Governent Expenses, incl. Social Insurances\n\\(X =\\) Export of Goods and Services\n\n\n\\(E =\\) National Income of total Economy, Turnover\n\\(B =\\) Subsidies\n\n\n\\(D =\\) Depreciations (Reinvestments)\n\\(V_N =\\) Net Naötional Production, Society NNP\n\n\n\\(Q =\\) Monetary Quantity\n\\(U =\\) Monetary Turnover Velocity\n\n\n\\(V_I =\\) Gross Domestic Product GDP = \\(\\frac{Output}{Input}\\), Tradevolume\n\\(P =\\) Price niveau (Inflation adjusted Value)\n\n\n\\(W =\\) Wages (Salaries, …)\n\\(R =\\) Returns, Earnings, Gains\n\n\n\\(E_B =\\) Income of priv. Business (Companies, Services, Real Estate Rentals, Retained Profits)\n\\(E_P =\\) Income from priv. Capital (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)\n\n\n\\(T_B =\\) Tax on Capital of Comapies (Business Assets)\n\\(E_G =\\) Governmental Income from Assets, Services, Social Institutions/Insurances\n\n\n\\(Z_G =\\) Interests on Governmental Debt\n\\(V_S =\\) Gross National Produkt, Society GNP\n\n\n\\(I =\\) Investments on Assets, incl. Storage Change\n\\(R_M =\\) Capital Earnings and Wages from Abroad\n\n\n\\(R_X\\) Capital Earnings and Wages to Abroad\n…\n\n\n\n\nInput:\n\\[\\begin{split} &\nInput = f(Resouces, Labor, Capital) \\text{ = Work = } \\Delta Energy\n\\end{split} \\tag{10}\\]\nOutput:\n\\[\\begin{split} &\nOutput = V_I \\text{ = Goods + Services = Production = } \\Delta State\n\\end{split} \\tag{11}\\]\nProductivity:\n\\[\\begin{split} &\nProductivity = \\frac{Output}{Input} = \\frac{\\Delta State}{\\Delta Energy} = \\frac{Production}{Work} = \\frac{V_I}{p \\cdot v}\n\\end{split} \\tag{12}\\]"
+  },
+  {
+    "objectID": "Content/determinism.html",
+    "href": "Content/determinism.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Determinism through contratcting & jurisdiction\nUncertainity minimizsations\nStatistical approximation\nPrognosis matching Determinism\n\nsee ?@eq-uncertainity"
+  },
+  {
+    "objectID": "Content/acronyms.html",
+    "href": "Content/acronyms.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "\\(A =\\) Action\n\\(E = E_{kin} + E_{pot} =\\) total energy\n\n\n\\(t =\\) time\n\\(r =\\) dpace (distance between two points, one-dimensional length)\n\n\n\\(v =\\) velocity\n\\(c =\\) light speed\n\n\n\\(p =\\) momentum\n\\(F =\\) force\n\n\n\\(I =\\) inertia\n\\(\\mathcal{L} =\\) Lagrangian\n\n\n\\(\\mathcal{H} =\\) Hamiltonian\n\\(\\mathcal{K} =\\) kinetic Energy\n\n\n\\(\\mathcal{U} =\\) effective potential Energy (\\(\\in E_{pot}\\))\n\\(\\mathcal{V} =\\) potential Energy (\\(\\in E_{pot}\\))\n\n\n\\(\\mathcal{Z} = \\frac{1}{2}\\frac{L_0^2}{mr^2} =\\) Centrifugal Potential\n\\(V = r_1 \\cdot r_2 \\cdot r_3 =\\) Volume\n\n\n\\(\\mathcal{k} =\\) Wave Vector (“curvature”)\n\\(W =\\) Work (done vs. received)\n\n\n\\(P =\\) Pressure\n\\(L_0 =\\) angular momentum\n\n\n\\(T =\\) endogen Temperature\n\\(H =\\) exogen Heat\n\n\n\\(U =\\) endogen Energy (\\(E_{kin} + E_{pot}\\))\n\\(\\Phi = \\frac{\\mathcal{V}}{q} =\\) Electric Potential\n\n\n\\(\\mathcal{A} =\\) Magnetic Potential\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(g_0 =\\) Gas constant\n\\(m =\\) mass\n\n\n\\(q =\\) charge\n$\\(n =\\) amount of objectes (particles density \\(n=\\frac{N}{V}\\)), \\(n=2\\) and \\(f=1\\)\n\n\n\\({\\epsilon}_0 =\\) electric constant\n\\(f = 3n \\pm z =\\) degrees of freedom, \\(f=1\\) and \\(n=2\\)\n\n\n\\({\\mu}_0 =\\) magnetic constant\n\\(\\mathcal{B} =\\) Magnetic Field\n\n\n\\(\\mathcal{E} =\\) Electric Field\nH\\(\\mathcal{C} = m \\cdot c_0 = \\frac{\\Delta H}{\\Delta T}  =\\) heat capacity\n\n\n\\(c_0 = \\frac{1}{m}\\frac{\\Delta H}{\\Delta T} =\\) specific heat\n\\(S = b_0 \\cdot \\ln(\\Omega) =\\) Entropy (macro state)\n\n\n\\(l =\\) Moll quantity\n\\(\\Omega =\\) micro states\n\n\n\\(z =\\) amount of constraints (boundry conditions)\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(\\kappa = \\frac{c_P}{c_V} = \\frac{f+2}{f} =\\) adiabaty\n\\(\\iota = \\kappa\\) ↔︎ adiabat\n\n\n\\(\\iota = 0\\) ↔︎ isobar\n\\(\\iota = 1\\) ↔︎ isotherm\n\n\n\\(\\iota = \\infty\\) ↔︎ isochor\n…\n\n\n…\n…"
+  },
+  {
+    "objectID": "Content/acronyms.html#sec-acroworkenergy",
+    "href": "Content/acronyms.html#sec-acroworkenergy",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "\\(A =\\) Action\n\\(E = E_{kin} + E_{pot} =\\) total energy\n\n\n\\(t =\\) time\n\\(r =\\) dpace (distance between two points, one-dimensional length)\n\n\n\\(v =\\) velocity\n\\(c =\\) light speed\n\n\n\\(p =\\) momentum\n\\(F =\\) force\n\n\n\\(I =\\) inertia\n\\(\\mathcal{L} =\\) Lagrangian\n\n\n\\(\\mathcal{H} =\\) Hamiltonian\n\\(\\mathcal{K} =\\) kinetic Energy\n\n\n\\(\\mathcal{U} =\\) effective potential Energy (\\(\\in E_{pot}\\))\n\\(\\mathcal{V} =\\) potential Energy (\\(\\in E_{pot}\\))\n\n\n\\(\\mathcal{Z} = \\frac{1}{2}\\frac{L_0^2}{mr^2} =\\) Centrifugal Potential\n\\(V = r_1 \\cdot r_2 \\cdot r_3 =\\) Volume\n\n\n\\(\\mathcal{k} =\\) Wave Vector (“curvature”)\n\\(W =\\) Work (done vs. received)\n\n\n\\(P =\\) Pressure\n\\(L_0 =\\) angular momentum\n\n\n\\(T =\\) endogen Temperature\n\\(H =\\) exogen Heat\n\n\n\\(U =\\) endogen Energy (\\(E_{kin} + E_{pot}\\))\n\\(\\Phi = \\frac{\\mathcal{V}}{q} =\\) Electric Potential\n\n\n\\(\\mathcal{A} =\\) Magnetic Potential\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(g_0 =\\) Gas constant\n\\(m =\\) mass\n\n\n\\(q =\\) charge\n$\\(n =\\) amount of objectes (particles density \\(n=\\frac{N}{V}\\)), \\(n=2\\) and \\(f=1\\)\n\n\n\\({\\epsilon}_0 =\\) electric constant\n\\(f = 3n \\pm z =\\) degrees of freedom, \\(f=1\\) and \\(n=2\\)\n\n\n\\({\\mu}_0 =\\) magnetic constant\n\\(\\mathcal{B} =\\) Magnetic Field\n\n\n\\(\\mathcal{E} =\\) Electric Field\nH\\(\\mathcal{C} = m \\cdot c_0 = \\frac{\\Delta H}{\\Delta T}  =\\) heat capacity\n\n\n\\(c_0 = \\frac{1}{m}\\frac{\\Delta H}{\\Delta T} =\\) specific heat\n\\(S = b_0 \\cdot \\ln(\\Omega) =\\) Entropy (macro state)\n\n\n\\(l =\\) Moll quantity\n\\(\\Omega =\\) micro states\n\n\n\\(z =\\) amount of constraints (boundry conditions)\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(\\kappa = \\frac{c_P}{c_V} = \\frac{f+2}{f} =\\) adiabaty\n\\(\\iota = \\kappa\\) ↔︎ adiabat\n\n\n\\(\\iota = 0\\) ↔︎ isobar\n\\(\\iota = 1\\) ↔︎ isotherm\n\n\n\\(\\iota = \\infty\\) ↔︎ isochor\n…\n\n\n…\n…"
+  },
+  {
+    "objectID": "Content/acronyms.html#sec-acroeconom",
+    "href": "Content/acronyms.html#sec-acroeconom",
+    "title": "PHYSECON",
+    "section": "2 Acronyms of Economy: ?@sec-productivityvalue",
+    "text": "2 Acronyms of Economy: ?@sec-productivityvalue\n\n\n\n\n\n\n\n\\(T =\\) Taxes\n\\(M =\\) Import of Goods and Services from foreing symstes\n\n\n\\(G =\\) Governent Expenses, incl. Social Insurances\n\\(X =\\) Export of Goods and Services to foreign system\n\n\n\\(Y =\\) Income of Economy from Turnover\n\\(G_A =\\) Governental Subsidies\n\n\n\\(D_A =\\) Depreciations (Reinvestments) on Assets\n\\(V_N =\\) Net Naötional Production, Society NNP\n\n\n\\(N =\\) Monetary Quantity\n\\(Q =\\) Monetary Turnover Velocity\n\n\n\\(V_I =\\) Gross Domestic Product GDP = \\(\\frac{Output}{Input}\\), Tradevolume\n\\(P =\\) Price niveau (Inflation adjusted Value)\n\n\n\\(L =\\) Wages from Labor Work (Salaries, …)\n\\(R =\\) Returns, Earnings, Gains\n\n\n\\(Y_A =\\) Income of priv. Business Households (Companies, Services, Real Estate Rentals, Retained Profits)\n\\(Y_H =\\) Income from priv. Capital Households (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)\n\n\n\\(T_A=\\) Tax on Capital of Corprate Compaies (Business Assets)\n\\(Y_G =\\) Governmental Income from Assets, Services, Social Institutions/Insurances\n\n\n\\(Z_G =\\) Interests on Governmental Debt\n\\(V_S =\\) Gross National Produkt, Society GNP\n\n\n\\(I =\\) Investments on Assets, incl. Storage Change\n\\(R_M =\\) Capital Earnings and Wages from Abroad (from Foreign System)\n\n\n\\(R_X\\) Capital Earnings and Wages to Abroad (to Foreign System)\n\\(W =\\) Expensens, costs from human and machinary work efforts"
+  },
+  {
+    "objectID": "Content/2pi.html",
+    "href": "Content/2pi.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Periodicity (Cyclicity), cyclicity repeats within \\(\\lim\\) (rotational, closed loop inside restricted band), transcendency passes only once (tangential, linear infinit):\n\\[\\begin{split} &\n2\\pi =\nk\\lambda =\n\\mathcal{T}\\omega =\n\\frac{\\omega}{\\nu} =\nk \\frac{c}{\\nu} =\n\\frac{\\Delta\\varphi}{\\Delta s} \\frac{c}{\\nu} =\n\\frac{\\Delta\\varphi}{n} =\n\\frac{u}{r} =\n\\frac{h}{\\hbar}  =\n2 \\frac{\\mathscr{M}_B}{\\mathscr{L}_B}  \\\\&\n= \\left( \\frac{\\pi}{2} - \\alpha \\right) + \\alpha + \\left( \\frac{\\pi}{2} - \\beta \\right) + \\beta + \\pi    \\\\&\n= 360^{\\circ} =\n12 \\ hours \\ (half \\ day) =\n12 \\ music \\ notes \\ (one \\ octave)\n\\end{split} \\tag{1}\\]\nwhere:\n\\(\\alpha \\coloneqq\\) irradiaton angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)\n\\(\\beta \\coloneqq\\) refraction angle for bented transmitted radiation \\(A_{t}\\) orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)\n\\(\\mathscr{M}_B \\coloneqq\\) Blackbody Radiant Exitance \n\\(\\mathscr{L}_B \\coloneqq\\) Blackbody Radiance \nOrientation of Radiation:\n\n\n\nRadiation\n\n\n\\(\\vartheta =\\) reflection angle for redirected radiation \\(A_{r\\parallel}\\) parallel to \\(\\alpha\\) from matter \n\\(\\theta =\\) diffraction angle for redirected radiation \\(A_{r\\perp}\\) orthogonal to \\(\\alpha\\) from matter \n\\(\\varpi = \\beta_1 + \\beta_2 =\\) angle of converging body surfaces (point tip of prismic medium), spread angle of prism\n\\(\\varsigma =\\) deviation angle of redirected ray beam after refraction (transmission) and diffraction\n\\(u_g =\\) aperture angle (acceptance) from sender source (at distance \\(g\\))\n\\(w_b =\\) inclination angle at observer receiver (at distance \\(b\\))\n\\(\\varepsilon =\\) visual angle from observer/receiver (of eye)",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Periodicity"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "Content/abstract.html",
+    "href": "Content/abstract.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "An exploratory attempt …\nInterconnection network between movement, force, momentum, energy, and work. Describing systems with Lagrangian and Hamltonian when constraints and starting conditions exist. Modeling systems and optimisation with constraints and conditions. Interwoven system of macro- and microeconomie under constraints, limitations, and conditions."
+  },
+  {
+    "objectID": "Content/constraints.html",
+    "href": "Content/constraints.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Constraints:\n\ninitial state, starting conditions\nacting boundary conditions (to move within): e.g. demography, economical and political stability, labor force, education and know-how, health and technological level\naccess to limited resources: e.g. chemical elements, minerals, fuels, commodities, trade and transportations, etc.\ncontractual agreements and covenants, legal assurance\njuristic law framework\n\nModelling movement (change of state) under constraints:\n\nMovement ist charecterized by change of energy, Lagrangian \\(\\mathcal{L} \\neq 0\\): \\[\\begin{split} &\n\\mathcal{L} = \\mathcal{K} - \\mathcal{U}\n\\qquad\n\\frac{\\partial \\mathcal{L}}{\\partial r} = F\n\\qquad\n\\frac{\\partial \\mathcal{L}}{\\partial v} = p\n\\end{split} \\tag{1}\\]\nMovement happens within constraints of forces. Constrains are observable, whereas forces might be unknown. Therefore, \\(r\\) can be determined from \\(\\mathcal{L}\\) (Energy and Work) of the system at rest \\(F=0\\), instead than from “searching” all acting forces \\(F_i\\). In general, unknow forces at motion are defined by solving the Eigenvalueproblem. Solving for \\(\\mathcal{L}\\) at equilibirium: \\[\\begin{split} &\nF_{total} = \\hat{F_i} + \\tilde{F_i} = \\hat{F_i} + \\sum_{k=1}^{s_d} \\lambda_k a_{ki} = \\frac{d}{dt} \\left( \\frac{\\partial \\mathcal{L}}{\\partial v_i} \\right) - \\frac{\\partial \\mathcal{L}}{\\partial r_i}\n= \\begin{cases}\n= 0    : \\text{ Equilibrium} \\\\\n\\neq 0 : \\text{ Movement}\n  \\end{cases}\n\\end{split} \\tag{2}\\]\nand at same time solving for constraining conditions that hold the system at rest (equilibrium): \\[\\begin{split} &\n\\sum_{l=1}^f a_{kl} v_l + b_k = 0\n\\end{split} \\tag{3}\\]\nRest is characterized by unchanged energy, Hamiltonian \\(\\mathcal{H} = E_{kin} + E_{pot} = const.\\). There is movement from state of rest if the new \\(\\mathcal{H} \\neq 0\\) differs from the initial one. Using the found solution for the Lagrangian \\(\\mathcal{L}\\) containing the constraints, the Hamiltonian for the energy is deduced: \\[\\begin{split} &\n\\mathcal{H} = \\sum_i p_i v_i - \\mathcal{L} = pv - \\mathcal{L}  = Fr - \\mathcal{L} = W - \\mathcal{L}  = (\\Delta E - \\Delta H) - \\mathcal{L}\n\\end{split} \\tag{4}\\]\nChange of state/position is characterized by movement. Eventually, by solving the new system of differential equations, from the found solution of the energy \\(\\mathcal{H}\\), the set \\({r,v,p}\\) which describe the movement (and thus the change of state), is deduced: \\[\\begin{split} &\n\\dot r_i = v_i = \\frac{\\partial\\mathcal{H}}{\\partial p_i}   \\qquad\n\\dot p_i = F_i = - \\frac{\\partial\\mathcal{H}}{\\partial r_i}\n\\end{split} \\tag{5}\\]\n\nsee description of “work” ?@eq-workgeom\nwhere:\n\\(s_d =\\) constraints   \\(i = 1,...,f =\\) dedrees of freedom   \\(k = 1,...,s_d =\\) constraints\n\\(\\hat{F_i} =\\) known constraining forces   \\(\\tilde{F_i} = \\sum_{k=1}^{s_d} \\lambda_k a_{ki} =\\) unknown constraining forces\n\\(\\lambda_k(t) =\\) Eigenvalues for transformation of reference system\n\\(a_{ki} =\\) Eigenvectors of transformation matrix\n\\(\\lambda_k \\cdot \\vec r_i = \\lambda_k \\cdot \\left[ a_{ki} \\right]_{matrix}\\)"
+  },
+  {
+    "objectID": "Content/econom.html",
+    "href": "Content/econom.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Society’s living requires:\n\n“Resources” are processed to create goods to be consumed\n“Labor” is used to process goods and services\n“Capital” intermediates value between goods and services\n\nSociety organizes in groups of households:\n\nnatural households\njuristic corporations\ngovernmental institutions\n\nHouseholds cooperate though exchange (trade) of goods and services between “Demand” and “Supply” using monetary valuation:\n\nGoods Market Production, Inventory, Trade \\(\\rightarrow\\) “Price” for value of production\nLabor Market Employment, Demographic Structure, Work Capabilities \\(\\rightarrow\\) “Wage” for value of labor\nCapital Market Savings, Investments, Exchange \\(\\rightarrow\\) “Interest” for value of capital\n\n\nacronyms see ?@sec-acroeconom\n\n\nSupply is provided by the income \\(Y\\):\n\\[\\begin{split} &\nY = L  + Y_H + Y_A + T_A + Y_G - Z_G\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\nY = C + S + T + M - X\n\\end{split} \\tag{2}\\]\nDemand is satisfied by the production \\(V_I\\):\n\\[\\begin{split} &\nV_I = C + I + G + X - M\n\\end{split} \\tag{3}\\]\nEquilibrium:\n\\[\\begin{split} &\nY = V_I       \\\\&\nL - C = S = I        \\\\&\nC + S = L        \\\\&\nC + I = R\n\\end{split} \\tag{4}\\]\nDomestic Production & International Trade:\n\\[\\begin{split} &\nV_S = Y + T - G_A + D_A\n\\end{split} \\tag{5}\\]\n\\[\\begin{split} &\nV_N = V_S - D_A\n\\end{split} \\tag{6}\\]\n\\[\\begin{split} &\nV_I = V_S - R_M + R_X\n\\end{split} \\tag{7}\\]\nMonetary Value of Production:\n\\[\\begin{split} &\nP \\cdot V_I = Q \\cdot N\n\\end{split} \\tag{8}\\]\nMacro Productivity: \\[\\begin{split} &\nProductivity = \\frac{Output}{Input} = \\frac{V_I}{Y}\n\\end{split} \\tag{9}\\]\n\n\nWe track production at microeconomic level through (acronyms see ?@sec-acroeconom):\n\\(A =\\) Assets represent “Property Capital” which consist of “Current Capital” and “Structural Capital”. Those investments are required for the production processes.\n\\(B =\\) Liabilities represent “Financial Capital” which consist of “Exogen Funds” and “Endogen Funds”. Later includes “Equity Capital” and “Retained Gains”. Those funds do finance Assets.\n\\(W =\\) Expenses represent “Work Efforts” to “Supply Production” with use of Assets.\n\\(Y =\\) Income represents “Received Earnings” achieved with production to “Satisfy Demand”. Parts of the gains will be retained to finance Assets.\n\\(R =\\) Gain, Profit or Loss from executed work (resultant value from input efforts) is represented by \\(R = Y - W\\)\nThe “transfer of energy” between all subsystems is mapped in balancing out theirs capital (usage of capital for production though possessed assets): \\(A = B + R\\)\nMicro Productivity: \\[\\begin{split} &\nProductivity = \\frac{Output}{Input} = \\frac{Y}{W}\n\\end{split} \\tag{10}\\]"
+  },
+  {
+    "objectID": "Content/economy_micro.html",
+    "href": "Content/economy_micro.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "MICRO ECONOMY: Supply, Demand, Equilibrium, Pricing, Elasticity, Utiliy, Production & Cost, Labor, Aggregates …\nHow individuals and companies make decisions to allocate scarce resources.\nAssets = Property Capital (substance of matter, object movement/change)\nLiabilities = Financial Capital (space of movement, maneuverability)\nExpenses = Costa of Work through labor force and machines\nIncome = Earnings from sales of goods & services\n\n\\(f_A(Assets) = f_L(Liabilities)\\) = “momentum” \\(p\\) from initial state \\(r_0\\) to new state \\(r_1\\), and “state change” = \\(r = r_1 - r_0\\)\n\n\nacronyms see ?@sec-acroecomicro\n\n\nacronyms\n\n\n- | - |\n\\(A =\\) Assets | \\(L =\\) Liabilities\n\\(X =\\) Expenses | \\(S =\\) Financial Leverage (Verschuldungsgrad)\n\\(I =\\) Income | \\(E =\\) Equity\n\\(Y =\\) Yield, Gain, Return, Earning, Profit | \\(Q =\\) Liquidity\n\\(D =\\) Debit | \\(C =\\) Credits\n\\(G =\\) G&A General & Administration | \\(E_T =\\) EBIT\n\\(E_D =\\) EBITDA | \\(U =\\) Productitivy\n\\(P =\\) Profitability | \\(R_E =\\) ROE\n\\(R_A =\\) ROA | \\(R_I =\\) ROI\n\\(F =\\) Cash Flow (CF) | \\(F_F =\\) Free CF\n\\(W =\\) WACC | \\(V =\\) NPV\n\\(B =\\) DB Deckungsbeitrag | \\(N =\\) NUV (Nettoumlaufsvermögen)\n$ =$ … | $ =$ …"
+  },
+  {
+    "objectID": "Content/hypothesis.html",
+    "href": "Content/hypothesis.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Conjecture of ?@eq-moneyquant and ?@eq-workthermal\nHow consistently map economic measures to the quantities of nature to model the economical system?\nInput: \\[\\begin{split} &\nInput = f_0(Resouces, Labor, Capital) \\text{ = Work = } \\Delta\\text{Energy} = p \\cdot v\n\\end{split} \\tag{1}\\]\nOutput: \\[\\begin{split} &\nOutput \\text{ = Goods + Services = Production = } \\Delta\\text{State} = V_I\n\\end{split} \\tag{2}\\]\nProductivity: \\[\\begin{split} &\nProductivity = \\frac{Output}{Input} = \\frac{\\Delta State}{\\Delta Energy} = \\frac{Production}{Work} = \\frac{V_I}{pv}\n\\end{split} \\tag{3}\\]\nsee description of “movement” ?@eq-movement\n\n\n\n\n\n\n\nTable 1: Core Measurements\n\n\n\n\n\n\n\n\n\n\n\n\nEconomy\n\\(\\rightarrow\\)\n\n\\(\\leftarrow\\)\nPhysics\n\n\n\n\nResources\nAssets\n\nForce\nMatter\n\n\nCapital\nLiabilities\n\nMomentum\nSpace\n\n\nLabor\nExpenses\n\nWork\n\n\n\n\nIncome\nProduction\nEnergy\nTime\n\n\n\n\n\n\n\n\n\nAs a first approach, considering the geometrical perspective of the concept of “work” (?@eq-workgeom), applied to economical measurements, so to satisfy the following system:\n\\(f_A(Assets) = f_B(Liabilities + Gain)\\) = “momentum” \\(p\\) from initial state \\(r_0\\) to new state \\(r_1\\), where the change of state is \\(r = r_1 - r_0\\)\nMatter substance, object movement/change: \\[\\begin{split} &\nA = f_A = F \\cdot t = p\n\\end{split} \\tag{4}\\]\nSpace of movement, maneuverability: \\[\\begin{split} &\nB + R = f_B = m \\cdot v = p\n\\end{split} \\tag{5}\\]\nWork input (efforts, costs) through labor force, machines and infrastructure applied, and materials consumed for production: \\[\\begin{split} &\nW = f_0 = F \\cdot r = m \\cdot \\frac{v}{t} \\cdot r = p \\cdot v\n\\end{split} \\tag{6}\\]\nEnergy transfer, energy change, profit or loss: \\[\\begin{split} &\nY = \\Delta E = \\frac{1}{2} pv + \\mathcal{U}\n\\end{split} \\tag{7}\\]\nProduction value inflation adjusted: \\[\\begin{split} &\nP \\cdot V_I = \\sum Y_{adjust} = \\sum (W + R)_{adjust} = \\Delta U - \\Delta H = Q \\cdot N\n\\end{split} \\tag{8}\\]\nsee ?@eq-workthemostat and ?@eq-workgeom\nThus, to be determined are \\(v\\) (economy velocity) and \\(p\\) (financial structure). Eventually, determine \\(r\\) = “state change through trajectory” (substance change to the new assets structure) by given \\(v\\) = “velocity of movement” (Business speed = monetary value, price with inflation), or determine \\(v\\) by given \\(r\\). The individual positions \\(\\{ i,j,l,m \\}\\) of Liabilities \\(\\{ B_i + R_j \\}_k\\), Assets \\(\\{ A_m \\}_k\\), and Expenses \\(\\{ W_l \\}_k\\) shall be grouped in sets \\(\\{ k \\}\\), so to satisfy \\(f_k(i,j) = f_k(m) = f_k(l) = \\{ pv \\}_k\\).\nThe constraints shall be modelled with the Lagrangian. Hence, “Work” shall be derived from the Hamiltonian which leads to the identification of the “movement” (= change, transformation) of the trajectory (= path to new state) with \\(\\dot r = v\\) and \\(\\dot p = F\\).\nExperiment design: \\(p\\) and \\(v\\) are modelled ex-ante with means of CONSTRAINTS from contractual agreement and from given juristic legislation, in such a way that physics laws are satisfied. Decisions making occure within this ex-ante frame."
+  },
+  {
+    "objectID": "Content/lightspeed.html",
+    "href": "Content/lightspeed.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Velocity - Movement of Matter in Space and Time\nMatter and Vacuum - Refraction, max. Phasevelocity\nLightspeed, Groupvelocity max.: \n\\[\\begin{split} &\nc =\n\\frac{1}{ { \\sqrt{\\epsilon_0 \\mu_0} } } =\n\\frac{|\\mathscr{E}|}{|\\mathscr{B}|} =\n\\frac{\\omega}{k} =\\frac{\\lambda}{\\mathcal{T}} =\n\\nu \\lambda =\n- \\frac{d\\lambda}{d\\nu} \\nu^2 \\\\&\n= \\lambda^2 \\frac{\\mathscr{J}_{\\lambda}}{\\mathscr{J}_{\\nu}} =\n\\frac{\\langle|\\mathscr{S}|\\rangle}{\\langle \\textnormal{w}_{EM}\\rangle} =\nv_{gr}^{max} \\le v_{ph} - \\lambda \\frac{d}{d\\lambda}v_{ph} =\n\\frac{d}{dk}\\omega =\nv_{gr}\n\\end{split} \\tag{1}\\]\n\\(c_{ph} = \\frac{c}{\\eta}\\)\nwhere:\n\\(\\mathscr{J} \\equiv\\) Flux Density \n\\(\\mathscr{S} \\equiv\\) Pyinting-Vector\n\\(\\textnormal{w}_{EM} \\equiv\\) Energy Densitix ElectroMagnetic\n\\[\nc^2 =\nv_{phase} \\cdot v_{matter} =\n\\varepsilon\\mu\\eta^2 =\n\\varepsilon_0\\varepsilon_r\\mu_0\\mu_r\\eta^2\n\\]",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Velocity - Movement of Matter in Space and Time"
+    ]
+  },
+  {
+    "objectID": "Content/motion.html",
+    "href": "Content/motion.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "motion of matter in space and time\nchange of state\ndisplacement\ndiffusion\ndissipation ad refraction\ndistance, velocity, momentum, acceleration (curvature), force, energy, work, and action\nisotropy and homomenity\n\nMotion: \\[\\begin{split} &\nr = r(t) = r_x(t_{x}) - r_0(t_{0} ) = \\Delta r(\\Delta t)\n\\\\& \\stackrel{Path}{=}\nState(arrival) - State(start) = Trajectory(Change)\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\nv = \\dot r = \\frac{d}{dt}r\n\\qquad\np = \\frac{1}{v} \\sqrt{E^2 - (mv^2)^2}\n\\qquad\nF = \\dot p = \\frac{d}{dt}p\n\\end{split} \\tag{2}\\]\nEnergy total: \\[\\begin{split} &\nE = Motion_{Energy} + Rest_{Energy} = E_{kin} + E_{pot}\n\\end{split} \\tag{3}\\]"
+  },
+  {
+    "objectID": "Content/prefooter.html",
+    "href": "Content/prefooter.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "see also @wachter_compendium_2005"
+  },
+  {
+    "objectID": "Content/refraction.html",
+    "href": "Content/refraction.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Refraction for identifying matter (property of matter):\n\\[\\begin{split} &\n\\eta\n\\stackrel{opt.}{=}\n\\frac{sin(\\alpha)}{\\sin(\\beta)} =\n\\frac{\\eta_{\\beta}}{\\eta_{\\alpha}}\n\\stackrel{prism}{=}\n\\frac{ \\sin[\\frac{1}{2}(\\varpi + \\varsigma_{min})] }{ \\sin[\\frac{1}{2}\\varpi ] }\n\\stackrel{phys.}{=}\n\\sqrt{ \\epsilon_r \\mu_r } =\n\\frac{\\lambda_{\\alpha}}{\\lambda_{\\beta}} =\n\\frac{v_{ph,\\alpha}}{v_{ph,\\beta}} =\n\\frac{1}{2} \\frac{\\lambda}{d} \\frac{n}{\\cos(\\beta)} =\n\\sqrt{\\left( \\frac{n}{2} \\frac{\\lambda}{d} \\right)^2 + \\sin(\\alpha)^2}\n\\stackrel{dispersion}{=}\n\\eta(\\lambda) =\n\\eta(\\omega)\n\\stackrel{anisotropy}{=}\n\\eta(r)\n\\end{split} \\tag{1}\\]\n\\[ % \\footnote{Brechkraft}\n\\textnormal{Vacuum } \\iff \\eta=1\n\\newline\nf = Focal Length        \\qquad\nD = Refractive Power (Dioptri)\n\\]\n\\[\nn \\equiv \\textnormal{order (\"Quantum\"): } \\newline\nn =\n\\frac{\\nu}{c} \\Delta s =\n\\frac{\\Delta\\varphi}{2\\pi} =\n2 \\eta \\frac{d}{\\lambda} \\sqrt{\\eta^2 - \\sin(\\alpha)^2} =\n2 \\eta \\frac{d}{\\lambda} \\cos(\\beta) =\n\\frac{q}{e_0}\n\\qquad \\in \\mathbb{N}\n\\]\n\\[\nv^2 =\n\\left( \\frac{\\nu\\lambda}{\\eta} \\right)^2 =\n\\left( \\frac{\\omega}{k \\eta} \\right)^2\n\\]\n\\[\n\\left( \\frac{\\eta}{c} \\right) ^2 =\n\\epsilon \\mu    \\qquad\n\\epsilon = \\epsilon_0 \\epsilon_r    \\qquad\n\\mu = \\mu_0 \\mu_r\n\\]\nwhere:\n\\(\\alpha \\coloneqq\\) irradiaton angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)\n\\(\\beta \\coloneqq\\) refraction angle for bented transmitted radiation \\(A_{t}\\) orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)\nOrientation of Radiation:\n\n\n\nRadiation\n\n\n\\(\\vartheta =\\) reflection angle for redirected radiation \\(A_{r\\parallel}\\) parallel to \\(\\alpha\\) from matter \n\\(\\theta =\\) diffraction angle for redirected radiation \\(A_{r\\perp}\\) orthogonal to \\(\\alpha\\) from matter \n\\(\\varpi = \\beta_1 + \\beta_2 =\\) angle of converging body surfaces (point tip of prismic medium), spread angle of prism\n\\(\\varsigma =\\) deviation angle of redirected ray beam after refraction (transmission) and diffraction\n\\(u_g =\\) aperture angle (acceptance) from sender source (at distance \\(g\\))\n\\(w_b =\\) inclination angle at observer receiver (at distance \\(b\\))\n\\(\\varepsilon =\\) visual angle from observer/receiver (of eye)",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Matter and Refraction"
+    ]
+  },
+  {
+    "objectID": "dummy.html",
+    "href": "dummy.html",
+    "title": "… TOPIC …",
+    "section": "",
+    "text": "Working Notes Draft  UNDER CONSTRUCTION\n\n\n\n\n\n\n\n\nReferences\n\n1. Cockshott WP (2011) Classical Econophysics. Routledge Advances in Experimental; Computable Economics\n\n\n2. Wladyslaw W (2013) Macroeconometric Models, 1st ed. Springer\n\n\n3. Lichtenegger K (2015) Schlüsselkonzepte zur Physik, 1st ed. Springer Spektrum\n\n\n4. Padmanabhan T (2015) Sleeping Beauties in Theoretical Physics, 1st ed. Springer\n\n\n5. Wachter A, Hoeber H (2005) Compendium of Theoretical Physics. Springer\n\n\n6. Carter M (2001) Foundations of Mathematical Economics. The MIT Press\n\n\n7. Michaelides PG (2025) 21 Equations that Shaped the World Economy, 1st ed. Palgrave Macmillan Cham\n\n\n8. Pires da Cruz J (2025) Introduction to the Physics of the Economy and Finance, 1st ed. Springer Cham\n\n\n9. Cass D, Shell K (2014) The Hamiltonian Approach to Dynamic Economics, 1st ed. Elsevier, Academic Press\n\n\n10. Haven E, Khrennikov AI, Robinson T (2017) Quantum Methods in Social Science - A First Course. World Scientific, Publishing Europe Ltd",
+    "crumbs": [
+      "Home",
+      "Synopsis"
+    ]
+  }
+]
