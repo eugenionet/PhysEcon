@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>quant_h – PHYSECON</title>
+<title>probability – PHYSECON</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -366,7 +366,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/Probability.html">Probability</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -546,7 +546,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Content/Probability.html" class="sidebar-item-text sidebar-link">
+  <a href="../Content/Probability.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Probability</span></a>
   </div>
 </li>
@@ -702,36 +702,51 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Quant_h.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Probability.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/Probability.html">Probability</a></li></ol></nav></header>
 
 
 
 
 
-<p>Action Quantum, Planck Constant (Energy-Frequency-Slope): <!-- \index{Plank Constant} \index{Action Quantum} --></p>
-<p><span id="eq-quant_h-1"><span class="math display">\[\begin{split} &amp;
-h =
-\tan(\alpha) =
-\frac{E_{kin}}{\nu_i - \nu_0} =
-\frac{eV_{0i}}{\nu_i - \nu_0}
-\equiv \\&amp;
-\frac{\Delta E}{\nu_0} =
-\frac{W}{\nu_0} =
-\frac{F_{EM} \cdot x}{\nu_0} =
-\hbar k \lambda
+<p>Probability:</p>
+<!-- \input{Physics_incisions_content/Physics_Wavefunction.tex} -->
+<p><span id="eq-probability-1"><span class="math display">\[\begin{split} &amp;
+P =
+\frac{\mathscr{I}}{N \cdot h\nu} dA dt =
+\left| \Psi \right|^2 =
+\Psi^*\Psi
+\stackrel{interference, pathindependent}{=}
+\left| \sum\Psi_i \right|^2 =
+\stackrel{no interference, pathdependent}{=}
+\sum \left| \Psi_i \right|^2
 \end{split} \tag{1}\]</span></span></p>
-<p><span id="eq-quant_h-2"><span class="math display">\[\begin{split} &amp;
-\hbar =
-\frac{\Delta E}{\omega} =
+<p>where: <span class="math inline">\(\mathscr{I} \equiv\)</span> Intensitiy <span class="math inline">\(N \equiv\)</span> particles <span class="math inline">\(A \equiv\)</span> area of incidence orthogonal to movement</p>
+<p>Absorbtion Probability:</p>
+<p><span id="eq-probability-2"><span class="math display">\[\begin{split} &amp;
+\frac{P}{t} :=
+W_{mn} =
+B_{mn} \cdot \frac{N(\nu)}{V} \cdot h\nu =
+B_{mn} \cdot w_\nu(\nu) =
+B_{mn} \cdot \frac{d}{d\nu} w_{EM}
 \end{split} \tag{2}\]</span></span></p>
-<p><span id="eq-quant_h-3"><span class="math display">\[\begin{split} &amp;
-\alpha = \angle( E_{kin}, \nu ) \qquad
-e = \textnormal{electron charge} \qquad \\&amp;
-V_0 = \textnormal{Opposing Potential ($I=0$)} \qquad
-E_{kin}^{max} = eV_0    \qquad
+<p>Stimulated Emission Probability:</p>
+<p><span id="eq-probability-3"><span class="math display">\[\begin{split} &amp;
+\frac{P}{t} =:
+W_{nm} =
+B_{nm} \cdot \frac{N(\nu)}{V} \cdot h\nu =
+B_{nm} \cdot w_\nu(\nu) =
+B_{nm} \cdot \frac{d}{d\nu} w_{EM}
 \end{split} \tag{3}\]</span></span></p>
+<p>Spontaneous Emission Probability:</p>
+<p><span id="eq-probability-4"><span class="math display">\[\begin{split} &amp;
+\frac{P}{t} =:
+W_{nm} =
+A_{nm} =
+\frac{1}{\bar{\tau}}
+\end{split} \tag{4}\]</span></span></p>
+<p>where: <span class="math inline">\(n \equiv\)</span> exited state <span class="math inline">\(m \equiv\)</span> ground state <span class="math inline">\(N \equiv\)</span> particles amount <span class="math inline">\(V \equiv\)</span> Volume <span class="math inline">\(\bar{\tau} \equiv\)</span> mean livetime of state for spontaneous emission <span class="math inline">\(B, A \equiv\)</span> Einsteincoefficients</p>
 
 
 

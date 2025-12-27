@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>quant_h – PHYSECON</title>
+<title>radiation_optic – PHYSECON</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -702,7 +702,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Quant_h.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Radiation_Optic.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
@@ -710,28 +710,24 @@ window.Quarto = {
 
 
 
-<p>Action Quantum, Planck Constant (Energy-Frequency-Slope): <!-- \index{Plank Constant} \index{Action Quantum} --></p>
-<p><span id="eq-quant_h-1"><span class="math display">\[\begin{split} &amp;
-h =
-\tan(\alpha) =
-\frac{E_{kin}}{\nu_i - \nu_0} =
-\frac{eV_{0i}}{\nu_i - \nu_0}
-\equiv \\&amp;
-\frac{\Delta E}{\nu_0} =
-\frac{W}{\nu_0} =
-\frac{F_{EM} \cdot x}{\nu_0} =
-\hbar k \lambda
+<p>Optical Radiation: <!-- \index{Optical Radiation} --></p>
+<p>Deviation angle of ray beam after refraction (transmission) and diffraction:</p>
+<p><span id="eq-angledev"><span class="math display">\[\begin{split} &amp;
+\varsigma =
+\alpha + arcsin \left[ sin(\varpi) \sqrt{\eta^2-sin^2(\alpha)} - cos(\varpi)sin(\alpha) \right] - \varpi =
+\alpha + \alpha_2 - \varpi
 \end{split} \tag{1}\]</span></span></p>
-<p><span id="eq-quant_h-2"><span class="math display">\[\begin{split} &amp;
-\hbar =
-\frac{\Delta E}{\omega} =
+<p>where <span class="math inline">\(\varpi = \beta + \beta_2 = const.\)</span></p>
+<p>Minimal aberration (minimal projection error):</p>
+<p><span class="math inline">\(\varsigma = \varsigma_{min} \Longleftrightarrow\)</span></p>
+<p><span id="eq-abererr"><span class="math display">\[\begin{split} &amp;
+\varsigma_{min} \Longleftrightarrow \\
+\frac{d}{d\alpha} \varsigma = 0
+\ \wedge \\
+\varsigma_{min} =
+2\alpha - \varpi =
+2(\alpha - \beta)
 \end{split} \tag{2}\]</span></span></p>
-<p><span id="eq-quant_h-3"><span class="math display">\[\begin{split} &amp;
-\alpha = \angle( E_{kin}, \nu ) \qquad
-e = \textnormal{electron charge} \qquad \\&amp;
-V_0 = \textnormal{Opposing Potential ($I=0$)} \qquad
-E_{kin}^{max} = eV_0    \qquad
-\end{split} \tag{3}\]</span></span></p>
 
 
 
