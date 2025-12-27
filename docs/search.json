@@ -43,6 +43,13 @@
     "text": "\\(\\exists\\) Work done or received \\(W \\neq 0 \\Rrightarrow \\exists\\) Change of State (“Displacement”, “Deformation”) \\(r \\neq 0\\):\n\\[\\begin{split} &\nE = \\mathcal{K} + \\mathcal{U}  \\qquad  E_{kin} \\coloneqq \\mathcal{K} = \\frac{1}{2}pv   \\qquad   E_{pot} \\coloneqq \\mathcal{U} = \\mathcal{V} + \\mathcal{Z}\n\\end{split} \\tag{1}\\]\nEnergy is conserved in konservative systems; There is no work in closed path between two points (loop) of any shape under path variation, hence the “Principle of Action” applies (extremities of bumps and saddles exist): \\(\\delta A = 0\\)\nPotentials: \\[\\begin{split} &\n\\mathcal{U} = \\mathcal{V} + \\mathcal{Z}\n\\\\&\n\\mathcal{V}\n    \\begin{cases}\n      = \\frac{1}{2} kr^2 : \\text{isotrop harmonical oscilator central field Potential, } \\\\\n        \\qquad \\text{closed bounded path, } \\text{\"spring constant\" } k = m\\omega^2 = 2\\pi \\cdot \\nu  \\\\\n      = -\\frac{1}{r}\\alpha: \\text{gravitational central field Potential, } \\\\\n        \\qquad \\text{closed bounded path, } \\alpha = \\left( \\frac{2\\pi}{\\Delta \\varphi} \\right)^2 = const. \\\\\n      \\sim \\frac{1}{r}e^{\\mu r} : \\text{Yukawa Potential}, \\text{\"Photon mass\" } m_{\\gamma} = \\mu \\frac{\\hbar}{c} \\\\\n      ...\n    \\end{cases}\n\\end{split} \\tag{2}\\]\nCentrifugal Potential: \\[\\begin{split} &\n\\mathcal{Z} = \\frac{1}{2} \\frac{1}{m} \\left( \\frac{L_0}{r} \\right)^2 \\text{, angular momentum}=L_0\n\\end{split} \\tag{3}\\]\nWork: \\[\\begin{split} &\nW = \\partial_t A = \\partial_t (E \\cdot t) = \\partial_t (p ⋅ r) = F_1 \\cdot r_1 + p_2 \\cdot v_2 =\n    \\begin{cases}\n      F \\cdot r \\\\\n      p \\cdot v\n    \\end{cases}\n\\end{split} \\tag{4}\\]\nGeometrical:\n\\[\\begin{split} &\nW = F \\cdot r = mr \\cdot a = I ⋅ \\frac{v}{t} =  \\frac{p}{t} ⋅ tv = Ft \\cdot v =  pv = mv^2\n\\end{split} \\tag{5}\\]\nAnalytical:\n\\[\\begin{split} &\n\\mathcal{L} = \\mathcal{L}(r,\\dot r,t) = E_{kin} - E_{pot}\n\\end{split} \\tag{6}\\]\n\\[\\begin{split} &\n\\mathcal{H} = \\mathcal{H}(r,p,t) = \\sum_i^f \\dot r_i p_i - \\mathcal{L}\n\\stackrel{konserv.}{=}\nE_{kin} + E_{pot} = const.\n\\end{split} \\tag{7}\\]\n\\[\\begin{split} &\nA = E \\cdot t = p \\cdot r\n\\stackrel{\\mathcal{H}=0}{=}\n\\int_{t_0}^{t_x} \\mathcal{L} dt\n\\end{split} \\tag{8}\\]\n\\[\\begin{split} &\nW = p \\cdot v = \\mathcal{L} + \\mathcal{H} = (\\mathcal{K} - \\mathcal{U}) + \\mathcal{H}\n\\\\& \\stackrel{konserv.}{=}\n(\\mathcal{K} - \\mathcal{U}) + (\\mathcal{K} + \\mathcal{U}) = (\\mathcal{K} - \\mathcal{U}) + E\n\\end{split} \\tag{9}\\]\nElectro Magnetic:\n\\[\\begin{split} &\nW = \\mathcal{L} + \\mathcal{H} = \\left( \\frac{1}{2}mv^2 - q(\\Phi - \\vec{\\mathcal{A}} \\cdot \\vec{v}) \\right) + \\left( \\frac{1}{2} \\frac{1}{m} (\\vec{p} - q\\vec{\\mathcal{A}})^2 + q\\Phi \\right)\\end{split} \\tag{10}\\]\nRelativistic:\n\\[\\begin{split} &\nW = p \\cdot v = \\frac{v}{c} \\sqrt{E^2 - (mc^2)^2}\n\\end{split} \\tag{11}\\]\nThermal:\n\\[\\begin{split} &\nW = Fr = PV^{\\iota} = T \\cdot V^{\\frac{f+2}{f}} = T \\cdot V^{(\\frac{c_P}{c_V}-1)} = TV^{\\kappa-1}  \\\\&\n= T \\cdot l \\cdot g_0 = T \\cdot n \\cdot b_0 = T \\cdot m \\cdot c_0\n\\end{split} \\tag{12}\\]\nThermo Statistical:\n\\[\\begin{split} &\nW = \\mathcal{L} + \\mathcal{H} = ΔU - ΔH = \\Delta(T \\cdot \\Delta S - P \\cdot \\Delta V) - \\Delta(T\\cdot S)\n\\end{split} \\tag{13}\\]\nQuantistic:\n\\[\\begin{split} &\nW = p \\cdot v = ħ\\mathcal{k} \\cdot ω = ℎν\\mathcal{k} = E\\mathcal{k}\n\\end{split} \\tag{14}\\]\n\\[\\begin{split} &\n\\Delta A = \\Delta p  \\cdot \\Delta r = \\Delta E \\cdot \\Delta t \\ge \\frac{1}{2} \\hbar\n\\end{split} \\tag{15}\\]\n\n\n\nsee description of “movement” ?@eq-movement\nacronyms see ?@sec-acroworkenergy"
   },
   {
+    "objectID": "Content/Wavefunction.html",
+    "href": "Content/Wavefunction.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Wavefunction:\n\\[\\begin{split} &\n\\Psi(x,t) =\nC \\cdot e^{ i(\\omega t - kx) } =\nC \\cdot e^{ \\frac{i}{\\hbar}(Et - pr) }\n\\stackrel{Wavepacket}{=}\nA(x,t) e^{i(\\omega_0 t - k_0 x)} =\n2 C(k_0) \\frac{ sin \\left[\\left( t \\cdot \\left( \\frac{d\\omega}{dk} \\right)_{k_0} - x \\right) \\cdot \\Delta k \\right] }{ \\left( t \\cdot \\left( \\frac{d\\omega}{dk} \\right)_{k_0} - x \\right) } =\n2 C(k_0) \\frac{ sin \\left[\\left( \\omega't - x \\right) \\cdot \\Delta k \\right] }{ \\left( \\omega't - x \\right) } =\n2 C(k_0) \\Delta k \\frac{sin(\\xi)}{\\xi}\n\\end{split} \\tag{1}\\]"
+  },
+  {
     "objectID": "Content/radiation_orientation.html",
     "href": "Content/radiation_orientation.html",
     "title": "PHYSECON",
@@ -50,11 +57,42 @@
     "text": "Orientation of Radiation:\n\n\n\nRadiation\n\n\n\\(\\vartheta =\\) reflection angle for redirected radiation \\(A_{r\\parallel}\\) parallel to \\(\\alpha\\) from matter \n\\(\\theta =\\) diffraction angle for redirected radiation \\(A_{r\\perp}\\) orthogonal to \\(\\alpha\\) from matter \n\\(\\varpi = \\beta_1 + \\beta_2 =\\) angle of converging body surfaces (point tip of prismic medium), spread angle of prism\n\\(\\varsigma =\\) deviation angle of redirected ray beam after refraction (transmission) and diffraction\n\\(u_g =\\) aperture angle (acceptance) from sender source (at distance \\(g\\))\n\\(w_b =\\) inclination angle at observer receiver (at distance \\(b\\))\n\\(\\varepsilon =\\) visual angle from observer/receiver (of eye)"
   },
   {
-    "objectID": "Content/optimization.html",
-    "href": "Content/optimization.html",
+    "objectID": "Content/prefooter.html",
+    "href": "Content/prefooter.html",
     "title": "PHYSECON",
     "section": "",
-    "text": "Framing contracts and jurisdiction ahead to match \\(p = \\text{\"Economy Funds\"}\\) and \\(v = \\text{\"Economy Velocity\"}\\) that can be modelled with typical approaches for fuction \\(z = \\text{\"arrival state\"}\\) depending on \\(x = \\text{\"starting state\"}\\), so that “work” \\(W = F \\cdot r =  F \\cdot (z - x)\\):\n\n\n\n\nTable 1: Modelling Functions\n\n\n\n\n\n\n\n\n\n\nType\nModel\nLinearisation\n\n\n\n\nLinear\n\\(z = a + bx\\)\n\\(z = a + bx\\)\n\n\nGemetric\n\\(z = a \\cdot x^b\\)\n\\(\\log z = \\log a + b \\cdot (\\log x)\\)\n\n\nExponential deca.\n\\(z = a \\cdot b^x\\)\n\\(\\log z = \\log a + (\\log b) \\cdot x\\)\n\n\nExponential nat.\n\\(z = a \\cdot e^{bx}\\)\n\\(\\ln z = \\ln a + bx\\)\n\n\nPeriodical\n\n\n\n\nPolynomial\n\n\n\n\nTaylor\n\n\n\n\n\n\n\n\n\n\nLinear optimization to achieve target states “\\(z, h\\)”:\n\nOneness situaiton modelling:\nminimize efforts = \\(z\\) or maximizie return = \\(z\\)\n\n\\[\\begin{split} &\n\\text{target:}            \\hphantom{min.nstraints:}     z = c^T \\cdot x \\\\&\n\\text{min. constraints:}  \\hphantom{max.}               \\left[ a_{ki} \\right] \\cdot x \\ge b   \\\\&\n\\text{max. constraints:}  \\hphantom{min.}               \\left[ a_{ki} \\right] \\cdot x \\le b   \\\\&\n\\text{condition:}         \\hphantom{max.raints:}        x \\ge 0   \\\\&\n\\end{split} \\tag{1}\\]\n\nDuality situation modelling:\nminimize efforts = \\(z\\) and maximize return = \\(h\\)\n\n\\[\\begin{split} &\n\\text{target min.:}         \\hphantom{ andints:}      z = c^T \\cdot x     \\\\&\n\\text{min. constraints:}    \\hphantom{ and}           \\left[ a_{ki} \\right] \\cdot x \\ge b   \\\\&\n\\text{condition:}           \\hphantom{ andraints:}    x \\ge 0       \\\\&\n\\textit{ and}    \\\\&\n\\text{target max.:}         \\hphantom{ andints:}      h = b^T \\cdot y \\\\&\n\\text{max. constraints:}    \\hphantom{ and}           \\left[ a_{ki} \\right]^T \\cdot y \\le c   \\\\&\n\\text{condition:}           \\hphantom{ andraints:}    y \\ge 0         \\\\&\n\\end{split} \\tag{2}\\]\n\nNormalization:\n\n\\[\\begin{split} &\n\\text{target:}              \\hphantom{min.nstraints:}      z = c^T \\cdot x \\\\&\n\\text{min. constraints:}    \\hphantom{max.}    \\left( \\left[ a_{ki} \\right] - x_{n+k} \\right) \\cdot x = b   \\\\&\n\\text{max. constraints:}    \\hphantom{min.}    \\left( \\left[ a_{ki} \\right] + x_{n+k} \\right) \\cdot x = b   \\\\&\n\\text{condition:}           \\hphantom{max.raints:}    x \\ge 0       \\\\&\n\\end{split} \\tag{3}\\]\n\nSolution with Simplex algorithm\n\nmultilinear and exponential models …"
+    "text": "see also @wachter_compendium_2005"
+  },
+  {
+    "objectID": "Content/Phaseshift.html",
+    "href": "Content/Phaseshift.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Phaseshift:\n\\[\\begin{split} &\n\\Delta\\varphi = \\eta k \\cdot \\Delta d =\n2\\pi \\frac{d}{\\lambda} sin(\\vartheta) =\n2 \\pi \\eta \\frac{2d}{\\lambda} cos(\\beta) =\n2 \\pi \\frac{2d}{\\lambda} \\sqrt{\\eta^2 - sin^2(\\alpha)} =\n2 \\pi n\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Phaseshift"
+    ]
+  },
+  {
+    "objectID": "Content/Period.html",
+    "href": "Content/Period.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Period (time)\n\\[\\begin{split} &\n\\mathcal{T} =\n\\frac{\\lambda}{c} =\n\\frac{2\\pi}{\\omega} =\n\\frac{1}{\\nu}\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Period"
+    ]
+  },
+  {
+    "objectID": "Content/motion.html",
+    "href": "Content/motion.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "motion of matter in space and time\nchange of state\ndisplacement\ndiffusion\ndissipation ad refraction\ndistance, velocity, momentum, acceleration (curvature), force, energy, work, and action\nisotropy and homomenity\n\nMotion: \\[\\begin{split} &\nr = r(t) = r_x(t_{x}) - r_0(t_{0} ) = \\Delta r(\\Delta t)\n\\\\& \\stackrel{Path}{=}\nState(arrival) - State(start) = Trajectory(Change)\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\nv = \\dot r = \\frac{d}{dt}r\n\\qquad\np = \\frac{1}{v} \\sqrt{E^2 - (mv^2)^2}\n\\qquad\nF = \\dot p = \\frac{d}{dt}p\n\\end{split} \\tag{2}\\]\nEnergy total: \\[\\begin{split} &\nE = Motion_{Energy} + Rest_{Energy} = E_{kin} + E_{pot}\n\\end{split} \\tag{3}\\]"
   },
   {
     "objectID": "Content/metric.html",
@@ -76,6 +114,13 @@
     "text": "Nature strives through Physics to behave economical by using its resources in an austere way: Principle of Least Action.\nEconomy - not pre-given by natural laws - is constructed as social set of co-living rules to allocate, distribute and share (natural and non-natural) resources. Ex-ante modelling economic systems by rules (contractual, legislative, judicative, executive).\nThe state (situation, position) of the Economy can be described by e.g. Assets, Liabilities, Expenses, Incomes, Profitability, Productivity, etc.. The Economy changes through time from a state \\(r_0=\\) “start” to a state \\(r_1=\\) “end”. For the state to change, work is applied by processing limited resources (e.g. access to raw materials and availability of intermediate goods), constrained capital (e.g. financial funds, interest rates, and inflation), as well as labor capacity (e.g machines and human force).\nHow can a trajectory \\(r = r_1 - r_0\\) between two states be modelled by work \\(W\\), which is applied for the change of the state to occure: searching the condition by defing target state through “path of chage” \\(=r\\)?\n\\[\\begin{split} &\nr = f(x_i) = \\int A = \\int \\int W = \\int \\int (\\mathcal{L} + \\mathcal{H}) = \\int \\int (\\Delta E - \\Delta H)\n\\end{split} \\tag{1}\\]"
   },
   {
+    "objectID": "Content/hypothesis.html",
+    "href": "Content/hypothesis.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Conjecture of ?@eq-moneyquant and ?@eq-workthermal\nHow consistently map economic measures to the quantities of nature to model the economical system?\nInput: \\[\\begin{split} &\nInput = f_0(Resouces, Labor, Capital) \\text{ = Work = } \\Delta\\text{Energy} = p \\cdot v\n\\end{split} \\tag{1}\\]\nOutput: \\[\\begin{split} &\nOutput \\text{ = Goods + Services = Production = } \\Delta\\text{State} = V_I\n\\end{split} \\tag{2}\\]\nProductivity: \\[\\begin{split} &\nProductivity = \\frac{Output}{Input} = \\frac{\\Delta State}{\\Delta Energy} = \\frac{Production}{Work} = \\frac{V_I}{pv}\n\\end{split} \\tag{3}\\]\nsee description of “movement” ?@eq-movement\n\n\n\n\n\n\n\nTable 1: Core Measurements\n\n\n\n\n\n\n\n\n\n\n\n\nEconomy\n\\(\\rightarrow\\)\n\n\\(\\leftarrow\\)\nPhysics\n\n\n\n\nResources\nAssets\n\nForce\nMatter\n\n\nCapital\nLiabilities\n\nMomentum\nSpace\n\n\nLabor\nExpenses\n\nWork\n\n\n\n\nIncome\nProduction\nEnergy\nTime\n\n\n\n\n\n\n\n\n\nAs a first approach, considering the geometrical perspective of the concept of “work” (?@eq-workgeom), applied to economical measurements, so to satisfy the following system:\n\\(f_A(Assets) = f_B(Liabilities + Gain)\\) = “momentum” \\(p\\) from initial state \\(r_0\\) to new state \\(r_1\\), where the change of state is \\(r = r_1 - r_0\\)\nMatter substance, object movement/change: \\[\\begin{split} &\nA = f_A = F \\cdot t = p\n\\end{split} \\tag{4}\\]\nSpace of movement, maneuverability: \\[\\begin{split} &\nB + R = f_B = m \\cdot v = p\n\\end{split} \\tag{5}\\]\nWork input (efforts, costs) through labor force, machines and infrastructure applied, and materials consumed for production: \\[\\begin{split} &\nW = f_0 = F \\cdot r = m \\cdot \\frac{v}{t} \\cdot r = p \\cdot v\n\\end{split} \\tag{6}\\]\nEnergy transfer, energy change, profit or loss: \\[\\begin{split} &\nY = \\Delta E = \\frac{1}{2} pv + \\mathcal{U}\n\\end{split} \\tag{7}\\]\nProduction value inflation adjusted: \\[\\begin{split} &\nP \\cdot V_I = \\sum Y_{adjust} = \\sum (W + R)_{adjust} = \\Delta U - \\Delta H = Q \\cdot N\n\\end{split} \\tag{8}\\]\nsee ?@eq-workthemostat and ?@eq-workgeom\nThus, to be determined are \\(v\\) (economy velocity) and \\(p\\) (financial structure). Eventually, determine \\(r\\) = “state change through trajectory” (substance change to the new assets structure) by given \\(v\\) = “velocity of movement” (Business speed = monetary value, price with inflation), or determine \\(v\\) by given \\(r\\). The individual positions \\(\\{ i,j,l,m \\}\\) of Liabilities \\(\\{ B_i + R_j \\}_k\\), Assets \\(\\{ A_m \\}_k\\), and Expenses \\(\\{ W_l \\}_k\\) shall be grouped in sets \\(\\{ k \\}\\), so to satisfy \\(f_k(i,j) = f_k(m) = f_k(l) = \\{ pv \\}_k\\).\nThe constraints shall be modelled with the Lagrangian. Hence, “Work” shall be derived from the Hamiltonian which leads to the identification of the “movement” (= change, transformation) of the trajectory (= path to new state) with \\(\\dot r = v\\) and \\(\\dot p = F\\).\nExperiment design: \\(p\\) and \\(v\\) are modelled ex-ante with means of CONSTRAINTS from contractual agreement and from given juristic legislation, in such a way that physics laws are satisfied. Decisions making occure within this ex-ante frame."
+  },
+  {
     "objectID": "Content/finestructure.html",
     "href": "Content/finestructure.html",
     "title": "PHYSECON",
@@ -85,6 +130,30 @@
       "Home",
       "Topics",
       "Finestructure"
+    ]
+  },
+  {
+    "objectID": "Content/Field-B_Magnetic.html",
+    "href": "Content/Field-B_Magnetic.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Magnetic Field:\nLorentz Force: \\[\\begin{split} &\nF_{B} =q(v \\times \\mathscr{B})\n\\end{split} \\tag{1}\\]\nVector Potential:\n\\[\\begin{split} &\nmathscr{A}\n\\end{split} \\tag{2}\\]\n\\[\\begin{split} &\n\\mathscr{B} =\n\\frac{1}{2} \\frac{1}{2\\pi} \\mu_0 \\frac{q}{r^2} \\left( \\vec{v} \\times \\frac{\\vec{r}}{r} \\right) =\n\\nabla \\times \\mathscr{A} \\ne \\frac{\\mathscr{E}}{v}\n\\end{split} \\tag{3}\\]",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Magnetic Field"
+    ]
+  },
+  {
+    "objectID": "Content/Energy_1.html",
+    "href": "Content/Energy_1.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Energy:\n\\[\\begin{split} &\nE = \\overline{W} =  \nE_{kin} + E_{pot} =\nE_{Magn} + E_{Elec}\n\\stackrel{continuum}{=}\n\\frac{1}{2} kT + \\frac{1}{2} kT  =\nkT\n\\stackrel{quantum}{=}\n\\hbar\\omega =\nh\\nu =\n\\stackrel{distribtion}{=}\nh\\nu \\frac{1}{e^{\\frac{h\\nu}{kT}}-1}\n\\stackrel{relativistic}{=}\n\\sqrt{ (pc)^2 + (mc^2)^2 } =\nc \\cdot \\sqrt{ p^2 + (mc)^2 }\n\\end{split} \\tag{1}\\] = linear + rotational + vibration + spin + …?\n\\[\\begin{split} &\nE_{kin}^{max} =\neV_0 =\nh(\\nu - \\nu_0)\n\\end{split} \\tag{2}\\]\nAverage Energy Densitiy (Electromagnetic Intensity and Poynting-Vector): \n\\[\\begin{split} &\n\\langle w_{EM} \\rangle =\n\\frac{1}{2} \\varepsilon_0 (\\mathscr{E}^2 + c^2 \\mathscr{B}^2 ) =\n\\varepsilon_0 \\mathscr{E}^2 + \\frac{1}{\\mu_0}\\mathscr{B}^2 =\n\\frac{1}{c} \\frac{\\mathscr{E \\cdot B}}{\\mu_0} =\n\\frac{1}{c} \\mathscr{I} =\n\\frac{1}{c} \\langle |\\vec{S}| \\rangle\n\\end{split} \\tag{3}\\]\nQuest: What is momentum \\(p\\) if there is no mass, \\(m=0\\) ?\nQuest: Is energy \\(E\\) also the cause for mass \\(m\\), apart from being the ability to do work \\(W\\), \\(\\Delta E = W = F \\cdot x = m \\cdot a \\cdot x = mx \\cdot \\frac{dv}{dt} = mx \\cdot \\frac{d^2x}{dt^2} = M \\cdot \\frac{d^2x}{dt^2}\\) ?\nEnergy manifestation forms: Change (Transfer Movement), Potential (Rest Duration), Temperature, Light, Sound, Mass, Charge, Information, Communication, …\nEnergy Total:\n\\[\\begin{split} &\nE_{Tot} =\nmotion + rest =  \nlinear + rotational + vibration + spin + ... =   \\\\&\nWork + Heatchange = \\left( F \\cdot \\Delta r \\right) \\mp \\Delta Q =\nE_{kin} + E_{pot} =\nE_{magn} + E_{elec} =\npv \\\\&\n\\stackrel{macro (continuum)}{=}     \\\\&\n\\frac{1}{2} \\frac{p^2}{m} =\n\\frac{1}{2} m \\left( \\omega A \\right)^2  \\\\&\n\\stackrel{thermal}{=}\n\\frac{1}{2}fbT\n\\stackrel{micro (quantum)}{=}    \\\\&     \n\\hbar\\omega =\nh\\nu =\n\\frac{1}{2} \\frac{\\left( \\hbar k \\right)^2}{m} =     \n\\stackrel{relativistic}{=}       \\\\&\n\\sqrt{ (pc)^2 + (mc^2)^2 }\n\\stackrel{Entropy}{=}    \\\\&\n...\n\\stackrel{distribtion Fermion}{=}   \\\\&\n...\n\\stackrel{distribtion Boson}{=}   \\\\&\n...\n\\stackrel{distribtion Boltzmann}{=}   \\\\&\n...\n\\end{split} \\tag{4}\\]",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Energy"
     ]
   },
   {
@@ -170,11 +239,47 @@
     "text": "MICRO ECONOMY: Supply, Demand, Equilibrium, Pricing, Elasticity, Utiliy, Production & Cost, Labor, Aggregates …\nHow individuals and companies make decisions to allocate scarce resources.\nAssets = Property Capital (substance of matter, object movement/change)\nLiabilities = Financial Capital (space of movement, maneuverability)\nExpenses = Costa of Work through labor force and machines\nIncome = Earnings from sales of goods & services\n\n\\(f_A(Assets) = f_L(Liabilities)\\) = “momentum” \\(p\\) from initial state \\(r_0\\) to new state \\(r_1\\), and “state change” = \\(r = r_1 - r_0\\)\n\n\nacronyms see ?@sec-acroecomicro\n\n\nacronyms\n\n\n- | - |\n\\(A =\\) Assets | \\(L =\\) Liabilities\n\\(X =\\) Expenses | \\(S =\\) Financial Leverage (Verschuldungsgrad)\n\\(I =\\) Income | \\(E =\\) Equity\n\\(Y =\\) Yield, Gain, Return, Earning, Profit | \\(Q =\\) Liquidity\n\\(D =\\) Debit | \\(C =\\) Credits\n\\(G =\\) G&A General & Administration | \\(E_T =\\) EBIT\n\\(E_D =\\) EBITDA | \\(U =\\) Productitivy\n\\(P =\\) Profitability | \\(R_E =\\) ROE\n\\(R_A =\\) ROA | \\(R_I =\\) ROI\n\\(F =\\) Cash Flow (CF) | \\(F_F =\\) Free CF\n\\(W =\\) WACC | \\(V =\\) NPV\n\\(B =\\) DB Deckungsbeitrag | \\(N =\\) NUV (Nettoumlaufsvermögen)\n$ =$ … | $ =$ …"
   },
   {
-    "objectID": "Content/hypothesis.html",
-    "href": "Content/hypothesis.html",
+    "objectID": "Content/Energy_2.html",
+    "href": "Content/Energy_2.html",
     "title": "PHYSECON",
     "section": "",
-    "text": "Conjecture of ?@eq-moneyquant and ?@eq-workthermal\nHow consistently map economic measures to the quantities of nature to model the economical system?\nInput: \\[\\begin{split} &\nInput = f_0(Resouces, Labor, Capital) \\text{ = Work = } \\Delta\\text{Energy} = p \\cdot v\n\\end{split} \\tag{1}\\]\nOutput: \\[\\begin{split} &\nOutput \\text{ = Goods + Services = Production = } \\Delta\\text{State} = V_I\n\\end{split} \\tag{2}\\]\nProductivity: \\[\\begin{split} &\nProductivity = \\frac{Output}{Input} = \\frac{\\Delta State}{\\Delta Energy} = \\frac{Production}{Work} = \\frac{V_I}{pv}\n\\end{split} \\tag{3}\\]\nsee description of “movement” ?@eq-movement\n\n\n\n\n\n\n\nTable 1: Core Measurements\n\n\n\n\n\n\n\n\n\n\n\n\nEconomy\n\\(\\rightarrow\\)\n\n\\(\\leftarrow\\)\nPhysics\n\n\n\n\nResources\nAssets\n\nForce\nMatter\n\n\nCapital\nLiabilities\n\nMomentum\nSpace\n\n\nLabor\nExpenses\n\nWork\n\n\n\n\nIncome\nProduction\nEnergy\nTime\n\n\n\n\n\n\n\n\n\nAs a first approach, considering the geometrical perspective of the concept of “work” (?@eq-workgeom), applied to economical measurements, so to satisfy the following system:\n\\(f_A(Assets) = f_B(Liabilities + Gain)\\) = “momentum” \\(p\\) from initial state \\(r_0\\) to new state \\(r_1\\), where the change of state is \\(r = r_1 - r_0\\)\nMatter substance, object movement/change: \\[\\begin{split} &\nA = f_A = F \\cdot t = p\n\\end{split} \\tag{4}\\]\nSpace of movement, maneuverability: \\[\\begin{split} &\nB + R = f_B = m \\cdot v = p\n\\end{split} \\tag{5}\\]\nWork input (efforts, costs) through labor force, machines and infrastructure applied, and materials consumed for production: \\[\\begin{split} &\nW = f_0 = F \\cdot r = m \\cdot \\frac{v}{t} \\cdot r = p \\cdot v\n\\end{split} \\tag{6}\\]\nEnergy transfer, energy change, profit or loss: \\[\\begin{split} &\nY = \\Delta E = \\frac{1}{2} pv + \\mathcal{U}\n\\end{split} \\tag{7}\\]\nProduction value inflation adjusted: \\[\\begin{split} &\nP \\cdot V_I = \\sum Y_{adjust} = \\sum (W + R)_{adjust} = \\Delta U - \\Delta H = Q \\cdot N\n\\end{split} \\tag{8}\\]\nsee ?@eq-workthemostat and ?@eq-workgeom\nThus, to be determined are \\(v\\) (economy velocity) and \\(p\\) (financial structure). Eventually, determine \\(r\\) = “state change through trajectory” (substance change to the new assets structure) by given \\(v\\) = “velocity of movement” (Business speed = monetary value, price with inflation), or determine \\(v\\) by given \\(r\\). The individual positions \\(\\{ i,j,l,m \\}\\) of Liabilities \\(\\{ B_i + R_j \\}_k\\), Assets \\(\\{ A_m \\}_k\\), and Expenses \\(\\{ W_l \\}_k\\) shall be grouped in sets \\(\\{ k \\}\\), so to satisfy \\(f_k(i,j) = f_k(m) = f_k(l) = \\{ pv \\}_k\\).\nThe constraints shall be modelled with the Lagrangian. Hence, “Work” shall be derived from the Hamiltonian which leads to the identification of the “movement” (= change, transformation) of the trajectory (= path to new state) with \\(\\dot r = v\\) and \\(\\dot p = F\\).\nExperiment design: \\(p\\) and \\(v\\) are modelled ex-ante with means of CONSTRAINTS from contractual agreement and from given juristic legislation, in such a way that physics laws are satisfied. Decisions making occure within this ex-ante frame."
+    "text": "Energy manifestation forms: Change (Transfer Movement), Potential (Rest Duration), Temperature, Light, Sound, Mass, Charge, Information, Communication, …\nEnergy Total:\n\\[\\begin{split} &\nE_{Tot} =\nmotion + rest =  \nlinear + rotational + vibration + spin + ... =   \\\\&\nWork + Heatchange = \\left( F \\cdot \\Delta r \\right) \\mp \\Delta Q =\nE_{kin} + E_{pot} =\nE_{magn} + E_{elec} =\npv \\\\&\n\\stackrel{macro (continuum)}{=}     \\\\&\n\\frac{1}{2} \\frac{p^2}{m} =\n\\frac{1}{2} m \\left( \\omega A \\right)^2  \\\\&\n\\stackrel{thermal}{=}\n\\frac{1}{2}fbT\n\\stackrel{micro (quantum)}{=}    \\\\&     \n\\hbar\\omega =\nh\\nu =\n\\frac{1}{2} \\frac{\\left( \\hbar k \\right)^2}{m} =     \n\\stackrel{relativistic}{=}       \\\\&\n\\sqrt{ (pc)^2 + (mc^2)^2 }\n\\stackrel{Entropy}{=}    \\\\&\n...\n\\stackrel{distribtion Fermion}{=}   \\\\&\n...\n\\stackrel{distribtion Boson}{=}   \\\\&\n...\n\\stackrel{distribtion Boltzmann}{=}   \\\\&\n...\n\\end{split} \\tag{1}\\]"
+  },
+  {
+    "objectID": "Content/Field-E_Electric.html",
+    "href": "Content/Field-E_Electric.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Electric Field:\n\\[\\begin{split} &\n\\textit{Coulomb Force: }\nF_{E} =\n\\frac{1}{4\\pi\\epsilon_0} \\frac{q_0 \\cdot q}{r^2} \\frac{\\vec{r}}{r}\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\n\\mathscr{E} =\n\\frac{F_{E}}{q_0} =\n\\frac{1}{2}\\frac{1}{2\\pi} \\frac{1}{\\epsilon_0} \\frac{q}{r^2} \\frac{\\vec{r}}{r} =\n-\\nabla U =\nv \\mathscr{B}\n\\end{split} \\tag{2}\\]\nspherical waves of Electric Field from idealized point charge (linear coherent):\n\\[\\begin{split} &\n\\mathscr{E} =\n\\frac{A_0}{r} cos(\\omega t - kr) =\nA_L \\int \\limits_{-D/2}^{D/2} \\frac{1}{r} cos(\\omega t - kr) dD\n\\end{split} \\tag{3}\\]\nReflected Electric Field:\n\\[\\begin{split} &\n\\mathscr{E(\\vartheta)} =\n\\sum\\limits_{n=1}^{N} a_n e^{ i (\\omega t - k r_n) } =\na \\cdot e^{ i (\\omega t - kR) } \\frac{sin(\\frac{N}{2}\\Delta\\varphi)}{sin(\\frac{1}{2}\\Delta\\varphi)} =\nA(\\vartheta) e^{ i( \\omega t - kR ) }\n\\end{split} \\tag{4}\\]\nDifracted Electric Field:\n\\[\\begin{split} &\n\\mathscr{E(\\theta)} =\na \\cdot e^{ i (\\omega t - kR) } \\frac{sin(\\frac{N}{2}\\Delta\\varphi)}{sin(\\frac{1}{2}\\Delta\\varphi)} =\na \\cdot cos(\\omega t - kR) \\frac{sin(\\frac{N}{2}\\Delta\\varphi)}{sin(\\frac{1}{2}\\Delta\\varphi)} =\na \\cdot cos(\\omega t - kR) \\frac{sin(\\frac{N}{2}2\\alpha)}{sin(\\frac{1}{2}2\\alpha)}\n\\stackrel{linear-coherent}{=}\nA_L \\frac{D}{R} \\frac{sin(\\beta)}{\\beta} \\cdot cos(\\omega t - kR) \\frac{sin(\\frac{N}{2} k \\cdot A_L \\frac{D}{R} \\frac{sin(\\beta)}{\\beta} \\cdot sin(\\theta) )}{ sin(\\frac{1}{2} k \\cdot A_L \\frac{D}{R} \\frac{sin(\\beta)}{\\beta} \\cdot sin(\\theta) } =\nA_L \\frac{D}{R} \\frac{sin( \\frac{1}{2}bk )}{ \\frac{1}{2}bk } \\cdot cos(\\omega t - kR) \\frac{sin(\\frac{N}{2} k \\cdot A_L \\frac{D}{R} \\frac{sin( \\frac{1}{2}bk )}{ \\frac{1}{2}bk } \\cdot sin(\\theta) )}{ sin(\\frac{1}{2} k \\cdot A_L \\frac{D}{R} \\frac{sin( \\frac{1}{2}bk )}{ \\frac{1}{2}bk } \\cdot sin(\\theta) }\n\\end{split} \\tag{5}\\]\nwhere:\n\\(A_L = \\frac{1}{D} \\lim\\limits_{N \\rightarrow \\infty}  \\lim\\limits_{A_0 \\rightarrow 0} (N \\cdot A_0)\\)\n\\(A_0 =\\) intrinsic Eigen-Amplitude of charge (“Quellstärke”) emitting radiation due to its movement (vibration)\n\\(D = N \\cdot d\\) = total size of object (binded charges)\n\\(d =\\) distance between objects (charges)\n\\(r =\\) distance from object (charge) location to impact place = ray length\n\\(R = r_{N/2} = r_1 - \\frac{N-1}{2}\\Delta s\\) = average ray length\n\\(N =\\) amount of objects (charges) emitting rays",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Electric Field"
+    ]
+  },
+  {
+    "objectID": "Content/Frequency.html",
+    "href": "Content/Frequency.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Frequency (commonness)\n\\[\\begin{split} &\n\\omega =\n\\frac{d}{dt}\\varphi =\n\\eta kv = kc =\n\\frac{2\\pi}{\\mathcal{T}} =\n2\\pi \\cdot \\nu =\n\\frac{a}{v} =\n\\frac{v}{r} =\n\\frac{E}{\\hbar} =\n\\sqrt{ \\frac{k}{m} } =\n\\sqrt{ \\frac{r \\times F}{m} } =\n\\sqrt{ \\frac{g}{l} }\n\\stackrel{EM}{=}\n... =\n\\sqrt{ \\frac{1}{LC} }\n\\stackrel{QM}{=}\n\\frac{1}{2} \\frac{p^2}{m} \\frac{1}{\\hbar} =\n\\frac{(\\hbar\\vec{k})^2}{2m} \\frac{1}{\\hbar} =   \n\\frac{E}{\\hbar}\n\\stackrel{\\text{time-independent Potential}}{=}  \n\\frac{1}{i\\Psi} \\frac{\\partial \\Psi}{\\partial t} =\n\\frac{1}{2} \\frac{\\hbar}{m} \\cdot \\left[ -\\frac{1}{\\Psi} \\left( \\frac{\\partial^2\\Psi}{\\partial x^2}+\\frac{\\partial^2\\Psi}{\\partial y^2}+\\frac{\\partial^2\\Psi}{\\partial z^2} \\right) \\right] =\n\\frac{\\hbar}{2m} \\vec{k}^2  =\n\\frac{\\hbar}{2m} \\Delta\\Psi(\\vec{r},t) =\ni \\frac{\\partial\\Psi(\\vec{r},t)}{\\partial t}\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\n\\nu =\n\\frac{E}{h} =\n\\frac{v_{phs}}{\\lambda} =\n\\frac{c^2}{v} \\frac{1}{\\lambda} =\n\\frac{\\omega}{k} \\frac{1}{\\lambda} =\n\\frac{\\omega}{2\\pi}\n\\end{split} \\tag{2}\\]\n\\[\\begin{split} &\n\\nu_i =\n\\frac{eV_{0i}}{h} + \\nu_0 =\n\\frac{E_{kin}}{\\hbar} \\omega\\mathcal{T} + \\nu_0\n\\end{split} \\tag{3}\\]\n\\[\\begin{split} &\ne = \\textnormal{electron charge}\n\\qquad\nV_0 = \\textnormal{Opposing Potential ($I=0$)}\n\\\\\n\\textnormal{Energy Level: } i = [1,n] \\in \\mathbb{N}\n\\end{split} \\tag{4}\\]\n\\[\\begin{split} &\nE_{kin}^{max} =\neV_0 =\nh(\\nu - \\nu_0)\n\\end{split} \\tag{5}\\]",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Frequency"
+    ]
+  },
+  {
+    "objectID": "Content/Inertia.html",
+    "href": "Content/Inertia.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Inertia (resistence to movement, decreasing velocity):\n\\[\\begin{split} &\nM = m \\cdot d\n\\end{split} \\tag{1}\\]\nmatter: m = Density \\(\\cdot\\) Volume",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Inertia"
+    ]
   },
   {
     "objectID": "Content/lightspeed.html",
@@ -189,18 +294,54 @@
     ]
   },
   {
-    "objectID": "Content/motion.html",
-    "href": "Content/motion.html",
+    "objectID": "Content/Momentum.html",
+    "href": "Content/Momentum.html",
     "title": "PHYSECON",
     "section": "",
-    "text": "motion of matter in space and time\nchange of state\ndisplacement\ndiffusion\ndissipation ad refraction\ndistance, velocity, momentum, acceleration (curvature), force, energy, work, and action\nisotropy and homomenity\n\nMotion: \\[\\begin{split} &\nr = r(t) = r_x(t_{x}) - r_0(t_{0} ) = \\Delta r(\\Delta t)\n\\\\& \\stackrel{Path}{=}\nState(arrival) - State(start) = Trajectory(Change)\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\nv = \\dot r = \\frac{d}{dt}r\n\\qquad\np = \\frac{1}{v} \\sqrt{E^2 - (mv^2)^2}\n\\qquad\nF = \\dot p = \\frac{d}{dt}p\n\\end{split} \\tag{2}\\]\nEnergy total: \\[\\begin{split} &\nE = Motion_{Energy} + Rest_{Energy} = E_{kin} + E_{pot}\n\\end{split} \\tag{3}\\]"
+    "text": "Momentum (impetus, movement trigger, exitation, cause for effect):\n\\[\\begin{split} &\np =\nm \\cdot v\n\\stackrel{!}{=}\n\\sqrt{ \\left( \\frac{E}{c} \\right)^2 - (mc)^2 } =\n\\sqrt{ \\left( \\frac{\\hbar\\omega}{c} \\right)^2 - (mc)^2 } = \\\\&\n\\sqrt{ \\left( \\frac{h\\nu}{c} \\right)^2 - (mc)^2 } =\n\\sqrt{ \\left( \\frac{h}{\\lambda} \\right)^2 - E_{pot} } =\n\\sqrt{ \\left( \\hbar k \\right)^2 - E_{pot} }\n\\stackrel{rel.}{=}\nk\\hbar\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Momentum"
+    ]
   },
   {
-    "objectID": "Content/prefooter.html",
-    "href": "Content/prefooter.html",
+    "objectID": "Content/optimization.html",
+    "href": "Content/optimization.html",
     "title": "PHYSECON",
     "section": "",
-    "text": "see also @wachter_compendium_2005"
+    "text": "Framing contracts and jurisdiction ahead to match \\(p = \\text{\"Economy Funds\"}\\) and \\(v = \\text{\"Economy Velocity\"}\\) that can be modelled with typical approaches for fuction \\(z = \\text{\"arrival state\"}\\) depending on \\(x = \\text{\"starting state\"}\\), so that “work” \\(W = F \\cdot r =  F \\cdot (z - x)\\):\n\n\n\n\nTable 1: Modelling Functions\n\n\n\n\n\n\n\n\n\n\nType\nModel\nLinearisation\n\n\n\n\nLinear\n\\(z = a + bx\\)\n\\(z = a + bx\\)\n\n\nGemetric\n\\(z = a \\cdot x^b\\)\n\\(\\log z = \\log a + b \\cdot (\\log x)\\)\n\n\nExponential deca.\n\\(z = a \\cdot b^x\\)\n\\(\\log z = \\log a + (\\log b) \\cdot x\\)\n\n\nExponential nat.\n\\(z = a \\cdot e^{bx}\\)\n\\(\\ln z = \\ln a + bx\\)\n\n\nPeriodical\n\n\n\n\nPolynomial\n\n\n\n\nTaylor\n\n\n\n\n\n\n\n\n\n\nLinear optimization to achieve target states “\\(z, h\\)”:\n\nOneness situaiton modelling:\nminimize efforts = \\(z\\) or maximizie return = \\(z\\)\n\n\\[\\begin{split} &\n\\text{target:}            \\hphantom{min.nstraints:}     z = c^T \\cdot x \\\\&\n\\text{min. constraints:}  \\hphantom{max.}               \\left[ a_{ki} \\right] \\cdot x \\ge b   \\\\&\n\\text{max. constraints:}  \\hphantom{min.}               \\left[ a_{ki} \\right] \\cdot x \\le b   \\\\&\n\\text{condition:}         \\hphantom{max.raints:}        x \\ge 0   \\\\&\n\\end{split} \\tag{1}\\]\n\nDuality situation modelling:\nminimize efforts = \\(z\\) and maximize return = \\(h\\)\n\n\\[\\begin{split} &\n\\text{target min.:}         \\hphantom{ andints:}      z = c^T \\cdot x     \\\\&\n\\text{min. constraints:}    \\hphantom{ and}           \\left[ a_{ki} \\right] \\cdot x \\ge b   \\\\&\n\\text{condition:}           \\hphantom{ andraints:}    x \\ge 0       \\\\&\n\\textit{ and}    \\\\&\n\\text{target max.:}         \\hphantom{ andints:}      h = b^T \\cdot y \\\\&\n\\text{max. constraints:}    \\hphantom{ and}           \\left[ a_{ki} \\right]^T \\cdot y \\le c   \\\\&\n\\text{condition:}           \\hphantom{ andraints:}    y \\ge 0         \\\\&\n\\end{split} \\tag{2}\\]\n\nNormalization:\n\n\\[\\begin{split} &\n\\text{target:}              \\hphantom{min.nstraints:}      z = c^T \\cdot x \\\\&\n\\text{min. constraints:}    \\hphantom{max.}    \\left( \\left[ a_{ki} \\right] - x_{n+k} \\right) \\cdot x = b   \\\\&\n\\text{max. constraints:}    \\hphantom{min.}    \\left( \\left[ a_{ki} \\right] + x_{n+k} \\right) \\cdot x = b   \\\\&\n\\text{condition:}           \\hphantom{max.raints:}    x \\ge 0       \\\\&\n\\end{split} \\tag{3}\\]\n\nSolution with Simplex algorithm\n\nmultilinear and exponential models …"
+  },
+  {
+    "objectID": "Content/Phase.html",
+    "href": "Content/Phase.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Phase (space):\n\\[\\begin{split} &\n\\phi = \\omega t + kd + \\varphi\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Phase"
+    ]
+  },
+  {
+    "objectID": "Content/Potential.html",
+    "href": "Content/Potential.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Potential (intrinsic energy of inertia)\nElectric Potential \\(U\\): \\[\\begin{split} &\ne = \\textnormal{electron charge} \\qquad\nq = ne = \\textnormal{charge} \\qquad\nn \\in \\mathbb{N}\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\nU =\n\\frac{E_{pot}}{q} =\n\\frac{m}{q}c^2 =\n\\kappa c^2\n\\end{split} \\tag{2}\\]\nVoltage (potential difference, tension):\n\\[\\begin{split} &\nV =\n\\Delta U =\nd \\cdot \\mathscr{E} =\nZ \\cdot I =\n...\n\\qquad Z = \\textnormal{Resistance}\n\\end{split} \\tag{3}\\]\n\\[\\begin{split} &\nE_{kin}^{max} =\neV_0 =\nh(\\nu - \\nu_0)\n\\end{split} \\tag{4}\\]\nAction Quantum, Planck Constant (Energy-Frequency-Slope): \n\\[\\begin{split} &\nh =\n\\tan(\\alpha) =\n\\frac{E_{kin}}{\\nu_i - \\nu_0} =\n\\frac{eV_{0i}}{\\nu_i - \\nu_0}\n\\equiv \\\\&\n\\frac{\\Delta E}{\\nu_0} =\n\\frac{W}{\\nu_0} =\n\\frac{F_{EM} \\cdot x}{\\nu_0} =\n\\hbar k \\lambda\n\\end{split} \\tag{5}\\]\n\\[\\begin{split} &\n\\hbar =\n\\frac{\\Delta E}{\\omega} =\n\\end{split} \\tag{6}\\]\n\\[\\begin{split} &\n\\alpha = \\angle( E_{kin}, \\nu ) \\qquad\ne = \\textnormal{electron charge} \\qquad \\\\&\nV_0 = \\textnormal{Opposing Potential ($I=0$)} \\qquad\nE_{kin}^{max} = eV_0    \\qquad\n\\end{split} \\tag{7}\\]",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Potential"
+    ]
+  },
+  {
+    "objectID": "Content/Quant_h.html",
+    "href": "Content/Quant_h.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Action Quantum, Planck Constant (Energy-Frequency-Slope): \n\\[\\begin{split} &\nh =\n\\tan(\\alpha) =\n\\frac{E_{kin}}{\\nu_i - \\nu_0} =\n\\frac{eV_{0i}}{\\nu_i - \\nu_0}\n\\equiv \\\\&\n\\frac{\\Delta E}{\\nu_0} =\n\\frac{W}{\\nu_0} =\n\\frac{F_{EM} \\cdot x}{\\nu_0} =\n\\hbar k \\lambda\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\n\\hbar =\n\\frac{\\Delta E}{\\omega} =\n\\end{split} \\tag{2}\\]\n\\[\\begin{split} &\n\\alpha = \\angle( E_{kin}, \\nu ) \\qquad\ne = \\textnormal{electron charge} \\qquad \\\\&\nV_0 = \\textnormal{Opposing Potential ($I=0$)} \\qquad\nE_{kin}^{max} = eV_0    \\qquad\n\\end{split} \\tag{3}\\]"
   },
   {
     "objectID": "Content/refraction.html",
@@ -212,6 +353,18 @@
       "Home",
       "Topics",
       "Matter and Refraction"
+    ]
+  },
+  {
+    "objectID": "Content/Wavelength.html",
+    "href": "Content/Wavelength.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Wavelength (Oscillation):\n\\[\\begin{split} &\n\\lambda =\n\\frac{h}{p} =\n\\frac{2\\pi}{k} =\n\\omega \\frac{\\mathcal{T}}{k} =\n\\frac{c}{\\nu} =\nr \\cdot cos( \\frac{\\pi}{2} -  \\alpha ) =\n2 \\frac{d}{n} \\sqrt{\\eta^2 - sin^2(\\alpha)} =\n2\\pi \\frac{2d}{\\Delta \\varphi} \\sqrt{\\eta^2 - sin^2(\\alpha)} =\n2d \\frac{\\eta}{n} cos(\\beta) =\n2\\pi \\eta \\frac{2d}{\\Delta \\varphi} \\cos(\\beta)\n\\stackrel{\\alpha=0=\\beta}{=}\n2 \\eta \\frac{\\Delta d}{\\Delta n}\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\n\\Delta\\lambda =\n\\frac{h}{m_e c}(1-cos(\\varphi)) =\n2 \\frac{h}{m_e c} sin^2(\\frac{\\varphi}{2})\n\\end{split} \\tag{2}\\]\nWavefunction:\n\\[\\begin{split} &\n\\Psi(x,t) =\nC \\cdot e^{ i(\\omega t - kx) } =\nC \\cdot e^{ \\frac{i}{\\hbar}(Et - pr) }\n\\stackrel{Wavepacket}{=}\nA(x,t) e^{i(\\omega_0 t - k_0 x)} =\n2 C(k_0) \\frac{ sin \\left[\\left( t \\cdot \\left( \\frac{d\\omega}{dk} \\right)_{k_0} - x \\right) \\cdot \\Delta k \\right] }{ \\left( t \\cdot \\left( \\frac{d\\omega}{dk} \\right)_{k_0} - x \\right) } =\n2 C(k_0) \\frac{ sin \\left[\\left( \\omega't - x \\right) \\cdot \\Delta k \\right] }{ \\left( \\omega't - x \\right) } =\n2 C(k_0) \\Delta k \\frac{sin(\\xi)}{\\xi}\n\\end{split} \\tag{3}\\]",
+    "crumbs": [
+      "Home",
+      "Topics",
+      "Wavelength"
     ]
   },
   {
