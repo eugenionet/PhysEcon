@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>period – PHYSECON</title>
+<title>reflection-transmission – PHYSECON</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -366,7 +366,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/Period.html">Period</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/Reflection-Transmission.html">Reflection and Transmission</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -498,7 +498,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Content/Period.html" class="sidebar-item-text sidebar-link active">
+  <a href="../Content/Period.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Period</span></a>
   </div>
 </li>
@@ -558,7 +558,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Content/Reflection-Transmission.html" class="sidebar-item-text sidebar-link">
+  <a href="../Content/Reflection-Transmission.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Reflection and Transmission</span></a>
   </div>
 </li>
@@ -714,21 +714,60 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Period.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Reflection-Transmission.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/Period.html">Period</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/Reflection-Transmission.html">Reflection and Transmission</a></li></ol></nav></header>
 
 
 
 
 
-<p>Period (time)</p>
-<p><span id="eq-period"><span class="math display">\[\begin{split} &amp;
-\mathcal{T} =
-\frac{\lambda}{c} =
-\frac{2\pi}{\omega} =
-\frac{1}{\nu}
+<p>Reflection and Transmission, reflection amplitude coefficients:</p>
+<p><span id="eq-freflecttrans-1"><span class="math display">\[\begin{split} &amp;
+a_{r\parallel} =
+\frac{ \mathscr{E}_{0,r\parallel} }{ \mathscr{E}_{0,\alpha\parallel} } =
+- \frac{sin(\alpha - \beta)}{sin(\alpha + \beta)}
 \end{split} \tag{1}\]</span></span></p>
+<p><span id="eq-freflecttrans-2"><span class="math display">\[\begin{split} &amp;
+a_{r\perp} =
+\frac{ \mathscr{E}_{0,r\perp} }{ \mathscr{E}_{0,\alpha\perp} } =
+\frac{tan(\alpha - \beta)}{tan(\alpha + \beta)}
+\end{split} \tag{2}\]</span></span></p>
+<p>Reflection:</p>
+<p><span id="eq-freflecttrans-3"><span class="math display">\[\begin{split} &amp;
+A_r =
+\frac{P_r}{P_\alpha} =
+\frac{a_{r\perp}^2 \mathscr{E}^2_{0,\alpha\perp} + a_{r\parallel}^2 \mathscr{E}^2_{0,\alpha\parallel} }{\mathscr{E}^2_{0,\alpha\perp} + \mathscr{E}^2_{0,\alpha\parallel}}
+\end{split} \tag{3}\]</span></span></p>
+<p>transmission amplitude coefficients:</p>
+<p><span id="eq-freflecttrans-4"><span class="math display">\[\begin{split} &amp;
+a_{t\parallel} =
+\frac{ \mathscr{E}_{0,t\parallel} }{ \mathscr{E}_{0,\alpha\parallel} } =
+2 \frac{sin(\alpha)sin(\beta)}{sin(\alpha + \beta)}
+\end{split} \tag{4}\]</span></span></p>
+<p><span id="eq-freflecttrans-5"><span class="math display">\[\begin{split} &amp;
+a_{t\perp} =
+\frac{ \mathscr{E}_{0,t\perp} }{ \mathscr{E}_{0,\alpha\perp} } =
+2 \frac{sin(\alpha)sin(\beta)}{sin(\alpha + \beta)cos(\alpha - \beta)}
+\end{split} \tag{5}\]</span></span></p>
+<p>Transmission:</p>
+<p><span id="eq-freflecttrans-6"><span class="math display">\[\begin{split} &amp;
+A_t =  
+\frac{P_t}{P_\alpha} =
+\frac{a_{t\perp}^2 \mathscr{E}^2_{0,\alpha\perp} + a_{t\parallel}^2 \mathscr{E}^2_{0,\alpha\parallel} }{\mathscr{E}^2_{0,\alpha\perp} + \mathscr{E}^2_{0,\alpha\parallel}}
+\end{split} \tag{6}\]</span></span></p>
+<p><span class="math inline">\(A_r + A_t = 1\)</span></p>
+<p>Finess (Sharpness, Linedistance, “Halbwärtsbreite”):</p>
+<p><span id="eq-freflecttrans-6"><span class="math display">\[\begin{split} &amp;
+\mathcal{F} =
+{\frac{4 a_r^2}{(1-a_r^2)^2}}
+= \text{finess coefficient)}
+\end{split} \tag{7}\]</span></span></p>
+<p><span id="eq-freflecttrans…"><span class="math display">\[\begin{split} &amp;
+\mathscr{F} =
+\frac{\pi}{2} \sqrt{ \frac{4 a_r^2}{(1-a_r^2)^2} } =
+\frac{\pi}{2} \sqrt{ \mathcal{F} }
+\end{split} \tag{8}\]</span></span></p>
 
 
 
