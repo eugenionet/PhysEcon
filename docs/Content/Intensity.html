@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>intro – PHYSECON</title>
+<title>intensity – PHYSECON</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -366,7 +366,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/Intensity.html">Intensity</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -576,7 +576,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Content/Intensity.html" class="sidebar-item-text sidebar-link">
+  <a href="../Content/Intensity.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Intensity</span></a>
   </div>
 </li>
@@ -732,21 +732,121 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="intro.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Intensity.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/Intensity.html">Intensity</a></li></ol></nav></header>
 
 
 
 
 
-<p>Nature strives through Physics to behave economical by using its resources in an austere way: Principle of Least Action.</p>
-<p>Economy - not pre-given by natural laws - is constructed as social set of co-living rules to allocate, distribute and share (natural and non-natural) resources. Ex-ante modelling economic systems by rules (contractual, legislative, judicative, executive).</p>
-<p>The state (situation, position) of the Economy can be described by e.g.&nbsp;Assets, Liabilities, Expenses, Incomes, Profitability, Productivity, etc.. The Economy changes through time from a state <span class="math inline">\(r_0=\)</span> “start” to a state <span class="math inline">\(r_1=\)</span> “end”. For the state to change, work is applied by processing limited resources (e.g.&nbsp;access to raw materials and availability of intermediate goods), constrained capital (e.g.&nbsp;financial funds, interest rates, and inflation), as well as labor capacity (e.g machines and human force).</p>
-<p>How can a trajectory <span class="math inline">\(r = r_1 - r_0\)</span> between two states be modelled by work <span class="math inline">\(W\)</span>, which is applied for the change of the state to occure: searching the condition by defing target state through “path of chage” <span class="math inline">\(=r\)</span>?</p>
-<p><span id="eq-intro"><span class="math display">\[\begin{split} &amp;
-r = f(x_i) = \int A = \int \int W = \int \int (\mathcal{L} + \mathcal{H}) = \int \int (\Delta E - \Delta H)
-\end{split} \tag{1}\]</span></span></p>
+<p>Intensity (density, concentration)</p>
+<p>Irradiance, Intensity is impact at receiver (observer in distance b):</p>
+<p><span class="math inline">\(\mathscr{I} \equiv\)</span> Irradiation, Intensity, “straight impact” at receiver (observer surface orthogonal to ray beam, <span class="math inline">\(\mathscr{A}_b \perp R\)</span>) <!-- \index{Irradiation} \index{Intensity} \index{Power} \index{Flux} --></p>
+<p><span class="math inline">\(\Phi \equiv\)</span> Power (Flux) = <span class="math inline">\(\frac{W}{t} = \frac{F \cdot x}{t} = \frac{dE}{dt} = mva = pa\)</span></p>
+<p><span class="math inline">\(\mathscr{S} \equiv\)</span> Poynting-Vector, Radiation <!-- \index{Poynting-Vector} \index{Radiation} --></p>
+<p><span class="math inline">\(\mathscr{A}_b \equiv\)</span> Area surface at observer (receiver)</p>
+<p><span class="math inline">\(\mathscr{A}_g \equiv\)</span> Area surface at source (sender)</p>
+<p><span class="math inline">\(\Omega_g \equiv\)</span> Solid Angle at source (sender) <!-- \index{Solid Angle} --></p>
+<p><span class="math inline">\(\Omega_b \equiv\)</span> Solid Angle at observer (receiver)</p>
+<p><span class="math inline">\(\mathscr{J} \equiv\)</span> Flux Density (Radiant Intensity), “angular emission” at source (sender) <!-- \index{Flux Density} \index{Radiant Intensity}  --></p>
+<p><span class="math inline">\(\mathscr{L} \equiv\)</span> Radiance <!-- \index{Radiance} --></p>
+<p><span class="math inline">\(R \equiv\)</span> Distance, ray beam length</p>
+<p><span id="eq-intensity-1"><span class="math display">\[\begin{split} &amp;
+\mathscr{I} =
+\mathscr{I}_{\alpha} =
+\langle w_{EM} \rangle \cdot c =
+\langle w_{EM} \cdot c_{ph} \rangle =
+\frac{1}{2} \frac{c}{\eta} \epsilon \mathscr{E}_0^2 =
+\frac{1}{2} c_{ph} \epsilon_0 \mathscr{E}_0^2 =
+\frac{1}{\mu_0} | \mathscr{E} \times \mathscr{B} | =
+\langle | \mathscr{E} \times \mathscr{B} | \rangle =
+\langle | \mathscr{S} | \rangle =  
+\langle \Phi \rangle =  
+\frac{d\Phi}{d\mathscr{A}_b} =
+\frac{d\Phi}{d\Omega_g} \frac{\cos(\varepsilon_b)}{R^2} =
+\mathscr{J} \frac{\cos(\varepsilon_b)}{R^2}
+\stackrel{\mathscr{A}_b \perp \mathscr{S}, \varepsilon_b = 0}{=}
+\frac{\mathscr{J}}{R^2}
+\stackrel{\Omega_b=small, \mathscr{S}=const.}{=}
+\int\limits_{\mathscr{A}_g} \mathscr{L} \frac{\cos(\varepsilon_g)}{R^2} d\mathscr{A}_g =
+\int\limits_{\Omega_b} \mathscr{L} d\Omega_g =
+4\pi \cdot \mathscr{L}_B
+\end{split} \tag{1}\]</span></span> <!-- \footnote{$\mathscr{L}_B = \textnormal{Blackbody Radiance}$} 
+\index{Balckbody Radiance} --></p>
+<p><span id="eq-intensity-2"><span class="math display">\[\begin{split} &amp;
+\mathscr{I}_0
+\stackrel{\mu_{r}=1}{=}
+c \epsilon_{0} \left( \frac{\mathscr{E(\vartheta)}}{e^{ t (\omega t - kr) }}  \frac{sin(\frac{1}{2} \Delta \varphi )}{sin(\frac{N}{2} \Delta \varphi) }   \right )^2 =
+\mathscr{I}_{A_r} + \mathscr{I}_{A_t} =
+\mathscr{I}_{\vartheta} + \mathscr{I}_{\beta} =
+\mathscr{I}_{A_t,max} =
+\mathscr{I}_{\beta_t,max} =
+\mathscr{E}_0^2
+\end{split} \tag{2}\]</span></span></p>
+<p><span id="eq-intensity-3"><span class="math display">\[\begin{split} &amp;
+\mathscr{I}_{max}
+\stackrel{\mu_{r}=1}{=}
+\mathscr{I}_{\alpha=0=\beta} =
+\mathscr{I}(0) =
+N^2 \mathscr{I}_{0}
+\stackrel{\mu_{r}=1}{=}
+\left( N \mathscr{E}_0 \right)^2
+\end{split} \tag{3}\]</span></span></p>
+<p>Transmitted Intensity (Airy-Function) in refraction:</p>
+<p><span id="eq-intensity-4"><span class="math display">\[\begin{split} &amp;
+\mathscr{I}_{\beta_t} = \mathscr{I}_{A_t} =
+\frac{1}{1 + \frac{4 a_r^2}{(1-a_r^2)^2} sin^2(\frac{\Delta\varphi}{2}) } =
+\frac{1}{ 1 + \mathcal{F} \cdot sin^2(\frac{\Delta\varphi}{2}) }
+\end{split} \tag{4}\]</span></span></p>
+<p><span id="eq-intensity-5"><span class="math display">\[\begin{split} &amp;
+\mathscr{I}_{A_t}(\Delta\varphi) =
+\mathscr{E}^*\mathscr{E} =
+\mathscr{E}_{0}^2 \frac{ \left( 1 - \left( \frac{\mathscr{E}_{0,\vartheta}}{\mathscr{E}_{0,\alpha}} \right)^2 \right)^2 }{ \left( 1 - \left( \frac{\mathscr{E}_{0,\vartheta}}{\mathscr{E}_{0,\alpha}} \right)^2 \right)^2 } \frac{1}{1+\frac{ 4 \left( \frac{\mathscr{E}_{0,\vartheta}}{\mathscr{E}_{0,\alpha}} \right)^2 }{  \left( 1 - \left( \frac{\mathscr{E}_{0,\vartheta}}{\mathscr{E}_{0,\alpha}} \right)^2 \right)^2 } \sin^2(\frac{\Delta\varphi}{2}) } =
+\mathscr{E}_{0}^2 \frac{ \left( 1 - a_r^2 \right)^2 }{ \left( 1 - a_r^2 \right)^2 } \frac{1}{1+\frac{ 4a_r^2 }{  \left( 1 - a_r^2 \right)^2 } \sin^2(\frac{\Delta\varphi}{2}) } =
+\mathscr{E}_0^2 \mathscr{I}_{A_t} =
+\mathscr{I}_{max} \mathscr{I}_{A_t}
+\end{split} \tag{5}\]</span></span></p>
+<p><span id="eq-intensity-6"><span class="math display">\[\begin{split} &amp;
+\mathscr{I}_{\beta_t,min} =
+\mathscr{I}_{A_t,min} =
+\mathscr{I}_{A_t,max} \cdot \frac{1}{1 + {\frac{4 a_r^2}{(1-a_r^2)^2}} } =
+\mathscr{I}_{\beta_t,max} \cdot \frac{1}{1 + \mathcal{F}} =
+\frac{ \mathscr{E}_0^2}{1 + \mathcal{F} }
+\end{split} \tag{6}\]</span></span></p>
+<p>Absorbed Intensitiy:</p>
+<p><span id="eq-intensity-7"><span class="math display">\[\begin{split} &amp;
+\mathscr{I} =
+\mathscr{I}_{\beta_a} =
+\mathscr{I}_0 e^{-al}
+\stackrel{\mu_r = 1}{=}
+\frac{\mathscr{E}_0^2}{e^{al}}  
+\qquad  a = \textnormal{absorbtion coefficient}
+\qquad  l = \textnormal{direction}
+\end{split} \tag{7}\]</span></span></p>
+<p>Reflected Intensity:</p>
+<p><span id="eq-intensity-8"><span class="math display">\[\begin{split} &amp;
+\mathscr{I}_{\vartheta}
+\stackrel{\mu_{r}=1}{=}
+c \epsilon_0 \langle \mathscr{E(\vartheta)}^2 \rangle =
+\mathscr{I}_0 \frac{sin^2 \left (\frac{N}{2} \Delta \varphi \right)}{sin^2 \left( \frac{1}{2} \Delta \varphi \right)} =
+\mathscr{I}_0 \frac{sin^2 \left( N \pi \frac{d}{\lambda} sin(\vartheta) \right) }{sin^2 \left( \pi \frac{d}{\lambda} sin(\vartheta) \right) }
+\end{split} \tag{8}\]</span></span></p>
+<p>Difracted Intensity:</p>
+<p><span id="eq-intensity-9"><span class="math display">\[\begin{split} &amp;
+\mathscr{I}_{\theta}
+\stackrel{\mu_{r}=1}{=}
+c \epsilon_0 \langle \mathscr{E}^2 \rangle =
+\underbrace{\mathscr{I}_0}_{Max.}
+\underbrace{ \left( \frac{sin(\beta)}{\beta} \right)^2 }_{Modulation}
+\underbrace{ \left( \frac{sin(N \alpha)}{sin(\alpha)} \right)^2 }_{Variation}
+\end{split} \tag{9}\]</span></span></p>
+<p><span class="math inline">\(\beta = k \frac{b}{2}sin(\theta)   \qquad  \alpha = k \frac{a}{2}sin(\theta)\)</span></p>
+<p><span class="math inline">\(a = \textnormal{particle distance} \qquad  b = \textnormal{particle size}\)</span></p>
+<p>Hypothesis:</p>
+<p><span class="math inline">\(\left( \frac{\mathscr{J}}{R} \right)^2 = \mathscr{J} \cdot \mathscr{I}\)</span></p>
+<p><span class="math inline">\(\Rightarrow\)</span> ray length (reach)</p>
+<p><span class="math inline">\(R = \sqrt{ \frac{\mathscr{J}}{\mathscr{I}} }\)</span> <!-- index{ray length} --></p>
 
 
 

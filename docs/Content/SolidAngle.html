@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>intro – PHYSECON</title>
+<title>solidangle – PHYSECON</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -366,7 +366,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/SolidAngle.html">Solid Angle</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -582,7 +582,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Content/SolidAngle.html" class="sidebar-item-text sidebar-link">
+  <a href="../Content/SolidAngle.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Solid Angle</span></a>
   </div>
 </li>
@@ -732,21 +732,48 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="intro.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="SolidAngle.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/SolidAngle.html">Solid Angle</a></li></ol></nav></header>
 
 
 
 
 
-<p>Nature strives through Physics to behave economical by using its resources in an austere way: Principle of Least Action.</p>
-<p>Economy - not pre-given by natural laws - is constructed as social set of co-living rules to allocate, distribute and share (natural and non-natural) resources. Ex-ante modelling economic systems by rules (contractual, legislative, judicative, executive).</p>
-<p>The state (situation, position) of the Economy can be described by e.g.&nbsp;Assets, Liabilities, Expenses, Incomes, Profitability, Productivity, etc.. The Economy changes through time from a state <span class="math inline">\(r_0=\)</span> “start” to a state <span class="math inline">\(r_1=\)</span> “end”. For the state to change, work is applied by processing limited resources (e.g.&nbsp;access to raw materials and availability of intermediate goods), constrained capital (e.g.&nbsp;financial funds, interest rates, and inflation), as well as labor capacity (e.g machines and human force).</p>
-<p>How can a trajectory <span class="math inline">\(r = r_1 - r_0\)</span> between two states be modelled by work <span class="math inline">\(W\)</span>, which is applied for the change of the state to occure: searching the condition by defing target state through “path of chage” <span class="math inline">\(=r\)</span>?</p>
-<p><span id="eq-intro"><span class="math display">\[\begin{split} &amp;
-r = f(x_i) = \int A = \int \int W = \int \int (\mathcal{L} + \mathcal{H}) = \int \int (\Delta E - \Delta H)
+<p>Solid Angle (spacial direction)</p>
+<p>Solid Angle (rotational measurement of spherical direction): </p>
+<p><span id="eq-solidangle-1"><span class="math display">\[\begin{split} &amp;
+\Omega =
+\frac{A}{R^2} =
+\int\limits_A \frac{\cos(\varepsilon)}{R^2} \, dA   \qquad  \in \left[ 0, 4\pi \right]
 \end{split} \tag{1}\]</span></span></p>
+<p>where <span class="math inline">\(A \equiv\)</span> spherical Area, <span class="math inline">\(R \equiv\)</span> spherical Radius (radial distance), and <span class="math inline">\(\varepsilon = d\vec{A} \cdot \vec{e}_n = \angle(dA,R)\)</span> inclination angle of <span class="math inline">\(dA\)</span> to <span class="math inline">\(R\)</span> along the curved surface <span class="math inline">\(A\)</span></p>
+<p><span id="eq-solidangle-2"><span class="math display">\[\begin{split} &amp;
+dA = \frac{R^2}{\cos(\varepsilon)} \sin(\theta) d\theta d\varphi = \frac{R^2}{\cos(\varepsilon)}d\Omega
+\end{split} \tag{2}\]</span></span></p>
+<p>where <span class="math inline">\(\varphi \equiv\)</span> horizontal angle, <span class="math inline">\(\theta \equiv\)</span> vertical angle</p>
+<p>Symmetry of wave propagation from electromagnetic radiation in vacuum (Reversibility of Beam according <!-- \textbf{Reversal Principle}):\footnote{Umkehrbarkeit des Strahlenganges der geometrischen Optik} --></p>
+<p><span id="eq-solidangle-3"><span class="math display">\[\begin{split} &amp;
+d\Omega_g =
+\frac{\mathscr{M}}{\mathscr{J}} dA_g =
+\frac{dA_b}{R} \frac{\cos(\varepsilon_b)}{R} =
+\frac{dA_b \cos(\varepsilon_b)}{R^2}
+\end{split} \tag{3}\]</span></span></p>
+<p><span id="eq-solidangle-4"><span class="math display">\[\begin{split} &amp;
+d\Omega_b =  
+\frac{\mathscr{M}}{\mathscr{J}} dA_b =
+\frac{dA_g}{R} \frac{\cos(\varepsilon_g)}{R} =  
+\frac{dA_g \cos(\varepsilon_g)}{R^2}
+\end{split} \tag{4}\]</span></span></p>
+<p><span id="eq-solidangle-5"><span class="math display">\[\begin{split} &amp;
+d\Omega =
+\sin(\theta) d\theta d\varphi =
+\frac{dA_{\perp}}{R^2} =
+\frac{\cos(\varepsilon)}{R^2}dA =
+\mathscr{J} \cdot d\Omega_g = \mathscr{M} \cdot dA_g =
+\mathscr{J} \cdot \mathscr{M}_b \cdot \frac{\varepsilon_b}{R^2}
+\end{split} \tag{5}\]</span></span></p>
+<p>where <span class="math inline">\(\mathscr{J} \equiv\)</span> Flux Density, <span class="math inline">\(\mathscr{M} \equiv\)</span> Radiant Exitance</p>
 
 
 
