@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>reflection-transmission – PHYSECON</title>
+<title>resolution-opt – PHYSECON</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -366,7 +366,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/Reflection-Transmission.html">Reflection and Transmission</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/Resolution-opt.html">Resolutkion Optical</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -564,7 +564,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Content/Reflection-Transmission.html" class="sidebar-item-text sidebar-link active">
+  <a href="../Content/Reflection-Transmission.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Reflection and Transmission</span></a>
   </div>
 </li>
@@ -594,7 +594,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Content/Resolution-opt.html" class="sidebar-item-text sidebar-link">
+  <a href="../Content/Resolution-opt.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Resolutkion Optical</span></a>
   </div>
 </li>
@@ -744,60 +744,80 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Reflection-Transmission.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Resolution-opt.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/Reflection-Transmission.html">Reflection and Transmission</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/Resolution-opt.html">Resolutkion Optical</a></li></ol></nav></header>
 
 
 
 
 
-<p>Reflection and Transmission, reflection amplitude coefficients:</p>
-<p><span id="eq-freflecttrans-1"><span class="math display">\[\begin{split} &amp;
-a_{r\parallel} =
-\frac{ \mathscr{E}_{0,r\parallel} }{ \mathscr{E}_{0,\alpha\parallel} } =
-- \frac{sin(\alpha - \beta)}{sin(\alpha + \beta)}
+<p>Optical Resolution (sharpness, blur)</p>
+<p>spectral Resolution <span class="math inline">\(\mathscr{R} = \frac{\lambda}{\Delta \lambda}\)</span></p>
+<p><span id="eq-radiation-opt-1"><span class="math display">\[\begin{split}  &amp;
+    - Prisma with L \equiv" \text{base length} (\text{angle} \equiv \varepsilon):   \\&amp;
+     \frac{\lambda}{d \lambda} = -L \frac{d\eta}{d\lambda}    \\&amp;
+    - \text{Diffraction Lattice}:  \frac{\lambda}{\delta\lambda} = nN    \\&amp;
+    -  \text{Interferometer}: \frac{\lambda}{\Delta\lambda} = n \cdot \frac{\pi \cdot r}{1 - r^2} = nN_e    \\&amp;
+    - \text{Planparallel Plate}:  \frac{\lambda}{d\lambda} = \frac{x}{2d\tan(\beta)} \left(n - \frac{2d}{\cos(\beta)}\frac{d\eta}{d\lambda} \right)
 \end{split} \tag{1}\]</span></span></p>
-<p><span id="eq-freflecttrans-2"><span class="math display">\[\begin{split} &amp;
-a_{r\perp} =
-\frac{ \mathscr{E}_{0,r\perp} }{ \mathscr{E}_{0,\alpha\perp} } =
-\frac{tan(\alpha - \beta)}{tan(\alpha + \beta)}
+<ol type="a">
+<li>objct is self-luminescent, lightwaves are incoherent and resolution is restricted: <!-- \footnote{Helmholtz: self-luminescent experimentally measured} --></li>
+</ol>
+<p>Tele) object far and big, min. size for resolution:</p>
+<p><span id="eq-radiation-opt-2"><span class="math display">\[\begin{split} &amp;
+\Delta y_{min} =
+1.22 \cdot f^{Obj} \cdot \frac{\lambda}{D}
 \end{split} \tag{2}\]</span></span></p>
-<p>Reflection:</p>
-<p><span id="eq-freflecttrans-3"><span class="math display">\[\begin{split} &amp;
-A_r =
-\frac{P_r}{P_\alpha} =
-\frac{a_{r\perp}^2 \mathscr{E}^2_{0,\alpha\perp} + a_{r\parallel}^2 \mathscr{E}^2_{0,\alpha\parallel} }{\mathscr{E}^2_{0,\alpha\perp} + \mathscr{E}^2_{0,\alpha\parallel}}
+<p>where “Diameter stop” <span class="math inline">\(\equiv D\)</span> and view angle min. for “tele” resolution (object far and big):</p>
+<p><span id="eq-radiation-opt-3"><span class="math display">\[\begin{split} &amp;
+\Delta \varepsilon_{min} =
+\frac{\Delta y_{min}}{f^{Obj}} =
+1.22 \cdot \frac{\lambda}{D}
 \end{split} \tag{3}\]</span></span></p>
-<p>transmission amplitude coefficients:</p>
-<p><span id="eq-freflecttrans-4"><span class="math display">\[\begin{split} &amp;
-a_{t\parallel} =
-\frac{ \mathscr{E}_{0,t\parallel} }{ \mathscr{E}_{0,\alpha\parallel} } =
-2 \frac{sin(\alpha)sin(\beta)}{sin(\alpha + \beta)}
+<p><span class="math inline">\(\Longrightarrow\)</span> optical resolution “Tele”:</p>
+<p><span id="eq-radiation-opt-4"><span class="math display">\[\begin{split} &amp;
+\mathscr{R}_{Tel} = \frac{1}{\Delta y_{min}} =
+0.82 \cdot \frac{1}{f^{Obj}} \cdot \frac{D}{\lambda}
 \end{split} \tag{4}\]</span></span></p>
-<p><span id="eq-freflecttrans-5"><span class="math display">\[\begin{split} &amp;
-a_{t\perp} =
-\frac{ \mathscr{E}_{0,t\perp} }{ \mathscr{E}_{0,\alpha\perp} } =
-2 \frac{sin(\alpha)sin(\beta)}{sin(\alpha + \beta)cos(\alpha - \beta)}
+<p>Mikro) object close and small, min. size for resolution:</p>
+<p><span id="eq-radiation-opt-5"><span class="math display">\[\begin{split} &amp;
+\Delta y_g^{min} =
+\frac{1.22}{2} \cdot \frac{\lambda}{\eta} \cdot \frac{1}{\sin(u_g^{max})} =
+\frac{1}{2} \cdot \frac{\Delta s}{\eta} \cdot \frac{1}{\sin(u_g^{max})} =
+0.61 \frac{\lambda}{A}
 \end{split} \tag{5}\]</span></span></p>
-<p>Transmission:</p>
-<p><span id="eq-freflecttrans-6"><span class="math display">\[\begin{split} &amp;
-A_t =  
-\frac{P_t}{P_\alpha} =
-\frac{a_{t\perp}^2 \mathscr{E}^2_{0,\alpha\perp} + a_{t\parallel}^2 \mathscr{E}^2_{0,\alpha\parallel} }{\mathscr{E}^2_{0,\alpha\perp} + \mathscr{E}^2_{0,\alpha\parallel}}
+<p>where aperture angle from sender (source, “Obj”) <span class="math inline">\(\equiv u_g\)</span>, opposed to view angle <span class="math inline">\(\equiv \varepsilon\)</span> from receiver (observer, “Oku”) and “Path differecence” <span class="math inline">\(\equiv \Delta s\)</span> and “Aperture stop” <span class="math inline">\(\equiv A = \eta \cdot \sin(u_g^{max})\)</span></p>
+<p><span class="math inline">\(\Longrightarrow\)</span> optical resolution “Mikro endo-luminescent”:</p>
+<p><span id="eq-radiation-opt-6"><span class="math display">\[\begin{split} &amp;
+\mathscr{R}_{Mik(endo)} = \frac{1}{y_g^{min}}
+\stackrel{backlit}{=}
+\frac{A}{\lambda}
+\stackrel{luminescent}{\approx}
+0.82 \cdot 2 \frac{A}{\lambda} =
+0.82 \cdot 2 \sin(u) \frac{\eta}{\lambda}
 \end{split} \tag{6}\]</span></span></p>
-<p><span class="math inline">\(A_r + A_t = 1\)</span></p>
-<p>Finess (Sharpness, Linedistance, “Halbwärtsbreite”):</p>
-<p><span id="eq-freflecttrans-6"><span class="math display">\[\begin{split} &amp;
-\mathcal{F} =
-{\frac{4 a_r^2}{(1-a_r^2)^2}}
-= \text{finess coefficient)}
+<ol start="2" type="a">
+<li>objct has no self-luminousity and is illuminated externally, lightwaves interfer coherently after diffraction: <!-- \footnote{Abbe: non self-luminous with external backlit} --></li>
+</ol>
+<p>Mikro) object close and small, min. size for resolution:</p>
+<p><span id="eq-radiation-opt-7"><span class="math display">\[\begin{split} &amp;
+\Delta y \cdot \sin(u_g) = n \cdot \lambda
+\qquad n \in \mathbb{N}
 \end{split} \tag{7}\]</span></span></p>
-<p><span id="eq-freflecttrans…"><span class="math display">\[\begin{split} &amp;
-\mathscr{F} =
-\frac{\pi}{2} \sqrt{ \frac{4 a_r^2}{(1-a_r^2)^2} } =
-\frac{\pi}{2} \sqrt{ \mathcal{F} }
+<p><span id="eq-radiation-opt-8"><span class="math display">\[\begin{split} &amp;
+\Delta y_{min} = \frac{\lambda}{A} =
+\frac{\lambda}{\sin(u_g)} =
+\frac{\lambda}{ \frac{\lambda}{\Delta y} }
+\qquad A \equiv Aperture
 \end{split} \tag{8}\]</span></span></p>
+<p><span class="math inline">\(\Longrightarrow\)</span> optical resolution “Mikro exo-illuminated”:</p>
+<p><span id="eq-radiation-opt-9"><span class="math display">\[\begin{split} &amp;
+\mathscr{R}_{Mik(exo)} =
+\frac{1}{\Delta y_{min}} =
+\frac{A}{\lambda} =
+\frac{\sin(u_g)}{\lambda}
+\end{split} \tag{9}\]</span></span></p>
 
 
 
