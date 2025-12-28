@@ -1,0 +1,7 @@
+Inertia (resistence to movement, decreasing velocity):
+
+$$\begin{split} &
+M = m \cdot d
+\end{split}$${#eq-momentum}
+
+matter: m = Density $\cdot$ Volume

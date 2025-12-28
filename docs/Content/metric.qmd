@@ -1,0 +1,12 @@
+**Distance and Size (observability, identification, measurability, metric)**
+
+Metric, Distance and Size:
+
+r = radial distance, d = diametral size
+
+$$\begin{split} &
+r\lambda = 
+d^2 cos^2(\vartheta) = 
+\left( d \cdot cos( \frac{\pi}{2} - \alpha ) \right)^2 = 
+\left( d \cdot sin( \frac{\pi}{2} - \beta ) \right)^2
+\end{split}$${#eq-metric}

@@ -1,0 +1,32 @@
+Energy manifestation forms: Change (Transfer Movement), Potential (Rest Duration), Temperature, Light, Sound, Mass, Charge, Information, Communication, ...
+
+Energy Total:
+
+$$\begin{split} &
+E_{Tot} = 
+motion + rest =  
+linear + rotational + vibration + spin + ... =   \\&
+Work + Heatchange = \left( F \cdot \Delta r \right) \mp \Delta Q = 
+E_{kin} + E_{pot} = 
+E_{magn} + E_{elec} =
+pv \\&
+\stackrel{macro (continuum)}{=}     \\&
+\frac{1}{2} \frac{p^2}{m} = 
+\frac{1}{2} m \left( \omega A \right)^2  \\&
+\stackrel{thermal}{=}
+\frac{1}{2}fbT 
+\stackrel{micro (quantum)}{=}    \\&     
+\hbar\omega = 
+h\nu = 
+\frac{1}{2} \frac{\left( \hbar k \right)^2}{m} =     
+\stackrel{relativistic}{=}       \\&
+\sqrt{ (pc)^2 + (mc^2)^2 }
+\stackrel{Entropy}{=}    \\&
+...
+\stackrel{distribtion Fermion}{=}   \\&
+...
+\stackrel{distribtion Boson}{=}   \\&
+...
+\stackrel{distribtion Boltzmann}{=}   \\&
+...
+\end{split}$${#eq-energytotal}

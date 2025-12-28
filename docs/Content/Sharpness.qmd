@@ -1,0 +1,3 @@
+Sharpness:
+
+$nN = \frac{\lambda}{\Delta \lambda}, \qquad  N \in \mathbb{N}$

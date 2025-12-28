@@ -1,0 +1,28 @@
+- motion of matter in space and time
+- change of state
+- displacement
+- diffusion
+- dissipation ad refraction
+- distance, velocity, momentum, acceleration (curvature), force, energy, work, and action
+- isotropy and homomenity
+
+Motion:
+$$\begin{split} &
+r = r(t) = r_x(t_{x}) - r_0(t_{0} ) = \Delta r(\Delta t)
+\\& \stackrel{Path}{=}
+State(arrival) - State(start) = Trajectory(Change)
+\end{split}$${#eq-trajectory}
+
+$$\begin{split} &
+v = \dot r = \frac{d}{dt}r
+\qquad
+p = \frac{1}{v} \sqrt{E^2 - (mv^2)^2}
+\qquad
+F = \dot p = \frac{d}{dt}p
+\end{split}$${#eq-motion}
+
+Energy total:
+$$\begin{split} &
+E = Motion_{Energy} + Rest_{Energy} = E_{kin} + E_{pot}
+\end{split}$${#eq-energytotal}
+

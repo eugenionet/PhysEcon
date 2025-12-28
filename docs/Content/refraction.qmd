@@ -1,0 +1,60 @@
+Refraction for identifying matter (property of matter):
+
+$$\begin{split} &
+\eta 
+\stackrel{opt.}{=}
+\frac{sin(\alpha)}{\sin(\beta)} = 
+\frac{\eta_{\beta}}{\eta_{\alpha}}
+\stackrel{prism}{=}
+\frac{ \sin[\frac{1}{2}(\varpi + \varsigma_{min})] }{ \sin[\frac{1}{2}\varpi ] } 
+\stackrel{phys.}{=}
+\sqrt{ \epsilon_r \mu_r } = 
+\frac{\lambda_{\alpha}}{\lambda_{\beta}} = 
+\frac{v_{ph,\alpha}}{v_{ph,\beta}} = 
+\frac{1}{2} \frac{\lambda}{d} \frac{n}{\cos(\beta)} = 
+\sqrt{\left( \frac{n}{2} \frac{\lambda}{d} \right)^2 + \sin(\alpha)^2} 
+\stackrel{dispersion}{=}
+\eta(\lambda) = 
+\eta(\omega)
+\stackrel{anisotropy}{=}
+\eta(r)
+\end{split}$${#eq-refraction}
+
+$$ % \footnote{Brechkraft}
+\textnormal{Vacuum } \iff \eta=1
+\newline
+f = Focal Length		\qquad
+D = Refractive Power (Dioptri)
+$$
+
+
+$$
+n \equiv \textnormal{order ("Quantum"): } \newline
+n = 
+\frac{\nu}{c} \Delta s = 
+\frac{\Delta\varphi}{2\pi} = 
+2 \eta \frac{d}{\lambda} \sqrt{\eta^2 - \sin(\alpha)^2} = 
+2 \eta \frac{d}{\lambda} \cos(\beta) = 
+\frac{q}{e_0}
+\qquad \in \mathbb{N}
+$$
+
+$$
+v^2 = 
+\left( \frac{\nu\lambda}{\eta} \right)^2 = 
+\left( \frac{\omega}{k \eta} \right)^2
+$$
+
+$$
+\left( \frac{\eta}{c} \right) ^2 = 
+\epsilon \mu	\qquad
+\epsilon = \epsilon_0 \epsilon_r	\qquad
+\mu = \mu_0 \mu_r
+$$
+
+
+where:  \
+$\alpha \coloneqq$ irradiaton angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)    \
+$\beta \coloneqq$ refraction angle for bented transmitted radiation $A_{t}$ orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)  
+
+{{< include radiation_orientation.qmd >}}

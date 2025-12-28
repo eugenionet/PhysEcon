@@ -1,0 +1,6 @@
+Work (transformation)
+
+$$\begin{split} &
+W = F \cdot d = \Delta E = eV = \Delta U + \Delta C = energychange + temperaturechange
+\end{split}$${#eq-work}
+

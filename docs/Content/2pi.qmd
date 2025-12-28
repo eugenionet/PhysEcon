@@ -1,0 +1,29 @@
+
+Periodicity (Cyclicity), cyclicity repeats within $\lim$ (rotational, closed loop inside restricted band), transcendency passes only once (tangential, linear infinit):
+
+
+$$\begin{split} &
+2\pi = 
+k\lambda = 
+\mathcal{T}\omega = 
+\frac{\omega}{\nu} = 
+k \frac{c}{\nu} = 
+\frac{\Delta\varphi}{\Delta s} \frac{c}{\nu} = 
+\frac{\Delta\varphi}{n} = 
+\frac{u}{r} = 
+\frac{h}{\hbar}  = 
+2 \frac{\mathscr{M}_B}{\mathscr{L}_B}  \\&
+= \left( \frac{\pi}{2} - \alpha \right) + \alpha + \left( \frac{\pi}{2} - \beta \right) + \beta + \pi    \\&
+= 360^{\circ} = 
+12 \ hours \ (half \ day) = 
+12 \ music \ notes \ (one \ octave)
+\end{split}$${#eq-periodicity}
+
+where:  \
+$\alpha \coloneqq$ irradiaton angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)    \
+$\beta \coloneqq$ refraction angle for bented transmitted radiation $A_{t}$ orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)  \
+$\mathscr{M}_B \coloneqq$ Blackbody Radiant Exitance <!-- \index{Radiant Exitance} -->  \
+$\mathscr{L}_B \coloneqq$ Blackbody Radiance   <!-- index{Radiance} -->
+
+{{< include radiation_orientation.qmd >}}
+

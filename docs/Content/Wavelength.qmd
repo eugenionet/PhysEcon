@@ -1,0 +1,25 @@
+Wavelength (Oscillation):
+
+$$\begin{split} &
+\lambda = 
+\frac{h}{p} = 
+\frac{2\pi}{k} = 
+\omega \frac{\mathcal{T}}{k} = 
+\frac{c}{\nu} = 
+r \cdot cos( \frac{\pi}{2} -  \alpha ) = 
+2 \frac{d}{n} \sqrt{\eta^2 - sin^2(\alpha)} = 
+2\pi \frac{2d}{\Delta \varphi} \sqrt{\eta^2 - sin^2(\alpha)} = 
+2d \frac{\eta}{n} cos(\beta) = 
+2\pi \eta \frac{2d}{\Delta \varphi} \cos(\beta)
+\stackrel{\alpha=0=\beta}{=}
+2 \eta \frac{\Delta d}{\Delta n}
+\end{split}$${#eq-wavelength-1}
+
+$$\begin{split} &
+\Delta\lambda = 
+\frac{h}{m_e c}(1-cos(\varphi)) = 
+2 \frac{h}{m_e c} sin^2(\frac{\varphi}{2})
+\end{split}$${#eq-wavelength-2}
+
+{{< include Wavefunction.qmd >}}
+

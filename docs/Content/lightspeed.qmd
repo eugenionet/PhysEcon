@@ -1,0 +1,34 @@
+**Velocity - Movement of Matter in Space and Time**
+
+**Matter and Vacuum - Refraction, max. Phasevelocity**
+
+Lightspeed, Groupvelocity max.: \index{Lightspeed} \index{group velocity} \index{phase velocity}
+
+$$\begin{split} &
+c = 
+\frac{1}{ { \sqrt{\epsilon_0 \mu_0} } } = 
+\frac{|\mathscr{E}|}{|\mathscr{B}|} = 
+\frac{\omega}{k} =\frac{\lambda}{\mathcal{T}} = 
+\nu \lambda = 
+- \frac{d\lambda}{d\nu} \nu^2 \\&
+= \lambda^2 \frac{\mathscr{J}_{\lambda}}{\mathscr{J}_{\nu}} = 
+\frac{\langle|\mathscr{S}|\rangle}{\langle \textnormal{w}_{EM}\rangle} = 
+v_{gr}^{max} \le v_{ph} - \lambda \frac{d}{d\lambda}v_{ph} = 
+\frac{d}{dk}\omega = 
+v_{gr}
+\end{split}$${#eq-lightspeed}
+
+$c_{ph} = \frac{c}{\eta}$
+
+where: \
+$\mathscr{J} \equiv$ Flux Density \index{Flux Density} \
+$\mathscr{S} \equiv$ Pyinting-Vector \
+$\textnormal{w}_{EM} \equiv$ Energy Densitix ElectroMagnetic 
+
+
+$$
+c^2 = 
+v_{phase} \cdot v_{matter} = 
+\varepsilon\mu\eta^2 = 
+\varepsilon_0\varepsilon_r\mu_0\mu_r\eta^2
+$$

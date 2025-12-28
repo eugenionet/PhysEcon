@@ -1,0 +1,40 @@
+
+MICRO ECONOMY: Supply, Demand, Equilibrium, Pricing, Elasticity, Utiliy, Production & Cost, Labor, Aggregates ...
+
+How individuals and companies make decisions to allocate scarce resources.
+
+Assets = Property Capital (substance of matter, object movement/change) \
+Liabilities = Financial Capital (space of movement, maneuverability) \
+Expenses = Costa of Work through labor force and machines \
+Income = Earnings from sales of goods & services \
+
+$f_A(Assets) = f_L(Liabilities)$ = "momentum" $p$ from initial state $r_0$ to new state $r_1$, and "state change" = $r = r_1 - r_0$
+
+\
+\
+acronyms see @sec-acroecomicro
+
+
+<details> <summary>acronyms</summary>
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+| - | - |
+| $A =$ Assets                               | $L =$ Liabilities
+| $X =$ Expenses                             | $S =$ Financial Leverage (Verschuldungsgrad)
+| $I =$ Income                               | $E =$ Equity
+| $Y =$ Yield, Gain, Return, Earning, Profit | $Q =$ Liquidity
+| $D =$ Debit                                | $C =$ Credits
+| $G =$ G\&A General \& Administration       | $E_T =$ EBIT
+| $E_D =$ EBITDA                             | $U =$ Productitivy
+| $P =$ Profitability                        | $R_E =$ ROE
+| $R_A =$ ROA                                | $R_I =$ ROI
+| $F =$ Cash Flow (CF)                       | $F_F =$ Free CF
+| $W =$ WACC                                 | $V =$ NPV
+| $B =$ DB Deckungsbeitrag                   | $N =$ NUV (Nettoumlaufsvermögen)
+| $ =$ ...                                   | $ =$ ...
+</details>
+
+

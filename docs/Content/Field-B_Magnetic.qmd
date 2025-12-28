@@ -1,0 +1,14 @@
+Magnetic Field:
+$$\begin{split} &
+\mathscr{B} = 
+\frac{1}{2} \frac{1}{2\pi} \mu_0 \frac{q}{r^2} \left( \vec{v} \times \frac{\vec{r}}{r} \right) = 
+\nabla \times \mathscr{A} \ne \frac{\mathscr{E}}{v}
+\end{split}$${#eq-field_mag}
+
+Lorentz Force: 
+$$\begin{split} &
+F_{B} =q(v \times \mathscr{B})
+\end{split}$${#eq-lorentzforce}
+
+Vector Potential: $\mathscr{A}$
+

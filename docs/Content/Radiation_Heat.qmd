@@ -1,0 +1,175 @@
+Thermal Radiation:
+
+Spectral Reflection:
+$$\begin{split} &
+\mathscr{R}(\lambda) = 
+\frac{d^3\Phi_{\lambda,r}}{d^3\Phi_{\lambda,e}}
+\end{split}$${#eq-spectrrefl}
+
+Spectral Transmission:
+$$\begin{split} &
+\mathscr{T}(\lambda) = 
+\frac{d^3\Phi_{\lambda,t}}{d^3\Phi_{\lambda,e}}
+\end{split}$${#eq-spectrtrans}
+
+Spectral Absorbtion:
+$$\begin{split} &
+\mathscr{A}(\lambda) = 
+\frac{d^3\Phi_{\lambda,a}}{d^3\Phi_{\lambda,e}}
+\end{split}$${#eq-spectrabs}
+
+Spectral Emission:
+$$\begin{split} &
+\mathscr{E}(\lambda) = 
+\frac{\mathscr{L}(\lambda)}{\mathscr{L}(\lambda,B)}
+\end{split}$${#eq-spectremi}
+
+$\mathscr{R}(\lambda) + \mathscr{T}(\lambda) + \mathscr{A}(\lambda) = 1$
+
+
+Black Body "B":
+$$\begin{split} &
+\mathscr{A}(\lambda,T) = \mathscr{E}(\lambda,T) = 1,\ 
+\mathscr{R}(\lambda,T) = 0,\ 
+\mathscr{T}(\lambda,T) = 0
+\end{split}$${#eq-blackbody-1}
+
+$\Rightarrow$ Heat Radiation (Black Body):
+<!-- \index{Radiance} -->
+
+$$\begin{split} &
+\mathscr{L}_{B} = 
+\frac{c}{4\pi} \langle w_{EM} \rangle = 
+\frac{c}{4\pi} w_B
+\end{split}$${#eq-blackbody_headrad-1}
+
+$$\begin{split} &
+\mathscr{L}_{\lambda,B}(\lambda,T) = 
+\frac{\mathscr{L}_{\lambda}(\lambda,T)}{\mathscr{A}_{\lambda}(\lambda,T)} 
+\stackrel{continuum}{=}
+\frac{2c}{\lambda^4}kT 
+\stackrel{quantum}{=}
+\frac{2hc^2}{\lambda^5}  \frac{1}{e^{\frac{hc}{\lambda kT}}-1} = 
+const.
+\end{split}$${#eq-blackbody_headrad-2}
+
+$$\begin{split} &
+\mathscr{L}_{\nu,B}(\nu,T)
+\stackrel{quantum}{=}
+\frac{2h\nu^3}{c^2}  \frac{1}{e^{\frac{hc}{kT}}-1} 
+\end{split}$${#eq-blackbody_headrad-3}
+
+$$\begin{split} &
+\mathscr{L}_{\lambda,B}(\lambda_x,T_x) = 
+\left( \frac{T_x}{T} \right)^5 \cdot \mathscr{L}_{\lambda,B}(\lambda,T)
+\end{split}$${#eq-blackbody_headrad-4}
+
+$T_x > T \Rightarrow \lambda_x < \lambda$
+
+$$\begin{split} &
+\lambda_{max} \cdot T = 
+\frac{h \cdot c}{5k} \frac{1}{1 - e^{-\lambda_{max} \cdot T}} = 
+b = 2.897773 \cdot 10^{-3} m \cdot K
+\end{split}$${#eq-blackbody_headrad-5}
+
+
+
+Heat Radiation Transfer (sent from source $g$ to receiver $b$ with areas $\mathscr{A}$):	
+<!-- \index{heat radiation transfer} -->
+
+$$\begin{split} &
+d^2\Phi 
+\stackrel{vacuum}{=}
+\mathscr{L} \frac{dA_g \cos(\varepsilon_g)}{R} \frac{dA_b \cos(\varepsilon_b)}{R} = 
+\frac{\mathscr{L}}{R^2} \cdot dA_g \cos(\varepsilon_g) \cdot dA_b \cos(\varepsilon_b) = 
+\mathscr{L} \cos(\varepsilon_b) dA_b d\Omega_b
+\end{split}$${#eq-heat_radiation_transfer}
+
+
+Heat Radiation Return, Reflection Absorbtion (Feedback absorbed "$a$" at sender $g$ received "$e$" at receiver $b$, with areas $\mathscr{A}$ at wavelength $\lambda$ ):
+<!-- \footnote{condition in vacuum: no scattering and no luminescence, only heat} -->
+<!-- \index{heat radiation return} \index{reflection absorbtion} -->
+
+$$\begin{split} &
+d^3\Phi_{\lambda,a,b} 
+\stackrel{vacuum}{=}
+\mathscr{A}_b \cdot d^3\Phi_{\lambda,e,b} = 
+\mathscr{A}_b \cdot \mathscr{L}_{\lambda} \cos(\varepsilon_b) d\mathscr{A}_b d\Omega_b d\lambda = 
+\mathscr{L}_{\lambda,b} \cos(\varepsilon_g) d\mathscr{A}_g d\Omega_g d\lambda = 
+d^3\Phi_{\lambda,b}
+\end{split}$${#eq-heat_radiation_return}
+
+
+<!-- \input{C:/Users/eugenio-SurfPro/Desktop/Physics_Explorations/Physics_incision/Physics_incisions_content/Physics_Particle.tex} -->
+
+
+Energy Density w and Pressure $P$, Temperature $T$, Volume $V$, inner Energy $U$, Entropy density $s$, Radiance
+<!-- \footnote{Strahldichte}  -->
+
+$\mathscr{L}_B$:
+
+$$\begin{split} &
+w_B = 
+\frac{\mathscr{L}_B}{c} \int\limits_0^{4\pi} d\Omega = 
+\frac{4\pi}{c} \cdot \mathscr{L}_B = 
+\frac{4}{c} \cdot \mathscr{M}_B = 
+2 \cdot 2\pi \cdot \frac{\mathscr{L}_B}{c} 
+\stackrel{oriented}{=}
+P_{EM}
+\stackrel{unoriented}{=}
+3 w_{EM} = 
+3 \left( \varepsilon_0 \varepsilon_r \mathscr{E}^2 \right) = 
+3 P_B = 
+3 \left( - \frac{dW}{dV} \right)_B = 
+3 \left( - \frac{d(F \cdot x)}{dV} \right)_B = 
+3 \left( - \frac{m}{V} \cdot x \cdot \ddot{x} \right)_B = 
+T \frac{\partial P}{\partial T} - P = 
+\frac{\partial U}{\partial V} = 
+aT^4 = 
+\frac{3}{4} T \cdot s_B 
+\end{split}$${#eq-blackbody_engergydensity-1}
+
+$$\begin{split} &
+w_{\lambda,B} 
+\stackrel{continuum}{=}
+- \frac{dn}{d\lambda} \overline{W} = \frac{8\pi}{\lambda^4}kT 
+\stackrel{quantum}{=}
+\frac{8\pi hc}{\lambda^5} \frac{1}{e^{\frac{hc}{kT}}-1} = 
+8\pi h \nu \frac{1}{\lambda^4} \frac{1}{e^{\frac{hc}{kT}}-1}
+\end{split}$${#eq-blackbody_engergydensity-2}
+
+$$\begin{split} &
+w_{\nu,B} 
+\stackrel{continuum}{=}
+\frac{dn}{d\nu} \overline{W} = \frac{8\pi\nu^2}{c^3}kT 
+\stackrel{quantum}{=}
+\frac{8\pi h\nu^3}{c^3} \frac{1}{e^{\frac{hc}{kT}}-1} = 
+8\pi h \left(\frac{1}{\lambda}\right)^3 \frac{1}{e^{\frac{hc}{kT}}-1} 
+\end{split}$${#eq-blackbody_engergydensity-3}
+
+<!-- \index{Radiant Exitance} -->
+where Radiant Exitance (Emittance)
+<!-- \footnote{spezifische Ausstrahlung}  -->
+$\mathscr{M}_B = \frac{d\Phi}{dA_g} = \sigma T^4$ and proportionality constants:
+
+$a = \frac{2^3}{3\cdot5} \frac{\pi^5 k^4}{h^3 c^3} = 7.5657 \cdot 10^{-16}Jm^{-3}K^{-4}$ ($a$ = constant from integration)
+
+$\sigma = \frac{1}{4} \cdot a \cdot c = \frac{2}{3\cdot5} \frac{\pi^5 k^4}{h^3 c^3}  = 5.6704 \cdot 10^{-8}Wm^{-2}K^{-4}$ ($c$ = light speed)
+
+
+$$\begin{split} &
+\frac{d}{d\Omega} P_{EM}
+\stackrel{oriented}{=}
+\frac{d}{d\Omega} w_B = 
+\frac{\mathscr{L}_B}{c}
+\end{split}$${#eq-radiation_heat_00}
+
+
+Blackbody Entropy Density $s_B = \frac{4}{3} aT^4$
+
+Blackbody Entropy $S_B = \frac{4}{3} aVT^3$
+
+Blackbody Inner Energy $U_B = aVT^4$
+
+Blackbody Pressure $P_B = \frac{1}{3} aT^4 \stackrel{unoriented}{=} \frac{1}{3} w_B$
+
