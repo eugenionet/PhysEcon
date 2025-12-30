@@ -1,5 +1,0 @@
-Phase (space):
-
-$$\begin{split} &
-\phi = \omega t + kd + \varphi
-\end{split}$${#eq-phase}

@@ -1,5 +1,0 @@
-Action (effect, impact, result from cause):
-
-$$\begin{split} &
-\Upsilon = E \cdot t = p \cdot d
-\end{split}$${#eq-action}
