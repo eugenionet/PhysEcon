@@ -325,7 +325,7 @@
     "crumbs": [
       "Home",
       "Physics Explorations",
-      "$\\beta$\"-Decay\""
+      "$\\beta$-Decay"
     ]
   },
   {
@@ -492,7 +492,7 @@
     "href": "Content/lightspeed.html",
     "title": "PHYSECON",
     "section": "",
-    "text": "Velocity - Movement of Matter in Space and Time\nMatter and Vacuum - Refraction, max. Phasevelocity\nLightspeed, Groupvelocity max.: \n\\[\\begin{split} &\nc =\n\\frac{1}{ { \\sqrt{\\epsilon_0 \\mu_0} } } =\n\\frac{|\\mathscr{E}|}{|\\mathscr{B}|} =\n\\frac{\\omega}{k} =\\frac{\\lambda}{\\mathcal{T}} =\n\\nu \\lambda =\n- \\frac{d\\lambda}{d\\nu} \\nu^2 \\\\&\n= \\lambda^2 \\frac{\\mathscr{J}_{\\lambda}}{\\mathscr{J}_{\\nu}} =\n\\frac{\\langle|\\mathscr{S}|\\rangle}{\\langle \\textnormal{w}_{EM}\\rangle} =\nv_{gr}^{max} \\le v_{ph} - \\lambda \\frac{d}{d\\lambda}v_{ph} =\n\\frac{d}{dk}\\omega =\nv_{gr}\n\\end{split} \\tag{1}\\]\n\\(c_{ph} = \\frac{c}{\\eta}\\)\nwhere:\n\\(\\mathscr{J} \\equiv\\) Flux Density \n\\(\\mathscr{S} \\equiv\\) Pyinting-Vector\n\\(\\textnormal{w}_{EM} \\equiv\\) Energy Densitix ElectroMagnetic\n\\[\nc^2 =\nv_{phase} \\cdot v_{matter} =\n\\varepsilon\\mu\\eta^2 =\n\\varepsilon_0\\varepsilon_r\\mu_0\\mu_r\\eta^2\n\\]",
+    "text": "Velocity - Movement of Matter in Space and Time\nMatter and Vacuum - Refraction, max. Phasevelocity\nLightspeed, Groupvelocity max.: \n\\[\\begin{split} &\nc =\n\\frac{1}{ { \\sqrt{\\epsilon_0 \\mu_0} } } =\n\\frac{1}{ { \\sqrt{\\epsilon_0 \\mu_0} } } \\frac{F_{\\mathscr{B}}}{F_{\\mathscr{E}}} =\n\\frac{|\\mathscr{E}|}{|\\mathscr{B}|} =\n\\frac{\\omega}{k} =\\frac{\\lambda}{\\mathcal{T}} =\n\\nu \\lambda =\n- \\frac{d\\lambda}{d\\nu} \\nu^2 \\\\&\n= \\lambda^2 \\frac{\\mathscr{J}_{\\lambda}}{\\mathscr{J}_{\\nu}} =\n\\frac{\\langle|\\mathscr{S}|\\rangle}{\\langle \\textnormal{w}_{EM}\\rangle} =\nv_{gr}^{max} \\le v_{ph} - \\lambda \\frac{d}{d\\lambda}v_{ph} =\n\\frac{d}{dk}\\omega =\nv_{gr}\n\\end{split} \\tag{1}\\]\n\\(c_{ph} = \\frac{c}{\\eta}\\)\nwhere:\n\\(c^2 = v_{phase} \\cdot v_{matter} = \\varepsilon\\mu\\eta^2 = \\varepsilon_0\\varepsilon_r\\mu_0\\mu_r\\eta^2\\)\n\\(\\eta \\equiv\\) Refraction Index (Vacuum vs. Matter)\n\\(F_{\\mathscr{E}} = q \\mathscr{E} \\equiv\\) Coulomb-Force (Electric, charge presence)\n\\(F_{\\mathscr{B}} = q v \\times \\mathscr{B} \\equiv\\) Lorentz-Force (Magnetic, charge movement)\n\\(\\mathscr{J} \\equiv\\) Flux Density\n\\(\\mathscr{S} \\equiv\\) Poynting-Vector, Intensity\n\\(\\textnormal{w}_{EM} \\equiv\\) Energy Density ElectroMagnetic",
     "crumbs": [
       "Home",
       "Physics Explorations",
