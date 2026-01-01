@@ -366,7 +366,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/lightspeed.html">Velocity - Movement of Matter in Space and Time</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/lightspeed.html">Lightspeed, Matter and Vacuum</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -439,7 +439,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Content/lightspeed.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Velocity - Movement of Matter in Space and Time</span></a>
+ <span class="menu-text">Lightspeed, Matter and Vacuum</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -812,7 +812,7 @@ window.Quarto = {
         
     <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lightspeed.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/lightspeed.html">Velocity - Movement of Matter in Space and Time</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/lightspeed.html">Lightspeed, Matter and Vacuum</a></li></ol></nav></header>
 
 
 
@@ -822,25 +822,26 @@ window.Quarto = {
 <p><strong>Matter and Vacuum - Refraction, max. Phasevelocity</strong></p>
 <p>Lightspeed, Groupvelocity max.: </p>
 <p><span id="eq-lightspeed"><span class="math display">\[\begin{split} &amp;
-c =
+c = \frac{|\mathscr{E}|}{|\mathscr{B}|} =
+\frac{1}{ { \sqrt{\epsilon_0 \mu_0} } } \left[\frac{F_{\mathscr{B}}}{F_{\mathscr{E}}} \right] =
 \frac{1}{ { \sqrt{\epsilon_0 \mu_0} } } =
-\frac{1}{ { \sqrt{\epsilon_0 \mu_0} } } \frac{F_{\mathscr{B}}}{F_{\mathscr{E}}} =
-\frac{|\mathscr{E}|}{|\mathscr{B}|} =
+\sqrt{v_{phase} \cdot v_{matter}} =
+\eta \sqrt{\varepsilon\mu} =
+\eta \sqrt{\varepsilon_0\varepsilon_r\mu_0\mu_r} =
 \frac{\omega}{k} =\frac{\lambda}{\mathcal{T}} =
 \nu \lambda =
 - \frac{d\lambda}{d\nu} \nu^2 \\&amp;
 = \lambda^2 \frac{\mathscr{J}_{\lambda}}{\mathscr{J}_{\nu}} =
-\frac{\langle|\mathscr{S}|\rangle}{\langle \textnormal{w}_{EM}\rangle} =
-v_{gr}^{max} \le v_{ph} - \lambda \frac{d}{d\lambda}v_{ph} =
+\frac{\langle|\mathscr{S}|\rangle}{\langle \textnormal{w}_{EM}\rangle} = \eta \cdot c_{ph} = v_{gr}^{max}   \\&amp;
+\le v_{ph} - \lambda \frac{d}{d\lambda}v_{ph} =
 \frac{d}{dk}\omega =
 v_{gr}
 \end{split} \tag{1}\]</span></span></p>
-<p><span class="math inline">\(c_{ph} = \frac{c}{\eta}\)</span></p>
 <p>where:</p>
-<p><span class="math inline">\(c^2 = v_{phase} \cdot v_{matter} = \varepsilon\mu\eta^2 = \varepsilon_0\varepsilon_r\mu_0\mu_r\eta^2\)</span></p>
 <p><span class="math inline">\(\eta \equiv\)</span> Refraction Index (Vacuum vs.&nbsp;Matter)</p>
 <p><span class="math inline">\(F_{\mathscr{E}} = q \mathscr{E} \equiv\)</span> Coulomb-Force (Electric, charge presence)</p>
-<p><span class="math inline">\(F_{\mathscr{B}} = q v \times \mathscr{B} \equiv\)</span> Lorentz-Force (Magnetic, charge movement)</p>
+<p><span class="math inline">\(F_{\mathscr{B}} = q (v \times \mathscr{B}) \equiv\)</span> Lorentz-Force (Magnetic, charge movement)</p>
+<p><span class="math inline">\(\left[\frac{F_{\mathscr{B}}}{F_{\mathscr{E}}} \right] = 1\)</span></p>
 <p><span class="math inline">\(\mathscr{J} \equiv\)</span> Flux Density</p>
 <p><span class="math inline">\(\mathscr{S} \equiv\)</span> Poynting-Vector, Intensity</p>
 <p><span class="math inline">\(\textnormal{w}_{EM} \equiv\)</span> Energy Density ElectroMagnetic</p>
