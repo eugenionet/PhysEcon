@@ -366,7 +366,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/lightspeed.html">Lightspeed, Matter and Vacuum</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Explorations</a></li><li class="breadcrumb-item"><a href="../Content/lightspeed.html">Lightspeed, Matter and Vacuum</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -424,7 +424,7 @@ window.Quarto = {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Physics Explorations</span></a>
+ <span class="menu-text">Explorations</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -445,7 +445,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../Content/refraction.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Matter and Refraction</span></a>
+ <span class="menu-text">Refraction and Matter</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -786,7 +786,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../dummy.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Probability, Liklyhood &amp; Prediction</span></a>
+ <span class="menu-text">Probability, Liklyhood, Determinism and Prediction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -812,7 +812,7 @@ window.Quarto = {
         
     <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lightspeed.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Physics Explorations</a></li><li class="breadcrumb-item"><a href="../Content/lightspeed.html">Lightspeed, Matter and Vacuum</a></li></ol></nav></header>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Explorations</a></li><li class="breadcrumb-item"><a href="../Content/lightspeed.html">Lightspeed, Matter and Vacuum</a></li></ol></nav></header>
 
 
 
@@ -841,13 +841,75 @@ v_{gr}^{max}   \\&amp;
 v_{gr}
 \end{split} \tag{1}\]</span></span></p>
 <p>where:</p>
-<p><span class="math inline">\(\eta \equiv\)</span> Refraction Index (Vacuum <span class="math inline">\(\eta=1\)</span>)</p>
-<p><span class="math inline">\(F_{\mathscr{E}} = q \mathscr{E} \equiv\)</span> Coulomb-Force (Electric, charge presence)</p>
-<p><span class="math inline">\(F_{\mathscr{B}} = q (v \times \mathscr{B}) \equiv\)</span> Lorentz-Force (Magnetic, charge movement)</p>
+<p><span class="math inline">\(F_{\mathscr{E}} = q \mathscr{E} \equiv\)</span> Coulomb-Force (Electric, charge presence, localization in space)</p>
+<p><span class="math inline">\(F_{\mathscr{B}} = q (v \times \mathscr{B}) \equiv\)</span> Lorentz-Force (Magnetic, charge movement, localization in time)</p>
 <p><span class="math inline">\(\left[\frac{F_{\mathscr{B}}}{F_{\mathscr{E}}} \right] = 1\)</span></p>
 <p><span class="math inline">\(\mathscr{J} \equiv\)</span> Flux Density</p>
 <p><span class="math inline">\(\mathscr{S} \equiv\)</span> Poynting-Vector, Intensity</p>
 <p><span class="math inline">\(\textnormal{w}_{EM} \equiv\)</span> Energy Density ElectroMagnetic</p>
+<p><span class="math inline">\(\eta \equiv\)</span> Refraction Index: Refraction for identifying matter (property of matter):</p>
+<p><span id="eq-refraction"><span class="math display">\[\begin{split} &amp;
+\eta
+\stackrel{opt.}{=}
+\frac{sin(\alpha)}{\sin(\beta)} =
+\frac{\eta_{\beta}}{\eta_{\alpha}}
+\stackrel{prism}{=}
+\frac{ \sin[\frac{1}{2}(\varpi + \varsigma_{min})] }{ \sin[\frac{1}{2}\varpi ] } \\&amp;
+\stackrel{phys.}{=}
+\sqrt{ \epsilon_r \mu_r } =
+\frac{\lambda_{\alpha}}{\lambda_{\beta}} =
+\frac{v_{ph,\alpha}}{v_{ph,\beta}} =
+\frac{1}{2} \frac{\lambda}{d_r} \frac{n}{\cos(\beta)} =
+\sqrt{\left( \frac{n}{2} \frac{\lambda}{d_r} \right)^2 + \sin(\alpha)^2} \\&amp;
+\stackrel{dispersion}{=}
+\eta(\lambda) =
+\eta(\omega)
+\stackrel{anisotropy}{=}
+\eta(r)
+\end{split} \tag{2}\]</span></span></p>
+<p><span class="math display">\[ % \footnote{Brechkraft}
+\textnormal{Vacuum } \iff \eta=1
+\newline
+f = Focal Length        \qquad
+D = Refractive Power (Dioptri)
+\]</span></p>
+<p><span class="math inline">\(n \equiv\)</span> order (“Quantum”): <span id="eq-order"><span class="math display">\[
+n =
+\frac{\nu}{c} \Delta s =
+\frac{\Delta\varphi}{2\pi} =
+2 \eta \frac{d_r}{\lambda} \sqrt{\eta^2 - \sin(\alpha)^2} =
+2 \eta \frac{d_r}{\lambda} \cos(\beta) =
+\frac{q}{e_0}
+\quad \in \mathbb{N}
+\tag{3}\]</span></span></p>
+<p><span class="math display">\[
+v^2 =
+\left( \frac{\nu\lambda}{\eta} \right)^2 =
+\left( \frac{\omega}{k \eta} \right)^2
+\]</span></p>
+<p><span class="math display">\[
+\left( \frac{\eta}{c} \right) ^2 =
+\epsilon \mu    \qquad
+\epsilon = \epsilon_0 \epsilon_r    \qquad
+\mu = \mu_0 \mu_r
+\]</span></p>
+<p>where:<br>
+<span class="math inline">\(d_r = r_{x+1} - r_x \coloneqq\)</span> distance in space <span class="math inline">\(\alpha \coloneqq\)</span> irradiaton angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)<br>
+<span class="math inline">\(\beta \coloneqq\)</span> refraction angle for bented transmitted radiation <span class="math inline">\(A_{t}\)</span> orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)</p>
+<p>Orientation of Radiation:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pic.png" class="img-fluid figure-img" style="width:66.0%"></p>
+<figcaption>Radiation</figcaption>
+</figure>
+</div>
+<p><span class="math inline">\(\vartheta =\)</span> reflection angle for redirected radiation <span class="math inline">\(A_{r\parallel}\)</span> parallel to <span class="math inline">\(\alpha\)</span> from matter </p>
+<p><span class="math inline">\(\theta =\)</span> diffraction angle for redirected radiation <span class="math inline">\(A_{r\perp}\)</span> orthogonal to <span class="math inline">\(\alpha\)</span> from matter </p>
+<p><span class="math inline">\(\varpi = \beta_1 + \beta_2 =\)</span> angle of converging body surfaces (point tip of prismic medium), spread angle of prism</p>
+<p><span class="math inline">\(\varsigma =\)</span> deviation angle of redirected ray beam after refraction (transmission) and diffraction</p>
+<p><span class="math inline">\(u_g =\)</span> aperture angle (acceptance) from sender source (at distance <span class="math inline">\(g\)</span>)</p>
+<p><span class="math inline">\(w_b =\)</span> inclination angle at observer receiver (at distance <span class="math inline">\(b\)</span>)</p>
+<p><span class="math inline">\(\varepsilon =\)</span> visual angle from observer/receiver (of eye)</p>
 
 
 
