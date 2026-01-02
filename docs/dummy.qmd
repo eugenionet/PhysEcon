@@ -1,0 +1,21 @@
+---
+title: ... TOPIC ...
+
+subtitle: ... in elaboration ...
+
+bibliography: references.bib
+csl: diabetologia.csl
+
+nocite: |
+  @*
+---
+
+\
+\
+<p style="text-align: center; color: slategray;">
+*Working Notes Draft* <br>
+UNDER CONSTRUCTION
+</p>
+
+\
+\

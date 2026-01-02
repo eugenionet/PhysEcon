@@ -1,0 +1,95 @@
+---
+title: Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante
+
+subtitle: Coincise Notes and Conjectures Explorations of Natural Laws as Approach to Preliminarly Structure Economies
+
+author: Eugenio Net
+date: today
+
+bibliography: references.bib  
+csl: diabetologia.csl
+
+nocite: |
+  @*  
+---
+
+
+---
+
+
+\
+\
+<p style="text-align: center; color: slategray;">
+*WORKING NOTES DRAFT* <br>
+</p>
+\
+\
+
+
+# Abstract {#sec-abstract}
+
+{{< include Content/abstract.qmd >}}
+\
+\
+
+
+# Introduction {#sec-introduction}
+
+{{< include Content/intro.qmd >}}
+\
+\
+
+
+# Motion and State Change {#sec-motion}
+
+{{< include Content/motion.qmd >}}
+\
+\
+
+# Work and Energy {#sec-workenergy}
+
+{{< include Content/work-energy.qmd >}}
+\
+\
+
+# Constrains and Conditions {#sec-constraints}
+
+{{< include Content/constraints.qmd >}}
+\
+\
+
+# Determinism and Uncertainity {#sec-determinism}
+
+{{< include Content/determinism.qmd >}}
+\
+\
+
+
+# Ex-ante Framing and Post-ante Optimization {#sec-optimization}
+
+{{< include Content/optimization.qmd >}}
+\
+\
+
+# Productiviy and Value {#sec-productivityvalue}
+
+{{< include Content/econom.qmd >}}
+\
+\
+
+# Hypothesis and Conjecture {#sec-hypothesis}
+
+{{< include Content/hypothesis.qmd >}}
+\
+\
+
+
+# Acronyms
+
+{{< include Content/acronyms.qmd >}}
+\
+\
+
+
+{{< include Content/prefooter.qmd >}}
+___
