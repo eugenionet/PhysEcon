@@ -809,8 +809,14 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lightspeed.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">../Content</h2>
+   
+  <ul>
+  <li><a href="#section" id="toc-section" class="nav-link active" data-scroll-target="#section"></a></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="lightspeed.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-alternate-notebooks"><h2>Notebooks</h2><ul><li><a href="refraction.embed-preview.html"><i class="bi bi-journal-code"></i>refraction.qmd</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Content/2pi.html">Explorations</a></li><li class="breadcrumb-item"><a href="../Content/lightspeed.html">Lightspeed, Matter and Vacuum</a></li></ol></nav></header>
 
@@ -819,8 +825,8 @@ window.Quarto = {
 
 
 <p><strong>Velocity - Movement of Matter in Space and Time</strong></p>
-<p><strong>Matter and Vacuum - Refraction, max. Phasevelocity</strong></p>
-<p>Lightspeed, Groupvelocity max.: </p>
+<p><strong>Matter and Vacuum - refraction, max. phase velocity, max. group velocity</strong></p>
+<p>Lightspeed, max. group velocity : <!-- \index{Lightspeed} \index{group velocity} \index{phase velocity} --></p>
 <p><span id="eq-lightspeed"><span class="math display">\[\begin{split} &amp;
 c = \frac{|\mathscr{E}|}{|\mathscr{B}|} =
 \frac{1}{ { \sqrt{\epsilon_0 \mu_0} } } \left[\frac{F_{\mathscr{B}}}{F_{\mathscr{E}}} \right] =
@@ -847,7 +853,10 @@ v_{gr}
 <p><span class="math inline">\(\mathscr{J} \equiv\)</span> Flux Density</p>
 <p><span class="math inline">\(\mathscr{S} \equiv\)</span> Poynting-Vector, Intensity</p>
 <p><span class="math inline">\(\textnormal{w}_{EM} \equiv\)</span> Energy Density ElectroMagnetic</p>
-<p><span class="math inline">\(\eta \equiv\)</span> Refraction Index: Refraction for identifying matter (property of matter):</p>
+<p><span class="math inline">\(\eta \equiv\)</span> <a href="../Content/refraction.html">Refraction Index</a></p>
+<section id="section" class="level1 quarto-embed-nb-cell">
+<h1></h1>
+<p>Refraction for identifying matter (property of matter):</p>
 <p><span id="eq-refraction"><span class="math display">\[\begin{split} &amp;
 \eta
 \stackrel{opt.}{=}
@@ -867,14 +876,13 @@ v_{gr}
 \stackrel{anisotropy}{=}
 \eta(r)
 \end{split} \tag{2}\]</span></span></p>
-<p><span class="math display">\[ % \footnote{Brechkraft}
+<p><span class="math display">\[  % \footnote{Brechkraft}
 \textnormal{Vacuum } \iff \eta=1
 \newline
 f = Focal Length        \qquad
-D = Refractive Power (Dioptri)
+D = Refractive Power (dioptry)
 \]</span></p>
-<p><span class="math inline">\(n \equiv\)</span> order (“Quantum”): <span id="eq-order"><span class="math display">\[
-n =
+<p><span class="math inline">\(n \equiv\)</span> order (“quantum cycle”): <span id="eq-order"><span class="math display">\[ n =
 \frac{\nu}{c} \Delta s =
 \frac{\Delta\varphi}{2\pi} =
 2 \eta \frac{d_r}{\lambda} \sqrt{\eta^2 - \sin(\alpha)^2} =
@@ -894,22 +902,13 @@ v^2 =
 \mu = \mu_0 \mu_r
 \]</span></p>
 <p>where:<br>
-<span class="math inline">\(d_r = r_{x+1} - r_x \coloneqq\)</span> distance in space <span class="math inline">\(\alpha \coloneqq\)</span> irradiaton angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)<br>
-<span class="math inline">\(\beta \coloneqq\)</span> refraction angle for bented transmitted radiation <span class="math inline">\(A_{t}\)</span> orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)</p>
-<p>Orientation of Radiation:</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="pic.png" class="img-fluid figure-img" style="width:66.0%"></p>
-<figcaption>Radiation</figcaption>
-</figure>
-</div>
-<p><span class="math inline">\(\vartheta =\)</span> reflection angle for redirected radiation <span class="math inline">\(A_{r\parallel}\)</span> parallel to <span class="math inline">\(\alpha\)</span> from matter </p>
-<p><span class="math inline">\(\theta =\)</span> diffraction angle for redirected radiation <span class="math inline">\(A_{r\perp}\)</span> orthogonal to <span class="math inline">\(\alpha\)</span> from matter </p>
-<p><span class="math inline">\(\varpi = \beta_1 + \beta_2 =\)</span> angle of converging body surfaces (point tip of prismic medium), spread angle of prism</p>
-<p><span class="math inline">\(\varsigma =\)</span> deviation angle of redirected ray beam after refraction (transmission) and diffraction</p>
-<p><span class="math inline">\(u_g =\)</span> aperture angle (acceptance) from sender source (at distance <span class="math inline">\(g\)</span>)</p>
-<p><span class="math inline">\(w_b =\)</span> inclination angle at observer receiver (at distance <span class="math inline">\(b\)</span>)</p>
-<p><span class="math inline">\(\varepsilon =\)</span> visual angle from observer/receiver (of eye)</p>
+<span class="math inline">\(\{\alpha, \beta\} \coloneqq\)</span> <a href="../Content/radiation_orientation.html">radiation orientation</a> angles<br>
+<span class="math inline">\(d_r = r_{x+1} - r_x \coloneqq\)</span> distance in space<br>
+<span class="math inline">\(\alpha \coloneqq\)</span> irradiaton angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)<br>
+<span class="math inline">\(\beta \coloneqq\)</span> refraction angle for bented transmitted radiation <span class="math inline">\(A_{t}\)</span> orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)<br>
+<span class="math inline">\(\epsilon_0 \coloneqq\)</span> Dieelectric Constant (conductiv electric charge)<br>
+<span class="math inline">\(\mu_0 \coloneqq\)</span> Magnetic Constant (permeability in vacuum)</p>
+<a class="quarto-notebook-link" id="nblink-1" href="refraction.embed-preview.html#f86aa9d0-0729-4ee6-b796-817732eff28a">Source: refraction.qmd</a></section>
 
 
 
