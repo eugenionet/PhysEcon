@@ -1,0 +1,25 @@
+---
+number-sections: false
+---
+
+
+[Radiation](Radiation.qmd) Orientation:
+
+![Radiation](pic.png){width=66%}
+
+$\vartheta =$ reflection angle for redirected radiation $A_{r\parallel}$ parallel to $\alpha$ from matter 
+<!-- \footnote{Abstrahlwinkel zur Grenzfläche des Mediums} -->
+
+$\theta =$ diffraction angle for redirected radiation $A_{r\perp}$ orthogonal to $\alpha$ from matter 
+<!-- \footnote{Beugungswinkel durch Objekt ins Vakuum} -->
+
+$\varpi = \beta_1 + \beta_2 =$ angle of converging body surfaces (point tip of prismic medium), spread angle of prism
+
+$\varsigma =$ deviation angle of redirected ray beam after refraction (transmission) and diffraction
+
+$u_g =$ aperture angle (acceptance) from sender source (at distance $g$)
+
+$w_b =$ inclination angle at observer receiver (at distance $b$)
+
+$\varepsilon =$ visual angle from observer/receiver (of eye)
+
