@@ -236,6 +236,10 @@ other-links:
     href: https://quarto.org/docs/output-formats/html-basics.html
   
 
+notebook-view:
+  - notebook: refraction.qmd
+    title: "Refraction, Radiation Angle"
+    url: refraction.qmd
 
 
 
