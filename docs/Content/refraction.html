@@ -830,50 +830,52 @@ window.Quarto = {
 \sqrt{ \epsilon_r \mu_r } =
 \frac{\lambda_{\alpha}}{\lambda_{\beta}} =
 \frac{v_{ph,\alpha}}{v_{ph,\beta}} =
-\frac{1}{2} \frac{\lambda}{d_r} \frac{n}{\cos(\beta)} =
-\sqrt{\left( \frac{n}{2} \frac{\lambda}{d_r} \right)^2 + \sin(\alpha)^2} \\&amp;
+\frac{1}{2} \frac{\lambda}{d_l} \frac{n}{\cos(\beta)} =
+\sqrt{\left( \frac{n}{2} \frac{\lambda}{d_l} \right)^2 + \sin(\alpha)^2} \\&amp;
 \stackrel{dispersion}{=}
 \eta(\lambda) =
 \eta(\omega)
 \stackrel{anisotropy}{=}
 \eta(r)
 \end{split} \tag{1}\]</span></span></p>
-<p><span class="math display">\[  % \footnote{Brechkraft}
-\textnormal{Vacuum } \iff \eta=1
-\newline
+<p>Vacuum <span class="math inline">\(\iff \eta=1\)</span>: <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> <span id="eq-refractpower"><span class="math display">\[\begin{split} &amp;
 f = Focal Length        \qquad
 D = Refractive Power (dioptry)
-\]</span></p>
-<p><span class="math inline">\(n \equiv\)</span> order (“quantum cycle”): <span id="eq-order"><span class="math display">\[ n =
+\end{split} \tag{2}\]</span></span></p>
+<p><span class="math inline">\(n \equiv\)</span> order (“quantum”): <span id="eq-order"><span class="math display">\[\begin{split} &amp;
+n =
 \frac{\nu}{c} \Delta s =
 \frac{\Delta\varphi}{2\pi} =
-2 \eta \frac{d_r}{\lambda} \sqrt{\eta^2 - \sin(\alpha)^2} =
-2 \eta \frac{d_r}{\lambda} \cos(\beta) =
+2 \eta \frac{d_l}{\lambda} \sqrt{\eta^2 - \sin(\alpha)^2} =
+2 \eta \frac{d_l}{\lambda} \cos(\beta) =
 \frac{q}{e_0}
-\quad \in \mathbb{N}
-\tag{2}\]</span></span></p>
-<p><span class="math display">\[
+\qquad \in \mathbb{N}
+\end{split} \tag{3}\]</span></span></p>
+<p><span id="eq-velocityabsolute"><span class="math display">\[\begin{split} &amp;
 v^2 =
 \left( \frac{\nu\lambda}{\eta} \right)^2 =
 \left( \frac{\omega}{k \eta} \right)^2
-\]</span></p>
-<p><span class="math display">\[
+\end{split} \tag{4}\]</span></span></p>
+<p><span id="eq-vacuummatter"><span class="math display">\[\begin{split} &amp;
 \left( \frac{\eta}{c} \right) ^2 =
 \epsilon \mu    \qquad
 \epsilon = \epsilon_0 \epsilon_r    \qquad
 \mu = \mu_0 \mu_r
-\]</span></p>
-<p>where:<br>
-<span class="math inline">\(\{\alpha, \beta\} \coloneqq\)</span> <a href="../Content/radiation_orientation.html">radiation orientation</a> angles<br>
-<span class="math inline">\(d_r = r_{x+1} - r_x \coloneqq\)</span> distance in space<br>
-<span class="math inline">\(\alpha \coloneqq\)</span> irradiaton angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)<br>
-<span class="math inline">\(\beta \coloneqq\)</span> refraction angle for bented transmitted radiation <span class="math inline">\(A_{t}\)</span> orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)<br>
-<span class="math inline">\(\epsilon_0 \coloneqq\)</span> Dieelectric Constant (conductiv electric charge)<br>
-<span class="math inline">\(\mu_0 \coloneqq\)</span> Magnetic Constant (permeability in vacuum)</p>
+\end{split} \tag{5}\]</span></span></p>
+<p>where:</p>
+<p><span class="math inline">\(d_l \coloneqq\)</span> distance length</p>
+<p><span class="math inline">\(\alpha \coloneqq\)</span> irradiation angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)</p>
+<p><span class="math inline">\(\beta \coloneqq\)</span> refraction angle for bented transmitted radiation <span class="math inline">\(A_{t}\)</span> orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)</p>
 
 
 
-</main> <!-- /main -->
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Brechkraft<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
