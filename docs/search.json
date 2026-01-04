@@ -1,0 +1,26 @@
+[
+  {
+    "objectID": "Content/lightspeed.html",
+    "href": "Content/lightspeed.html",
+    "title": "",
+    "section": "",
+    "text": "Velocity - Movement of Matter in Space and Time\nMatter and Vacuum - Refraction, max. phase velocity, max. group velocity:\nLightspeed, group velocity max.:\n\\[\\begin{split} &\nc =\n\\frac{1}{ { \\sqrt{\\epsilon_0 \\mu_0} } } =\n\\frac{|\\mathscr{E}|}{|\\mathscr{B}|} =   \n\\sqrt{v_{phase} \\cdot v_{matter}} =\n\\eta \\sqrt{\\varepsilon\\mu} =\n\\eta \\sqrt{\\varepsilon_0\\varepsilon_r\\mu_0\\mu_r} =   \\\\&\n\\eta \\cdot c_{ph} =\n\\frac{\\omega}{k} =\\frac{\\lambda}{\\mathcal{T}} =\n\\nu \\lambda =      \\\\&\n- \\frac{d\\lambda}{d\\nu} \\nu^2 =\n\\lambda^2 \\frac{\\mathscr{J}_{\\lambda}}{\\mathscr{J}_{\\nu}} =\n\\frac{\\langle|\\mathscr{S}|\\rangle}{\\langle \\textnormal{w}_{EM}\\rangle}  =\nv_{gr}^{max}      \\\\&\n\\le v_{ph} - \\lambda \\frac{d}{d\\lambda}v_{ph} =\n\\frac{d}{dk}\\omega =\nv_{gr}\n\\end{split} \\tag{1}\\]\nwhere:\n\\(\\mathscr{J} \\equiv\\) Flux Density flow 1\n\\(\\mathscr{S} \\equiv\\) Poyinting-Vector intensity\n\\(\\textnormal{w}_{EM} \\equiv\\) Energy Density electromagnetic\nRefraction Index:",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Lightspeed, Matter and Vacuum"
+    ]
+  },
+  {
+    "objectID": "Content/lightspeed.html#footnotes",
+    "href": "Content/lightspeed.html#footnotes",
+    "title": "",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFlux Density↩︎",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Lightspeed, Matter and Vacuum"
+    ]
+  }
+]
