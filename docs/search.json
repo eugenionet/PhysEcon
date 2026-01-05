@@ -1,0 +1,728 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante",
+    "section": "",
+    "text": "WORKING NOTES DRAFT",
+    "crumbs": [
+      "Home",
+      "Projects",
+      "PhysEcon"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-acroworkenergy",
+    "href": "index.html#sec-acroworkenergy",
+    "title": "Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante",
+    "section": "10.1 Acronyms of Physics: Chapter 4",
+    "text": "10.1 Acronyms of Physics: Chapter 4\n\n\n\n\n\n\n\n\\(A =\\) Action\n\\(E = E_{kin} + E_{pot} =\\) total energy\n\n\n\\(t =\\) time\n\\(r =\\) dpace (distance between two points, one-dimensional length)\n\n\n\\(v =\\) velocity\n\\(c =\\) light speed\n\n\n\\(p =\\) momentum\n\\(F =\\) force\n\n\n\\(I =\\) inertia\n\\(\\mathcal{L} =\\) Lagrangian\n\n\n\\(\\mathcal{H} =\\) Hamiltonian\n\\(\\mathcal{K} =\\) kinetic Energy\n\n\n\\(\\mathcal{U} =\\) effective potential Energy (\\(\\in E_{pot}\\))\n\\(\\mathcal{V} =\\) potential Energy (\\(\\in E_{pot}\\))\n\n\n\\(\\mathcal{Z} = \\frac{1}{2}\\frac{L_0^2}{mr^2} =\\) Centrifugal Potential\n\\(V = r_1 \\cdot r_2 \\cdot r_3 =\\) Volume\n\n\n\\(\\mathcal{k} =\\) Wave Vector (“curvature”)\n\\(W =\\) Work (done vs. received)\n\n\n\\(P =\\) Pressure\n\\(L_0 =\\) angular momentum\n\n\n\\(T =\\) endogen Temperature\n\\(H =\\) exogen Heat\n\n\n\\(U =\\) endogen Energy (\\(E_{kin} + E_{pot}\\))\n\\(\\Phi = \\frac{\\mathcal{V}}{q} =\\) Electric Potential\n\n\n\\(\\mathcal{A} =\\) Magnetic Potential\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(g_0 =\\) Gas constant\n\\(m =\\) mass\n\n\n\\(q =\\) charge\n$\\(n =\\) amount of objectes (particles density \\(n=\\frac{N}{V}\\)), \\(n=2\\) and \\(f=1\\)\n\n\n\\({\\epsilon}_0 =\\) electric constant\n\\(f = 3n \\pm z =\\) degrees of freedom, \\(f=1\\) and \\(n=2\\)\n\n\n\\({\\mu}_0 =\\) magnetic constant\n\\(\\mathcal{B} =\\) Magnetic Field\n\n\n\\(\\mathcal{E} =\\) Electric Field\nH\\(\\mathcal{C} = m \\cdot c_0 = \\frac{\\Delta H}{\\Delta T}  =\\) heat capacity\n\n\n\\(c_0 = \\frac{1}{m}\\frac{\\Delta H}{\\Delta T} =\\) specific heat\n\\(S = b_0 \\cdot \\ln(\\Omega) =\\) Entropy (macro state)\n\n\n\\(l =\\) Moll quantity\n\\(\\Omega =\\) micro states\n\n\n\\(z =\\) amount of constraints (boundry conditions)\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(\\kappa = \\frac{c_P}{c_V} = \\frac{f+2}{f} =\\) adiabaty\n\\(\\iota = \\kappa\\) ↔︎ adiabat\n\n\n\\(\\iota = 0\\) ↔︎ isobar\n\\(\\iota = 1\\) ↔︎ isotherm\n\n\n\\(\\iota = \\infty\\) ↔︎ isochor\n…\n\n\n…\n…",
+    "crumbs": [
+      "Home",
+      "Projects",
+      "PhysEcon"
+    ]
+  },
+  {
+    "objectID": "index.html#sec-acroeconom",
+    "href": "index.html#sec-acroeconom",
+    "title": "Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante",
+    "section": "10.2 Acronyms of Economy: Chapter 8",
+    "text": "10.2 Acronyms of Economy: Chapter 8\n\n\n\n\n\n\n\n\\(T =\\) Taxes\n\\(M =\\) Import of Goods and Services from foreing symstes\n\n\n\\(G =\\) Governent Expenses, incl. Social Insurances\n\\(X =\\) Export of Goods and Services to foreign system\n\n\n\\(Y =\\) Income of Economy from Turnover\n\\(G_A =\\) Governental Subsidies\n\n\n\\(D_A =\\) Depreciations (Reinvestments) on Assets\n\\(V_N =\\) Net Naötional Production, Society NNP\n\n\n\\(N =\\) Monetary Quantity\n\\(Q =\\) Monetary Turnover Velocity\n\n\n\\(V_I =\\) Gross Domestic Product GDP = \\(\\frac{Output}{Input}\\), Tradevolume\n\\(P =\\) Price niveau (Inflation adjusted Value)\n\n\n\\(L =\\) Wages from Labor Work (Salaries, …)\n\\(R =\\) Returns, Earnings, Gains\n\n\n\\(Y_A =\\) Income of priv. Business Households (Companies, Services, Real Estate Rentals, Retained Profits)\n\\(Y_H =\\) Income from priv. Capital Households (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)\n\n\n\\(T_A=\\) Tax on Capital of Corprate Compaies (Business Assets)\n\\(Y_G =\\) Governmental Income from Assets, Services, Social Institutions/Insurances\n\n\n\\(Z_G =\\) Interests on Governmental Debt\n\\(V_S =\\) Gross National Produkt, Society GNP\n\n\n\\(I =\\) Investments on Assets, incl. Storage Change\n\\(R_M =\\) Capital Earnings and Wages from Abroad (from Foreign System)\n\n\n\\(R_X\\) Capital Earnings and Wages to Abroad (to Foreign System)\n\\(W =\\) Expensens, costs from human and machinary work efforts\n\n\n\n\n\n\nsee also [1]",
+    "crumbs": [
+      "Home",
+      "Projects",
+      "PhysEcon"
+    ]
+  },
+  {
+    "objectID": "dummy.html",
+    "href": "dummy.html",
+    "title": "… TOPIC …",
+    "section": "",
+    "text": "Working Notes Draft  UNDER CONSTRUCTION\n\n\n\n\n\n\n\n\nReferences\n\n1. Cockshott WP (2011) Classical Econophysics. Routledge Advances in Experimental; Computable Economics\n\n\n2. Wladyslaw W (2013) Macroeconometric Models, 1st ed. Springer\n\n\n3. Lichtenegger K (2015) Schlüsselkonzepte zur Physik, 1st ed. Springer Spektrum\n\n\n4. Padmanabhan T (2015) Sleeping Beauties in Theoretical Physics, 1st ed. Springer\n\n\n5. Wachter A, Hoeber H (2005) Compendium of Theoretical Physics. Springer\n\n\n6. Carter M (2001) Foundations of Mathematical Economics. The MIT Press\n\n\n7. Michaelides PG (2025) 21 Equations that Shaped the World Economy, 1st ed. Palgrave Macmillan Cham\n\n\n8. Pires da Cruz J (2025) Introduction to the Physics of the Economy and Finance, 1st ed. Springer Cham\n\n\n9. Cass D, Shell K (2014) The Hamiltonian Approach to Dynamic Economics, 1st ed. Elsevier, Academic Press\n\n\n10. Haven E, Khrennikov AI, Robinson T (2017) Quantum Methods in Social Science - A First Course. World Scientific, Publishing Europe Ltd",
+    "crumbs": [
+      "Home",
+      "Synopsis"
+    ]
+  },
+  {
+    "objectID": "Content/work-energy.html",
+    "href": "Content/work-energy.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "\\(\\exists\\) Work done or received \\(W \\neq 0 \\Rrightarrow \\exists\\) Change of State (“Displacement”, “Deformation”) \\(r \\neq 0\\):\n\\[\\begin{split} &\nE = \\mathcal{K} + \\mathcal{U}  \\qquad  E_{kin} \\coloneqq \\mathcal{K} = \\frac{1}{2}pv   \\qquad   E_{pot} \\coloneqq \\mathcal{U} = \\mathcal{V} + \\mathcal{Z}\n\\end{split} \\tag{1}\\]\nEnergy is conserved in konservative systems; There is no work in closed path between two points (loop) of any shape under path variation, hence the “Principle of Action” applies (extremities of bumps and saddles exist): \\(\\delta A = 0\\)\nPotentials: \\[\\begin{split} &\n\\mathcal{U} = \\mathcal{V} + \\mathcal{Z}\n\\\\&\n\\mathcal{V}\n    \\begin{cases}\n      = \\frac{1}{2} kr^2 : \\text{isotrop harmonical oscilator central field Potential, } \\\\\n        \\qquad \\text{closed bounded path, } \\text{\"spring constant\" } k = m\\omega^2 = 2\\pi \\cdot \\nu  \\\\\n      = -\\frac{1}{r}\\alpha: \\text{gravitational central field Potential, } \\\\\n        \\qquad \\text{closed bounded path, } \\alpha = \\left( \\frac{2\\pi}{\\Delta \\varphi} \\right)^2 = const. \\\\\n      \\sim \\frac{1}{r}e^{\\mu r} : \\text{Yukawa Potential}, \\text{\"Photon mass\" } m_{\\gamma} = \\mu \\frac{\\hbar}{c} \\\\\n      ...\n    \\end{cases}\n\\end{split} \\tag{2}\\]\nCentrifugal Potential: \\[\\begin{split} &\n\\mathcal{Z} = \\frac{1}{2} \\frac{1}{m} \\left( \\frac{L_0}{r} \\right)^2 \\text{, angular momentum}=L_0\n\\end{split} \\tag{3}\\]\nWork: \\[\\begin{split} &\nW = \\partial_t A = \\partial_t (E \\cdot t) = \\partial_t (p ⋅ r) = F_1 \\cdot r_1 + p_2 \\cdot v_2 =\n    \\begin{cases}\n      F \\cdot r \\\\\n      p \\cdot v\n    \\end{cases}\n\\end{split} \\tag{4}\\]\nGeometrical:\n\\[\\begin{split} &\nW = F \\cdot r = mr \\cdot a = I ⋅ \\frac{v}{t} =  \\frac{p}{t} ⋅ tv = Ft \\cdot v =  pv = mv^2\n\\end{split} \\tag{5}\\]\nAnalytical:\n\\[\\begin{split} &\n\\mathcal{L} = \\mathcal{L}(r,\\dot r,t) = E_{kin} - E_{pot}\n\\end{split} \\tag{6}\\]\n\\[\\begin{split} &\n\\mathcal{H} = \\mathcal{H}(r,p,t) = \\sum_i^f \\dot r_i p_i - \\mathcal{L}\n\\stackrel{konserv.}{=}\nE_{kin} + E_{pot} = const.\n\\end{split} \\tag{7}\\]\n\\[\\begin{split} &\nA = E \\cdot t = p \\cdot r\n\\stackrel{\\mathcal{H}=0}{=}\n\\int_{t_0}^{t_x} \\mathcal{L} dt\n\\end{split} \\tag{8}\\]\n\\[\\begin{split} &\nW = p \\cdot v = \\mathcal{L} + \\mathcal{H} = (\\mathcal{K} - \\mathcal{U}) + \\mathcal{H}\n\\\\& \\stackrel{konserv.}{=}\n(\\mathcal{K} - \\mathcal{U}) + (\\mathcal{K} + \\mathcal{U}) = (\\mathcal{K} - \\mathcal{U}) + E\n\\end{split} \\tag{9}\\]\nElectro Magnetic:\n\\[\\begin{split} &\nW = \\mathcal{L} + \\mathcal{H} = \\left( \\frac{1}{2}mv^2 - q(\\Phi - \\vec{\\mathcal{A}} \\cdot \\vec{v}) \\right) + \\left( \\frac{1}{2} \\frac{1}{m} (\\vec{p} - q\\vec{\\mathcal{A}})^2 + q\\Phi \\right)\\end{split} \\tag{10}\\]\nRelativistic:\n\\[\\begin{split} &\nW = p \\cdot v = \\frac{v}{c} \\sqrt{E^2 - (mc^2)^2}\n\\end{split} \\tag{11}\\]\nThermal:\n\\[\\begin{split} &\nW = Fr = PV^{\\iota} = T \\cdot V^{\\frac{f+2}{f}} = T \\cdot V^{(\\frac{c_P}{c_V}-1)} = TV^{\\kappa-1}  \\\\&\n= T \\cdot l \\cdot g_0 = T \\cdot n \\cdot b_0 = T \\cdot m \\cdot c_0\n\\end{split} \\tag{12}\\]\nThermo Statistical:\n\\[\\begin{split} &\nW = \\mathcal{L} + \\mathcal{H} = ΔU - ΔH = \\Delta(T \\cdot \\Delta S - P \\cdot \\Delta V) - \\Delta(T\\cdot S)\n\\end{split} \\tag{13}\\]\nQuantistic:\n\\[\\begin{split} &\nW = p \\cdot v = ħ\\mathcal{k} \\cdot ω = ℎν\\mathcal{k} = E\\mathcal{k}\n\\end{split} \\tag{14}\\]\n\\[\\begin{split} &\n\\Delta A = \\Delta p  \\cdot \\Delta r = \\Delta E \\cdot \\Delta t \\ge \\frac{1}{2} \\hbar\n\\end{split} \\tag{15}\\]\n\n\n\nsee description of “movement” ?@eq-movement\nacronyms see ?@sec-acroworkenergy"
+  },
+  {
+    "objectID": "Content/Wavefunction.html",
+    "href": "Content/Wavefunction.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Wavefunction:\n\\[\\begin{split} &\n\\Psi(x,t) =\nC \\cdot e^{ i(\\omega t - kx) } =\nC \\cdot e^{ \\frac{i}{\\hbar}(Et - pr) }\n\\stackrel{Wavepacket}{=}\nA(x,t) e^{i(\\omega_0 t - k_0 x)} =\n2 C(k_0) \\frac{ sin \\left[\\left( t \\cdot \\left( \\frac{d\\omega}{dk} \\right)_{k_0} - x \\right) \\cdot \\Delta k \\right] }{ \\left( t \\cdot \\left( \\frac{d\\omega}{dk} \\right)_{k_0} - x \\right) } =\n2 C(k_0) \\frac{ sin \\left[\\left( \\omega't - x \\right) \\cdot \\Delta k \\right] }{ \\left( \\omega't - x \\right) } =\n2 C(k_0) \\Delta k \\frac{sin(\\xi)}{\\xi}\n\\end{split} \\tag{1}\\]"
+  },
+  {
+    "objectID": "Content/SolidAngle.html",
+    "href": "Content/SolidAngle.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Solid Angle (spacial direction)\nSolid Angle (rotational measurement of spherical direction): \n\\[\\begin{split} &\n\\Omega =\n\\frac{A}{R^2} =\n\\int\\limits_A \\frac{\\cos(\\varepsilon)}{R^2} \\, dA   \\qquad  \\in \\left[ 0, 4\\pi \\right]\n\\end{split} \\tag{1}\\]\nwhere \\(A \\equiv\\) spherical Area, \\(R \\equiv\\) spherical Radius (radial distance), and \\(\\varepsilon = d\\vec{A} \\cdot \\vec{e}_n = \\angle(dA,R)\\) inclination angle of \\(dA\\) to \\(R\\) along the curved surface \\(A\\)\n\\[\\begin{split} &\ndA = \\frac{R^2}{\\cos(\\varepsilon)} \\sin(\\theta) d\\theta d\\varphi = \\frac{R^2}{\\cos(\\varepsilon)}d\\Omega\n\\end{split} \\tag{2}\\]\nwhere \\(\\varphi \\equiv\\) horizontal angle, \\(\\theta \\equiv\\) vertical angle\nSymmetry of wave propagation from electromagnetic radiation in vacuum (Reversibility of Beam according \n\\[\\begin{split} &\nd\\Omega_g =\n\\frac{\\mathscr{M}}{\\mathscr{J}} dA_g =\n\\frac{dA_b}{R} \\frac{\\cos(\\varepsilon_b)}{R} =\n\\frac{dA_b \\cos(\\varepsilon_b)}{R^2}\n\\end{split} \\tag{3}\\]\n\\[\\begin{split} &\nd\\Omega_b =  \n\\frac{\\mathscr{M}}{\\mathscr{J}} dA_b =\n\\frac{dA_g}{R} \\frac{\\cos(\\varepsilon_g)}{R} =  \n\\frac{dA_g \\cos(\\varepsilon_g)}{R^2}\n\\end{split} \\tag{4}\\]\n\\[\\begin{split} &\nd\\Omega =\n\\sin(\\theta) d\\theta d\\varphi =\n\\frac{dA_{\\perp}}{R^2} =\n\\frac{\\cos(\\varepsilon)}{R^2}dA =\n\\mathscr{J} \\cdot d\\Omega_g = \\mathscr{M} \\cdot dA_g =\n\\mathscr{J} \\cdot \\mathscr{M}_b \\cdot \\frac{\\varepsilon_b}{R^2}\n\\end{split} \\tag{5}\\]\nwhere \\(\\mathscr{J} \\equiv\\) Flux Density, \\(\\mathscr{M} \\equiv\\) Radiant Exitance",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Solid Angle"
+    ]
+  },
+  {
+    "objectID": "Content/Reversible-Process.html",
+    "href": "Content/Reversible-Process.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "The Entropy “S” is a measure for disorder of a system (refering to the amount of micro states, that a system might achieve): \\(S = k \\ln(\\Omega)\\) \nwhere k = Boltzman constant, and \\(\\Omega\\) = microcanonical total amount of states of the different equivalent micro states\nReversible processes leave the “order” of state unchanged; they do not progress spontaneously: For reversible processes, the Entropy S remains constant, \\(\\Delta S = 0\\). Irreversible process diminish the “order” of state; they do progress spontaneously: For irreversible change of states, the Entropy diminshes, \\(\\Delta S &lt; 0\\).",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Reversible Processes"
+    ]
+  },
+  {
+    "objectID": "Content/refraction.html",
+    "href": "Content/refraction.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Refraction for identifying matter (property of matter):\n\\[\\begin{split} &\n\\eta\n\\stackrel{opt.}{=}\n\\frac{sin(\\alpha)}{\\sin(\\beta)} =\n\\frac{\\eta_{\\beta}}{\\eta_{\\alpha}}\n\\stackrel{prism}{=}\n\\frac{ \\sin[\\frac{1}{2}(\\varpi + \\varsigma_{min})] }{ \\sin[\\frac{1}{2}\\varpi ] } \\\\&\n\\stackrel{phys.}{=}\n\\sqrt{ \\epsilon_r \\mu_r } =\n\\frac{\\lambda_{\\alpha}}{\\lambda_{\\beta}} =\n\\frac{v_{ph,\\alpha}}{v_{ph,\\beta}} =\n\\frac{1}{2} \\frac{\\lambda}{d_l} \\frac{n}{\\cos(\\beta)} =\n\\sqrt{\\left( \\frac{n}{2} \\frac{\\lambda}{d_l} \\right)^2 + \\sin(\\alpha)^2} \\\\&\n\\stackrel{dispersion}{=}\n\\eta(\\lambda) =\n\\eta(\\omega)\n\\stackrel{anisotropy}{=}\n\\eta(r)\n\\end{split} \\tag{1}\\]\nVacuum \\(\\iff \\eta=1\\): 1 \\[\\begin{split} &\nf = Focal Length        \\qquad\nD = Refractive Power (dioptry)\n\\end{split} \\tag{2}\\]\n\\(n \\equiv\\) order (“quantum”): \\[\\begin{split} &\nn =\n\\frac{\\nu}{c} \\Delta s =\n\\frac{\\Delta\\varphi}{2\\pi} =\n2 \\eta \\frac{d_l}{\\lambda} \\sqrt{\\eta^2 - \\sin(\\alpha)^2} =\n2 \\eta \\frac{d_l}{\\lambda} \\cos(\\beta) =\n\\frac{q}{e_0}\n\\qquad \\in \\mathbb{N}\n\\end{split} \\tag{3}\\]\n\\[\\begin{split} &\nv^2 =\n\\left( \\frac{\\nu\\lambda}{\\eta} \\right)^2 =\n\\left( \\frac{\\omega}{k \\eta} \\right)^2\n\\end{split} \\tag{4}\\]\n\\[\\begin{split} &\n\\left( \\frac{\\eta}{c} \\right) ^2 =\n\\epsilon \\mu    \\qquad\n\\epsilon = \\epsilon_0 \\epsilon_r    \\qquad\n\\mu = \\mu_0 \\mu_r\n\\end{split} \\tag{5}\\]\nwhere:\n\\(d_l \\coloneqq\\) distance length\n\\(\\alpha \\coloneqq\\) irradiation angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)\n\\(\\beta \\coloneqq\\) refraction angle for bented transmitted radiation \\(A_{t}\\) orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Refraction and Matter"
+    ]
+  },
+  {
+    "objectID": "Content/refraction.html#footnotes",
+    "href": "Content/refraction.html#footnotes",
+    "title": "PHYSECON",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nBrechkraft↩︎",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Refraction and Matter"
+    ]
+  },
+  {
+    "objectID": "Content/Reflection-Transmission.html",
+    "href": "Content/Reflection-Transmission.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Reflection and Transmission, reflection amplitude coefficients:\n\\[\\begin{split} &\na_{r\\parallel} =\n\\frac{ \\mathscr{E}_{0,r\\parallel} }{ \\mathscr{E}_{0,\\alpha\\parallel} } =\n- \\frac{sin(\\alpha - \\beta)}{sin(\\alpha + \\beta)}\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\na_{r\\perp} =\n\\frac{ \\mathscr{E}_{0,r\\perp} }{ \\mathscr{E}_{0,\\alpha\\perp} } =\n\\frac{tan(\\alpha - \\beta)}{tan(\\alpha + \\beta)}\n\\end{split} \\tag{2}\\]\nReflection:\n\\[\\begin{split} &\nA_r =\n\\frac{P_r}{P_\\alpha} =\n\\frac{a_{r\\perp}^2 \\mathscr{E}^2_{0,\\alpha\\perp} + a_{r\\parallel}^2 \\mathscr{E}^2_{0,\\alpha\\parallel} }{\\mathscr{E}^2_{0,\\alpha\\perp} + \\mathscr{E}^2_{0,\\alpha\\parallel}}\n\\end{split} \\tag{3}\\]\ntransmission amplitude coefficients:\n\\[\\begin{split} &\na_{t\\parallel} =\n\\frac{ \\mathscr{E}_{0,t\\parallel} }{ \\mathscr{E}_{0,\\alpha\\parallel} } =\n2 \\frac{sin(\\alpha)sin(\\beta)}{sin(\\alpha + \\beta)}\n\\end{split} \\tag{4}\\]\n\\[\\begin{split} &\na_{t\\perp} =\n\\frac{ \\mathscr{E}_{0,t\\perp} }{ \\mathscr{E}_{0,\\alpha\\perp} } =\n2 \\frac{sin(\\alpha)sin(\\beta)}{sin(\\alpha + \\beta)cos(\\alpha - \\beta)}\n\\end{split} \\tag{5}\\]\nTransmission:\n\\[\\begin{split} &\nA_t =  \n\\frac{P_t}{P_\\alpha} =\n\\frac{a_{t\\perp}^2 \\mathscr{E}^2_{0,\\alpha\\perp} + a_{t\\parallel}^2 \\mathscr{E}^2_{0,\\alpha\\parallel} }{\\mathscr{E}^2_{0,\\alpha\\perp} + \\mathscr{E}^2_{0,\\alpha\\parallel}}\n\\end{split} \\tag{6}\\]\n\\(A_r + A_t = 1\\)\nFiness (Sharpness, Linedistance, “Halbwärtsbreite”):\n\\[\\begin{split} &\n\\mathcal{F} =\n{\\frac{4 a_r^2}{(1-a_r^2)^2}}\n= \\text{finess coefficient)}\n\\end{split} \\tag{7}\\]\n\\[\\begin{split} &\n\\mathscr{F} =\n\\frac{\\pi}{2} \\sqrt{ \\frac{4 a_r^2}{(1-a_r^2)^2} } =\n\\frac{\\pi}{2} \\sqrt{ \\mathcal{F} }\n\\end{split} \\tag{8}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Reflection and Transmission"
+    ]
+  },
+  {
+    "objectID": "Content/radiation_orientation.html",
+    "href": "Content/radiation_orientation.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Orientation of Radiation:\n\n\n\nRadiation\n\n\n\\(\\vartheta =\\) reflection angle for redirected radiation \\(A_{r\\parallel}\\) parallel to \\(\\alpha\\) from matter \n\\(\\theta =\\) diffraction angle for redirected radiation \\(A_{r\\perp}\\) orthogonal to \\(\\alpha\\) from matter \n\\(\\varpi = \\beta_1 + \\beta_2 =\\) angle of converging body surfaces (point tip of prismic medium), spread angle of prism\n\\(\\varsigma =\\) deviation angle of redirected ray beam after refraction (transmission) and diffraction\n\\(u_g =\\) aperture angle (acceptance) from sender source (at distance \\(g\\))\n\\(w_b =\\) inclination angle at observer receiver (at distance \\(b\\))\n\\(\\varepsilon =\\) visual angle from observer/receiver (of eye)"
+  },
+  {
+    "objectID": "Content/Radiation_Heat.html",
+    "href": "Content/Radiation_Heat.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Thermal Radiation:\nSpectral Reflection: \\[\\begin{split} &\n\\mathscr{R}(\\lambda) =\n\\frac{d^3\\Phi_{\\lambda,r}}{d^3\\Phi_{\\lambda,e}}\n\\end{split} \\tag{1}\\]\nSpectral Transmission: \\[\\begin{split} &\n\\mathscr{T}(\\lambda) =\n\\frac{d^3\\Phi_{\\lambda,t}}{d^3\\Phi_{\\lambda,e}}\n\\end{split} \\tag{2}\\]\nSpectral Absorbtion: \\[\\begin{split} &\n\\mathscr{A}(\\lambda) =\n\\frac{d^3\\Phi_{\\lambda,a}}{d^3\\Phi_{\\lambda,e}}\n\\end{split} \\tag{3}\\]\nSpectral Emission: \\[\\begin{split} &\n\\mathscr{E}(\\lambda) =\n\\frac{\\mathscr{L}(\\lambda)}{\\mathscr{L}(\\lambda,B)}\n\\end{split} \\tag{4}\\]\n\\(\\mathscr{R}(\\lambda) + \\mathscr{T}(\\lambda) + \\mathscr{A}(\\lambda) = 1\\)\nBlack Body “B”: \\[\\begin{split} &\n\\mathscr{A}(\\lambda,T) = \\mathscr{E}(\\lambda,T) = 1,\\\n\\mathscr{R}(\\lambda,T) = 0,\\\n\\mathscr{T}(\\lambda,T) = 0\n\\end{split} \\tag{5}\\]\n\\(\\Rightarrow\\) Heat Radiation (Black Body): \n\\[\\begin{split} &\n\\mathscr{L}_{B} =\n\\frac{c}{4\\pi} \\langle w_{EM} \\rangle =\n\\frac{c}{4\\pi} w_B\n\\end{split} \\tag{6}\\]\n\\[\\begin{split} &\n\\mathscr{L}_{\\lambda,B}(\\lambda,T) =\n\\frac{\\mathscr{L}_{\\lambda}(\\lambda,T)}{\\mathscr{A}_{\\lambda}(\\lambda,T)}\n\\stackrel{continuum}{=}\n\\frac{2c}{\\lambda^4}kT\n\\stackrel{quantum}{=}\n\\frac{2hc^2}{\\lambda^5}  \\frac{1}{e^{\\frac{hc}{\\lambda kT}}-1} =\nconst.\n\\end{split} \\tag{7}\\]\n\\[\\begin{split} &\n\\mathscr{L}_{\\nu,B}(\\nu,T)\n\\stackrel{quantum}{=}\n\\frac{2h\\nu^3}{c^2}  \\frac{1}{e^{\\frac{hc}{kT}}-1}\n\\end{split} \\tag{8}\\]\n\\[\\begin{split} &\n\\mathscr{L}_{\\lambda,B}(\\lambda_x,T_x) =\n\\left( \\frac{T_x}{T} \\right)^5 \\cdot \\mathscr{L}_{\\lambda,B}(\\lambda,T)\n\\end{split} \\tag{9}\\]\n\\(T_x &gt; T \\Rightarrow \\lambda_x &lt; \\lambda\\)\n\\[\\begin{split} &\n\\lambda_{max} \\cdot T =\n\\frac{h \\cdot c}{5k} \\frac{1}{1 - e^{-\\lambda_{max} \\cdot T}} =\nb = 2.897773 \\cdot 10^{-3} m \\cdot K\n\\end{split} \\tag{10}\\]\nHeat Radiation Transfer (sent from source \\(g\\) to receiver \\(b\\) with areas \\(\\mathscr{A}\\)):\n\n\\[\\begin{split} &\nd^2\\Phi\n\\stackrel{vacuum}{=}\n\\mathscr{L} \\frac{dA_g \\cos(\\varepsilon_g)}{R} \\frac{dA_b \\cos(\\varepsilon_b)}{R} =\n\\frac{\\mathscr{L}}{R^2} \\cdot dA_g \\cos(\\varepsilon_g) \\cdot dA_b \\cos(\\varepsilon_b) =\n\\mathscr{L} \\cos(\\varepsilon_b) dA_b d\\Omega_b\n\\end{split} \\tag{11}\\]\nHeat Radiation Return, Reflection Absorbtion (Feedback absorbed “\\(a\\)” at sender \\(g\\) received “\\(e\\)” at receiver \\(b\\), with areas \\(\\mathscr{A}\\) at wavelength \\(\\lambda\\) ):  \n\\[\\begin{split} &\nd^3\\Phi_{\\lambda,a,b}\n\\stackrel{vacuum}{=}\n\\mathscr{A}_b \\cdot d^3\\Phi_{\\lambda,e,b} =\n\\mathscr{A}_b \\cdot \\mathscr{L}_{\\lambda} \\cos(\\varepsilon_b) d\\mathscr{A}_b d\\Omega_b d\\lambda =\n\\mathscr{L}_{\\lambda,b} \\cos(\\varepsilon_g) d\\mathscr{A}_g d\\Omega_g d\\lambda =\nd^3\\Phi_{\\lambda,b}\n\\end{split} \\tag{12}\\]\n\nEnergy Density w and Pressure \\(P\\), Temperature \\(T\\), Volume \\(V\\), inner Energy \\(U\\), Entropy density \\(s\\), Radiance \n\\(\\mathscr{L}_B\\):\n\\[\\begin{split} &\nw_B =\n\\frac{\\mathscr{L}_B}{c} \\int\\limits_0^{4\\pi} d\\Omega =\n\\frac{4\\pi}{c} \\cdot \\mathscr{L}_B =\n\\frac{4}{c} \\cdot \\mathscr{M}_B =\n2 \\cdot 2\\pi \\cdot \\frac{\\mathscr{L}_B}{c}\n\\stackrel{oriented}{=}\nP_{EM}\n\\stackrel{unoriented}{=}\n3 w_{EM} =\n3 \\left( \\varepsilon_0 \\varepsilon_r \\mathscr{E}^2 \\right) =\n3 P_B =\n3 \\left( - \\frac{dW}{dV} \\right)_B =\n3 \\left( - \\frac{d(F \\cdot x)}{dV} \\right)_B =\n3 \\left( - \\frac{m}{V} \\cdot x \\cdot \\ddot{x} \\right)_B =\nT \\frac{\\partial P}{\\partial T} - P =\n\\frac{\\partial U}{\\partial V} =\naT^4 =\n\\frac{3}{4} T \\cdot s_B\n\\end{split} \\tag{13}\\]\n\\[\\begin{split} &\nw_{\\lambda,B}\n\\stackrel{continuum}{=}\n- \\frac{dn}{d\\lambda} \\overline{W} = \\frac{8\\pi}{\\lambda^4}kT\n\\stackrel{quantum}{=}\n\\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{\\frac{hc}{kT}}-1} =\n8\\pi h \\nu \\frac{1}{\\lambda^4} \\frac{1}{e^{\\frac{hc}{kT}}-1}\n\\end{split} \\tag{14}\\]\n\\[\\begin{split} &\nw_{\\nu,B}\n\\stackrel{continuum}{=}\n\\frac{dn}{d\\nu} \\overline{W} = \\frac{8\\pi\\nu^2}{c^3}kT\n\\stackrel{quantum}{=}\n\\frac{8\\pi h\\nu^3}{c^3} \\frac{1}{e^{\\frac{hc}{kT}}-1} =\n8\\pi h \\left(\\frac{1}{\\lambda}\\right)^3 \\frac{1}{e^{\\frac{hc}{kT}}-1}\n\\end{split} \\tag{15}\\]\n\nwhere Radiant Exitance (Emittance)  \\(\\mathscr{M}_B = \\frac{d\\Phi}{dA_g} = \\sigma T^4\\) and proportionality constants:\n\\(a = \\frac{2^3}{3\\cdot5} \\frac{\\pi^5 k^4}{h^3 c^3} = 7.5657 \\cdot 10^{-16}Jm^{-3}K^{-4}\\) (\\(a\\) = constant from integration)\n\\(\\sigma = \\frac{1}{4} \\cdot a \\cdot c = \\frac{2}{3\\cdot5} \\frac{\\pi^5 k^4}{h^3 c^3}  = 5.6704 \\cdot 10^{-8}Wm^{-2}K^{-4}\\) (\\(c\\) = light speed)\n\\[\\begin{split} &\n\\frac{d}{d\\Omega} P_{EM}\n\\stackrel{oriented}{=}\n\\frac{d}{d\\Omega} w_B =\n\\frac{\\mathscr{L}_B}{c}\n\\end{split} \\tag{16}\\]\nBlackbody Entropy Density \\(s_B = \\frac{4}{3} aT^4\\)\nBlackbody Entropy \\(S_B = \\frac{4}{3} aVT^3\\)\nBlackbody Inner Energy \\(U_B = aVT^4\\)\nBlackbody Pressure \\(P_B = \\frac{1}{3} aT^4 \\stackrel{unoriented}{=} \\frac{1}{3} w_B\\)"
+  },
+  {
+    "objectID": "Content/Radiation_Creation.html",
+    "href": "Content/Radiation_Creation.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Radiation Generation:\nOptical Active: …\nRadio Active: …\nHeat: …\nLight: …",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Radiation Creation"
+    ]
+  },
+  {
+    "objectID": "Content/Quant_h.html",
+    "href": "Content/Quant_h.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Action Quantum, Planck Constant (Energy-Frequency-Slope): \n\\[\\begin{split} &\nh =\n\\tan(\\alpha) =\n\\frac{E_{kin}}{\\nu_i - \\nu_0} =\n\\frac{eV_{0i}}{\\nu_i - \\nu_0}\n\\equiv \\\\&\n\\frac{\\Delta E}{\\nu_0} =\n\\frac{W}{\\nu_0} =\n\\frac{F_{EM} \\cdot x}{\\nu_0} =\n\\hbar k \\lambda\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\n\\hbar =\n\\frac{\\Delta E}{\\omega} =\n\\end{split} \\tag{2}\\]\n\\[\\begin{split} &\n\\alpha = \\angle( E_{kin}, \\nu ) \\qquad\ne = \\textnormal{electron charge} \\qquad \\\\&\nV_0 = \\textnormal{Opposing Potential ($I=0$)} \\qquad\nE_{kin}^{max} = eV_0    \\qquad\n\\end{split} \\tag{3}\\]"
+  },
+  {
+    "objectID": "Content/prefooter.html",
+    "href": "Content/prefooter.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "see also @wachter_compendium_2005"
+  },
+  {
+    "objectID": "Content/Potential.html",
+    "href": "Content/Potential.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Potential (intrinsic energy of inertia)\nElectric Potential \\(U\\): \\[\\begin{split} &\ne = \\textnormal{electron charge} \\qquad\nq = ne = \\textnormal{charge} \\qquad\nn \\in \\mathbb{N}\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\nU =\n\\frac{E_{pot}}{q} =\n\\frac{m}{q}c^2 =\n\\kappa c^2\n\\end{split} \\tag{2}\\]\nVoltage (potential difference, tension):\n\\[\\begin{split} &\nV =\n\\Delta U =\nd \\cdot \\mathscr{E} =\nZ \\cdot I =\n...\n\\qquad Z = \\textnormal{Resistance}\n\\end{split} \\tag{3}\\]\n\\[\\begin{split} &\nE_{kin}^{max} =\neV_0 =\nh(\\nu - \\nu_0)\n\\end{split} \\tag{4}\\]\nAction Quantum, Planck Constant (Energy-Frequency-Slope): \n\\[\\begin{split} &\nh =\n\\tan(\\alpha) =\n\\frac{E_{kin}}{\\nu_i - \\nu_0} =\n\\frac{eV_{0i}}{\\nu_i - \\nu_0}\n\\equiv \\\\&\n\\frac{\\Delta E}{\\nu_0} =\n\\frac{W}{\\nu_0} =\n\\frac{F_{EM} \\cdot x}{\\nu_0} =\n\\hbar k \\lambda\n\\end{split} \\tag{5}\\]\n\\[\\begin{split} &\n\\hbar =\n\\frac{\\Delta E}{\\omega} =\n\\end{split} \\tag{6}\\]\n\\[\\begin{split} &\n\\alpha = \\angle( E_{kin}, \\nu ) \\qquad\ne = \\textnormal{electron charge} \\qquad \\\\&\nV_0 = \\textnormal{Opposing Potential ($I=0$)} \\qquad\nE_{kin}^{max} = eV_0    \\qquad\n\\end{split} \\tag{7}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Potential"
+    ]
+  },
+  {
+    "objectID": "Content/Phase.html",
+    "href": "Content/Phase.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Phase (space):\n\\[\\begin{split} &\n\\phi = \\omega t + kd + \\varphi\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Phase"
+    ]
+  },
+  {
+    "objectID": "Content/Particle.html",
+    "href": "Content/Particle.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Particle Density: Point and Wave \nParticles N \\(\\equiv\\) Natural Oscillations of blackbody within a range of frequency spectrum \\((\\nu,\\nu+d\\nu)\\) \\(\\equiv\\)  Vibration Modes \\(\\equiv\\) Points \\(\\equiv\\) exactly one of each possible wavevectors \\(\\vec{k}\\) \n\\(a \\equiv\\) particle size (radius, extension) of each individual particle \\(i = \\left[1,N\\right]\\)\n\\(\\frac{\\pi}{a} =\\) Grid Constant \\(\\equiv\\) next point distance between those N points \n\\(0 \\neq m_i = \\frac{2a}{\\lambda_i} \\in \\mathbb{N}_+ \\qquad \\lambda = \\frac{c}{\\nu} = \\frac{\\omega}{k} \\frac{1}{\\nu}\\)\n\\(|\\vec{k}| = k = \\frac{\\pi}{a} \\sqrt{ \\sum m_i^2 } = \\frac{\\omega}{c} = \\frac{2\\pi\\nu}{c} = \\frac{2\\pi}{\\lambda} \\equiv\\) Sphere Radius (containing the grid of particles inside) \n\\(\\sum m_i^2 \\gg 1 \\iff k \\gg \\frac{\\pi}{a} \\iff \\lambda \\ll 2a\\): N in blackbody independent of geometrical form\n\\[\nN =\n\\frac{1}{3} \\frac{1}{2\\pi^2} \\left( a \\frac{\\omega}{c} \\right)^3 =\n\\frac{1}{3} 2^2\\pi \\left( a \\frac{\\nu}{c} \\right)^3 =\n\\frac{4\\pi}{3} \\left( \\frac{a}{\\lambda} \\right)^3\n\\]\n\\[\nN(\\omega) =\n\\frac{1}{3} \\frac{1}{\\pi^2} \\left( \\frac{\\omega \\cdot a}{c} \\right)^3\n\\]\n\\[\nN(\\nu) =\n\\frac{1}{3} \\cdot 2^2 \\cdot 2\\pi \\left( \\frac{\\nu \\cdot a}{c} \\right)^3\n\\]\nDensity: \n\\[\nn = \\frac{N}{V} = \\frac{N}{A^3} =\n\\frac{8\\pi}{3} \\left( \\frac{\\nu}{c} \\right)^3 =\n\\frac{1}{3} \\pi \\left( \\frac{2}{\\lambda} \\right)^3\n\\]\n\\[\nn_{\\nu} =\n\\frac{dn}{d\\nu} =\n8\\pi \\frac{\\nu^2}{c^3} =\n3 \\frac{n}{\\nu}\n\\]\n\\[\nn_{\\lambda} =\n- \\frac{dn}{d\\lambda} =\n8\\pi \\frac{1}{\\lambda^4} =\n3 \\frac{n}{\\lambda}\n\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Particle"
+    ]
+  },
+  {
+    "objectID": "Content/optimization.html",
+    "href": "Content/optimization.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Framing contracts and jurisdiction ahead to match \\(p = \\text{\"Economy Funds\"}\\) and \\(v = \\text{\"Economy Velocity\"}\\) that can be modelled with typical approaches for fuction \\(z = \\text{\"arrival state\"}\\) depending on \\(x = \\text{\"starting state\"}\\), so that “work” \\(W = F \\cdot r =  F \\cdot (z - x)\\):\n\n\n\n\nTable 1: Modelling Functions\n\n\n\n\n\n\n\n\n\n\nType\nModel\nLinearisation\n\n\n\n\nLinear\n\\(z = a + bx\\)\n\\(z = a + bx\\)\n\n\nGemetric\n\\(z = a \\cdot x^b\\)\n\\(\\log z = \\log a + b \\cdot (\\log x)\\)\n\n\nExponential deca.\n\\(z = a \\cdot b^x\\)\n\\(\\log z = \\log a + (\\log b) \\cdot x\\)\n\n\nExponential nat.\n\\(z = a \\cdot e^{bx}\\)\n\\(\\ln z = \\ln a + bx\\)\n\n\nPeriodical\n\n\n\n\nPolynomial\n\n\n\n\nTaylor\n\n\n\n\n\n\n\n\n\n\nLinear optimization to achieve target states “\\(z, h\\)”:\n\nOneness situaiton modelling:\nminimize efforts = \\(z\\) or maximizie return = \\(z\\)\n\n\\[\\begin{split} &\n\\text{target:}            \\hphantom{min.nstraints:}     z = c^T \\cdot x \\\\&\n\\text{min. constraints:}  \\hphantom{max.}               \\left[ a_{ki} \\right] \\cdot x \\ge b   \\\\&\n\\text{max. constraints:}  \\hphantom{min.}               \\left[ a_{ki} \\right] \\cdot x \\le b   \\\\&\n\\text{condition:}         \\hphantom{max.raints:}        x \\ge 0   \\\\&\n\\end{split} \\tag{1}\\]\n\nDuality situation modelling:\nminimize efforts = \\(z\\) and maximize return = \\(h\\)\n\n\\[\\begin{split} &\n\\text{target min.:}         \\hphantom{ andints:}      z = c^T \\cdot x     \\\\&\n\\text{min. constraints:}    \\hphantom{ and}           \\left[ a_{ki} \\right] \\cdot x \\ge b   \\\\&\n\\text{condition:}           \\hphantom{ andraints:}    x \\ge 0       \\\\&\n\\textit{ and}    \\\\&\n\\text{target max.:}         \\hphantom{ andints:}      h = b^T \\cdot y \\\\&\n\\text{max. constraints:}    \\hphantom{ and}           \\left[ a_{ki} \\right]^T \\cdot y \\le c   \\\\&\n\\text{condition:}           \\hphantom{ andraints:}    y \\ge 0         \\\\&\n\\end{split} \\tag{2}\\]\n\nNormalization:\n\n\\[\\begin{split} &\n\\text{target:}              \\hphantom{min.nstraints:}      z = c^T \\cdot x \\\\&\n\\text{min. constraints:}    \\hphantom{max.}    \\left( \\left[ a_{ki} \\right] - x_{n+k} \\right) \\cdot x = b   \\\\&\n\\text{max. constraints:}    \\hphantom{min.}    \\left( \\left[ a_{ki} \\right] + x_{n+k} \\right) \\cdot x = b   \\\\&\n\\text{condition:}           \\hphantom{max.raints:}    x \\ge 0       \\\\&\n\\end{split} \\tag{3}\\]\n\nSolution with Simplex algorithm\n\nmultilinear and exponential models …"
+  },
+  {
+    "objectID": "Content/Momentum.html",
+    "href": "Content/Momentum.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Momentum (impetus, movement trigger, exitation, cause for effect):\n\\[\\begin{split} &\np =\nm \\cdot v\n\\stackrel{!}{=}\n\\sqrt{ \\left( \\frac{E}{c} \\right)^2 - (mc)^2 } =\n\\sqrt{ \\left( \\frac{\\hbar\\omega}{c} \\right)^2 - (mc)^2 } = \\\\&\n\\sqrt{ \\left( \\frac{h\\nu}{c} \\right)^2 - (mc)^2 } =\n\\sqrt{ \\left( \\frac{h}{\\lambda} \\right)^2 - E_{pot} } =\n\\sqrt{ \\left( \\hbar k \\right)^2 - E_{pot} }\n\\stackrel{rel.}{=}\nk\\hbar\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Momentum"
+    ]
+  },
+  {
+    "objectID": "Content/Magnification.html",
+    "href": "Content/Magnification.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Magnification lateral/heigth/size \\(y=z\\), longitudinal/distance \\(x \\perp y\\)\n\\(g \\equiv\\) distance from object, sender source (from Objectiv)\n\\(b \\equiv\\) distance from observer, receiver detector (from Okular)\n\\(l \\equiv\\) distance observer to next lense\n\\(r \\equiv\\) radius of curvature (bended reflective surface, lense koncav vs. konvex)\n\\(d \\equiv\\) max. thickness of curved lense enclosed between one konvex side from \\(g\\) and one konkav side from \\(b\\) with radi \\(r_g\\) and \\(r_b\\)\n\\(s_0 \\equiv\\) sight/tubus length\n\\(\\varepsilon \\equiv\\) “visual angle” from observer, $ _0 $ smallest visual angle\n\\(f \\equiv\\) focal length\n\\[\\begin{split} &\ng \\parallel x \\parallel b \\parallel f\n\\qquad\ny_b \\perp b\n\\qquad  \ny_g \\perp g\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\n\\tan(\\varepsilon) = \\frac{y_b}{b}\n\\qquad\n\\tan(\\varepsilon_0) = \\frac{y_b}{g}\n\\end{split} \\tag{2}\\]\n\\((\\Delta\\varphi)_{min} = \\Delta\\theta = 2 \\varepsilon _0 = 1.22 \\frac{\\lambda}{d_y}\\)\n“psychological visual angle”: \\(2 \\varepsilon_0^{min} = 1' = 60'' = \\frac{1^{\\circ}}{60} = \\frac{2\\pi}{360} \\frac{1}{60} = \\frac{\\pi}{10800}\\)\nkonkav: $ f&gt;0, r&lt;0 $ konvex: $ f&lt;0, r&gt;0 $, virtual $ b&lt;0 $\n\\[\\begin{split} &\n\\frac{\\eta_g}{g} + \\frac{\\eta_b}{b} =\n\\frac{\\eta - \\eta_g}{r_g} - \\frac{\\eta - \\eta_b}{r_b}\n\\end{split} \\tag{3}\\]\n\\(\\frac{1}{f_b} = \\frac{1}{\\eta_b} \\left( \\frac{\\eta - \\eta_g}{r_g} - \\frac{\\eta - \\eta_b}{r_b} \\right)\\)\n\\(\\frac{1}{f_g} = \\frac{1}{\\eta_g} \\left( \\frac{\\eta - \\eta_g}{r_g} - \\frac{\\eta - \\eta_b}{r_b} \\right)\\)\nthin lense: \\(f = f_g = f_b \\iff d \\rightarrow 0\\)\nlense: \\(f = f_g = f_b \\iff \\eta_g = \\eta_b\\) \nspherical surface (panel), paraxial rays (linear approx., Gauss):\n\\[\\begin{split} &\n\\frac{\\eta_g}{g} + \\frac{\\eta_b}{b} =\n\\frac{\\eta_b - \\eta_g}{r}\n\\end{split} \\tag{4}\\]\n\\[\\begin{split} &\nb = f_b = \\frac{\\eta_b}{\\eta_b - \\eta_g} \\cdot r    \\qquad\ng = f_g =\n\\frac{\\eta_g}{\\eta_b - \\eta_g} \\cdot r\n\\end{split} \\tag{5}\\]\nFocal Length:\n\\[\\begin{split} &\nf =\n\\left( \\frac{\\Delta y}{\\Delta \\varepsilon} \\right)_{min} =\n\\frac{1}{r} \\frac{\\eta}{\\Delta\\eta} =\n\\frac{r}{2} \\frac{1}{\\eta - 1} =\n- \\frac{r}{2} =\nf_b = f_g\n\\stackrel{conjungtion}{=}\n\\frac{g \\cdot b}{g + b}\n\\end{split} \\tag{6}\\]\nwhere: $ f^2 = x_g x_b $ and \\(x_g = x_g(0) = g - f = -f \\frac{y_g}{y_b} = +f \\cdot \\mathscr{G}_y\\) and \\(x_b = x_b(0) = b - f = -f \\frac{y_b}{y_g} = -f \\cdot \\mathscr{G}_y\\)\nlense proportions:\n\\[\\begin{split} &\nx_g(r_b) = -f \\cdot \\frac{\\eta - 1}{\\eta} \\cdot \\frac{d}{r_b}\n\\qquad\nx_b(r_g) = -f \\cdot \\frac{\\eta - 1}{\\eta} \\cdot \\frac{d}{r_g}\n\\end{split} \\tag{7}\\]\n\\(d = x_g(r_b) + x_b(r_g) + \\Delta x\\) where rays parallel within \\(\\Delta x\\) inside lense\nDioptri (Refractive Power):\n\\[\\begin{split} &\nD =\n\\frac{\\eta_g}{f_g} =\n\\frac{\\eta_b}{f_b}\n\\stackrel{vacuum}{=}\n\\frac{1}{f} =\n\\frac{1}{g} + \\frac{1}{b}\n\\stackrel{paraxial}{=}\n\\frac{\\Delta\\eta}{f} =\n\\frac{2}{r}\n\\stackrel{concave}{=}\n- \\frac{2}{r}\n\\stackrel{r_b = -r_g}{=}\n\\frac{2}{r} (\\eta - 1) =\n(\\eta - 1) \\left( \\frac{1}{r_g} - \\frac{1}{r_b} + \\frac{(\\eta - 1) \\cdot d}{\\eta} \\frac{d}{r_g \\cdot r_b } \\right)\n\\stackrel{conjungtion}{=}\n\\frac{g + b}{g \\cdot b}\n\\end{split} \\tag{8}\\]\nwhere: $ r &lt; 0 $\nlongitudinal magnification:\n\\(\\mathscr{G}_x = \\frac{g}{b}\\)\nlateral magnification:\n\\[\\begin{split} &\n\\mathscr{G}_y\n\\stackrel{konkav}{=}\n\\frac{-y_b}{y_g} =\n- \\frac{b}{g}\n\\stackrel{konkvex}{=}\n\\frac{y_b}{y_g} =\n- \\frac{b-r}{g+r}  =\n- \\frac{f}{x_g} =\n- \\frac{x_b}{f} =\n\\frac{f}{f-g}\n\\stackrel{aplanar}{=}\n\\frac{\\eta_g}{\\eta_b} \\cdot \\frac{sin(u_g)}{sin(u_b)}\n\\stackrel{kollinear}{=}\n\\frac{\\eta_g}{\\eta_b} \\cdot \\frac{tan(u_g)}{tan(u_b)}\n\\stackrel{paraxial}{=}\n\\frac{\\eta_g}{\\eta_b} \\cdot \\frac{u_g}{u_b}\n\\end{split} \\tag{9}\\]\nviewangle magnification:\n\\[\\begin{split} &\n\\mathscr{G}_\\varepsilon =\n\\frac{\\varepsilon}{\\varepsilon_0} =\n\\frac{\\frac{y_b}{b+l}}{\\frac{y_g}{s_0}} =\n\\frac{s_0}{g} \\frac{1}{1+\\frac{l}{b}} \\cong\n\\frac{tan(\\varepsilon)}{tan(\\varepsilon_0)} =\n\\frac{y_b}{y_g} \\cdot \\frac{g}{b} =\n\\mathscr{G}_y \\cdot \\mathscr{G}_x\n\\stackrel{astronom.}{=}\n- \\frac{f^{Obj}}{f^{Oku}}\n\\stackrel{terrestr.}{=}\n+ \\frac{f^{Obj}}{f^{Oku}}\n\\qquad\n\\in \\left[ \\frac{s_0}{f} , \\frac{s_0}{f}+1 \\right]\n\\end{split} \\tag{10}\\]\ntotal magnification:\n\\[\\begin{split} &\n\\mathscr{G} =\n\\mathscr{G}_y^2  \\cdot \\mathscr{G}_x =\n\\mathscr{G}_y \\cdot \\frac{\\varepsilon}{\\varepsilon_0} =\n\\mathscr{G}_y \\cdot \\mathscr{G}_\\varepsilon =\n-\\frac{x_b^{Obj}}{f^{Obj}} \\cdot \\frac{s_0}{f^{Oku}}\n\\end{split} \\tag{11}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Magnification"
+    ]
+  },
+  {
+    "objectID": "Content/Luminescence.html",
+    "href": "Content/Luminescence.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Luminescence: \nProducing optical radiation with exitaction of atoms and melecules thorough transitions into ground state (emission of photons):\n\nElectroluminescence: electrical exitation with diods or gas discharge\nPhotoluminescence: exitation with electromagnetic radiation (photons), phosphor or fluor\nChemoluminescence: exitation with chemical reaction, e.g. luminol\nBioluminescence: exitation with chemical reaction at living organs, e.g. oxidation of luciferin\nTriboluminescence: exitation with friction or tearing apart (e.g. sugar cristals)\nRadioluminescence: exitation with irradiation with \\(\\alpha-\\), \\(\\beta-\\) or \\(\\gamma\\)-radiation"
+  },
+  {
+    "objectID": "Content/Invariance-Symmetry.html",
+    "href": "Content/Invariance-Symmetry.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "If for an optical process \n1. the absorbtion is neglectable and\n2. there is no change of the polarisation state of the radiation,\nthen the between\na) the oscillation of the electric current at a certein point in space and its\nb) induced electric field at a differnt point in space\nstays if those two points in space are switched (those two points where the oscillation of the electric current and the measured electric field occure).\nThus there is a symmetry in the wave propagation of electromagnetic radiation, when the two locations between\na) the source of radiation and\nb) the observed detection\nare exchanged.\nThis is the of a radiation path, which in physics is called the “Reciprocity Principle”.\nAccording to the physics of Wave Optics (Refraction Index, Dispersion and Absorbion, Lightspeed), in a medium (matter) with refraction index \\[\\eta^2 = \\epsilon_r\\mu_r\n\\stackrel{dispersion}{=}\n\\eta^2(\\lambda) = \\eta^2(\\omega)\\] the frequency \\[\\nu = \\frac{\\omega}{2\\pi} = \\frac{\\eta k v}{2\\pi} = \\frac{\\eta v}{\\lambda}\n\\stackrel{vacuum}{=}\n\\frac{kc}{2\\pi} = \\frac{k}{2\\pi}\\frac{1}{\\sqrt{\\epsilon_0\\mu_0}} = \\frac{c}{\\lambda}\\] of the electromagnetic wave always remains unchanged if no external force is applied - it is ; while its wavelength \\(\\lambda = \\frac{2\\pi}{k}\\) might shorten getting slower (where k = wavenumber, and \\(v_{max}=c\\) = lightspeed).\nHypothesis - Reversibility of Information: Therefore, energy \\(E(\\nu)\\) is conserved - meaning: Information (energy) transmitted with the propagation of electromagnetic waves at a specific frequency remains stable because the optical process is reversible and thus has no change in entropy.",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Invariance and Symmetry"
+    ]
+  },
+  {
+    "objectID": "Content/Intensity.html",
+    "href": "Content/Intensity.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Intensity (density, concentration)\nIrradiance, Intensity is impact at receiver (observer in distance b):\n\\(\\mathscr{I} \\equiv\\) Irradiation, Intensity, “straight impact” at receiver (observer surface orthogonal to ray beam, \\(\\mathscr{A}_b \\perp R\\)) \n\\(\\Phi \\equiv\\) Power (Flux) = \\(\\frac{W}{t} = \\frac{F \\cdot x}{t} = \\frac{dE}{dt} = mva = pa\\)\n\\(\\mathscr{S} \\equiv\\) Poynting-Vector, Radiation \n\\(\\mathscr{A}_b \\equiv\\) Area surface at observer (receiver)\n\\(\\mathscr{A}_g \\equiv\\) Area surface at source (sender)\n\\(\\Omega_g \\equiv\\) Solid Angle at source (sender) \n\\(\\Omega_b \\equiv\\) Solid Angle at observer (receiver)\n\\(\\mathscr{J} \\equiv\\) Flux Density (Radiant Intensity), “angular emission” at source (sender) \n\\(\\mathscr{L} \\equiv\\) Radiance \n\\(R \\equiv\\) Distance, ray beam length\n\\[\\begin{split} &\n\\mathscr{I} =\n\\mathscr{I}_{\\alpha} =\n\\langle w_{EM} \\rangle \\cdot c =\n\\langle w_{EM} \\cdot c_{ph} \\rangle =\n\\frac{1}{2} \\frac{c}{\\eta} \\epsilon \\mathscr{E}_0^2 =\n\\frac{1}{2} c_{ph} \\epsilon_0 \\mathscr{E}_0^2 =\n\\frac{1}{\\mu_0} | \\mathscr{E} \\times \\mathscr{B} | =\n\\langle | \\mathscr{E} \\times \\mathscr{B} | \\rangle =\n\\langle | \\mathscr{S} | \\rangle =  \n\\langle \\Phi \\rangle =  \n\\frac{d\\Phi}{d\\mathscr{A}_b} =\n\\frac{d\\Phi}{d\\Omega_g} \\frac{\\cos(\\varepsilon_b)}{R^2} =\n\\mathscr{J} \\frac{\\cos(\\varepsilon_b)}{R^2}\n\\stackrel{\\mathscr{A}_b \\perp \\mathscr{S}, \\varepsilon_b = 0}{=}\n\\frac{\\mathscr{J}}{R^2}\n\\stackrel{\\Omega_b=small, \\mathscr{S}=const.}{=}\n\\int\\limits_{\\mathscr{A}_g} \\mathscr{L} \\frac{\\cos(\\varepsilon_g)}{R^2} d\\mathscr{A}_g =\n\\int\\limits_{\\Omega_b} \\mathscr{L} d\\Omega_g =\n4\\pi \\cdot \\mathscr{L}_B\n\\end{split} \\tag{1}\\] \n\\[\\begin{split} &\n\\mathscr{I}_0\n\\stackrel{\\mu_{r}=1}{=}\nc \\epsilon_{0} \\left( \\frac{\\mathscr{E(\\vartheta)}}{e^{ t (\\omega t - kr) }}  \\frac{sin(\\frac{1}{2} \\Delta \\varphi )}{sin(\\frac{N}{2} \\Delta \\varphi) }   \\right )^2 =\n\\mathscr{I}_{A_r} + \\mathscr{I}_{A_t} =\n\\mathscr{I}_{\\vartheta} + \\mathscr{I}_{\\beta} =\n\\mathscr{I}_{A_t,max} =\n\\mathscr{I}_{\\beta_t,max} =\n\\mathscr{E}_0^2\n\\end{split} \\tag{2}\\]\n\\[\\begin{split} &\n\\mathscr{I}_{max}\n\\stackrel{\\mu_{r}=1}{=}\n\\mathscr{I}_{\\alpha=0=\\beta} =\n\\mathscr{I}(0) =\nN^2 \\mathscr{I}_{0}\n\\stackrel{\\mu_{r}=1}{=}\n\\left( N \\mathscr{E}_0 \\right)^2\n\\end{split} \\tag{3}\\]\nTransmitted Intensity (Airy-Function) in refraction:\n\\[\\begin{split} &\n\\mathscr{I}_{\\beta_t} = \\mathscr{I}_{A_t} =\n\\frac{1}{1 + \\frac{4 a_r^2}{(1-a_r^2)^2} sin^2(\\frac{\\Delta\\varphi}{2}) } =\n\\frac{1}{ 1 + \\mathcal{F} \\cdot sin^2(\\frac{\\Delta\\varphi}{2}) }\n\\end{split} \\tag{4}\\]\n\\[\\begin{split} &\n\\mathscr{I}_{A_t}(\\Delta\\varphi) =\n\\mathscr{E}^*\\mathscr{E} =\n\\mathscr{E}_{0}^2 \\frac{ \\left( 1 - \\left( \\frac{\\mathscr{E}_{0,\\vartheta}}{\\mathscr{E}_{0,\\alpha}} \\right)^2 \\right)^2 }{ \\left( 1 - \\left( \\frac{\\mathscr{E}_{0,\\vartheta}}{\\mathscr{E}_{0,\\alpha}} \\right)^2 \\right)^2 } \\frac{1}{1+\\frac{ 4 \\left( \\frac{\\mathscr{E}_{0,\\vartheta}}{\\mathscr{E}_{0,\\alpha}} \\right)^2 }{  \\left( 1 - \\left( \\frac{\\mathscr{E}_{0,\\vartheta}}{\\mathscr{E}_{0,\\alpha}} \\right)^2 \\right)^2 } \\sin^2(\\frac{\\Delta\\varphi}{2}) } =\n\\mathscr{E}_{0}^2 \\frac{ \\left( 1 - a_r^2 \\right)^2 }{ \\left( 1 - a_r^2 \\right)^2 } \\frac{1}{1+\\frac{ 4a_r^2 }{  \\left( 1 - a_r^2 \\right)^2 } \\sin^2(\\frac{\\Delta\\varphi}{2}) } =\n\\mathscr{E}_0^2 \\mathscr{I}_{A_t} =\n\\mathscr{I}_{max} \\mathscr{I}_{A_t}\n\\end{split} \\tag{5}\\]\n\\[\\begin{split} &\n\\mathscr{I}_{\\beta_t,min} =\n\\mathscr{I}_{A_t,min} =\n\\mathscr{I}_{A_t,max} \\cdot \\frac{1}{1 + {\\frac{4 a_r^2}{(1-a_r^2)^2}} } =\n\\mathscr{I}_{\\beta_t,max} \\cdot \\frac{1}{1 + \\mathcal{F}} =\n\\frac{ \\mathscr{E}_0^2}{1 + \\mathcal{F} }\n\\end{split} \\tag{6}\\]\nAbsorbed Intensitiy:\n\\[\\begin{split} &\n\\mathscr{I} =\n\\mathscr{I}_{\\beta_a} =\n\\mathscr{I}_0 e^{-al}\n\\stackrel{\\mu_r = 1}{=}\n\\frac{\\mathscr{E}_0^2}{e^{al}}  \n\\qquad  a = \\textnormal{absorbtion coefficient}\n\\qquad  l = \\textnormal{direction}\n\\end{split} \\tag{7}\\]\nReflected Intensity:\n\\[\\begin{split} &\n\\mathscr{I}_{\\vartheta}\n\\stackrel{\\mu_{r}=1}{=}\nc \\epsilon_0 \\langle \\mathscr{E(\\vartheta)}^2 \\rangle =\n\\mathscr{I}_0 \\frac{sin^2 \\left (\\frac{N}{2} \\Delta \\varphi \\right)}{sin^2 \\left( \\frac{1}{2} \\Delta \\varphi \\right)} =\n\\mathscr{I}_0 \\frac{sin^2 \\left( N \\pi \\frac{d}{\\lambda} sin(\\vartheta) \\right) }{sin^2 \\left( \\pi \\frac{d}{\\lambda} sin(\\vartheta) \\right) }\n\\end{split} \\tag{8}\\]\nDifracted Intensity:\n\\[\\begin{split} &\n\\mathscr{I}_{\\theta}\n\\stackrel{\\mu_{r}=1}{=}\nc \\epsilon_0 \\langle \\mathscr{E}^2 \\rangle =\n\\underbrace{\\mathscr{I}_0}_{Max.}\n\\underbrace{ \\left( \\frac{sin(\\beta)}{\\beta} \\right)^2 }_{Modulation}\n\\underbrace{ \\left( \\frac{sin(N \\alpha)}{sin(\\alpha)} \\right)^2 }_{Variation}\n\\end{split} \\tag{9}\\]\n\\(\\beta = k \\frac{b}{2}sin(\\theta)   \\qquad  \\alpha = k \\frac{a}{2}sin(\\theta)\\)\n\\(a = \\textnormal{particle distance} \\qquad  b = \\textnormal{particle size}\\)\nHypothesis:\n\\(\\left( \\frac{\\mathscr{J}}{R} \\right)^2 = \\mathscr{J} \\cdot \\mathscr{I}\\)\n\\(\\Rightarrow\\) ray length (reach)\n\\(R = \\sqrt{ \\frac{\\mathscr{J}}{\\mathscr{I}} }\\)",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Intensity"
+    ]
+  },
+  {
+    "objectID": "Content/hypothesis.html",
+    "href": "Content/hypothesis.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Conjecture of ?@eq-moneyquant and ?@eq-workthermal\nHow consistently map economic measures to the quantities of nature to model the economical system?\nInput: \\[\\begin{split} &\nInput = f_0(Resouces, Labor, Capital) \\text{ = Work = } \\Delta\\text{Energy} = p \\cdot v\n\\end{split} \\tag{1}\\]\nOutput: \\[\\begin{split} &\nOutput \\text{ = Goods + Services = Production = } \\Delta\\text{State} = V_I\n\\end{split} \\tag{2}\\]\nProductivity: \\[\\begin{split} &\nProductivity = \\frac{Output}{Input} = \\frac{\\Delta State}{\\Delta Energy} = \\frac{Production}{Work} = \\frac{V_I}{pv}\n\\end{split} \\tag{3}\\]\nsee description of “movement” ?@eq-movement\n\n\n\n\n\n\n\nTable 1: Core Measurements\n\n\n\n\n\n\n\n\n\n\n\n\nEconomy\n\\(\\rightarrow\\)\n\n\\(\\leftarrow\\)\nPhysics\n\n\n\n\nResources\nAssets\n\nForce\nMatter\n\n\nCapital\nLiabilities\n\nMomentum\nSpace\n\n\nLabor\nExpenses\n\nWork\n\n\n\n\nIncome\nProduction\nEnergy\nTime\n\n\n\n\n\n\n\n\n\nAs a first approach, considering the geometrical perspective of the concept of “work” (?@eq-workgeom), applied to economical measurements, so to satisfy the following system:\n\\(f_A(Assets) = f_B(Liabilities + Gain)\\) = “momentum” \\(p\\) from initial state \\(r_0\\) to new state \\(r_1\\), where the change of state is \\(r = r_1 - r_0\\)\nMatter substance, object movement/change: \\[\\begin{split} &\nA = f_A = F \\cdot t = p\n\\end{split} \\tag{4}\\]\nSpace of movement, maneuverability: \\[\\begin{split} &\nB + R = f_B = m \\cdot v = p\n\\end{split} \\tag{5}\\]\nWork input (efforts, costs) through labor force, machines and infrastructure applied, and materials consumed for production: \\[\\begin{split} &\nW = f_0 = F \\cdot r = m \\cdot \\frac{v}{t} \\cdot r = p \\cdot v\n\\end{split} \\tag{6}\\]\nEnergy transfer, energy change, profit or loss: \\[\\begin{split} &\nY = \\Delta E = \\frac{1}{2} pv + \\mathcal{U}\n\\end{split} \\tag{7}\\]\nProduction value inflation adjusted: \\[\\begin{split} &\nP \\cdot V_I = \\sum Y_{adjust} = \\sum (W + R)_{adjust} = \\Delta U - \\Delta H = Q \\cdot N\n\\end{split} \\tag{8}\\]\nsee ?@eq-workthemostat and ?@eq-workgeom\nThus, to be determined are \\(v\\) (economy velocity) and \\(p\\) (financial structure). Eventually, determine \\(r\\) = “state change through trajectory” (substance change to the new assets structure) by given \\(v\\) = “velocity of movement” (Business speed = monetary value, price with inflation), or determine \\(v\\) by given \\(r\\). The individual positions \\(\\{ i,j,l,m \\}\\) of Liabilities \\(\\{ B_i + R_j \\}_k\\), Assets \\(\\{ A_m \\}_k\\), and Expenses \\(\\{ W_l \\}_k\\) shall be grouped in sets \\(\\{ k \\}\\), so to satisfy \\(f_k(i,j) = f_k(m) = f_k(l) = \\{ pv \\}_k\\).\nThe constraints shall be modelled with the Lagrangian. Hence, “Work” shall be derived from the Hamiltonian which leads to the identification of the “movement” (= change, transformation) of the trajectory (= path to new state) with \\(\\dot r = v\\) and \\(\\dot p = F\\).\nExperiment design: \\(p\\) and \\(v\\) are modelled ex-ante with means of CONSTRAINTS from contractual agreement and from given juristic legislation, in such a way that physics laws are satisfied. Decisions making occure within this ex-ante frame."
+  },
+  {
+    "objectID": "Content/Force.html",
+    "href": "Content/Force.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Force (matter movement, matter acceleration, mattertransport)\nHypothesis: Accelerated mass causes force (analogous to “radiation”). Mass is supposed to originate from Higgs Field.\nForce: \\[\\begin{split} &\nF =\n\\frac{d}{dt}p =\n\\frac{1}{c} \\frac{d}{dt}(E_{kin}) =\nm \\cdot a\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Force"
+    ]
+  },
+  {
+    "objectID": "Content/Field-H_Exitation.html",
+    "href": "Content/Field-H_Exitation.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "H-Field, magn. Anregung: \\(\\mathscr{H} = ...\\)",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "H-Field Exitation"
+    ]
+  },
+  {
+    "objectID": "Content/Field-D_Exitation.html",
+    "href": "Content/Field-D_Exitation.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "D-Field (Verschiebung, elektr. Erregung): \\(\\mathscr{D} = ...\\)",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "D-Field Exitation"
+    ]
+  },
+  {
+    "objectID": "Content/Energy_2.html",
+    "href": "Content/Energy_2.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Energy manifestation forms: Change (Transfer Movement), Potential (Rest Duration), Temperature, Light, Sound, Mass, Charge, Information, Communication, …\nEnergy Total:\n\\[\\begin{split} &\nE_{Tot} =\nmotion + rest =  \nlinear + rotational + vibration + spin + ... =   \\\\&\nWork + Heatchange = \\left( F \\cdot \\Delta r \\right) \\mp \\Delta Q =\nE_{kin} + E_{pot} =\nE_{magn} + E_{elec} =\npv \\\\&\n\\stackrel{macro (continuum)}{=}     \\\\&\n\\frac{1}{2} \\frac{p^2}{m} =\n\\frac{1}{2} m \\left( \\omega A \\right)^2  \\\\&\n\\stackrel{thermal}{=}\n\\frac{1}{2}fbT\n\\stackrel{micro (quantum)}{=}    \\\\&     \n\\hbar\\omega =\nh\\nu =\n\\frac{1}{2} \\frac{\\left( \\hbar k \\right)^2}{m} =     \n\\stackrel{relativistic}{=}       \\\\&\n\\sqrt{ (pc)^2 + (mc^2)^2 }\n\\stackrel{Entropy}{=}    \\\\&\n...\n\\stackrel{distribtion Fermion}{=}   \\\\&\n...\n\\stackrel{distribtion Boson}{=}   \\\\&\n...\n\\stackrel{distribtion Boltzmann}{=}   \\\\&\n...\n\\end{split} \\tag{1}\\]"
+  },
+  {
+    "objectID": "Content/economy_micro.html",
+    "href": "Content/economy_micro.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "MICRO ECONOMY: Supply, Demand, Equilibrium, Pricing, Elasticity, Utiliy, Production & Cost, Labor, Aggregates …\nHow individuals and companies make decisions to allocate scarce resources.\nAssets = Property Capital (substance of matter, object movement/change)\nLiabilities = Financial Capital (space of movement, maneuverability)\nExpenses = Costa of Work through labor force and machines\nIncome = Earnings from sales of goods & services\n\n\\(f_A(Assets) = f_L(Liabilities)\\) = “momentum” \\(p\\) from initial state \\(r_0\\) to new state \\(r_1\\), and “state change” = \\(r = r_1 - r_0\\)\n\n\nacronyms see ?@sec-acroecomicro\n\n\nacronyms\n\n\n- | - |\n\\(A =\\) Assets | \\(L =\\) Liabilities\n\\(X =\\) Expenses | \\(S =\\) Financial Leverage (Verschuldungsgrad)\n\\(I =\\) Income | \\(E =\\) Equity\n\\(Y =\\) Yield, Gain, Return, Earning, Profit | \\(Q =\\) Liquidity\n\\(D =\\) Debit | \\(C =\\) Credits\n\\(G =\\) G&A General & Administration | \\(E_T =\\) EBIT\n\\(E_D =\\) EBITDA | \\(U =\\) Productitivy\n\\(P =\\) Profitability | \\(R_E =\\) ROE\n\\(R_A =\\) ROA | \\(R_I =\\) ROI\n\\(F =\\) Cash Flow (CF) | \\(F_F =\\) Free CF\n\\(W =\\) WACC | \\(V =\\) NPV\n\\(B =\\) DB Deckungsbeitrag | \\(N =\\) NUV (Nettoumlaufsvermögen)\n$ =$ … | $ =$ …"
+  },
+  {
+    "objectID": "Content/econom.html",
+    "href": "Content/econom.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Society’s living requires:\n\n“Resources” are processed to create goods to be consumed\n“Labor” is used to process goods and services\n“Capital” intermediates value between goods and services\n\nSociety organizes in groups of households:\n\nnatural households\njuristic corporations\ngovernmental institutions\n\nHouseholds cooperate though exchange (trade) of goods and services between “Demand” and “Supply” using monetary valuation:\n\nGoods Market Production, Inventory, Trade \\(\\rightarrow\\) “Price” for value of production\nLabor Market Employment, Demographic Structure, Work Capabilities \\(\\rightarrow\\) “Wage” for value of labor\nCapital Market Savings, Investments, Exchange \\(\\rightarrow\\) “Interest” for value of capital\n\n\nacronyms see ?@sec-acroeconom\n\n\nSupply is provided by the income \\(Y\\):\n\\[\\begin{split} &\nY = L  + Y_H + Y_A + T_A + Y_G - Z_G\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\nY = C + S + T + M - X\n\\end{split} \\tag{2}\\]\nDemand is satisfied by the production \\(V_I\\):\n\\[\\begin{split} &\nV_I = C + I + G + X - M\n\\end{split} \\tag{3}\\]\nEquilibrium:\n\\[\\begin{split} &\nY = V_I       \\\\&\nL - C = S = I        \\\\&\nC + S = L        \\\\&\nC + I = R\n\\end{split} \\tag{4}\\]\nDomestic Production & International Trade:\n\\[\\begin{split} &\nV_S = Y + T - G_A + D_A\n\\end{split} \\tag{5}\\]\n\\[\\begin{split} &\nV_N = V_S - D_A\n\\end{split} \\tag{6}\\]\n\\[\\begin{split} &\nV_I = V_S - R_M + R_X\n\\end{split} \\tag{7}\\]\nMonetary Value of Production:\n\\[\\begin{split} &\nP \\cdot V_I = Q \\cdot N\n\\end{split} \\tag{8}\\]\nMacro Productivity: \\[\\begin{split} &\nProductivity = \\frac{Output}{Input} = \\frac{V_I}{Y}\n\\end{split} \\tag{9}\\]\n\n\nWe track production at microeconomic level through (acronyms see ?@sec-acroeconom):\n\\(A =\\) Assets represent “Property Capital” which consist of “Current Capital” and “Structural Capital”. Those investments are required for the production processes.\n\\(B =\\) Liabilities represent “Financial Capital” which consist of “Exogen Funds” and “Endogen Funds”. Later includes “Equity Capital” and “Retained Gains”. Those funds do finance Assets.\n\\(W =\\) Expenses represent “Work Efforts” to “Supply Production” with use of Assets.\n\\(Y =\\) Income represents “Received Earnings” achieved with production to “Satisfy Demand”. Parts of the gains will be retained to finance Assets.\n\\(R =\\) Gain, Profit or Loss from executed work (resultant value from input efforts) is represented by \\(R = Y - W\\)\nThe “transfer of energy” between all subsystems is mapped in balancing out theirs capital (usage of capital for production though possessed assets): \\(A = B + R\\)\nMicro Productivity: \\[\\begin{split} &\nProductivity = \\frac{Output}{Input} = \\frac{Y}{W}\n\\end{split} \\tag{10}\\]"
+  },
+  {
+    "objectID": "Content/Coupling.html",
+    "href": "Content/Coupling.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Coupling of matter and charge: \\[\\begin{split} &\n\\kappa = \\frac{m}{q} =\n\\frac{m}{ne_0}\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Coupling"
+    ]
+  },
+  {
+    "objectID": "Content/Beta-decay.html",
+    "href": "Content/Beta-decay.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Reference: Experimentalphysik - Band 5: Quanten,Atome, Kerne, Teilchen (De Gruyter, 2016)” by Prof. Wolfgang Pfeiler (Faculty of Physics at University of Wien), chapter “3.1.4.3 Der \\(\\beta\\)-Zerfall” pp.319-328, https://doi.org/10.1515/9783110445718\n…",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "$\\beta$-Decay"
+    ]
+  },
+  {
+    "objectID": "Content/acronyms.html",
+    "href": "Content/acronyms.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "\\(A =\\) Action\n\\(E = E_{kin} + E_{pot} =\\) total energy\n\n\n\\(t =\\) time\n\\(r =\\) dpace (distance between two points, one-dimensional length)\n\n\n\\(v =\\) velocity\n\\(c =\\) light speed\n\n\n\\(p =\\) momentum\n\\(F =\\) force\n\n\n\\(I =\\) inertia\n\\(\\mathcal{L} =\\) Lagrangian\n\n\n\\(\\mathcal{H} =\\) Hamiltonian\n\\(\\mathcal{K} =\\) kinetic Energy\n\n\n\\(\\mathcal{U} =\\) effective potential Energy (\\(\\in E_{pot}\\))\n\\(\\mathcal{V} =\\) potential Energy (\\(\\in E_{pot}\\))\n\n\n\\(\\mathcal{Z} = \\frac{1}{2}\\frac{L_0^2}{mr^2} =\\) Centrifugal Potential\n\\(V = r_1 \\cdot r_2 \\cdot r_3 =\\) Volume\n\n\n\\(\\mathcal{k} =\\) Wave Vector (“curvature”)\n\\(W =\\) Work (done vs. received)\n\n\n\\(P =\\) Pressure\n\\(L_0 =\\) angular momentum\n\n\n\\(T =\\) endogen Temperature\n\\(H =\\) exogen Heat\n\n\n\\(U =\\) endogen Energy (\\(E_{kin} + E_{pot}\\))\n\\(\\Phi = \\frac{\\mathcal{V}}{q} =\\) Electric Potential\n\n\n\\(\\mathcal{A} =\\) Magnetic Potential\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(g_0 =\\) Gas constant\n\\(m =\\) mass\n\n\n\\(q =\\) charge\n$\\(n =\\) amount of objectes (particles density \\(n=\\frac{N}{V}\\)), \\(n=2\\) and \\(f=1\\)\n\n\n\\({\\epsilon}_0 =\\) electric constant\n\\(f = 3n \\pm z =\\) degrees of freedom, \\(f=1\\) and \\(n=2\\)\n\n\n\\({\\mu}_0 =\\) magnetic constant\n\\(\\mathcal{B} =\\) Magnetic Field\n\n\n\\(\\mathcal{E} =\\) Electric Field\nH\\(\\mathcal{C} = m \\cdot c_0 = \\frac{\\Delta H}{\\Delta T}  =\\) heat capacity\n\n\n\\(c_0 = \\frac{1}{m}\\frac{\\Delta H}{\\Delta T} =\\) specific heat\n\\(S = b_0 \\cdot \\ln(\\Omega) =\\) Entropy (macro state)\n\n\n\\(l =\\) Moll quantity\n\\(\\Omega =\\) micro states\n\n\n\\(z =\\) amount of constraints (boundry conditions)\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(\\kappa = \\frac{c_P}{c_V} = \\frac{f+2}{f} =\\) adiabaty\n\\(\\iota = \\kappa\\) ↔︎ adiabat\n\n\n\\(\\iota = 0\\) ↔︎ isobar\n\\(\\iota = 1\\) ↔︎ isotherm\n\n\n\\(\\iota = \\infty\\) ↔︎ isochor\n…\n\n\n…\n…"
+  },
+  {
+    "objectID": "Content/acronyms.html#sec-acroworkenergy",
+    "href": "Content/acronyms.html#sec-acroworkenergy",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "\\(A =\\) Action\n\\(E = E_{kin} + E_{pot} =\\) total energy\n\n\n\\(t =\\) time\n\\(r =\\) dpace (distance between two points, one-dimensional length)\n\n\n\\(v =\\) velocity\n\\(c =\\) light speed\n\n\n\\(p =\\) momentum\n\\(F =\\) force\n\n\n\\(I =\\) inertia\n\\(\\mathcal{L} =\\) Lagrangian\n\n\n\\(\\mathcal{H} =\\) Hamiltonian\n\\(\\mathcal{K} =\\) kinetic Energy\n\n\n\\(\\mathcal{U} =\\) effective potential Energy (\\(\\in E_{pot}\\))\n\\(\\mathcal{V} =\\) potential Energy (\\(\\in E_{pot}\\))\n\n\n\\(\\mathcal{Z} = \\frac{1}{2}\\frac{L_0^2}{mr^2} =\\) Centrifugal Potential\n\\(V = r_1 \\cdot r_2 \\cdot r_3 =\\) Volume\n\n\n\\(\\mathcal{k} =\\) Wave Vector (“curvature”)\n\\(W =\\) Work (done vs. received)\n\n\n\\(P =\\) Pressure\n\\(L_0 =\\) angular momentum\n\n\n\\(T =\\) endogen Temperature\n\\(H =\\) exogen Heat\n\n\n\\(U =\\) endogen Energy (\\(E_{kin} + E_{pot}\\))\n\\(\\Phi = \\frac{\\mathcal{V}}{q} =\\) Electric Potential\n\n\n\\(\\mathcal{A} =\\) Magnetic Potential\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(g_0 =\\) Gas constant\n\\(m =\\) mass\n\n\n\\(q =\\) charge\n$\\(n =\\) amount of objectes (particles density \\(n=\\frac{N}{V}\\)), \\(n=2\\) and \\(f=1\\)\n\n\n\\({\\epsilon}_0 =\\) electric constant\n\\(f = 3n \\pm z =\\) degrees of freedom, \\(f=1\\) and \\(n=2\\)\n\n\n\\({\\mu}_0 =\\) magnetic constant\n\\(\\mathcal{B} =\\) Magnetic Field\n\n\n\\(\\mathcal{E} =\\) Electric Field\nH\\(\\mathcal{C} = m \\cdot c_0 = \\frac{\\Delta H}{\\Delta T}  =\\) heat capacity\n\n\n\\(c_0 = \\frac{1}{m}\\frac{\\Delta H}{\\Delta T} =\\) specific heat\n\\(S = b_0 \\cdot \\ln(\\Omega) =\\) Entropy (macro state)\n\n\n\\(l =\\) Moll quantity\n\\(\\Omega =\\) micro states\n\n\n\\(z =\\) amount of constraints (boundry conditions)\n\\(b_0 =\\) Boltzmann constant\n\n\n\\(\\kappa = \\frac{c_P}{c_V} = \\frac{f+2}{f} =\\) adiabaty\n\\(\\iota = \\kappa\\) ↔︎ adiabat\n\n\n\\(\\iota = 0\\) ↔︎ isobar\n\\(\\iota = 1\\) ↔︎ isotherm\n\n\n\\(\\iota = \\infty\\) ↔︎ isochor\n…\n\n\n…\n…"
+  },
+  {
+    "objectID": "Content/acronyms.html#sec-acroeconom",
+    "href": "Content/acronyms.html#sec-acroeconom",
+    "title": "PHYSECON",
+    "section": "2 Acronyms of Economy: ?@sec-productivityvalue",
+    "text": "2 Acronyms of Economy: ?@sec-productivityvalue\n\n\n\n\n\n\n\n\\(T =\\) Taxes\n\\(M =\\) Import of Goods and Services from foreing symstes\n\n\n\\(G =\\) Governent Expenses, incl. Social Insurances\n\\(X =\\) Export of Goods and Services to foreign system\n\n\n\\(Y =\\) Income of Economy from Turnover\n\\(G_A =\\) Governental Subsidies\n\n\n\\(D_A =\\) Depreciations (Reinvestments) on Assets\n\\(V_N =\\) Net Naötional Production, Society NNP\n\n\n\\(N =\\) Monetary Quantity\n\\(Q =\\) Monetary Turnover Velocity\n\n\n\\(V_I =\\) Gross Domestic Product GDP = \\(\\frac{Output}{Input}\\), Tradevolume\n\\(P =\\) Price niveau (Inflation adjusted Value)\n\n\n\\(L =\\) Wages from Labor Work (Salaries, …)\n\\(R =\\) Returns, Earnings, Gains\n\n\n\\(Y_A =\\) Income of priv. Business Households (Companies, Services, Real Estate Rentals, Retained Profits)\n\\(Y_H =\\) Income from priv. Capital Households (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)\n\n\n\\(T_A=\\) Tax on Capital of Corprate Compaies (Business Assets)\n\\(Y_G =\\) Governmental Income from Assets, Services, Social Institutions/Insurances\n\n\n\\(Z_G =\\) Interests on Governmental Debt\n\\(V_S =\\) Gross National Produkt, Society GNP\n\n\n\\(I =\\) Investments on Assets, incl. Storage Change\n\\(R_M =\\) Capital Earnings and Wages from Abroad (from Foreign System)\n\n\n\\(R_X\\) Capital Earnings and Wages to Abroad (to Foreign System)\n\\(W =\\) Expensens, costs from human and machinary work efforts"
+  },
+  {
+    "objectID": "Content/2pi.html",
+    "href": "Content/2pi.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Periodicity (Cyclicity), cyclicity repeats within \\(\\lim\\) (rotational, closed loop inside restricted band), transcendency passes only once (tangential, linear infinit):\n\\[\\begin{split} &\n2\\pi =\nk\\lambda =\n\\mathcal{T}\\omega =\n\\frac{\\omega}{\\nu} =\nk \\frac{c}{\\nu} =\n\\frac{\\Delta\\varphi}{\\Delta s} \\frac{c}{\\nu} =\n\\frac{\\Delta\\varphi}{n} =\n\\frac{u}{r} =\n\\frac{h}{\\hbar}  =\n2 \\frac{\\mathscr{M}_B}{\\mathscr{L}_B}  \\\\&\n= \\left( \\frac{\\pi}{2} - \\alpha \\right) + \\alpha + \\left( \\frac{\\pi}{2} - \\beta \\right) + \\beta + \\pi    \\\\&\n= 360^{\\circ} =\n12 \\ hours \\ (half \\ day) =\n12 \\ music \\ notes \\ (one \\ octave)\n\\end{split} \\tag{1}\\]\nwhere:\n\\(\\alpha \\coloneqq\\) irradiaton angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)\n\\(\\beta \\coloneqq\\) refraction angle for bented transmitted radiation \\(A_{t}\\) orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)\n\\(\\mathscr{M}_B \\coloneqq\\) Blackbody Radiant Exitance \n\\(\\mathscr{L}_B \\coloneqq\\) Blackbody Radiance \nOrientation of Radiation:\n\n\n\nRadiation\n\n\n\\(\\vartheta =\\) reflection angle for redirected radiation \\(A_{r\\parallel}\\) parallel to \\(\\alpha\\) from matter \n\\(\\theta =\\) diffraction angle for redirected radiation \\(A_{r\\perp}\\) orthogonal to \\(\\alpha\\) from matter \n\\(\\varpi = \\beta_1 + \\beta_2 =\\) angle of converging body surfaces (point tip of prismic medium), spread angle of prism\n\\(\\varsigma =\\) deviation angle of redirected ray beam after refraction (transmission) and diffraction\n\\(u_g =\\) aperture angle (acceptance) from sender source (at distance \\(g\\))\n\\(w_b =\\) inclination angle at observer receiver (at distance \\(b\\))\n\\(\\varepsilon =\\) visual angle from observer/receiver (of eye)",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Periodicity"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "Content/abstract.html",
+    "href": "Content/abstract.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "An exploratory attempt …\nInterconnection network between movement, force, momentum, energy, and work. Describing systems with Lagrangian and Hamltonian when constraints and starting conditions exist. Modeling systems and optimisation with constraints and conditions. Interwoven system of macro- and microeconomie under constraints, limitations, and conditions."
+  },
+  {
+    "objectID": "Content/Action.html",
+    "href": "Content/Action.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Action (effect, impact, result from cause):\n\\[\\begin{split} &\n\\Upsilon = E \\cdot t = p \\cdot d\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Action"
+    ]
+  },
+  {
+    "objectID": "Content/constraints.html",
+    "href": "Content/constraints.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Constraints:\n\ninitial state, starting conditions\nacting boundary conditions (to move within): e.g. demography, economical and political stability, labor force, education and know-how, health and technological level\naccess to limited resources: e.g. chemical elements, minerals, fuels, commodities, trade and transportations, etc.\ncontractual agreements and covenants, legal assurance\njuristic law framework\n\nModelling movement (change of state) under constraints:\n\nMovement ist charecterized by change of energy, Lagrangian \\(\\mathcal{L} \\neq 0\\): \\[\\begin{split} &\n\\mathcal{L} = \\mathcal{K} - \\mathcal{U}\n\\qquad\n\\frac{\\partial \\mathcal{L}}{\\partial r} = F\n\\qquad\n\\frac{\\partial \\mathcal{L}}{\\partial v} = p\n\\end{split} \\tag{1}\\]\nMovement happens within constraints of forces. Constrains are observable, whereas forces might be unknown. Therefore, \\(r\\) can be determined from \\(\\mathcal{L}\\) (Energy and Work) of the system at rest \\(F=0\\), instead than from “searching” all acting forces \\(F_i\\). In general, unknow forces at motion are defined by solving the Eigenvalueproblem. Solving for \\(\\mathcal{L}\\) at equilibirium: \\[\\begin{split} &\nF_{total} = \\hat{F_i} + \\tilde{F_i} = \\hat{F_i} + \\sum_{k=1}^{s_d} \\lambda_k a_{ki} = \\frac{d}{dt} \\left( \\frac{\\partial \\mathcal{L}}{\\partial v_i} \\right) - \\frac{\\partial \\mathcal{L}}{\\partial r_i}\n= \\begin{cases}\n= 0    : \\text{ Equilibrium} \\\\\n\\neq 0 : \\text{ Movement}\n  \\end{cases}\n\\end{split} \\tag{2}\\]\nand at same time solving for constraining conditions that hold the system at rest (equilibrium): \\[\\begin{split} &\n\\sum_{l=1}^f a_{kl} v_l + b_k = 0\n\\end{split} \\tag{3}\\]\nRest is characterized by unchanged energy, Hamiltonian \\(\\mathcal{H} = E_{kin} + E_{pot} = const.\\). There is movement from state of rest if the new \\(\\mathcal{H} \\neq 0\\) differs from the initial one. Using the found solution for the Lagrangian \\(\\mathcal{L}\\) containing the constraints, the Hamiltonian for the energy is deduced: \\[\\begin{split} &\n\\mathcal{H} = \\sum_i p_i v_i - \\mathcal{L} = pv - \\mathcal{L}  = Fr - \\mathcal{L} = W - \\mathcal{L}  = (\\Delta E - \\Delta H) - \\mathcal{L}\n\\end{split} \\tag{4}\\]\nChange of state/position is characterized by movement. Eventually, by solving the new system of differential equations, from the found solution of the energy \\(\\mathcal{H}\\), the set \\({r,v,p}\\) which describe the movement (and thus the change of state), is deduced: \\[\\begin{split} &\n\\dot r_i = v_i = \\frac{\\partial\\mathcal{H}}{\\partial p_i}   \\qquad\n\\dot p_i = F_i = - \\frac{\\partial\\mathcal{H}}{\\partial r_i}\n\\end{split} \\tag{5}\\]\n\nsee description of “work” ?@eq-workgeom\nwhere:\n\\(s_d =\\) constraints   \\(i = 1,...,f =\\) dedrees of freedom   \\(k = 1,...,s_d =\\) constraints\n\\(\\hat{F_i} =\\) known constraining forces   \\(\\tilde{F_i} = \\sum_{k=1}^{s_d} \\lambda_k a_{ki} =\\) unknown constraining forces\n\\(\\lambda_k(t) =\\) Eigenvalues for transformation of reference system\n\\(a_{ki} =\\) Eigenvectors of transformation matrix\n\\(\\lambda_k \\cdot \\vec r_i = \\lambda_k \\cdot \\left[ a_{ki} \\right]_{matrix}\\)"
+  },
+  {
+    "objectID": "Content/determinism.html",
+    "href": "Content/determinism.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Determinism through contratcting & jurisdiction\nUncertainity minimizsations\nStatistical approximation\nPrognosis matching Determinism\n\nsee ?@eq-uncertainity"
+  },
+  {
+    "objectID": "Content/economy_macro.html",
+    "href": "Content/economy_macro.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "MACRO ECONOMY: GDP, Inflation, Import & Export, International Trade, Foreign Exchange, Money Quantity, Unemployment,\nGoods Market (Production, Lager), Capital Market (Savings, Investments), Labor Market (Employment, Population Structure), Price vs. Value, Demand vs. Supply, Access to Resources, Trade & International Contracts\nAssumin no waste.\nSupply:\n\\[\\begin{split} &\nE = C + S + T + M - X\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\nE = W  + E_P + E_B + T_B + E_G - Z_G\n\\end{split} \\tag{2}\\]\nDemand:\n\\[\\begin{split} &\nV_I = C + I + G + X - M\n\\end{split} \\tag{3}\\]\nEquilibrium:\n\\[\\begin{split} &\nE = V_I       \\\\&\nW - C = S = I        \\\\&\nC + S = W        \\\\&\nC + I = R\n\\end{split} \\tag{4}\\]\nDomestic Production & International Trade:\n\\[\\begin{split} &\nV_S = E + T - B + D\n\\end{split} \\tag{5}\\]\n\\[\\begin{split} &\nV_S = V_I + R_M - R_X\n\\end{split} \\tag{6}\\]\n\\[\\begin{split} &\nV_N = V_S - D\n\\end{split} \\tag{7}\\]\n\\[\\begin{split} &\nV_N = E + T - B\n\\end{split} \\tag{8}\\]\nProductivity & Monetary Value:\n\\[\\begin{split} &\nP \\cdot V_I = U \\cdot Q\n\\end{split} \\tag{9}\\]\n\n\nacronyms see ?@sec-acroecomacro\n\n\n\n\n\nacronyms\n\n\n\n\n\n\n\n\n\n\\(C =\\) Consumption of Private Households\n\\(S =\\) Savings\n\n\n\\(T =\\) Taxes\n\\(M =\\) Import of Goods and Services\n\n\n\\(G =\\) Governent Expenses, incl. Social Insurances\n\\(X =\\) Export of Goods and Services\n\n\n\\(E =\\) National Income of total Economy, Turnover\n\\(B =\\) Subsidies\n\n\n\\(D =\\) Depreciations (Reinvestments)\n\\(V_N =\\) Net Naötional Production, Society NNP\n\n\n\\(Q =\\) Monetary Quantity\n\\(U =\\) Monetary Turnover Velocity\n\n\n\\(V_I =\\) Gross Domestic Product GDP = \\(\\frac{Output}{Input}\\), Tradevolume\n\\(P =\\) Price niveau (Inflation adjusted Value)\n\n\n\\(W =\\) Wages (Salaries, …)\n\\(R =\\) Returns, Earnings, Gains\n\n\n\\(E_B =\\) Income of priv. Business (Companies, Services, Real Estate Rentals, Retained Profits)\n\\(E_P =\\) Income from priv. Capital (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)\n\n\n\\(T_B =\\) Tax on Capital of Comapies (Business Assets)\n\\(E_G =\\) Governmental Income from Assets, Services, Social Institutions/Insurances\n\n\n\\(Z_G =\\) Interests on Governmental Debt\n\\(V_S =\\) Gross National Produkt, Society GNP\n\n\n\\(I =\\) Investments on Assets, incl. Storage Change\n\\(R_M =\\) Capital Earnings and Wages from Abroad\n\n\n\\(R_X\\) Capital Earnings and Wages to Abroad\n…\n\n\n\n\nInput:\n\\[\\begin{split} &\nInput = f(Resouces, Labor, Capital) \\text{ = Work = } \\Delta Energy\n\\end{split} \\tag{10}\\]\nOutput:\n\\[\\begin{split} &\nOutput = V_I \\text{ = Goods + Services = Production = } \\Delta State\n\\end{split} \\tag{11}\\]\nProductivity:\n\\[\\begin{split} &\nProductivity = \\frac{Output}{Input} = \\frac{\\Delta State}{\\Delta Energy} = \\frac{Production}{Work} = \\frac{V_I}{p \\cdot v}\n\\end{split} \\tag{12}\\]"
+  },
+  {
+    "objectID": "Content/Energy_1.html",
+    "href": "Content/Energy_1.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Energy:\n\\[\\begin{split} &\nE = \\overline{W} =  \nE_{kin} + E_{pot} =\nE_{Magn} + E_{Elec}\n\\stackrel{continuum}{=}\n\\frac{1}{2} kT + \\frac{1}{2} kT  =\nkT\n\\stackrel{quantum}{=}\n\\hbar\\omega =\nh\\nu =\n\\stackrel{distribtion}{=}\nh\\nu \\frac{1}{e^{\\frac{h\\nu}{kT}}-1}\n\\stackrel{relativistic}{=}\n\\sqrt{ (pc)^2 + (mc^2)^2 } =\nc \\cdot \\sqrt{ p^2 + (mc)^2 }\n\\end{split} \\tag{1}\\] = linear + rotational + vibration + spin + …?\n\\[\\begin{split} &\nE_{kin}^{max} =\neV_0 =\nh(\\nu - \\nu_0)\n\\end{split} \\tag{2}\\]\nAverage Energy Densitiy (Electromagnetic Intensity and Poynting-Vector): \n\\[\\begin{split} &\n\\langle w_{EM} \\rangle =\n\\frac{1}{2} \\varepsilon_0 (\\mathscr{E}^2 + c^2 \\mathscr{B}^2 ) =\n\\varepsilon_0 \\mathscr{E}^2 + \\frac{1}{\\mu_0}\\mathscr{B}^2 =\n\\frac{1}{c} \\frac{\\mathscr{E \\cdot B}}{\\mu_0} =\n\\frac{1}{c} \\mathscr{I} =\n\\frac{1}{c} \\langle |\\vec{S}| \\rangle\n\\end{split} \\tag{3}\\]\nQuest: What is momentum \\(p\\) if there is no mass, \\(m=0\\) ?\nQuest: Is energy \\(E\\) also the cause for mass \\(m\\), apart from being the ability to do work \\(W\\), \\(\\Delta E = W = F \\cdot x = m \\cdot a \\cdot x = mx \\cdot \\frac{dv}{dt} = mx \\cdot \\frac{d^2x}{dt^2} = M \\cdot \\frac{d^2x}{dt^2}\\) ?\nEnergy manifestation forms: Change (Transfer Movement), Potential (Rest Duration), Temperature, Light, Sound, Mass, Charge, Information, Communication, …\nEnergy Total:\n\\[\\begin{split} &\nE_{Tot} =\nmotion + rest =  \nlinear + rotational + vibration + spin + ... =   \\\\&\nWork + Heatchange = \\left( F \\cdot \\Delta r \\right) \\mp \\Delta Q =\nE_{kin} + E_{pot} =\nE_{magn} + E_{elec} =\npv \\\\&\n\\stackrel{macro (continuum)}{=}     \\\\&\n\\frac{1}{2} \\frac{p^2}{m} =\n\\frac{1}{2} m \\left( \\omega A \\right)^2  \\\\&\n\\stackrel{thermal}{=}\n\\frac{1}{2}fbT\n\\stackrel{micro (quantum)}{=}    \\\\&     \n\\hbar\\omega =\nh\\nu =\n\\frac{1}{2} \\frac{\\left( \\hbar k \\right)^2}{m} =     \n\\stackrel{relativistic}{=}       \\\\&\n\\sqrt{ (pc)^2 + (mc^2)^2 }\n\\stackrel{Entropy}{=}    \\\\&\n...\n\\stackrel{distribtion Fermion}{=}   \\\\&\n...\n\\stackrel{distribtion Boson}{=}   \\\\&\n...\n\\stackrel{distribtion Boltzmann}{=}   \\\\&\n...\n\\end{split} \\tag{4}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Energy"
+    ]
+  },
+  {
+    "objectID": "Content/Field-B_Magnetic.html",
+    "href": "Content/Field-B_Magnetic.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Magnetic Field: \\[\\begin{split} &\n\\mathscr{B} =\n\\frac{1}{2} \\frac{1}{2\\pi} \\mu_0 \\frac{q}{r^2} \\left( \\vec{v} \\times \\frac{\\vec{r}}{r} \\right) =\n\\nabla \\times \\mathscr{A} \\ne \\frac{\\mathscr{E}}{v}\n\\end{split} \\tag{1}\\]\nLorentz Force: \\[\\begin{split} &\nF_{B} =q(v \\times \\mathscr{B})\n\\end{split} \\tag{2}\\]\nVector Potential: \\(\\mathscr{A}\\)",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Magnetic Field"
+    ]
+  },
+  {
+    "objectID": "Content/Field-E_Electric.html",
+    "href": "Content/Field-E_Electric.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Electric Field:\n\\[\\begin{split} &\n\\textit{Coulomb Force: }\nF_{E} =\n\\frac{1}{4\\pi\\epsilon_0} \\frac{q_0 \\cdot q}{r^2} \\frac{\\vec{r}}{r}\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\n\\mathscr{E} =\n\\frac{F_{E}}{q_0} =\n\\frac{1}{2}\\frac{1}{2\\pi} \\frac{1}{\\epsilon_0} \\frac{q}{r^2} \\frac{\\vec{r}}{r} =\n-\\nabla U =\nv \\mathscr{B}\n\\end{split} \\tag{2}\\]\nspherical waves of Electric Field from idealized point charge (linear coherent):\n\\[\\begin{split} &\n\\mathscr{E} =\n\\frac{A_0}{r} cos(\\omega t - kr) =\nA_L \\int \\limits_{-D/2}^{D/2} \\frac{1}{r} cos(\\omega t - kr) dD\n\\end{split} \\tag{3}\\]\nReflected Electric Field:\n\\[\\begin{split} &\n\\mathscr{E(\\vartheta)} =\n\\sum\\limits_{n=1}^{N} a_n e^{ i (\\omega t - k r_n) } =\na \\cdot e^{ i (\\omega t - kR) } \\frac{sin(\\frac{N}{2}\\Delta\\varphi)}{sin(\\frac{1}{2}\\Delta\\varphi)} =\nA(\\vartheta) e^{ i( \\omega t - kR ) }\n\\end{split} \\tag{4}\\]\nDifracted Electric Field:\n\\[\\begin{split} &\n\\mathscr{E(\\theta)} =\na \\cdot e^{ i (\\omega t - kR) } \\frac{sin(\\frac{N}{2}\\Delta\\varphi)}{sin(\\frac{1}{2}\\Delta\\varphi)} =\na \\cdot cos(\\omega t - kR) \\frac{sin(\\frac{N}{2}\\Delta\\varphi)}{sin(\\frac{1}{2}\\Delta\\varphi)} =\na \\cdot cos(\\omega t - kR) \\frac{sin(\\frac{N}{2}2\\alpha)}{sin(\\frac{1}{2}2\\alpha)}\n\\stackrel{linear-coherent}{=}\nA_L \\frac{D}{R} \\frac{sin(\\beta)}{\\beta} \\cdot cos(\\omega t - kR) \\frac{sin(\\frac{N}{2} k \\cdot A_L \\frac{D}{R} \\frac{sin(\\beta)}{\\beta} \\cdot sin(\\theta) )}{ sin(\\frac{1}{2} k \\cdot A_L \\frac{D}{R} \\frac{sin(\\beta)}{\\beta} \\cdot sin(\\theta) } =\nA_L \\frac{D}{R} \\frac{sin( \\frac{1}{2}bk )}{ \\frac{1}{2}bk } \\cdot cos(\\omega t - kR) \\frac{sin(\\frac{N}{2} k \\cdot A_L \\frac{D}{R} \\frac{sin( \\frac{1}{2}bk )}{ \\frac{1}{2}bk } \\cdot sin(\\theta) )}{ sin(\\frac{1}{2} k \\cdot A_L \\frac{D}{R} \\frac{sin( \\frac{1}{2}bk )}{ \\frac{1}{2}bk } \\cdot sin(\\theta) }\n\\end{split} \\tag{5}\\]\nwhere:\n\\(A_L = \\frac{1}{D} \\lim\\limits_{N \\rightarrow \\infty}  \\lim\\limits_{A_0 \\rightarrow 0} (N \\cdot A_0)\\)\n\\(A_0 =\\) intrinsic Eigen-Amplitude of charge (“Quellstärke”) emitting radiation due to its movement (vibration)\n\\(D = N \\cdot d\\) = total size of object (binded charges)\n\\(d =\\) distance between objects (charges)\n\\(r =\\) distance from object (charge) location to impact place = ray length\n\\(R = r_{N/2} = r_1 - \\frac{N-1}{2}\\Delta s\\) = average ray length\n\\(N =\\) amount of objects (charges) emitting rays",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Electric Field"
+    ]
+  },
+  {
+    "objectID": "Content/finestructure.html",
+    "href": "Content/finestructure.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Infinity, Finess of the World - The “Fine Structure”\n\\[\\begin{split} &\n\\frac{1}{ c \\epsilon_{0} } =\nc \\mu_{0} \\qquad\n\\frac{1}{c^2} =\n\\epsilon_{0} \\mu_{0}\n\\end{split} \\tag{1}\\]\n\\[\n\\mathfrak{f} =\n\\frac{1}{4\\pi \\epsilon_0} \\frac{e^2}{\\hbar c} =\n\\frac{1}{2} \\frac{1}{h} c \\mu_0  e^2 \\approx \\frac{1}{1369...}\n\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Finestructure"
+    ]
+  },
+  {
+    "objectID": "Content/Frequency.html",
+    "href": "Content/Frequency.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Frequency (commonness)\n\\[\\begin{split} &\n\\omega =\n\\frac{d}{dt}\\varphi =\n\\eta kv = kc =\n\\frac{2\\pi}{\\mathcal{T}} =\n2\\pi \\cdot \\nu =\n\\frac{a}{v} =\n\\frac{v}{r} =\n\\frac{E}{\\hbar} =\n\\sqrt{ \\frac{k}{m} } =\n\\sqrt{ \\frac{r \\times F}{m} } =\n\\sqrt{ \\frac{g}{l} }\n\\stackrel{EM}{=}\n... =\n\\sqrt{ \\frac{1}{LC} }\n\\stackrel{QM}{=}\n\\frac{1}{2} \\frac{p^2}{m} \\frac{1}{\\hbar} =\n\\frac{(\\hbar\\vec{k})^2}{2m} \\frac{1}{\\hbar} =   \n\\frac{E}{\\hbar}\n\\stackrel{\\text{time-independent Potential}}{=}  \n\\frac{1}{i\\Psi} \\frac{\\partial \\Psi}{\\partial t} =\n\\frac{1}{2} \\frac{\\hbar}{m} \\cdot \\left[ -\\frac{1}{\\Psi} \\left( \\frac{\\partial^2\\Psi}{\\partial x^2}+\\frac{\\partial^2\\Psi}{\\partial y^2}+\\frac{\\partial^2\\Psi}{\\partial z^2} \\right) \\right] =\n\\frac{\\hbar}{2m} \\vec{k}^2  =\n\\frac{\\hbar}{2m} \\Delta\\Psi(\\vec{r},t) =\ni \\frac{\\partial\\Psi(\\vec{r},t)}{\\partial t}\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\n\\nu =\n\\frac{E}{h} =\n\\frac{v_{phs}}{\\lambda} =\n\\frac{c^2}{v} \\frac{1}{\\lambda} =\n\\frac{\\omega}{k} \\frac{1}{\\lambda} =\n\\frac{\\omega}{2\\pi}\n\\end{split} \\tag{2}\\]\n\\[\\begin{split} &\n\\nu_i =\n\\frac{eV_{0i}}{h} + \\nu_0 =\n\\frac{E_{kin}}{\\hbar} \\omega\\mathcal{T} + \\nu_0\n\\end{split} \\tag{3}\\]\n\\[\\begin{split} &\ne = \\textnormal{electron charge}\n\\qquad\nV_0 = \\textnormal{Opposing Potential ($I=0$)}\n\\\\\n\\textnormal{Energy Level: } i = [1,n] \\in \\mathbb{N}\n\\end{split} \\tag{4}\\]\n\\[\\begin{split} &\nE_{kin}^{max} =\neV_0 =\nh(\\nu - \\nu_0)\n\\end{split} \\tag{5}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Frequency"
+    ]
+  },
+  {
+    "objectID": "Content/Inertia.html",
+    "href": "Content/Inertia.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Inertia (resistence to movement, decreasing velocity):\n\\[\\begin{split} &\nM = m \\cdot d\n\\end{split} \\tag{1}\\]\nmatter: m = Density \\(\\cdot\\) Volume",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Inertia"
+    ]
+  },
+  {
+    "objectID": "Content/intro.html",
+    "href": "Content/intro.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Nature strives through Physics to behave economical by using its resources in an austere way: Principle of Least Action.\nEconomy - not pre-given by natural laws - is constructed as social set of co-living rules to allocate, distribute and share (natural and non-natural) resources. Ex-ante modelling economic systems by rules (contractual, legislative, judicative, executive).\nThe state (situation, position) of the Economy can be described by e.g. Assets, Liabilities, Expenses, Incomes, Profitability, Productivity, etc.. The Economy changes through time from a state \\(r_0=\\) “start” to a state \\(r_1=\\) “end”. For the state to change, work is applied by processing limited resources (e.g. access to raw materials and availability of intermediate goods), constrained capital (e.g. financial funds, interest rates, and inflation), as well as labor capacity (e.g machines and human force).\nHow can a trajectory \\(r = r_1 - r_0\\) between two states be modelled by work \\(W\\), which is applied for the change of the state to occure: searching the condition by defing target state through “path of chage” \\(=r\\)?\n\\[\\begin{split} &\nr = f(x_i) = \\int A = \\int \\int W = \\int \\int (\\mathcal{L} + \\mathcal{H}) = \\int \\int (\\Delta E - \\Delta H)\n\\end{split} \\tag{1}\\]"
+  },
+  {
+    "objectID": "Content/lightspeed.html",
+    "href": "Content/lightspeed.html",
+    "title": "",
+    "section": "",
+    "text": "Velocity - Movement of Matter in Space and Time\nMatter and Vacuum - Refraction, max. phase velocity, max. group velocity:\nLightspeed, group velocity max.:\n\\[\\begin{split} &\nc =\n\\frac{1}{ { \\sqrt{\\epsilon_0 \\mu_0} } } =\n\\frac{|\\mathscr{E}|}{|\\mathscr{B}|} =   \n\\sqrt{v_{phase} \\cdot v_{matter}} =\n\\eta \\sqrt{\\varepsilon\\mu} =\n\\eta \\sqrt{\\varepsilon_0\\varepsilon_r\\mu_0\\mu_r} =   \\\\&\n\\eta \\cdot c_{ph} =\n\\frac{\\omega}{k} =\\frac{\\lambda}{\\mathcal{T}} =\n\\nu \\lambda =      \\\\&\n- \\frac{d\\lambda}{d\\nu} \\nu^2 =\n\\lambda^2 \\frac{\\mathscr{J}_{\\lambda}}{\\mathscr{J}_{\\nu}} =\n\\frac{\\langle|\\mathscr{S}|\\rangle}{\\langle \\textnormal{w}_{EM}\\rangle}  =\nv_{gr}^{max}      \\\\&\n\\le v_{ph} - \\lambda \\frac{d}{d\\lambda}v_{ph} =\n\\frac{d}{dk}\\omega =\nv_{gr}\n\\end{split} \\tag{1}\\]\nwhere:\n\\(\\mathscr{J} \\equiv\\) Flux Density flow 1\n\\(\\mathscr{S} \\equiv\\) Poyinting-Vector intensity\n\\(\\textnormal{w}_{EM} \\equiv\\) Energy Density electromagnetic\nRefraction Index:",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Lightspeed, Matter and Vacuum"
+    ]
+  },
+  {
+    "objectID": "Content/lightspeed.html#footnotes",
+    "href": "Content/lightspeed.html#footnotes",
+    "title": "",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFlux Density↩︎",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Lightspeed, Matter and Vacuum"
+    ]
+  },
+  {
+    "objectID": "Content/Luminosity.html",
+    "href": "Content/Luminosity.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Luminosity, Brightness:\nIrradiance (Intensity) \n\\[\\begin{split} &\n[Candela] = [cd] \\equiv \\mathscr{I} = ...\n\\end{split} \\tag{1}\\]\nRadiance (Illuminance) \n\\[\\begin{split} &\n[Lux] =\n[\\frac{cd \\cdot sr}{m^2}] \\equiv\n\\mathscr{L} =\n\\frac{\\mathscr{I}}{F} \\cdot \\Omega =\n\\frac{\\mathscr{I}}{F}\\cdot \\frac{F}{r^2}\n\\end{split} \\tag{2}\\]\nIf orthogonal illumination at receiver (\\(\\varepsilon_b = 0\\)) and Flux Density (Radiant Intensity) \\(\\mathscr{I}_g = \\mathscr{I}_b\\) then:\n\\[\\begin{split} &\n\\frac{\\mathscr{J}_g}{\\mathscr{J}_b} = \\frac{r_g^2}{r_b^2} \\\\&\n\\mathscr{I} = \\frac{\\mathscr{J}}{R^2} \\iff \\varepsilon_b=0 \\iff  (\\mathscr{A} \\perp R)\n\\end{split} \\tag{3}\\]\nLuminescence: \nProducing optical radiation with exitaction of atoms and melecules thorough transitions into ground state (emission of photons):\n\nElectroluminescence: electrical exitation with diods or gas discharge\nPhotoluminescence: exitation with electromagnetic radiation (photons), phosphor or fluor\nChemoluminescence: exitation with chemical reaction, e.g. luminol\nBioluminescence: exitation with chemical reaction at living organs, e.g. oxidation of luciferin\nTriboluminescence: exitation with friction or tearing apart (e.g. sugar cristals)\nRadioluminescence: exitation with irradiation with \\(\\alpha-\\), \\(\\beta-\\) or \\(\\gamma\\)-radiation",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Luminosity"
+    ]
+  },
+  {
+    "objectID": "Content/metric.html",
+    "href": "Content/metric.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Distance and Size (observability, identification, measurability, metric)\nMetric, Distance and Size:\nr = radial distance, d = diametral size\n\\[\\begin{split} &\nr\\lambda =\nd^2 cos^2(\\vartheta) =\n\\left( d \\cdot cos( \\frac{\\pi}{2} - \\alpha ) \\right)^2 =\n\\left( d \\cdot sin( \\frac{\\pi}{2} - \\beta ) \\right)^2\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Metric"
+    ]
+  },
+  {
+    "objectID": "Content/motion.html",
+    "href": "Content/motion.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "motion of matter in space and time\nchange of state\ndisplacement\ndiffusion\ndissipation ad refraction\ndistance, velocity, momentum, acceleration (curvature), force, energy, work, and action\nisotropy and homomenity\n\nMotion: \\[\\begin{split} &\nr = r(t) = r_x(t_{x}) - r_0(t_{0} ) = \\Delta r(\\Delta t)\n\\\\& \\stackrel{Path}{=}\nState(arrival) - State(start) = Trajectory(Change)\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\nv = \\dot r = \\frac{d}{dt}r\n\\qquad\np = \\frac{1}{v} \\sqrt{E^2 - (mv^2)^2}\n\\qquad\nF = \\dot p = \\frac{d}{dt}p\n\\end{split} \\tag{2}\\]\nEnergy total: \\[\\begin{split} &\nE = Motion_{Energy} + Rest_{Energy} = E_{kin} + E_{pot}\n\\end{split} \\tag{3}\\]"
+  },
+  {
+    "objectID": "Content/Orientations.html",
+    "href": "Content/Orientations.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Orientations of Radiation:\n\\(\\alpha =\\) irradiaton angle, incoming radiation direction, from source/sender \n\\(\\beta =\\) refraction angle for bented transmitted radiation \\(A_{t}\\) orientation in matter \n\\(\\vartheta =\\) reflection angle for redirected radiation \\(A_{r\\parallel}\\) parallel to \\(\\alpha\\) from matter \n\\(\\theta =\\) diffraction angle for redirected radiation \\(A_{r\\perp}\\) orthogonal to \\(\\alpha\\) from matter \n\\(\\varpi = \\beta_1 + \\beta_2 =\\) angle of converging body surfaces (point tip of prismic medium), spread angle of prism\n\\(\\varsigma =\\) deviation angle of redirected ray beam after refraction (transmission) and difraction\n\\(u_g =\\) aperture angle (acceptance) from sender source (at distance \\(g\\))\n\\(w_b =\\) inclination angle at observer receiver (at distance \\(b\\))\n\\(\\varepsilon =\\) visual angle from observer/receiver (of eye)",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Orientations"
+    ]
+  },
+  {
+    "objectID": "Content/Period.html",
+    "href": "Content/Period.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Period (time)\n\\[\\begin{split} &\n\\mathcal{T} =\n\\frac{\\lambda}{c} =\n\\frac{2\\pi}{\\omega} =\n\\frac{1}{\\nu}\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Period"
+    ]
+  },
+  {
+    "objectID": "Content/Phaseshift.html",
+    "href": "Content/Phaseshift.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Phaseshift:\n\\[\\begin{split} &\n\\Delta\\varphi = \\eta k \\cdot \\Delta d =\n2\\pi \\frac{d}{\\lambda} sin(\\vartheta) =\n2 \\pi \\eta \\frac{2d}{\\lambda} cos(\\beta) =\n2 \\pi \\frac{2d}{\\lambda} \\sqrt{\\eta^2 - sin^2(\\alpha)} =\n2 \\pi n\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Phaseshift"
+    ]
+  },
+  {
+    "objectID": "Content/Power.html",
+    "href": "Content/Power.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Power (energy transport) \n\\[\\begin{split} &\n\\Phi =\n\\frac{d}{dt}W =\n|\\frac{1}{\\mu_0}(\\mathscr{E} \\times \\mathscr{B} ) | =\n| \\mathscr{S} | =\n\\oint\\limits_A\\, \\mathscr{S}\\, d\\vec{A}\n\\end{split} \\tag{1}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Power"
+    ]
+  },
+  {
+    "objectID": "Content/Probability.html",
+    "href": "Content/Probability.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Probability:\n\n\\[\\begin{split} &\nP =\n\\frac{\\mathscr{I}}{N \\cdot h\\nu} dA dt =\n\\left| \\Psi \\right|^2 =\n\\Psi^*\\Psi\n\\stackrel{interference, pathindependent}{=}\n\\left| \\sum\\Psi_i \\right|^2 =\n\\stackrel{no interference, pathdependent}{=}\n\\sum \\left| \\Psi_i \\right|^2\n\\end{split} \\tag{1}\\]\nwhere: \\(\\mathscr{I} \\equiv\\) Intensitiy \\(N \\equiv\\) particles \\(A \\equiv\\) area of incidence orthogonal to movement\nAbsorbtion Probability:\n\\[\\begin{split} &\n\\frac{P}{t} :=\nW_{mn} =\nB_{mn} \\cdot \\frac{N(\\nu)}{V} \\cdot h\\nu =\nB_{mn} \\cdot w_\\nu(\\nu) =\nB_{mn} \\cdot \\frac{d}{d\\nu} w_{EM}\n\\end{split} \\tag{2}\\]\nStimulated Emission Probability:\n\\[\\begin{split} &\n\\frac{P}{t} =:\nW_{nm} =\nB_{nm} \\cdot \\frac{N(\\nu)}{V} \\cdot h\\nu =\nB_{nm} \\cdot w_\\nu(\\nu) =\nB_{nm} \\cdot \\frac{d}{d\\nu} w_{EM}\n\\end{split} \\tag{3}\\]\nSpontaneous Emission Probability:\n\\[\\begin{split} &\n\\frac{P}{t} =:\nW_{nm} =\nA_{nm} =\n\\frac{1}{\\bar{\\tau}}\n\\end{split} \\tag{4}\\]\nwhere: \\(n \\equiv\\) exited state \\(m \\equiv\\) ground state \\(N \\equiv\\) particles amount \\(V \\equiv\\) Volume \\(\\bar{\\tau} \\equiv\\) mean livetime of state for spontaneous emission \\(B, A \\equiv\\) Einsteincoefficients",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Probability"
+    ]
+  },
+  {
+    "objectID": "Content/Radiation.html",
+    "href": "Content/Radiation.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Radiation (energy movement, charge acceleration, energytransport, poynting)\nHypothesis: Accelerated charge causes radiation (analogous to “force”)?\n\nOptical Radiation spectral range: \\(\\lambda = \\left[ 100nm, 1mm \\right]\\):\n\nhigh frequency: UV spectral range: \\(\\lambda = \\left[ 100nm, 200nm \\right]\\)\nvisibility wavelength: light (Photon) range: \\(\\lambda = \\left[ 380nm, 780nm \\right]\\)\nlong wavelength: IR spectral range: \\(\\lambda = \\left[ 5\\cdot10^4nm, 10^6nm \\right]\\)\n\nHeat Radiation invisible (Black Body “B”), \\(\\mathscr{L}_{\\lambda,B}(\\lambda,T)\\)\n\nCharge: \\[\\begin{split} &\nq = ne_0    \\qquad\n\\sum{q} = Q = I \\cdot t \\qquad\nn \\in \\mathbb{Z}\n\\end{split} \\tag{1}\\]\nRadiation: \\[\\begin{split} &\n\\mathscr{S} =\n\\frac{d}{dt}p =\n\\frac{1}{c} \\frac{d}{dt}(E_{kin}) \\stackrel{?}{\\propto}\nq \\cdot a\n\\end{split} \\tag{2}\\]\nRadiation orientation angles for optics and thermodynamics:\nOptical Radiation: \nDeviation angle of ray beam after refraction (transmission) and diffraction:\n\\[\\begin{split} &\n\\varsigma =\n\\alpha + arcsin \\left[ sin(\\varpi) \\sqrt{\\eta^2-sin^2(\\alpha)} - cos(\\varpi)sin(\\alpha) \\right] - \\varpi =\n\\alpha + \\alpha_2 - \\varpi\n\\end{split} \\tag{3}\\]\nwhere \\(\\varpi = \\beta + \\beta_2 = const.\\)\nMinimal aberration (minimal projection error):\n\\(\\varsigma = \\varsigma_{min} \\Longleftrightarrow\\)\n\\[\\begin{split} &\n\\varsigma_{min} \\Longleftrightarrow \\\\\n\\frac{d}{d\\alpha} \\varsigma = 0\n\\ \\wedge \\\\\n\\varsigma_{min} =\n2\\alpha - \\varpi =\n2(\\alpha - \\beta)\n\\end{split} \\tag{4}\\]\nThermal Radiation:\nSpectral Reflection: \\[\\begin{split} &\n\\mathscr{R}(\\lambda) =\n\\frac{d^3\\Phi_{\\lambda,r}}{d^3\\Phi_{\\lambda,e}}\n\\end{split} \\tag{5}\\]\nSpectral Transmission: \\[\\begin{split} &\n\\mathscr{T}(\\lambda) =\n\\frac{d^3\\Phi_{\\lambda,t}}{d^3\\Phi_{\\lambda,e}}\n\\end{split} \\tag{6}\\]\nSpectral Absorbtion: \\[\\begin{split} &\n\\mathscr{A}(\\lambda) =\n\\frac{d^3\\Phi_{\\lambda,a}}{d^3\\Phi_{\\lambda,e}}\n\\end{split} \\tag{7}\\]\nSpectral Emission: \\[\\begin{split} &\n\\mathscr{E}(\\lambda) =\n\\frac{\\mathscr{L}(\\lambda)}{\\mathscr{L}(\\lambda,B)}\n\\end{split} \\tag{8}\\]\n\\(\\mathscr{R}(\\lambda) + \\mathscr{T}(\\lambda) + \\mathscr{A}(\\lambda) = 1\\)\nBlack Body “B”: \\[\\begin{split} &\n\\mathscr{A}(\\lambda,T) = \\mathscr{E}(\\lambda,T) = 1,\\\n\\mathscr{R}(\\lambda,T) = 0,\\\n\\mathscr{T}(\\lambda,T) = 0\n\\end{split} \\tag{9}\\]\n\\(\\Rightarrow\\) Heat Radiation (Black Body): \n\\[\\begin{split} &\n\\mathscr{L}_{B} =\n\\frac{c}{4\\pi} \\langle w_{EM} \\rangle =\n\\frac{c}{4\\pi} w_B\n\\end{split} \\tag{10}\\]\n\\[\\begin{split} &\n\\mathscr{L}_{\\lambda,B}(\\lambda,T) =\n\\frac{\\mathscr{L}_{\\lambda}(\\lambda,T)}{\\mathscr{A}_{\\lambda}(\\lambda,T)}\n\\stackrel{continuum}{=}\n\\frac{2c}{\\lambda^4}kT\n\\stackrel{quantum}{=}\n\\frac{2hc^2}{\\lambda^5}  \\frac{1}{e^{\\frac{hc}{\\lambda kT}}-1} =\nconst.\n\\end{split} \\tag{11}\\]\n\\[\\begin{split} &\n\\mathscr{L}_{\\nu,B}(\\nu,T)\n\\stackrel{quantum}{=}\n\\frac{2h\\nu^3}{c^2}  \\frac{1}{e^{\\frac{hc}{kT}}-1}\n\\end{split} \\tag{12}\\]\n\\[\\begin{split} &\n\\mathscr{L}_{\\lambda,B}(\\lambda_x,T_x) =\n\\left( \\frac{T_x}{T} \\right)^5 \\cdot \\mathscr{L}_{\\lambda,B}(\\lambda,T)\n\\end{split} \\tag{13}\\]\n\\(T_x &gt; T \\Rightarrow \\lambda_x &lt; \\lambda\\)\n\\[\\begin{split} &\n\\lambda_{max} \\cdot T =\n\\frac{h \\cdot c}{5k} \\frac{1}{1 - e^{-\\lambda_{max} \\cdot T}} =\nb = 2.897773 \\cdot 10^{-3} m \\cdot K\n\\end{split} \\tag{14}\\]\nHeat Radiation Transfer (sent from source \\(g\\) to receiver \\(b\\) with areas \\(\\mathscr{A}\\)):\n\n\\[\\begin{split} &\nd^2\\Phi\n\\stackrel{vacuum}{=}\n\\mathscr{L} \\frac{dA_g \\cos(\\varepsilon_g)}{R} \\frac{dA_b \\cos(\\varepsilon_b)}{R} =\n\\frac{\\mathscr{L}}{R^2} \\cdot dA_g \\cos(\\varepsilon_g) \\cdot dA_b \\cos(\\varepsilon_b) =\n\\mathscr{L} \\cos(\\varepsilon_b) dA_b d\\Omega_b\n\\end{split} \\tag{15}\\]\nHeat Radiation Return, Reflection Absorbtion (Feedback absorbed “\\(a\\)” at sender \\(g\\) received “\\(e\\)” at receiver \\(b\\), with areas \\(\\mathscr{A}\\) at wavelength \\(\\lambda\\) ):  \n\\[\\begin{split} &\nd^3\\Phi_{\\lambda,a,b}\n\\stackrel{vacuum}{=}\n\\mathscr{A}_b \\cdot d^3\\Phi_{\\lambda,e,b} =\n\\mathscr{A}_b \\cdot \\mathscr{L}_{\\lambda} \\cos(\\varepsilon_b) d\\mathscr{A}_b d\\Omega_b d\\lambda =\n\\mathscr{L}_{\\lambda,b} \\cos(\\varepsilon_g) d\\mathscr{A}_g d\\Omega_g d\\lambda =\nd^3\\Phi_{\\lambda,b}\n\\end{split} \\tag{16}\\]\n\nEnergy Density w and Pressure \\(P\\), Temperature \\(T\\), Volume \\(V\\), inner Energy \\(U\\), Entropy density \\(s\\), Radiance \n\\(\\mathscr{L}_B\\):\n\\[\\begin{split} &\nw_B =\n\\frac{\\mathscr{L}_B}{c} \\int\\limits_0^{4\\pi} d\\Omega =\n\\frac{4\\pi}{c} \\cdot \\mathscr{L}_B =\n\\frac{4}{c} \\cdot \\mathscr{M}_B =\n2 \\cdot 2\\pi \\cdot \\frac{\\mathscr{L}_B}{c}\n\\stackrel{oriented}{=}\nP_{EM}\n\\stackrel{unoriented}{=}\n3 w_{EM} =\n3 \\left( \\varepsilon_0 \\varepsilon_r \\mathscr{E}^2 \\right) =\n3 P_B =\n3 \\left( - \\frac{dW}{dV} \\right)_B =\n3 \\left( - \\frac{d(F \\cdot x)}{dV} \\right)_B =\n3 \\left( - \\frac{m}{V} \\cdot x \\cdot \\ddot{x} \\right)_B =\nT \\frac{\\partial P}{\\partial T} - P =\n\\frac{\\partial U}{\\partial V} =\naT^4 =\n\\frac{3}{4} T \\cdot s_B\n\\end{split} \\tag{17}\\]\n\\[\\begin{split} &\nw_{\\lambda,B}\n\\stackrel{continuum}{=}\n- \\frac{dn}{d\\lambda} \\overline{W} = \\frac{8\\pi}{\\lambda^4}kT\n\\stackrel{quantum}{=}\n\\frac{8\\pi hc}{\\lambda^5} \\frac{1}{e^{\\frac{hc}{kT}}-1} =\n8\\pi h \\nu \\frac{1}{\\lambda^4} \\frac{1}{e^{\\frac{hc}{kT}}-1}\n\\end{split} \\tag{18}\\]\n\\[\\begin{split} &\nw_{\\nu,B}\n\\stackrel{continuum}{=}\n\\frac{dn}{d\\nu} \\overline{W} = \\frac{8\\pi\\nu^2}{c^3}kT\n\\stackrel{quantum}{=}\n\\frac{8\\pi h\\nu^3}{c^3} \\frac{1}{e^{\\frac{hc}{kT}}-1} =\n8\\pi h \\left(\\frac{1}{\\lambda}\\right)^3 \\frac{1}{e^{\\frac{hc}{kT}}-1}\n\\end{split} \\tag{19}\\]\n\nwhere Radiant Exitance (Emittance)  \\(\\mathscr{M}_B = \\frac{d\\Phi}{dA_g} = \\sigma T^4\\) and proportionality constants:\n\\(a = \\frac{2^3}{3\\cdot5} \\frac{\\pi^5 k^4}{h^3 c^3} = 7.5657 \\cdot 10^{-16}Jm^{-3}K^{-4}\\) (\\(a\\) = constant from integration)\n\\(\\sigma = \\frac{1}{4} \\cdot a \\cdot c = \\frac{2}{3\\cdot5} \\frac{\\pi^5 k^4}{h^3 c^3}  = 5.6704 \\cdot 10^{-8}Wm^{-2}K^{-4}\\) (\\(c\\) = light speed)\n\\[\\begin{split} &\n\\frac{d}{d\\Omega} P_{EM}\n\\stackrel{oriented}{=}\n\\frac{d}{d\\Omega} w_B =\n\\frac{\\mathscr{L}_B}{c}\n\\end{split} \\tag{20}\\]\nBlackbody Entropy Density \\(s_B = \\frac{4}{3} aT^4\\)\nBlackbody Entropy \\(S_B = \\frac{4}{3} aVT^3\\)\nBlackbody Inner Energy \\(U_B = aVT^4\\)\nBlackbody Pressure \\(P_B = \\frac{1}{3} aT^4 \\stackrel{unoriented}{=} \\frac{1}{3} w_B\\)",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Radiation"
+    ]
+  },
+  {
+    "objectID": "Content/Radiation_Detection.html",
+    "href": "Content/Radiation_Detection.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Radiation Detectors:\nHeat: Thermopile (thermoelectric voltage), Thermistor / Bolometer (electrical resistance through absorbtion of radiation), photocell (external photoeffect), photodiod (internal photoeffect), Photoplate / CCD-camera (Radiant Exposure) \nLight: …\nRadio: —",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Radiation Detection"
+    ]
+  },
+  {
+    "objectID": "Content/Radiation_Optic.html",
+    "href": "Content/Radiation_Optic.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Optical Radiation: \nDeviation angle of ray beam after refraction (transmission) and diffraction:\n\\[\\begin{split} &\n\\varsigma =\n\\alpha + arcsin \\left[ sin(\\varpi) \\sqrt{\\eta^2-sin^2(\\alpha)} - cos(\\varpi)sin(\\alpha) \\right] - \\varpi =\n\\alpha + \\alpha_2 - \\varpi\n\\end{split} \\tag{1}\\]\nwhere \\(\\varpi = \\beta + \\beta_2 = const.\\)\nMinimal aberration (minimal projection error):\n\\(\\varsigma = \\varsigma_{min} \\Longleftrightarrow\\)\n\\[\\begin{split} &\n\\varsigma_{min} \\Longleftrightarrow \\\\\n\\frac{d}{d\\alpha} \\varsigma = 0\n\\ \\wedge \\\\\n\\varsigma_{min} =\n2\\alpha - \\varpi =\n2(\\alpha - \\beta)\n\\end{split} \\tag{2}\\]"
+  },
+  {
+    "objectID": "Content/Radiation_Power.html",
+    "href": "Content/Radiation_Power.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Radiation Power and Transfer\nPower \\(\\equiv\\) Radiant Flux: \n\\[\\begin{split} &\n\\Phi =\n\\frac{d}{dt}W =\n|\\frac{1}{\\mu_0}(\\mathscr{E} \\times \\mathscr{B} ) | =\n| \\mathscr{S} | =\n\\oint\\limits_A\\, \\mathscr{S}\\, d\\vec{A}\n\\end{split} \\tag{1}\\]\n\\(dW \\equiv\\) Radiant Energy, \\(W \\equiv\\) Work \n\\(\\mathscr{S} \\equiv\\) Poynting-Vector, \\(A \\equiv\\) radiant surface area, \\(d\\vec{A} \\perp dA\\) \nFlux Density \\(\\equiv\\) Radiant Intensity (ray beam angular from source at distance \\(g\\)): \n\\(\\mathscr{J} = \\frac{d\\Phi}{d\\Omega_g}\\)\n\\(\\mathscr{J}_{\\lambda} = \\frac{c}{\\lambda^2} \\mathscr{J}_{\\nu}\\)\n\\[\\begin{split} &\nd\\mathscr{J} = \\frac{d^2\\Phi}{d\\Omega_g} =\n\\frac{d^2\\Phi}{ \\frac{dA_b \\cos(\\varepsilon_b)}{R^2} } =\n\\mathscr{L} dA_g \\cos(\\varepsilon_g)\n\\end{split} \\tag{2}\\]\nwhere Radiance \\(\\mathscr{L}\\) = const.\nIrradiance \\(\\equiv\\) Impact Intensity (ray beam straight at receiver in distance \\(b\\)): \n\\(\\mathscr{I} = \\frac{d\\Phi}{dA_b} = \\mathscr{J} \\frac{\\cos(\\varepsilon_b)}{R^2} = \\frac{d\\mathscr{H}}{dt}\\)\nRadiant Exposure \\(\\equiv\\) Action: \n\\(\\mathscr{H} = \\int\\limits_{t_1}^{t_2}\\, \\mathscr{I}(t)\\, dt\\)\nRadiant Exitance \\(\\equiv\\) Radiant Emittance:\n\n\\(\\mathscr{M} = \\frac{d\\Phi}{dA_g}\\)\nRadiance \\(\\equiv\\) Radiant Density (Apparency, Brightness): \nEmissity  \\(\\equiv \\mathscr{L}_g\\) \nAppearence Areas: \\(dA_g \\cos(\\varepsilon_g)\\) and \\(dA_b \\cos(\\varepsilon_b)\\) \n\\[\\begin{split} &\n\\mathscr{L} =\n\\frac{d\\mathscr{J}}{dA_g \\cdot \\cos(\\varepsilon_g)} =\n\\frac{1}{dA_g \\cos(\\varepsilon_g)} \\frac{d^2\\Phi}{d\\Omega_g} =\n\\frac{1}{dA_b \\cos(\\varepsilon_b)} \\frac{d^2\\Phi}{d\\Omega_b} =\n\\frac{c}{4\\pi} w_{EM}\n\\end{split} \\tag{3}\\]\n\\(\\mathscr{L} = const.\\): diffused emission, reflection, brightness, rough no mirroring surface   …\n\\(\\mathscr{L} \\neq\\) const.: radiation transfer, no diffusion, apparent, smooth surface mirroring …",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Radiation Power"
+    ]
+  },
+  {
+    "objectID": "Content/refraction.embed.html",
+    "href": "Content/refraction.embed.html",
+    "title": "1 ",
+    "section": "",
+    "text": "1 \nRefraction for identifying matter (property of matter):\n\\[\\begin{split} &\n\\eta\n\\stackrel{opt.}{=}\n\\frac{sin(\\alpha)}{\\sin(\\beta)} =\n\\frac{\\eta_{\\beta}}{\\eta_{\\alpha}}\n\\stackrel{prism}{=}\n\\frac{ \\sin[\\frac{1}{2}(\\varpi + \\varsigma_{min})] }{ \\sin[\\frac{1}{2}\\varpi ] } \\\\&\n\\stackrel{phys.}{=}\n\\sqrt{ \\epsilon_r \\mu_r } =\n\\frac{\\lambda_{\\alpha}}{\\lambda_{\\beta}} =\n\\frac{v_{ph,\\alpha}}{v_{ph,\\beta}} =\n\\frac{1}{2} \\frac{\\lambda}{d_l} \\frac{n}{\\cos(\\beta)} =\n\\sqrt{\\left( \\frac{n}{2} \\frac{\\lambda}{d_l} \\right)^2 + \\sin(\\alpha)^2} \\\\&\n\\stackrel{dispersion}{=}\n\\eta(\\lambda) =\n\\eta(\\omega)\n\\stackrel{anisotropy}{=}\n\\eta(r)\n\\end{split} \\tag{1}\\]\nVacuum \\(\\iff \\eta=1\\): [1] \\[\\begin{split} &\nf = Focal Length        \\qquad\nD = Refractive Power (dioptry)\n\\end{split} \\tag{2}\\]\n\\(n \\equiv\\) order (“quantum”): \\[\\begin{split} &\nn =\n\\frac{\\nu}{c} \\Delta s =\n\\frac{\\Delta\\varphi}{2\\pi} =\n2 \\eta \\frac{d_l}{\\lambda} \\sqrt{\\eta^2 - \\sin(\\alpha)^2} =\n2 \\eta \\frac{d_l}{\\lambda} \\cos(\\beta) =\n\\frac{q}{e_0}\n\\qquad \\in \\mathbb{N}\n\\end{split} \\tag{3}\\]\n\\[\\begin{split} &\nv^2 =\n\\left( \\frac{\\nu\\lambda}{\\eta} \\right)^2 =\n\\left( \\frac{\\omega}{k \\eta} \\right)^2\n\\end{split} \\tag{4}\\]\n\\[\\begin{split} &\n\\left( \\frac{\\eta}{c} \\right) ^2 =\n\\epsilon \\mu    \\qquad\n\\epsilon = \\epsilon_0 \\epsilon_r    \\qquad\n\\mu = \\mu_0 \\mu_r\n\\end{split} \\tag{5}\\]\nwhere:\n\\(d_l \\coloneqq\\) distance length\n\\(\\alpha \\coloneqq\\) irradiation angle, incoming radiation direction, from source/sender (Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums)\n\\(\\beta \\coloneqq\\) refraction angle for bented transmitted radiation \\(A_{t}\\) orientation in matter (Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium)\n[1] Brechkraft"
+  },
+  {
+    "objectID": "Content/Resolution-opt.html",
+    "href": "Content/Resolution-opt.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Optical Resolution (sharpness, blur)\nspectral Resolution \\(\\mathscr{R} = \\frac{\\lambda}{\\Delta \\lambda}\\)\n\\[\\begin{split}  &\n    - Prisma with L \\equiv \\text{base length} (\\text{angle} \\equiv \\varepsilon):   \\\\&\n     \\frac{\\lambda}{d \\lambda} = -L \\frac{d\\eta}{d\\lambda}    \\\\&\n    - \\text{Diffraction Lattice}:  \\frac{\\lambda}{\\delta\\lambda} = nN    \\\\&\n    -  \\text{Interferometer}: \\frac{\\lambda}{\\Delta\\lambda} = n \\cdot \\frac{\\pi \\cdot r}{1 - r^2} = nN_e    \\\\&\n    - \\text{Planparallel Plate}:  \\frac{\\lambda}{d\\lambda} = \\frac{x}{2d\\tan(\\beta)} \\left(n - \\frac{2d}{\\cos(\\beta)}\\frac{d\\eta}{d\\lambda} \\right)\n\\end{split} \\tag{1}\\]\n\nobject is self-luminescent, lightwaves are incoherent and resolution is restricted: \n\nTele) object far and big, min. size for resolution:\n\\[\\begin{split} &\n\\Delta y_{min} =\n1.22 \\cdot f^{Obj} \\cdot \\frac{\\lambda}{D}\n\\end{split} \\tag{2}\\]\nwhere “Diameter stop” \\(\\equiv D\\) and view angle min. for “tele” resolution (object far and big):\n\\[\\begin{split} &\n\\Delta \\varepsilon_{min} =\n\\frac{\\Delta y_{min}}{f^{Obj}} =\n1.22 \\cdot \\frac{\\lambda}{D}\n\\end{split} \\tag{3}\\]\n\\(\\Longrightarrow\\) optical resolution “Tele”:\n\\[\\begin{split} &\n\\mathscr{R}_{Tel} = \\frac{1}{\\Delta y_{min}} =\n0.82 \\cdot \\frac{1}{f^{Obj}} \\cdot \\frac{D}{\\lambda}\n\\end{split} \\tag{4}\\]\nMikro) object close and small, min. size for resolution:\n\\[\\begin{split} &\n\\Delta y_g^{min} =\n\\frac{1.22}{2} \\cdot \\frac{\\lambda}{\\eta} \\cdot \\frac{1}{\\sin(u_g^{max})} =\n\\frac{1}{2} \\cdot \\frac{\\Delta s}{\\eta} \\cdot \\frac{1}{\\sin(u_g^{max})} =\n0.61 \\frac{\\lambda}{A}\n\\end{split} \\tag{5}\\]\nwhere aperture angle from sender (source, “Obj”) \\(\\equiv u_g\\), opposed to view angle \\(\\equiv \\varepsilon\\) from receiver (observer, “Oku”) and “Path differecence” \\(\\equiv \\Delta s\\) and “Aperture stop” \\(\\equiv A = \\eta \\cdot \\sin(u_g^{max})\\)\n\\(\\Longrightarrow\\) optical resolution “Mikro endo-luminescent”:\n\\[\\begin{split} &\n\\mathscr{R}_{Mik(endo)} = \\frac{1}{y_g^{min}}\n\\stackrel{backlit}{=}\n\\frac{A}{\\lambda}\n\\stackrel{luminescent}{\\approx}\n0.82 \\cdot 2 \\frac{A}{\\lambda} =\n0.82 \\cdot 2 \\sin(u) \\frac{\\eta}{\\lambda}\n\\end{split} \\tag{6}\\]\n\nobjct has no self-luminousity and is illuminated externally, lightwaves interfer coherently after diffraction: \n\nMikro) object close and small, min. size for resolution:\n\\[\\begin{split} &\n\\Delta y \\cdot \\sin(u_g) = n \\cdot \\lambda\n\\qquad n \\in \\mathbb{N}\n\\end{split} \\tag{7}\\]\n\\[\\begin{split} &\n\\Delta y_{min} = \\frac{\\lambda}{A} =\n\\frac{\\lambda}{\\sin(u_g)} =\n\\frac{\\lambda}{ \\frac{\\lambda}{\\Delta y} }\n\\qquad A \\equiv Aperture\n\\end{split} \\tag{8}\\]\n\\(\\Longrightarrow\\) optical resolution “Mikro exo-illuminated”:\n\\[\\begin{split} &\n\\mathscr{R}_{Mik(exo)} =\n\\frac{1}{\\Delta y_{min}} =\n\\frac{A}{\\lambda} =\n\\frac{\\sin(u_g)}{\\lambda}\n\\end{split} \\tag{9}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Resolutkion Optical"
+    ]
+  },
+  {
+    "objectID": "Content/Sharpness.html",
+    "href": "Content/Sharpness.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Sharpness:\n\\(nN = \\frac{\\lambda}{\\Delta \\lambda}, \\qquad  N \\in \\mathbb{N}\\)",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Sharpness"
+    ]
+  },
+  {
+    "objectID": "Content/Visibility.html",
+    "href": "Content/Visibility.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Visibility (contrast)\nD = Dispersion Domain:\n\\[\\begin{split} &\n\\Delta \\lambda_{D} = \\frac{n \\lambda^2}{n^2 \\lambda - 4 \\eta d^2 \\frac{d\\eta}{d\\lambda}}\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\n\\left| \\Delta \\lambda_{D} \\right| =\n\\frac{\\lambda^2}{ 2 \\eta d \\cdot cos(\\beta) }\n\\end{split} \\tag{2}\\]\nVisibility, Contrast:\n\\[\\begin{split} &\n\\mathcal{V}_D =\n\\frac{ \\mathscr{I}_{A_t,max} - \\mathscr{I}_{A_t,min} }{ \\mathscr{I}_{A_t,max} + \\mathscr{I}_{A_t,min} } =\n\\frac{ \\mathscr{I}_{\\beta,max} - \\mathscr{I}_{\\beta,min} }{ \\mathscr{I}_{\\beta,max} + \\mathscr{I}_{\\beta,min} } =\n\\frac{ 1 - \\frac{1}{1 + \\mathcal{F}} }{ 1 + \\frac{1}{1 + \\mathcal{F}} } =\n\\frac{\\mathcal{F}}{2 + \\mathcal{F}}\n\\end{split} \\tag{3}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Visibility"
+    ]
+  },
+  {
+    "objectID": "Content/Wavelength.html",
+    "href": "Content/Wavelength.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Wavelength (Oscillation):\n\\[\\begin{split} &\n\\lambda =\n\\frac{h}{p} =\n\\frac{2\\pi}{k} =\n\\omega \\frac{\\mathcal{T}}{k} =\n\\frac{c}{\\nu} =\nr \\cdot cos( \\frac{\\pi}{2} -  \\alpha ) =\n2 \\frac{d}{n} \\sqrt{\\eta^2 - sin^2(\\alpha)} =\n2\\pi \\frac{2d}{\\Delta \\varphi} \\sqrt{\\eta^2 - sin^2(\\alpha)} =\n2d \\frac{\\eta}{n} cos(\\beta) =\n2\\pi \\eta \\frac{2d}{\\Delta \\varphi} \\cos(\\beta)\n\\stackrel{\\alpha=0=\\beta}{=}\n2 \\eta \\frac{\\Delta d}{\\Delta n}\n\\end{split} \\tag{1}\\]\n\\[\\begin{split} &\n\\Delta\\lambda =\n\\frac{h}{m_e c}(1-cos(\\varphi)) =\n2 \\frac{h}{m_e c} sin^2(\\frac{\\varphi}{2})\n\\end{split} \\tag{2}\\]\nWavefunction:\n\\[\\begin{split} &\n\\Psi(x,t) =\nC \\cdot e^{ i(\\omega t - kx) } =\nC \\cdot e^{ \\frac{i}{\\hbar}(Et - pr) }\n\\stackrel{Wavepacket}{=}\nA(x,t) e^{i(\\omega_0 t - k_0 x)} =\n2 C(k_0) \\frac{ sin \\left[\\left( t \\cdot \\left( \\frac{d\\omega}{dk} \\right)_{k_0} - x \\right) \\cdot \\Delta k \\right] }{ \\left( t \\cdot \\left( \\frac{d\\omega}{dk} \\right)_{k_0} - x \\right) } =\n2 C(k_0) \\frac{ sin \\left[\\left( \\omega't - x \\right) \\cdot \\Delta k \\right] }{ \\left( \\omega't - x \\right) } =\n2 C(k_0) \\Delta k \\frac{sin(\\xi)}{\\xi}\n\\end{split} \\tag{3}\\]",
+    "crumbs": [
+      "Home",
+      "Explorations",
+      "Wavelength"
+    ]
+  },
+  {
+    "objectID": "Content/Work.html",
+    "href": "Content/Work.html",
+    "title": "PHYSECON",
+    "section": "",
+    "text": "Work (transformation)\n\\[\\begin{split} &\nW = F \\cdot d = \\Delta E = eV = \\Delta U + \\Delta C = energychange + temperaturechange\n\\end{split} \\tag{1}\\]"
+  }
+]

@@ -1,0 +1,30 @@
+Luminosity, Brightness:
+
+Irradiance (Intensity) 
+<!-- \footnote{Bestrahlungsstärke, Lichtstärke}  -->
+
+$$\begin{split} &
+[Candela] = [cd] \equiv \mathscr{I} = ...
+\end{split}$${#eq-candela}
+
+
+Radiance (Illuminance) 
+<!-- \footnote{Strahldichte, Beleuchtungsstärke}  -->
+
+$$\begin{split} &
+[Lux] = 
+[\frac{cd \cdot sr}{m^2}] \equiv
+\mathscr{L} = 
+\frac{\mathscr{I}}{F} \cdot \Omega = 
+\frac{\mathscr{I}}{F}\cdot \frac{F}{r^2}
+\end{split}$${#eq-lux}
+
+If orthogonal illumination at receiver ($\varepsilon_b = 0$) and Flux Density (Radiant Intensity) $\mathscr{I}_g = \mathscr{I}_b$ then:
+
+$$\begin{split} &
+\frac{\mathscr{J}_g}{\mathscr{J}_b} = \frac{r_g^2}{r_b^2} \\&
+\mathscr{I} = \frac{\mathscr{J}}{R^2} \iff \varepsilon_b=0 \iff  (\mathscr{A} \perp R)
+\end{split}$${#eq-luminosity}
+
+{{< include Luminescence.qmd >}}
+<!-- \input{C:/Users/eugenio-SurfPro/Desktop/Physics_Explorations/Physics_incision/Physics_incisions_content/Physics_Luminescence.tex} -->

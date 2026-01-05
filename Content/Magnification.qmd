@@ -1,0 +1,187 @@
+
+Magnification lateral/heigth/size $y=z$, longitudinal/distance $x \perp y$
+
+
+$g \equiv$ distance from object, sender source (from Objectiv)
+
+$b \equiv$ distance from observer, receiver detector (from Okular)
+
+$l \equiv$ distance observer to next lense
+
+$r \equiv$ radius of curvature (bended reflective surface, lense koncav vs. konvex)
+
+$d \equiv$ max. thickness of curved lense enclosed between one konvex side from $g$ and one konkav side from $b$ with radi $r_g$ and $r_b$
+
+$s_0 \equiv$ sight/tubus length
+
+$\varepsilon \equiv$ "visual angle" from observer, $ \varepsilon_0 \equiv $ smallest visual angle
+
+$f \equiv$ focal length
+
+
+$$\begin{split} &
+g \parallel x \parallel b \parallel f 
+\qquad
+y_b \perp b	
+\qquad	
+y_g \perp g
+\end{split}$${#eq-magnification-1}
+
+$$\begin{split} &
+\tan(\varepsilon) = \frac{y_b}{b}
+\qquad
+\tan(\varepsilon_0) = \frac{y_b}{g}
+\end{split}$${#eq-magnification-2}
+
+$(\Delta\varphi)_{min} = \Delta\theta = 2 \varepsilon _0 = 1.22 \frac{\lambda}{d_y}$
+
+"psychological visual angle":
+$2 \varepsilon_0^{min} = 1' = 60'' = \frac{1^{\circ}}{60} = \frac{2\pi}{360} \frac{1}{60} = \frac{\pi}{10800}$
+
+konkav: $ f>0, r<0 $	\qquad	konvex: $ f<0, r>0 $, virtual $ b<0 $
+
+
+
+$$\begin{split} &
+\frac{\eta_g}{g} + \frac{\eta_b}{b} = 
+\frac{\eta - \eta_g}{r_g} - \frac{\eta - \eta_b}{r_b}
+\end{split}$${#eq-magnification-3}
+
+$\frac{1}{f_b} = \frac{1}{\eta_b} \left( \frac{\eta - \eta_g}{r_g} - \frac{\eta - \eta_b}{r_b} \right)$
+
+$\frac{1}{f_g} = \frac{1}{\eta_g} \left( \frac{\eta - \eta_g}{r_g} - \frac{\eta - \eta_b}{r_b} \right)$
+
+thin lense: $f = f_g = f_b \iff d \rightarrow 0$
+
+
+**lense**: $f = f_g = f_b \iff \eta_g = \eta_b$ 
+<!-- \footnote{ $\eta_g = \eta_b = 1$ in vacuum ($\approx 1$ in air), not for eye } -->
+
+
+
+spherical surface (panel), paraxial rays (linear approx., Gauss):
+
+$$\begin{split} &
+\frac{\eta_g}{g} + \frac{\eta_b}{b} = 
+\frac{\eta_b - \eta_g}{r}
+\end{split}$${#eq-magnification-4}
+
+$$\begin{split} &
+b = f_b = \frac{\eta_b}{\eta_b - \eta_g} \cdot r	\qquad
+g = f_g = 
+\frac{\eta_g}{\eta_b - \eta_g} \cdot r
+\end{split}$${#eq-magnification-5}
+
+
+Focal Length:
+
+$$\begin{split} &
+f = 
+\left( \frac{\Delta y}{\Delta \varepsilon} \right)_{min} = 
+\frac{1}{r} \frac{\eta}{\Delta\eta} = 
+\frac{r}{2} \frac{1}{\eta - 1} = 
+- \frac{r}{2} = 
+f_b = f_g
+\stackrel{conjungtion}{=}
+\frac{g \cdot b}{g + b}
+\end{split}$${#eq-magnification-6}
+
+where: $ f^2 = x_g x_b $ and 
+$x_g = x_g(0) = g - f = -f \frac{y_g}{y_b} = +f \cdot \mathscr{G}_y$ and 
+$x_b = x_b(0) = b - f = -f \frac{y_b}{y_g} = -f \cdot \mathscr{G}_y$ 
+
+
+lense proportions:
+
+$$\begin{split} &
+x_g(r_b) = -f \cdot \frac{\eta - 1}{\eta} \cdot \frac{d}{r_b}
+\qquad
+x_b(r_g) = -f \cdot \frac{\eta - 1}{\eta} \cdot \frac{d}{r_g}
+\end{split}$${#eq-magnification-7}
+
+$d = x_g(r_b) + x_b(r_g) + \Delta x$ where rays parallel within $\Delta x$ inside lense
+
+
+
+Dioptri (Refractive Power)\footnote{Brechkraft}:
+
+$$\begin{split} &
+D = 
+\frac{\eta_g}{f_g} = 
+\frac{\eta_b}{f_b}
+\stackrel{vacuum}{=}
+\frac{1}{f} = 
+\frac{1}{g} + \frac{1}{b} 
+\stackrel{paraxial}{=}
+\frac{\Delta\eta}{f} =
+\frac{2}{r}
+\stackrel{concave}{=}
+- \frac{2}{r} 
+\stackrel{r_b = -r_g}{=}
+\frac{2}{r} (\eta - 1) = 
+(\eta - 1) \left( \frac{1}{r_g} - \frac{1}{r_b} + \frac{(\eta - 1) \cdot d}{\eta} \frac{d}{r_g \cdot r_b } \right)
+\stackrel{conjungtion}{=}
+\frac{g + b}{g \cdot b}
+\end{split}$${#eq-magnification-8}
+
+where: $ r < 0 $
+
+
+longitudinal magnification:
+
+$\mathscr{G}_x = \frac{g}{b}$
+
+
+
+lateral magnification:
+
+$$\begin{split} &
+\mathscr{G}_y 
+\stackrel{konkav}{=}
+\frac{-y_b}{y_g} = 
+- \frac{b}{g} 
+\stackrel{konkvex}{=}
+\frac{y_b}{y_g} = 
+- \frac{b-r}{g+r}  = 
+- \frac{f}{x_g} = 
+- \frac{x_b}{f} = 
+\frac{f}{f-g}
+\stackrel{aplanar}{=}
+\frac{\eta_g}{\eta_b} \cdot \frac{sin(u_g)}{sin(u_b)} 
+\stackrel{kollinear}{=}
+\frac{\eta_g}{\eta_b} \cdot \frac{tan(u_g)}{tan(u_b)} 
+\stackrel{paraxial}{=}
+\frac{\eta_g}{\eta_b} \cdot \frac{u_g}{u_b} 
+\end{split}$${#eq-magnification-9}
+
+
+
+viewangle magnification:
+
+$$\begin{split} &
+\mathscr{G}_\varepsilon =
+\frac{\varepsilon}{\varepsilon_0} =
+\frac{\frac{y_b}{b+l}}{\frac{y_g}{s_0}} =
+\frac{s_0}{g} \frac{1}{1+\frac{l}{b}} \cong
+\frac{tan(\varepsilon)}{tan(\varepsilon_0)} =
+\frac{y_b}{y_g} \cdot \frac{g}{b} = 
+\mathscr{G}_y \cdot \mathscr{G}_x
+\stackrel{astronom.}{=}
+- \frac{f^{Obj}}{f^{Oku}}
+\stackrel{terrestr.}{=}
++ \frac{f^{Obj}}{f^{Oku}}
+\qquad
+\in \left[ \frac{s_0}{f} , \frac{s_0}{f}+1 \right]
+\end{split}$${#eq-magnification-10}
+
+
+total magnification:
+
+$$\begin{split} &
+\mathscr{G} = 
+\mathscr{G}_y^2  \cdot \mathscr{G}_x = 
+\mathscr{G}_y \cdot \frac{\varepsilon}{\varepsilon_0} = 
+\mathscr{G}_y \cdot \mathscr{G}_\varepsilon = 
+-\frac{x_b^{Obj}}{f^{Obj}} \cdot \frac{s_0}{f^{Oku}}
+\end{split}$${#eq-magnification-11}
+

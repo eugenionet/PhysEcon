@@ -1,0 +1,22 @@
+Visibility (contrast)
+
+D = Dispersion Domain:
+
+$$\begin{split} &
+\Delta \lambda_{D} = \frac{n \lambda^2}{n^2 \lambda - 4 \eta d^2 \frac{d\eta}{d\lambda}}
+\end{split}$${#eq-visibility-1}
+
+$$\begin{split} &
+\left| \Delta \lambda_{D} \right| = 
+\frac{\lambda^2}{ 2 \eta d \cdot cos(\beta) }
+\end{split}$${#eq-visibility-2}
+
+Visibility, Contrast:
+
+$$\begin{split} &
+\mathcal{V}_D = 
+\frac{ \mathscr{I}_{A_t,max} - \mathscr{I}_{A_t,min} }{ \mathscr{I}_{A_t,max} + \mathscr{I}_{A_t,min} } = 
+\frac{ \mathscr{I}_{\beta,max} - \mathscr{I}_{\beta,min} }{ \mathscr{I}_{\beta,max} + \mathscr{I}_{\beta,min} } = 
+\frac{ 1 - \frac{1}{1 + \mathcal{F}} }{ 1 + \frac{1}{1 + \mathcal{F}} } = 
+\frac{\mathcal{F}}{2 + \mathcal{F}}
+\end{split}$${#eq-visibility-3}

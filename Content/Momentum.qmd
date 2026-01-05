@@ -1,0 +1,14 @@
+Momentum (impetus, movement trigger, exitation, cause for effect):
+
+$$\begin{split} &
+p = 
+m \cdot v 
+\stackrel{!}{=} 
+\sqrt{ \left( \frac{E}{c} \right)^2 - (mc)^2 } = 
+\sqrt{ \left( \frac{\hbar\omega}{c} \right)^2 - (mc)^2 } = \\&
+\sqrt{ \left( \frac{h\nu}{c} \right)^2 - (mc)^2 } = 
+\sqrt{ \left( \frac{h}{\lambda} \right)^2 - E_{pot} } = 
+\sqrt{ \left( \hbar k \right)^2 - E_{pot} } 
+\stackrel{rel.}{=}
+k\hbar
+\end{split}$${#eq-momentum}

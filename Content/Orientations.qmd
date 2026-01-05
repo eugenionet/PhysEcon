@@ -1,11 +1,8 @@
----
-number-sections: false
----
+Orientations of Radiation:
 
+$\alpha =$ irradiaton angle, incoming radiation direction, from source/sender \footnote{Einstrahlungswinkel zur Normalen auf Grenzfläche des Mediums}
 
-Orientation of Radiation:
-
-![Radiation](pic.png){width=66%}
+$\beta =$ refraction angle for bented transmitted radiation $A_{t}$ orientation in matter \footnote{Durchstrahlungsswinkel zur Normalen aus Grenzfläche ins Medium}
 
 $\vartheta =$ reflection angle for redirected radiation $A_{r\parallel}$ parallel to $\alpha$ from matter \footnote{Abstrahlwinkel zur Grenzfläche des Mediums}
 
@@ -13,11 +10,12 @@ $\theta =$ diffraction angle for redirected radiation $A_{r\perp}$ orthogonal to
 
 $\varpi = \beta_1 + \beta_2 =$ angle of converging body surfaces (point tip of prismic medium), spread angle of prism
 
-$\varsigma =$ deviation angle of redirected ray beam after refraction (transmission) and diffraction
+$\varsigma =$ deviation angle of redirected ray beam after refraction (transmission) and difraction
 
 $u_g =$ aperture angle (acceptance) from sender source (at distance $g$)
 
 $w_b =$ inclination angle at observer receiver (at distance $b$)
 
 $\varepsilon =$ visual angle from observer/receiver (of eye)
+
 

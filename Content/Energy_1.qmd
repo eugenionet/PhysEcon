@@ -1,0 +1,47 @@
+Energy:
+
+$$\begin{split} &
+E = \overline{W} =  
+E_{kin} + E_{pot} = 
+E_{Magn} + E_{Elec} 
+\stackrel{continuum}{=}
+\frac{1}{2} kT + \frac{1}{2} kT  = 
+kT 
+\stackrel{quantum}{=} 
+\hbar\omega = 
+h\nu = 
+\stackrel{distribtion}{=} 
+h\nu \frac{1}{e^{\frac{h\nu}{kT}}-1} 
+\stackrel{relativistic}{=} 
+\sqrt{ (pc)^2 + (mc^2)^2 } = 
+c \cdot \sqrt{ p^2 + (mc)^2 } 
+\end{split}$${#eq-engergy-a}
+= linear + rotational + vibration + spin + ...?
+
+
+$$\begin{split} &
+E_{kin}^{max} = 
+eV_0 = 
+h(\nu - \nu_0)
+\end{split}$${#eq-engergy-b}
+
+
+Average Energy Densitiy (Electromagnetic Intensity and Poynting-Vector): 
+<!-- \index{Electromagnetic Energy Density} \index{Intensity} \index{Poynting-Vector} -->
+
+$$\begin{split} &
+\langle w_{EM} \rangle = 
+\frac{1}{2} \varepsilon_0 (\mathscr{E}^2 + c^2 \mathscr{B}^2 ) = 
+\varepsilon_0 \mathscr{E}^2 + \frac{1}{\mu_0}\mathscr{B}^2 = 
+\frac{1}{c} \frac{\mathscr{E \cdot B}}{\mu_0} = 
+\frac{1}{c} \mathscr{I} = 
+\frac{1}{c} \langle |\vec{S}| \rangle
+\end{split}$${#eq-energydensity}
+
+
+Quest: What is momentum $p$ if there is no mass, $m=0$ ?
+
+Quest: Is energy $E$ also the cause for mass $m$, apart from being the ability to do work $W$, $\Delta E = W = F \cdot x = m \cdot a \cdot x = mx \cdot \frac{dv}{dt} = mx \cdot \frac{d^2x}{dt^2} = M \cdot \frac{d^2x}{dt^2}$ ?
+
+
+{{< include Energy_2.qmd >}}

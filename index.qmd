@@ -1,7 +1,7 @@
 ---
 title: Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante
 
-subtitle: Coincise Notes and Conjectures Explorations of Natural Laws to Preliminarly Structure Economies
+subtitle: Coincise Notes and Conjectures Explorations of Natural Laws as Approach to Preliminarly Structure Economies
 
 author: Eugenio Net
 date: today

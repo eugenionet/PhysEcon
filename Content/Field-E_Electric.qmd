@@ -1,0 +1,60 @@
+Electric Field:
+
+$$\begin{split} &
+\textit{Coulomb Force: }
+F_{E} = 
+\frac{1}{4\pi\epsilon_0} \frac{q_0 \cdot q}{r^2} \frac{\vec{r}}{r}
+\end{split}$${#eq-field_el-1}
+
+$$\begin{split} &
+\mathscr{E} = 
+\frac{F_{E}}{q_0} = 
+\frac{1}{2}\frac{1}{2\pi} \frac{1}{\epsilon_0} \frac{q}{r^2} \frac{\vec{r}}{r} = 
+-\nabla U = 
+v \mathscr{B}
+\end{split}$${#eq-field_el-2}
+
+spherical waves of Electric Field from idealized point charge (linear coherent):
+
+$$\begin{split} &
+\mathscr{E} = 
+\frac{A_0}{r} cos(\omega t - kr) = 
+A_L \int \limits_{-D/2}^{D/2} \frac{1}{r} cos(\omega t - kr) dD
+\end{split}$${#eq-field_el-3}
+
+Reflected Electric Field:
+
+$$\begin{split} &
+\mathscr{E(\vartheta)} = 
+\sum\limits_{n=1}^{N} a_n e^{ i (\omega t - k r_n) } = 
+a \cdot e^{ i (\omega t - kR) } \frac{sin(\frac{N}{2}\Delta\varphi)}{sin(\frac{1}{2}\Delta\varphi)} = 
+A(\vartheta) e^{ i( \omega t - kR ) }
+\end{split}$${#eq-field_el-4}
+
+Difracted Electric Field:
+
+$$\begin{split} &
+\mathscr{E(\theta)} = 
+a \cdot e^{ i (\omega t - kR) } \frac{sin(\frac{N}{2}\Delta\varphi)}{sin(\frac{1}{2}\Delta\varphi)} =
+a \cdot cos(\omega t - kR) \frac{sin(\frac{N}{2}\Delta\varphi)}{sin(\frac{1}{2}\Delta\varphi)} = 
+a \cdot cos(\omega t - kR) \frac{sin(\frac{N}{2}2\alpha)}{sin(\frac{1}{2}2\alpha)}
+\stackrel{linear-coherent}{=}
+A_L \frac{D}{R} \frac{sin(\beta)}{\beta} \cdot cos(\omega t - kR) \frac{sin(\frac{N}{2} k \cdot A_L \frac{D}{R} \frac{sin(\beta)}{\beta} \cdot sin(\theta) )}{ sin(\frac{1}{2} k \cdot A_L \frac{D}{R} \frac{sin(\beta)}{\beta} \cdot sin(\theta) } = 
+A_L \frac{D}{R} \frac{sin( \frac{1}{2}bk )}{ \frac{1}{2}bk } \cdot cos(\omega t - kR) \frac{sin(\frac{N}{2} k \cdot A_L \frac{D}{R} \frac{sin( \frac{1}{2}bk )}{ \frac{1}{2}bk } \cdot sin(\theta) )}{ sin(\frac{1}{2} k \cdot A_L \frac{D}{R} \frac{sin( \frac{1}{2}bk )}{ \frac{1}{2}bk } \cdot sin(\theta) }
+\end{split}$${#eq-field_el-4}
+
+where:
+
+$A_L = \frac{1}{D} \lim\limits_{N \rightarrow \infty}  \lim\limits_{A_0 \rightarrow 0} (N \cdot A_0)$
+
+$A_0 =$ intrinsic Eigen-Amplitude of charge ("Quellstärke") emitting radiation due to its movement (vibration)
+
+$D = N \cdot d$ = total size of object (binded charges)
+
+$d =$ distance between objects (charges)
+
+$r =$ distance from object (charge) location to impact place = ray length
+
+$R = r_{N/2} = r_1 - \frac{N-1}{2}\Delta s$ = average ray length
+
+$N =$ amount of objects (charges) emitting rays

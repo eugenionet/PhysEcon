@@ -1,0 +1,61 @@
+Probability:
+
+<!-- \input{Physics_incisions_content/Physics_Wavefunction.tex} -->
+
+$$\begin{split} &
+P = 
+\frac{\mathscr{I}}{N \cdot h\nu} dA dt = 
+\left| \Psi \right|^2 = 
+\Psi^*\Psi 
+\stackrel{interference, pathindependent}{=} 
+\left| \sum\Psi_i \right|^2 =
+\stackrel{no interference, pathdependent}{=} 
+\sum \left| \Psi_i \right|^2 
+\end{split}$${#eq-probability-1}
+
+where:
+$\mathscr{I} \equiv$ Intensitiy
+$N \equiv$ particles
+$A \equiv$ area of incidence orthogonal to movement
+
+
+
+Absorbtion Probability:
+
+$$\begin{split} &
+\frac{P}{t} :=
+W_{mn} = 
+B_{mn} \cdot \frac{N(\nu)}{V} \cdot h\nu = 
+B_{mn} \cdot w_\nu(\nu) = 
+B_{mn} \cdot \frac{d}{d\nu} w_{EM} 
+\end{split}$${#eq-probability-2}
+
+
+Stimulated Emission Probability:
+
+$$\begin{split} &
+\frac{P}{t} =:
+W_{nm} = 
+B_{nm} \cdot \frac{N(\nu)}{V} \cdot h\nu = 
+B_{nm} \cdot w_\nu(\nu) = 
+B_{nm} \cdot \frac{d}{d\nu} w_{EM} 
+\end{split}$${#eq-probability-3}
+
+
+Spontaneous Emission Probability:
+
+$$\begin{split} &
+\frac{P}{t} =:
+W_{nm} = 
+A_{nm} = 
+\frac{1}{\bar{\tau}}
+\end{split}$${#eq-probability-4}
+
+where:
+$n \equiv$ exited state
+$m \equiv$ ground state
+$N \equiv$ particles amount
+$V \equiv$ Volume
+$\bar{\tau} \equiv$ mean livetime of state for spontaneous emission
+$B, A \equiv$ Einsteincoefficients
+

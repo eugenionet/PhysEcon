@@ -1,0 +1,87 @@
+Optical Resolution (sharpness, blur)
+
+spectral Resolution $\mathscr{R} = \frac{\lambda}{\Delta \lambda}$
+
+$$\begin{split}  & 
+	- Prisma with L \equiv \text{base length} (\text{angle} \equiv \varepsilon):   \\&
+	 \frac{\lambda}{d \lambda} = -L \frac{d\eta}{d\lambda}    \\&
+	- \text{Diffraction Lattice}:  \frac{\lambda}{\delta\lambda} = nN    \\&
+	-  \text{Interferometer}: \frac{\lambda}{\Delta\lambda} = n \cdot \frac{\pi \cdot r}{1 - r^2} = nN_e    \\&
+	- \text{Planparallel Plate}:  \frac{\lambda}{d\lambda} = \frac{x}{2d\tan(\beta)} \left(n - \frac{2d}{\cos(\beta)}\frac{d\eta}{d\lambda} \right) 
+\end{split}$${#eq-radiation-opt-1}
+
+a) object is self-luminescent, lightwaves are incoherent and resolution is restricted:
+<!-- \footnote{Helmholtz: self-luminescent experimentally measured} -->
+
+Tele) object far and big, min. size for resolution:
+
+$$\begin{split} &
+\Delta y_{min} = 
+1.22 \cdot f^{Obj} \cdot \frac{\lambda}{D}
+\end{split}$${#eq-radiation-opt-2}
+
+where "Diameter stop" $\equiv D$ and view angle min. for "tele" resolution (object far and big):
+
+$$\begin{split} &
+\Delta \varepsilon_{min} = 
+\frac{\Delta y_{min}}{f^{Obj}} = 
+1.22 \cdot \frac{\lambda}{D}
+\end{split}$${#eq-radiation-opt-3}
+
+$\Longrightarrow$ optical resolution "Tele":
+
+$$\begin{split} &
+\mathscr{R}_{Tel} = \frac{1}{\Delta y_{min}} = 
+0.82 \cdot \frac{1}{f^{Obj}} \cdot \frac{D}{\lambda}
+\end{split}$${#eq-radiation-opt-4}
+
+Mikro) object close and small, min. size for resolution:
+
+$$\begin{split} &
+\Delta y_g^{min} = 
+\frac{1.22}{2} \cdot \frac{\lambda}{\eta} \cdot \frac{1}{\sin(u_g^{max})} = 
+\frac{1}{2} \cdot \frac{\Delta s}{\eta} \cdot \frac{1}{\sin(u_g^{max})} = 
+0.61 \frac{\lambda}{A}
+\end{split}$${#eq-radiation-opt-5}
+
+where aperture angle from sender (source, "Obj") $\equiv u_g$, opposed to view angle $\equiv \varepsilon$ from receiver (observer, "Oku") and "Path differecence" $\equiv \Delta s$ and "Aperture stop" $\equiv A = \eta \cdot \sin(u_g^{max})$
+
+$\Longrightarrow$ optical resolution "Mikro endo-luminescent":
+
+$$\begin{split} &
+\mathscr{R}_{Mik(endo)} = \frac{1}{y_g^{min}}
+\stackrel{backlit}{=}
+\frac{A}{\lambda} 
+\stackrel{luminescent}{\approx}
+0.82 \cdot 2 \frac{A}{\lambda} = 
+0.82 \cdot 2 \sin(u) \frac{\eta}{\lambda}
+\end{split}$${#eq-radiation-opt-6}
+
+
+b) objct has no self-luminousity and is illuminated externally, lightwaves interfer coherently after diffraction:
+<!-- \footnote{Abbe: non self-luminous with external backlit} -->
+
+
+Mikro)  object close and small, min. size for resolution:
+
+$$\begin{split} &
+\Delta y \cdot \sin(u_g) = n \cdot \lambda
+\qquad n \in \mathbb{N}
+\end{split}$${#eq-radiation-opt-7}
+
+$$\begin{split} &
+\Delta y_{min} = \frac{\lambda}{A} = 
+\frac{\lambda}{\sin(u_g)} = 
+\frac{\lambda}{ \frac{\lambda}{\Delta y} }
+\qquad A \equiv Aperture
+\end{split}$${#eq-radiation-opt-8}
+
+$\Longrightarrow$ optical resolution "Mikro exo-illuminated":
+
+$$\begin{split} &
+\mathscr{R}_{Mik(exo)} = 
+\frac{1}{\Delta y_{min}} = 
+\frac{A}{\lambda} = 
+\frac{\sin(u_g)}{\lambda}
+\end{split}$${#eq-radiation-opt-9}
+

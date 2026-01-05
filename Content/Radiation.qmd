@@ -1,0 +1,38 @@
+---
+number-sections: false
+---
+
+
+Radiation (energy movement, charge acceleration, energytransport, poynting)
+
+Hypothesis: Accelerated charge causes radiation (analogous to "force")?
+
+I) Optical Radiation spectral range: $\lambda = \left[ 100nm, 1mm \right]$:
+    1. high frequency: UV spectral range: $\lambda = \left[ 100nm, 200nm \right]$
+    2. visibility wavelength: light (Photon) range:  $\lambda = \left[ 380nm, 780nm \right]$
+    3. long wavelength: IR spectral range: $\lambda = \left[ 5\cdot10^4nm, 10^6nm \right]$
+II) Heat Radiation invisible (Black Body "B"), $\mathscr{L}_{\lambda,B}(\lambda,T)$
+
+
+Charge:
+$$\begin{split} &
+q = ne_0	\qquad
+\sum{q} = Q = I \cdot t	\qquad
+n \in \mathbb{Z}
+\end{split}$${#eq-charge}
+
+
+Radiation:
+$$\begin{split} &
+\mathscr{S} = 
+\frac{d}{dt}p = 
+\frac{1}{c} \frac{d}{dt}(E_{kin}) \stackrel{?}{\propto} 
+q \cdot a
+\end{split}$${#eq-radiation}
+
+
+**[Radiation orientation angles](radiation_orientation.qmd) for optics and thermodynamics**:
+
+{{< include Radiation_Optic.qmd >}}
+
+{{< include Radiation_Heat.qmd >}}
