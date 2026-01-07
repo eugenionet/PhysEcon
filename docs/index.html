@@ -1,0 +1,2056 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.26">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Eugenio Net">
+<meta name="dcterms.date" content="2026-01-07">
+<meta name="keywords" content="Physics, Economy">
+
+<title>Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante – PHYSECON</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-99175323bdc6ffcce6067e17d2d848ec.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-a4ddf414298af9676052205868b046b0.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-99175323bdc6ffcce6067e17d2d848ec.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const queryPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+    const darkModeDefault = queryPrefersDark.matches;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    queryPrefersDark.addEventListener("change", e => {
+      if(window.localStorage.getItem("quarto-color-scheme") !== null)
+        return;
+      const alternate = e.matches
+      toggleColorMode(alternate);
+      localAlternateSentinel = e.matches ? 'alternate' : 'default'; // this is used alongside local storage!
+      toggleGiscusIfUsed(alternate, darkModeDefault);
+    });
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">PHYSECON</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./dummy.html"> 
+<span class="menu-text">Contribute</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="mailto:eugenionetweb@gmail.com?subject=Working%20Paper%20Economy-Physics&amp;body=Body%20text"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="https://www.researchgate.net/login?_sg=GVPRQCDS6NDU-YgTVOp8WJPPcGkOTjrVnKYT-SENPkZYSmRb9li_cjw9cbtoFy1MrMYmNVUez5YPVsOwZ8UvUQ&amp;_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImluZGV4IiwicGFnZSI6ImluZGV4IiwicG9zaXRpb24iOiJnbG9iYWxIZWFkZXIifX0" target="_blank"> 
+<span class="menu-text">ResearchGate</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-feather"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://cocalc.com/" target="_blank">
+            SageMath
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://www.wolframalpha.com/" target="_blank">
+            WolframAlpha
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://datasette.io/" target="_blank">
+            Datasette
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://www.mathcha.io/" target="_blank">
+            Mathcha
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://www.geogebra.org/" target="_blank">
+            GeoGebra
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://ptable.com/?lang=en#Properties" target="_blank">
+            Chemical Elements
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://socialsci.libretexts.org/Bookshelves/Economics/Introductory_Comprehensive_Economics/Economics_(Boundless)/01%3A_Principles_of_Economics/1.06%3A_Differences_Between_Macroeconomics_and_Microeconomics" target="_blank">
+            Economy Fundamentals
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Projects</a></li><li class="breadcrumb-item"><a href="./index.html">PhysEcon</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Synopsis</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Projects</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">PhysEcon</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">PhysFina</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Inquiries on Nature</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Explorations</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/2pi.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Periodicity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/lightspeed.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lightspeed, Matter and Vacuum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/refraction.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Refraction and Matter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/metric.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Metric</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/finestructure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Finestructure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Potential.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Potential</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Field-E_Electric.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Electric Field</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Field-B_Magnetic.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Magnetic Field</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Wavelength.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Wavelength</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Frequency.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Frequency</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Phase.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Phase</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Phaseshift.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Phaseshift</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Period.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Period</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Energy_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Energy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Momentum.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Momentum</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Inertia.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Inertia</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Force.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Force</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Coupling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Coupling</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Power.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Power</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Action.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Probability.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Probability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Radiation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Radiation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Reflection-Transmission.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reflection and Transmission</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Sharpness.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Sharpness</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Intensity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Intensity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/SolidAngle.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Solid Angle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Radiation_Power.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Radiation Power</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Resolution-opt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resolutkion Optical</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Luminosity.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Luminosity</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Visibility.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Visibility</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Magnification.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Magnification</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Radiation_Creation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Radiation Creation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Radiation_Detection.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Radiation Detection</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Beta-decay.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="math inline">\(\beta\)</span>-Decay</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Field-D_Exitation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">D-Field Exitation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Field-H_Exitation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">H-Field Exitation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Orientations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Orientations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Particle.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Particle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Reversible-Process.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reversible Processes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Content/Invariance-Symmetry.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Invariance and Symmetry</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Static, Kinetic, Dynamic</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lagrange-Hamilton</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Time Matter</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Degrees of Freedom</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Movement &amp; State</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Restrictions &amp; Constraints, Boundries &amp; Limitations</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Equilibrium &amp; Laborsystem</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Work &amp; Energy, Information</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Force and Momenta</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Entropy &amp; Enthalpy</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Symmetry &amp; Conservation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Reversability</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Refraction &amp; Medium</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Action &amp; Path</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Potentials</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Renormalization</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Continum &amp; Quantum</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Resources</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Probability, Liklyhood, Determinism and Prediction</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Optimization &amp; Variation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./dummy.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Micro &amp; Macro</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Chapters</h2>
+   
+  <ul>
+  <li><a href="#sec-introduction" id="toc-sec-introduction" class="nav-link active" data-scroll-target="#sec-introduction"><span class="header-section-number">1</span> Introduction</a></li>
+  <li><a href="#sec-motion" id="toc-sec-motion" class="nav-link" data-scroll-target="#sec-motion"><span class="header-section-number">2</span> Motion and State Change</a></li>
+  <li><a href="#sec-workenergy" id="toc-sec-workenergy" class="nav-link" data-scroll-target="#sec-workenergy"><span class="header-section-number">3</span> Work and Energy</a></li>
+  <li><a href="#sec-constraints" id="toc-sec-constraints" class="nav-link" data-scroll-target="#sec-constraints"><span class="header-section-number">4</span> Constrains and Conditions</a></li>
+  <li><a href="#sec-determinism" id="toc-sec-determinism" class="nav-link" data-scroll-target="#sec-determinism"><span class="header-section-number">5</span> Determinism and Uncertainity</a></li>
+  <li><a href="#sec-optimization" id="toc-sec-optimization" class="nav-link" data-scroll-target="#sec-optimization"><span class="header-section-number">6</span> Ex-ante Framing and Post-ante Optimization</a></li>
+  <li><a href="#sec-productivityvalue" id="toc-sec-productivityvalue" class="nav-link" data-scroll-target="#sec-productivityvalue"><span class="header-section-number">7</span> Productiviy and Value</a></li>
+  <li><a href="#sec-hypothesis" id="toc-sec-hypothesis" class="nav-link" data-scroll-target="#sec-hypothesis"><span class="header-section-number">8</span> Hypothesis and Conjecture</a></li>
+  <li><a href="#acronyms" id="toc-acronyms" class="nav-link" data-scroll-target="#acronyms"><span class="header-section-number">9</span> Acronyms</a>
+  <ul class="collapse">
+  <li><a href="#sec-acroworkenergy" id="toc-sec-acroworkenergy" class="nav-link" data-scroll-target="#sec-acroworkenergy"><span class="header-section-number">9.1</span> Acronyms of Physics: Chapter&nbsp;3</a></li>
+  <li><a href="#sec-acroeconom" id="toc-sec-acroeconom" class="nav-link" data-scroll-target="#sec-acroeconom"><span class="header-section-number">9.2</span> Acronyms of Economy: Chapter&nbsp;7</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="index.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div><div class="quarto-other-links"><h2>Other Links</h2><ul><li><a href="https://quarto.org/docs/output-formats/html-basics.html"><i class="bi bi-link-45deg"></i>see also</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Projects</a></li><li class="breadcrumb-item"><a href="./index.html">PhysEcon</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">Physics Concepts as Indicative Framework to Model Systems of Economies Ex-ante</h1>
+<p class="subtitle lead">Coincise Notes and Conjectures Explorations of Natural Laws as Approach to Preliminarly Structure Economies</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Eugenio Net <a href="mailto:eugenionetweb@gmail.com" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 7, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>An exploratory attempt … Interconnection network between movement, force, momentum, energy, and work. Describing systems with Lagrangian and Hamltonian when constraints and starting conditions exist. Modeling systems and optimisation with constraints and conditions. Interwoven system of macro- and microeconomie under constraints, limitations, and conditions.</p>
+  </div>
+</div>
+
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>Physics, Economy</p>
+  </div>
+</div>
+
+</header>
+
+
+<hr>
+<br>
+<br>
+
+<p style="text-align: center; color: slategray;">
+<em>WORKING NOTES DRAFT</em> <br>
+</p>
+<p><br>
+<br>
+</p>
+<!-- # Abstract {#sec-abstract}
+
+
+An exploratory attempt ...
+
+Interconnection network between movement, force, momentum, energy, and work.
+Describing systems with Lagrangian and Hamltonian when constraints and starting conditions exist.
+Modeling systems and optimisation with constraints and conditions.
+Interwoven system of macro- and microeconomie under constraints, limitations, and conditions.
+
+\
+\ -->
+<section id="sec-introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<p>Nature strives through Physics to behave economical by using its resources in an austere way: Principle of Least Action.</p>
+<p>Economy - not pre-given by natural laws - is constructed as social set of co-living rules to allocate, distribute and share (natural and non-natural) resources. Ex-ante modelling economic systems by rules (contractual, legislative, judicative, executive).</p>
+<p>The state (situation, position) of the Economy can be described by e.g.&nbsp;Assets, Liabilities, Expenses, Incomes, Profitability, Productivity, etc.. The Economy changes through time from a state <span class="math inline">\(r_0=\)</span> “start” to a state <span class="math inline">\(r_1=\)</span> “end”. For the state to change, work is applied by processing limited resources (e.g.&nbsp;access to raw materials and availability of intermediate goods), constrained capital (e.g.&nbsp;financial funds, interest rates, and inflation), as well as labor capacity (e.g machines and human force).</p>
+<p>How can a trajectory <span class="math inline">\(r = r_1 - r_0\)</span> between two states be modelled by work <span class="math inline">\(W\)</span>, which is applied for the change of the state to occure: searching the condition by defing target state through “path of chage” <span class="math inline">\(=r\)</span>?</p>
+<p><span id="eq-intro"><span class="math display">\[\begin{split} &amp;
+r = f(x_i) = \int A = \int \int W = \int \int (\mathcal{L} + \mathcal{H}) = \int \int (\Delta E - \Delta H)
+\end{split} \tag{1}\]</span></span></p>
+<p><br>
+<br>
+</p>
+</section>
+<section id="sec-motion" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Motion and State Change</h1>
+<ul>
+<li>motion of matter in space and time</li>
+<li>change of state</li>
+<li>displacement</li>
+<li>diffusion</li>
+<li>dissipation ad refraction</li>
+<li>distance, velocity, momentum, acceleration (curvature), force, energy, work, and action</li>
+<li>isotropy and homomenity</li>
+</ul>
+<p>Motion: <span id="eq-trajectory"><span class="math display">\[\begin{split} &amp;
+r = r(t) = r_x(t_{x}) - r_0(t_{0} ) = \Delta r(\Delta t)
+\\&amp; \stackrel{Path}{=}
+State(arrival) - State(start) = Trajectory(Change)
+\end{split} \tag{2}\]</span></span></p>
+<p><span id="eq-motion"><span class="math display">\[\begin{split} &amp;
+v = \dot r = \frac{d}{dt}r
+\qquad
+p = \frac{1}{v} \sqrt{E^2 - (mv^2)^2}
+\qquad
+F = \dot p = \frac{d}{dt}p
+\end{split} \tag{3}\]</span></span></p>
+<p>Energy total: <span id="eq-energytotal"><span class="math display">\[\begin{split} &amp;
+E = Motion_{Energy} + Rest_{Energy} = E_{kin} + E_{pot}
+\end{split} \tag{4}\]</span></span></p>
+<p><br>
+<br>
+</p>
+</section>
+<section id="sec-workenergy" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Work and Energy</h1>
+<p><span class="math inline">\(\exists\)</span> Work done or received <span class="math inline">\(W \neq 0 \Rrightarrow \exists\)</span> Change of State (“Displacement”, “Deformation”) <span class="math inline">\(r \neq 0\)</span>:</p>
+<p><span id="eq-energy"><span class="math display">\[\begin{split} &amp;
+E = \mathcal{K} + \mathcal{U}  \qquad  E_{kin} \coloneqq \mathcal{K} = \frac{1}{2}pv   \qquad   E_{pot} \coloneqq \mathcal{U} = \mathcal{V} + \mathcal{Z}
+\end{split} \tag{5}\]</span></span></p>
+<p>Energy is conserved in konservative systems; There is no work in closed path between two points (loop) of any shape under path variation, hence the “Principle of Action” applies (extremities of bumps and saddles exist): <span class="math inline">\(\delta A = 0\)</span></p>
+<p>Potentials: <span id="eq-potential"><span class="math display">\[\begin{split} &amp;
+\mathcal{U} = \mathcal{V} + \mathcal{Z}
+\\&amp;
+\mathcal{V}
+    \begin{cases}
+      = \frac{1}{2} kr^2 : \text{isotrop harmonical oscilator central field Potential, } \\
+        \qquad \text{closed bounded path, } \text{"spring constant" } k = m\omega^2 = 2\pi \cdot \nu  \\
+      = -\frac{1}{r}\alpha: \text{gravitational central field Potential, } \\
+        \qquad \text{closed bounded path, } \alpha = \left( \frac{2\pi}{\Delta \varphi} \right)^2 = const. \\
+      \sim \frac{1}{r}e^{\mu r} : \text{Yukawa Potential}, \text{"Photon mass" } m_{\gamma} = \mu \frac{\hbar}{c} \\
+      ...
+    \end{cases}
+\end{split} \tag{6}\]</span></span></p>
+<p>Centrifugal Potential: <span id="eq-centrifugalpot"><span class="math display">\[\begin{split} &amp;
+\mathcal{Z} = \frac{1}{2} \frac{1}{m} \left( \frac{L_0}{r} \right)^2 \text{, angular momentum}=L_0
+\end{split} \tag{7}\]</span></span></p>
+<p>Work: <span id="eq-workaction"><span class="math display">\[\begin{split} &amp;
+W = \partial_t A = \partial_t (E \cdot t) = \partial_t (p ⋅ r) = F_1 \cdot r_1 + p_2 \cdot v_2 =
+    \begin{cases}
+      F \cdot r \\
+      p \cdot v
+    \end{cases}
+\end{split} \tag{8}\]</span></span></p>
+<p><em>Geometrical</em>:</p>
+<p><span id="eq-workgeom"><span class="math display">\[\begin{split} &amp;
+W = F \cdot r = mr \cdot a = I ⋅ \frac{v}{t} =  \frac{p}{t} ⋅ tv = Ft \cdot v =  pv = mv^2
+\end{split} \tag{9}\]</span></span></p>
+<p><em>Analytical</em>:</p>
+<p><span id="eq-lagrange"><span class="math display">\[\begin{split} &amp;
+\mathcal{L} = \mathcal{L}(r,\dot r,t) = E_{kin} - E_{pot}
+\end{split} \tag{10}\]</span></span></p>
+<p><span id="eq-hamilton"><span class="math display">\[\begin{split} &amp;
+\mathcal{H} = \mathcal{H}(r,p,t) = \sum_i^f \dot r_i p_i - \mathcal{L}
+\stackrel{konserv.}{=}
+E_{kin} + E_{pot} = const.
+\end{split} \tag{11}\]</span></span></p>
+<p><span id="eq-action"><span class="math display">\[\begin{split} &amp;
+A = E \cdot t = p \cdot r
+\stackrel{\mathcal{H}=0}{=}
+\int_{t_0}^{t_x} \mathcal{L} dt
+\end{split} \tag{12}\]</span></span></p>
+<p><span id="eq-workanal"><span class="math display">\[\begin{split} &amp;
+W = p \cdot v = \mathcal{L} + \mathcal{H} = (\mathcal{K} - \mathcal{U}) + \mathcal{H}
+\\&amp; \stackrel{konserv.}{=}
+(\mathcal{K} - \mathcal{U}) + (\mathcal{K} + \mathcal{U}) = (\mathcal{K} - \mathcal{U}) + E
+\end{split} \tag{13}\]</span></span></p>
+<p><em>Electro Magnetic</em>:</p>
+<p><span id="eq-workelmag"><span class="math display">\[\begin{split} &amp;
+W = \mathcal{L} + \mathcal{H} = \left( \frac{1}{2}mv^2 - q(\Phi - \vec{\mathcal{A}} \cdot \vec{v}) \right) + \left( \frac{1}{2} \frac{1}{m} (\vec{p} - q\vec{\mathcal{A}})^2 + q\Phi \right)\end{split} \tag{14}\]</span></span></p>
+<p><em>Relativistic</em>:</p>
+<p><span id="eq-workrel"><span class="math display">\[\begin{split} &amp;
+W = p \cdot v = \frac{v}{c} \sqrt{E^2 - (mc^2)^2}
+\end{split} \tag{15}\]</span></span></p>
+<p><em>Thermal</em>:</p>
+<p><span id="eq-workthermal"><span class="math display">\[\begin{split} &amp;
+W = Fr = PV^{\iota} = T \cdot V^{\frac{f+2}{f}} = T \cdot V^{(\frac{c_P}{c_V}-1)} = TV^{\kappa-1}  \\&amp;
+= T \cdot l \cdot g_0 = T \cdot n \cdot b_0 = T \cdot m \cdot c_0
+\end{split} \tag{16}\]</span></span></p>
+<p><em>Thermo Statistical</em>:</p>
+<p><span id="eq-workthemostat"><span class="math display">\[\begin{split} &amp;
+W = \mathcal{L} + \mathcal{H} = ΔU - ΔH = \Delta(T \cdot \Delta S - P \cdot \Delta V) - \Delta(T\cdot S)
+\end{split} \tag{17}\]</span></span></p>
+<p><em>Quantistic</em>:</p>
+<p><span id="eq-workquant"><span class="math display">\[\begin{split} &amp;
+W = p \cdot v = ħ\mathcal{k} \cdot ω = ℎν\mathcal{k} = E\mathcal{k}
+\end{split} \tag{18}\]</span></span></p>
+<p><span id="eq-uncertainity"><span class="math display">\[\begin{split} &amp;
+\Delta A = \Delta p  \cdot \Delta r = \Delta E \cdot \Delta t \ge \frac{1}{2} \hbar
+\end{split} \tag{19}\]</span></span></p>
+<p><br>
+<br>
+</p>
+<p>see description of “movement” <a href="#eq-movement" class="quarto-xref">Equation&nbsp;24</a></p>
+<p>acronyms see <a href="#sec-acroworkenergy" class="quarto-xref">Section&nbsp;9.1</a></p>
+<p><br>
+<br>
+</p>
+</section>
+<section id="sec-constraints" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> Constrains and Conditions</h1>
+<p>Constraints:</p>
+<ul>
+<li>initial state, starting conditions</li>
+<li>acting boundary conditions (to move within): e.g.&nbsp;demography, economical and political stability, labor force, education and know-how, health and technological level</li>
+<li>access to limited resources: e.g.&nbsp;chemical elements, minerals, fuels, commodities, trade and transportations, etc.</li>
+<li>contractual agreements and covenants, legal assurance</li>
+<li>juristic law framework</li>
+</ul>
+<p>Modelling movement (change of state) under constraints:</p>
+<ol type="1">
+<li><p>Movement ist charecterized by change of energy, Lagrangian <span class="math inline">\(\mathcal{L} \neq 0\)</span>: <span id="eq-lagrangian"><span class="math display">\[\begin{split} &amp;
+\mathcal{L} = \mathcal{K} - \mathcal{U}
+\qquad
+\frac{\partial \mathcal{L}}{\partial r} = F
+\qquad
+\frac{\partial \mathcal{L}}{\partial v} = p
+\end{split} \tag{20}\]</span></span></p></li>
+<li><p>Movement happens within constraints of forces. Constrains are observable, whereas forces might be unknown. Therefore, <span class="math inline">\(r\)</span> can be determined from <span class="math inline">\(\mathcal{L}\)</span> (Energy and Work) of the <strong>system at rest <span class="math inline">\(F=0\)</span></strong>, instead than from “searching” all acting forces <span class="math inline">\(F_i\)</span>. In general, unknow forces at motion are defined by solving the Eigenvalueproblem. Solving for <strong><span class="math inline">\(\mathcal{L}\)</span></strong> at equilibirium: <span id="eq-constrainforce"><span class="math display">\[\begin{split} &amp;
+F_{total} = \hat{F_i} + \tilde{F_i} = \hat{F_i} + \sum_{k=1}^{s_d} \lambda_k a_{ki} = \frac{d}{dt} \left( \frac{\partial \mathcal{L}}{\partial v_i} \right) - \frac{\partial \mathcal{L}}{\partial r_i}
+= \begin{cases}
+= 0    : \text{ Equilibrium} \\
+\neq 0 : \text{ Movement}
+  \end{cases}
+\end{split} \tag{21}\]</span></span></p>
+<p>and at same time solving for constraining conditions that hold the system at rest (equilibrium): <span id="eq-constraincondition"><span class="math display">\[\begin{split} &amp;
+\sum_{l=1}^f a_{kl} v_l + b_k = 0
+\end{split} \tag{22}\]</span></span></p></li>
+<li><p>Rest is characterized by unchanged energy, Hamiltonian <span class="math inline">\(\mathcal{H} = E_{kin} + E_{pot} = const.\)</span>. There is movement from state of rest if the new <span class="math inline">\(\mathcal{H} \neq 0\)</span> differs from the initial one. Using the found solution for the Lagrangian <span class="math inline">\(\mathcal{L}\)</span> containing the constraints, the Hamiltonian for the energy is deduced: <span id="eq-hamiltonian"><span class="math display">\[\begin{split} &amp;
+\mathcal{H} = \sum_i p_i v_i - \mathcal{L} = pv - \mathcal{L}  = Fr - \mathcal{L} = W - \mathcal{L}  = (\Delta E - \Delta H) - \mathcal{L}
+\end{split} \tag{23}\]</span></span></p></li>
+<li><p>Change of state/position is characterized by movement. Eventually, by solving the new system of differential equations, from the found solution of the energy <span class="math inline">\(\mathcal{H}\)</span>, the set <span class="math inline">\({r,v,p}\)</span> which describe the movement (and thus the change of state), is deduced: <span id="eq-movement"><span class="math display">\[\begin{split} &amp;
+\dot r_i = v_i = \frac{\partial\mathcal{H}}{\partial p_i}   \qquad
+\dot p_i = F_i = - \frac{\partial\mathcal{H}}{\partial r_i}
+\end{split} \tag{24}\]</span></span></p></li>
+</ol>
+<p>see description of “work” <a href="#eq-workgeom" class="quarto-xref">Equation&nbsp;9</a></p>
+<p>where:</p>
+<p><span class="math inline">\(s_d =\)</span> constraints   <span class="math inline">\(i = 1,...,f =\)</span> dedrees of freedom   <span class="math inline">\(k = 1,...,s_d =\)</span> constraints</p>
+<p><span class="math inline">\(\hat{F_i} =\)</span> known constraining forces   <span class="math inline">\(\tilde{F_i} = \sum_{k=1}^{s_d} \lambda_k a_{ki} =\)</span> unknown constraining forces</p>
+<p><span class="math inline">\(\lambda_k(t) =\)</span> Eigenvalues for transformation of reference system</p>
+<p><span class="math inline">\(a_{ki} =\)</span> Eigenvectors of transformation matrix</p>
+<p><span class="math inline">\(\lambda_k \cdot \vec r_i = \lambda_k \cdot \left[ a_{ki} \right]_{matrix}\)</span></p>
+<p><br>
+<br>
+</p>
+</section>
+<section id="sec-determinism" class="level1" data-number="5">
+<h1 data-number="5"><span class="header-section-number">5</span> Determinism and Uncertainity</h1>
+<ul>
+<li>Determinism through contratcting &amp; jurisdiction</li>
+<li>Uncertainity minimizsations</li>
+<li>Statistical approximation</li>
+<li>Prognosis matching Determinism</li>
+</ul>
+<p>see <a href="#eq-uncertainity" class="quarto-xref">Equation&nbsp;19</a></p>
+<p><br>
+<br>
+</p>
+</section>
+<section id="sec-optimization" class="level1" data-number="6">
+<h1 data-number="6"><span class="header-section-number">6</span> Ex-ante Framing and Post-ante Optimization</h1>
+Framing contracts and jurisdiction ahead to match <span class="math inline">\(p = \text{"Economy Funds"}\)</span> and <span class="math inline">\(v = \text{"Economy Velocity"}\)</span> that can be modelled with typical approaches for fuction <span class="math inline">\(z = \text{"arrival state"}\)</span> depending on <span class="math inline">\(x = \text{"starting state"}\)</span>, so that “work” <span class="math inline">\(W = F \cdot r =  F \cdot (z - x)\)</span>:
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+<div id="tbl-modeling" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-modeling-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Modelling Functions
+</figcaption>
+<div aria-describedby="tbl-modeling-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 27%">
+<col style="width: 49%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Model</th>
+<th style="text-align: left;">Linearisation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Linear</td>
+<td style="text-align: left;"><span class="math inline">\(z = a + bx\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(z = a + bx\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Gemetric</td>
+<td style="text-align: left;"><span class="math inline">\(z = a \cdot x^b\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\log z = \log a + b \cdot (\log x)\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Exponential deca.</td>
+<td style="text-align: left;"><span class="math inline">\(z = a \cdot b^x\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\log z = \log a + (\log b) \cdot x\)</span></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Exponential nat.</td>
+<td style="text-align: left;"><span class="math inline">\(z = a \cdot e^{bx}\)</span></td>
+<td style="text-align: left;"><span class="math inline">\(\ln z = \ln a + bx\)</span></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Periodical</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Polynomial</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Taylor</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p><br>
+<br>
+Linear optimization to achieve target states “<span class="math inline">\(z, h\)</span>”:</p>
+<ol type="1">
+<li><p>Oneness situaiton modelling:</p>
+<p>minimize efforts = <span class="math inline">\(z\)</span> or maximizie return = <span class="math inline">\(z\)</span></p></li>
+</ol>
+<p><span id="eq-situationopt"><span class="math display">\[\begin{split} &amp;
+\text{target:}            \hphantom{min.nstraints:}     z = c^T \cdot x \\&amp;
+\text{min. constraints:}  \hphantom{max.}               \left[ a_{ki} \right] \cdot x \ge b   \\&amp;
+\text{max. constraints:}  \hphantom{min.}               \left[ a_{ki} \right] \cdot x \le b   \\&amp;
+\text{condition:}         \hphantom{max.raints:}        x \ge 0   \\&amp;
+\end{split} \tag{25}\]</span></span></p>
+<ol start="2" type="1">
+<li><p>Duality situation modelling:</p>
+<p>minimize efforts = <span class="math inline">\(z\)</span> and maximize return = <span class="math inline">\(h\)</span></p></li>
+</ol>
+<p><span id="eq-situationdual"><span class="math display">\[\begin{split} &amp;
+\text{target min.:}         \hphantom{ andints:}      z = c^T \cdot x     \\&amp;
+\text{min. constraints:}    \hphantom{ and}           \left[ a_{ki} \right] \cdot x \ge b   \\&amp;
+\text{condition:}           \hphantom{ andraints:}    x \ge 0       \\&amp;
+\textit{ and}    \\&amp;
+\text{target max.:}         \hphantom{ andints:}      h = b^T \cdot y \\&amp;
+\text{max. constraints:}    \hphantom{ and}           \left[ a_{ki} \right]^T \cdot y \le c   \\&amp;
+\text{condition:}           \hphantom{ andraints:}    y \ge 0         \\&amp;
+\end{split} \tag{26}\]</span></span></p>
+<ol start="3" type="1">
+<li>Normalization:</li>
+</ol>
+<p><span id="eq-optnorm"><span class="math display">\[\begin{split} &amp;
+\text{target:}              \hphantom{min.nstraints:}      z = c^T \cdot x \\&amp;
+\text{min. constraints:}    \hphantom{max.}    \left( \left[ a_{ki} \right] - x_{n+k} \right) \cdot x = b   \\&amp;
+\text{max. constraints:}    \hphantom{min.}    \left( \left[ a_{ki} \right] + x_{n+k} \right) \cdot x = b   \\&amp;
+\text{condition:}           \hphantom{max.raints:}    x \ge 0       \\&amp;
+\end{split} \tag{27}\]</span></span></p>
+<ol start="4" type="1">
+<li>Solution with <a href="https://cbom.atozmath.com/CBOM/Simplex.aspx?q=sm">Simplex algorithm</a></li>
+</ol>
+<p>multilinear and exponential models …</p>
+<p><br>
+<br>
+</p>
+</section>
+<section id="sec-productivityvalue" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Productiviy and Value</h1>
+<p>Society’s living requires:</p>
+<ul>
+<li>“Resources” are processed to create goods to be consumed</li>
+<li>“Labor” is used to process goods and services</li>
+<li>“Capital” intermediates value between goods and services</li>
+</ul>
+<p>Society organizes in groups of households:</p>
+<ul>
+<li>natural households</li>
+<li>juristic corporations</li>
+<li>governmental institutions</li>
+</ul>
+<p>Households cooperate though exchange (trade) of goods and services between “Demand” and “Supply” using monetary valuation:</p>
+<ul>
+<li>Goods Market Production, Inventory, Trade <span class="math inline">\(\rightarrow\)</span> “Price” for value of production</li>
+<li>Labor Market Employment, Demographic Structure, Work Capabilities <span class="math inline">\(\rightarrow\)</span> “Wage” for value of labor</li>
+<li>Capital Market Savings, Investments, Exchange <span class="math inline">\(\rightarrow\)</span> “Interest” for value of capital</li>
+</ul>
+<p><br>
+acronyms see <a href="#sec-acroeconom" class="quarto-xref">Section&nbsp;9.2</a><br>
+<br>
+</p>
+<p>Supply is provided by the income <span class="math inline">\(Y\)</span>:</p>
+<p><span id="eq-ecoincome"><span class="math display">\[\begin{split} &amp;
+Y = L  + Y_H + Y_A + T_A + Y_G - Z_G
+\end{split} \tag{28}\]</span></span></p>
+<p><span id="eq-gdpsupply"><span class="math display">\[\begin{split} &amp;
+Y = C + S + T + M - X
+\end{split} \tag{29}\]</span></span></p>
+<p>Demand is satisfied by the production <span class="math inline">\(V_I\)</span>:</p>
+<p><span id="eq-gdpdemand"><span class="math display">\[\begin{split} &amp;
+V_I = C + I + G + X - M
+\end{split} \tag{30}\]</span></span></p>
+<p>Equilibrium:</p>
+<p><span id="eq-ecoequi"><span class="math display">\[\begin{split} &amp;
+Y = V_I       \\&amp;
+L - C = S = I        \\&amp;
+C + S = L        \\&amp;
+C + I = R
+\end{split} \tag{31}\]</span></span></p>
+<p>Domestic Production &amp; International Trade:</p>
+<p><span id="eq-gdp"><span class="math display">\[\begin{split} &amp;
+V_S = Y + T - G_A + D_A
+\end{split} \tag{32}\]</span></span></p>
+<p><span id="eq-nnp"><span class="math display">\[\begin{split} &amp;
+V_N = V_S - D_A
+\end{split} \tag{33}\]</span></span></p>
+<p><span id="eq-gdp"><span class="math display">\[\begin{split} &amp;
+V_I = V_S - R_M + R_X
+\end{split} \tag{34}\]</span></span></p>
+<p>Monetary Value of Production:</p>
+<p><span id="eq-moneyquant"><span class="math display">\[\begin{split} &amp;
+P \cdot V_I = Q \cdot N
+\end{split} \tag{35}\]</span></span></p>
+<p>Macro Productivity: <span id="eq-productivity"><span class="math display">\[\begin{split} &amp;
+Productivity = \frac{Output}{Input} = \frac{V_I}{Y}
+\end{split} \tag{36}\]</span></span><br>
+<br>
+</p>
+<p>We track production at microeconomic level through (acronyms see <a href="#sec-acroeconom" class="quarto-xref">Section&nbsp;9.2</a>):</p>
+<p><span class="math inline">\(A =\)</span> Assets represent “Property Capital” which consist of “Current Capital” and “Structural Capital”. Those investments are required for the production processes.</p>
+<p><span class="math inline">\(B =\)</span> Liabilities represent “Financial Capital” which consist of “Exogen Funds” and “Endogen Funds”. Later includes “Equity Capital” and “Retained Gains”. Those funds do finance Assets.</p>
+<p><span class="math inline">\(W =\)</span> Expenses represent “Work Efforts” to “Supply Production” with use of Assets.</p>
+<p><span class="math inline">\(Y =\)</span> Income represents “Received Earnings” achieved with production to “Satisfy Demand”. Parts of the gains will be retained to finance Assets.</p>
+<p><span class="math inline">\(R =\)</span> Gain, Profit or Loss from executed work (resultant value from input efforts) is represented by <span class="math inline">\(R = Y - W\)</span></p>
+<p>The “transfer of energy” between all subsystems is mapped in balancing out theirs capital (usage of capital for production though possessed assets): <span class="math inline">\(A = B + R\)</span></p>
+<p>Micro Productivity: <span id="eq-microprod"><span class="math display">\[\begin{split} &amp;
+Productivity = \frac{Output}{Input} = \frac{Y}{W}
+\end{split} \tag{37}\]</span></span></p>
+<p><br>
+<br>
+</p>
+</section>
+<section id="sec-hypothesis" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Hypothesis and Conjecture</h1>
+<p>Conjecture of <a href="#eq-moneyquant" class="quarto-xref">Equation&nbsp;35</a> and <a href="#eq-workthermal" class="quarto-xref">Equation&nbsp;16</a></p>
+<p>How consistently map economic measures to the quantities of nature to model the economical system?</p>
+<p>Input: <span id="eq-ecoinput"><span class="math display">\[\begin{split} &amp;
+Input = f_0(Resouces, Labor, Capital) \text{ = Work = } \Delta\text{Energy} = p \cdot v
+\end{split} \tag{38}\]</span></span></p>
+<p>Output: <span id="eq-ecooutput"><span class="math display">\[\begin{split} &amp;
+Output \text{ = Goods + Services = Production = } \Delta\text{State} = V_I
+\end{split} \tag{39}\]</span></span></p>
+<p>Productivity: <span id="eq-ecooutput"><span class="math display">\[\begin{split} &amp;
+Productivity = \frac{Output}{Input} = \frac{\Delta State}{\Delta Energy} = \frac{Production}{Work} = \frac{V_I}{pv}
+\end{split} \tag{40}\]</span></span></p>
+<p>see description of “movement” <a href="#eq-movement" class="quarto-xref">Equation&nbsp;24</a></p>
+<br>
+<br>
+
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+<div id="tbl-coremeasuremnts" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-coremeasuremnts-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Core Measurements
+</figcaption>
+<div aria-describedby="tbl-coremeasuremnts-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 22%">
+<col style="width: 17%">
+<col style="width: 21%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Economy</strong></th>
+<th style="text-align: left;"><span class="math inline">\(\rightarrow\)</span></th>
+<th style="text-align: center;"></th>
+<th style="text-align: right;"><span class="math inline">\(\leftarrow\)</span></th>
+<th style="text-align: right;"><strong>Physics</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Resources</td>
+<td style="text-align: left;">Assets</td>
+<td style="text-align: center;"></td>
+<td style="text-align: right;">Force</td>
+<td style="text-align: right;">Matter</td>
+</tr>
+<tr class="even">
+<td>Capital</td>
+<td style="text-align: left;">Liabilities</td>
+<td style="text-align: center;"></td>
+<td style="text-align: right;">Momentum</td>
+<td style="text-align: right;">Space</td>
+</tr>
+<tr class="odd">
+<td>Labor</td>
+<td style="text-align: left;">Expenses</td>
+<td style="text-align: center;"></td>
+<td style="text-align: right;">Work</td>
+<td style="text-align: right;"></td>
+</tr>
+<tr class="even">
+<td></td>
+<td style="text-align: left;">Income</td>
+<td style="text-align: center;">Production</td>
+<td style="text-align: right;">Energy</td>
+<td style="text-align: right;">Time</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p><br>
+<br>
+</p>
+<p>As a first approach, considering the geometrical perspective of the concept of “work” (<a href="#eq-workgeom" class="quarto-xref">Equation&nbsp;9</a>), applied to economical measurements, so to satisfy the following system:</p>
+<p><span class="math inline">\(f_A(Assets) = f_B(Liabilities + Gain)\)</span> = “momentum” <span class="math inline">\(p\)</span> from initial state <span class="math inline">\(r_0\)</span> to new state <span class="math inline">\(r_1\)</span>, where the change of state is <span class="math inline">\(r = r_1 - r_0\)</span></p>
+<p>Matter substance, object movement/change: <span id="eq-physassets"><span class="math display">\[\begin{split} &amp;
+A = f_A = F \cdot t = p
+\end{split} \tag{41}\]</span></span></p>
+<p>Space of movement, maneuverability: <span id="eq-physliabilities"><span class="math display">\[\begin{split} &amp;
+B + R = f_B = m \cdot v = p
+\end{split} \tag{42}\]</span></span></p>
+<p>Work input (efforts, costs) through labor force, machines and infrastructure applied, and materials consumed for production: <span id="eq-physexpens"><span class="math display">\[\begin{split} &amp;
+W = f_0 = F \cdot r = m \cdot \frac{v}{t} \cdot r = p \cdot v
+\end{split} \tag{43}\]</span></span></p>
+<p>Energy transfer, energy change, profit or loss: <span id="eq-phyincome"><span class="math display">\[\begin{split} &amp;
+Y = \Delta E = \frac{1}{2} pv + \mathcal{U}
+\end{split} \tag{44}\]</span></span></p>
+<p>Production value inflation adjusted: <span id="eq-physprod"><span class="math display">\[\begin{split} &amp;
+P \cdot V_I = \sum Y_{adjust} = \sum (W + R)_{adjust} = \Delta U - \Delta H = Q \cdot N
+\end{split} \tag{45}\]</span></span></p>
+<p>see <a href="#eq-workthemostat" class="quarto-xref">Equation&nbsp;17</a> and <a href="#eq-workgeom" class="quarto-xref">Equation&nbsp;9</a></p>
+<p>Thus, to be determined are <span class="math inline">\(v\)</span> (economy velocity) and <span class="math inline">\(p\)</span> (financial structure). Eventually, determine <span class="math inline">\(r\)</span> = “state change through trajectory” (substance change to the new assets structure) by given <span class="math inline">\(v\)</span> = “velocity of movement” (Business speed = monetary value, price with inflation), or determine <span class="math inline">\(v\)</span> by given <span class="math inline">\(r\)</span>. The individual positions <span class="math inline">\(\{ i,j,l,m \}\)</span> of Liabilities <span class="math inline">\(\{ B_i + R_j \}_k\)</span>, Assets <span class="math inline">\(\{ A_m \}_k\)</span>, and Expenses <span class="math inline">\(\{ W_l \}_k\)</span> shall be grouped in sets <span class="math inline">\(\{ k \}\)</span>, so to satisfy <span class="math inline">\(f_k(i,j) = f_k(m) = f_k(l) = \{ pv \}_k\)</span>.</p>
+<p>The constraints shall be modelled with the Lagrangian. Hence, “Work” shall be derived from the Hamiltonian which leads to the identification of the “movement” (= change, transformation) of the trajectory (= path to new state) with <span class="math inline">\(\dot r = v\)</span> and <span class="math inline">\(\dot p = F\)</span>.</p>
+<p>Experiment design: <strong><span class="math inline">\(p\)</span> and <span class="math inline">\(v\)</span> are modelled ex-ante with means of CONSTRAINTS from contractual agreement and from given juristic legislation, in such a way that physics laws are satisfied. Decisions making occure within this ex-ante frame.</strong></p>
+<p><br>
+<br>
+</p>
+</section>
+<section id="acronyms" class="level1" data-number="9">
+<h1 data-number="9"><span class="header-section-number">9</span> Acronyms</h1>
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+<section id="sec-acroworkenergy" class="level2" data-number="9.1">
+<h2 data-number="9.1" class="anchored" data-anchor-id="sec-acroworkenergy"><span class="header-section-number">9.1</span> Acronyms of Physics: <a href="#sec-workenergy" class="quarto-xref">Chapter&nbsp;3</a></h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 45%">
+<col style="width: 54%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(A =\)</span> Action</td>
+<td><span class="math inline">\(E = E_{kin} + E_{pot} =\)</span> total energy</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(t =\)</span> time</td>
+<td><span class="math inline">\(r =\)</span> dpace (distance between two points, one-dimensional length)</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(v =\)</span> velocity</td>
+<td><span class="math inline">\(c =\)</span> light speed</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(p =\)</span> momentum</td>
+<td><span class="math inline">\(F =\)</span> force</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(I =\)</span> inertia</td>
+<td><span class="math inline">\(\mathcal{L} =\)</span> Lagrangian</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\mathcal{H} =\)</span> Hamiltonian</td>
+<td><span class="math inline">\(\mathcal{K} =\)</span> kinetic Energy</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\mathcal{U} =\)</span> effective potential Energy (<span class="math inline">\(\in E_{pot}\)</span>)</td>
+<td><span class="math inline">\(\mathcal{V} =\)</span> potential Energy (<span class="math inline">\(\in E_{pot}\)</span>)</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\mathcal{Z} = \frac{1}{2}\frac{L_0^2}{mr^2} =\)</span> Centrifugal Potential</td>
+<td><span class="math inline">\(V = r_1 \cdot r_2 \cdot r_3 =\)</span> Volume</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\mathcal{k} =\)</span> Wave Vector (“curvature”)</td>
+<td><span class="math inline">\(W =\)</span> Work (done vs.&nbsp;received)</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(P =\)</span> Pressure</td>
+<td><span class="math inline">\(L_0 =\)</span> angular momentum</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(T =\)</span> endogen Temperature</td>
+<td><span class="math inline">\(H =\)</span> exogen Heat</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(U =\)</span> endogen Energy (<span class="math inline">\(E_{kin} + E_{pot}\)</span>)</td>
+<td><span class="math inline">\(\Phi = \frac{\mathcal{V}}{q} =\)</span> Electric Potential</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\mathcal{A} =\)</span> Magnetic Potential</td>
+<td><span class="math inline">\(b_0 =\)</span> Boltzmann constant</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(g_0 =\)</span> Gas constant</td>
+<td><span class="math inline">\(m =\)</span> mass</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(q =\)</span> charge</td>
+<td>$<span class="math inline">\(n =\)</span> amount of objectes (particles density <span class="math inline">\(n=\frac{N}{V}\)</span>), <span class="math inline">\(n=2\)</span> and <span class="math inline">\(f=1\)</span></td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\({\epsilon}_0 =\)</span> electric constant</td>
+<td><span class="math inline">\(f = 3n \pm z =\)</span> degrees of freedom, <span class="math inline">\(f=1\)</span> and <span class="math inline">\(n=2\)</span></td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\({\mu}_0 =\)</span> magnetic constant</td>
+<td><span class="math inline">\(\mathcal{B} =\)</span> Magnetic Field</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\mathcal{E} =\)</span> Electric Field</td>
+<td><sub>H</sub><span class="math inline">\(\mathcal{C} = m \cdot c_0 = \frac{\Delta H}{\Delta T}  =\)</span> heat capacity</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(c_0 = \frac{1}{m}\frac{\Delta H}{\Delta T} =\)</span> specific heat</td>
+<td><span class="math inline">\(S = b_0 \cdot \ln(\Omega) =\)</span> Entropy (macro state)</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(l =\)</span> Moll quantity</td>
+<td><span class="math inline">\(\Omega =\)</span> micro states</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(z =\)</span> amount of constraints (boundry conditions)</td>
+<td><span class="math inline">\(b_0 =\)</span> Boltzmann constant</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\kappa = \frac{c_P}{c_V} = \frac{f+2}{f} =\)</span> adiabaty</td>
+<td><span class="math inline">\(\iota = \kappa\)</span> ↔︎ adiabat</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(\iota = 0\)</span> ↔︎ isobar</td>
+<td><span class="math inline">\(\iota = 1\)</span> ↔︎ isotherm</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(\iota = \infty\)</span> ↔︎ isochor</td>
+<td>…</td>
+</tr>
+<tr class="odd">
+<td>…</td>
+<td>…</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sec-acroeconom" class="level2" data-number="9.2">
+<h2 data-number="9.2" class="anchored" data-anchor-id="sec-acroeconom"><span class="header-section-number">9.2</span> Acronyms of Economy: <a href="#sec-productivityvalue" class="quarto-xref">Chapter&nbsp;7</a></h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><span class="math inline">\(T =\)</span> Taxes</td>
+<td><span class="math inline">\(M =\)</span> Import of Goods and Services from foreing symstes</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(G =\)</span> Governent Expenses, incl.&nbsp;Social Insurances</td>
+<td><span class="math inline">\(X =\)</span> Export of Goods and Services to foreign system</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(Y =\)</span> Income of Economy from Turnover</td>
+<td><span class="math inline">\(G_A =\)</span> Governental Subsidies</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(D_A =\)</span> Depreciations (Reinvestments) on Assets</td>
+<td><span class="math inline">\(V_N =\)</span> Net Naötional Production, Society NNP</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(N =\)</span> Monetary Quantity</td>
+<td><span class="math inline">\(Q =\)</span> Monetary Turnover Velocity</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(V_I =\)</span> Gross Domestic Product GDP = <span class="math inline">\(\frac{Output}{Input}\)</span>, Tradevolume</td>
+<td><span class="math inline">\(P =\)</span> Price niveau (Inflation adjusted Value)</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(L =\)</span> Wages from Labor Work (Salaries, …)</td>
+<td><span class="math inline">\(R =\)</span> Returns, Earnings, Gains</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(Y_A =\)</span> Income of priv. Business Households (Companies, Services, Real Estate Rentals, Retained Profits)</td>
+<td><span class="math inline">\(Y_H =\)</span> Income from priv. Capital Households (Interests, Coupons, Dividends, … of priv. Assets, Investmens, Credits, Debits, Bonds, Equity)</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(T_A=\)</span> Tax on Capital of Corprate Compaies (Business Assets)</td>
+<td><span class="math inline">\(Y_G =\)</span> Governmental Income from Assets, Services, Social Institutions/Insurances</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(Z_G =\)</span> Interests on Governmental Debt</td>
+<td><span class="math inline">\(V_S =\)</span> Gross National Produkt, Society GNP</td>
+</tr>
+<tr class="odd">
+<td><span class="math inline">\(I =\)</span> Investments on Assets, incl.&nbsp;Storage Change</td>
+<td><span class="math inline">\(R_M =\)</span> Capital Earnings and Wages from Abroad (from Foreign System)</td>
+</tr>
+<tr class="even">
+<td><span class="math inline">\(R_X\)</span> Capital Earnings and Wages to Abroad (to Foreign System)</td>
+<td><span class="math inline">\(W =\)</span> Expensens, costs from human and machinary work efforts</td>
+</tr>
+</tbody>
+</table>
+<p><br>
+<br>
+</p>
+<p>see also <span class="citation" data-cites="wachter_compendium_2005">[<a href="#ref-wachter_compendium_2005" role="doc-biblioref">1</a>]</span></p>
+<hr>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-wachter_compendium_2005" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Wachter A, Hoeber H (2005) <a href="https://link.springer.com/book/10.1007/0-387-29198-9">Compendium of <span>Theoretical</span> <span>Physics</span></a>. Springer</div>
+</div>
+<div id="ref-cockshott_w_paul_classical_2011" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Cockshott WP (2011) <a href="https://www.routledge.com/Classical-Econophysics/Cottrell-Cockshott-Michaelson-Wright-Yakovenko/p/book/9780415696463">Classical <span>Econophysics</span></a>. Routledge Advances in Experimental; Computable Economics</div>
+</div>
+<div id="ref-wladyslaw_macroeconometric_2013" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Wladyslaw W (2013) <a href="https://link.springer.com/book/10.1007/978-3-642-34468-8">Macroeconometric <span>Models</span></a>, 1st ed. Springer</div>
+</div>
+<div id="ref-lichtenegger_schlusselkonzepte_2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Lichtenegger K (2015) <a href="https://link.springer.com/book/10.1007/978-3-8274-2385-6">Schlüsselkonzepte zur <span>Physik</span></a>, 1st ed. Springer Spektrum</div>
+</div>
+<div id="ref-padmanabhan_sleeping_2015" class="csl-entry" role="listitem">
+<div class="csl-left-margin">5. </div><div class="csl-right-inline">Padmanabhan T (2015) <a href="https://link.springer.com/book/10.1007/978-3-319-13443-7">Sleeping <span>Beauties</span> in <span>Theoretical</span> <span>Physics</span></a>, 1st ed. Springer</div>
+</div>
+<div id="ref-carter_foundations_2001" class="csl-entry" role="listitem">
+<div class="csl-left-margin">6. </div><div class="csl-right-inline">Carter M (2001) <a href="https://mitpress.mit.edu/9780262531924/foundations-of-mathematical-economics/">Foundations of <span>Mathematical</span> <span>Economics</span></a>. The MIT Press</div>
+</div>
+<div id="ref-michaelides_21_2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">7. </div><div class="csl-right-inline">Michaelides PG (2025) <a href="https://link.springer.com/book/10.1007/978-3-031-76140-9">21 <span>Equations</span> that <span>Shaped</span> the <span>World</span> <span>Economy</span></a>, 1st ed. Palgrave Macmillan Cham</div>
+</div>
+<div id="ref-pires_da_cruz_introduction_2025" class="csl-entry" role="listitem">
+<div class="csl-left-margin">8. </div><div class="csl-right-inline">Pires da Cruz J (2025) <a href="https://link.springer.com/book/10.1007/978-3-032-04346-7">Introduction to the <span>Physics</span> of the <span>Economy</span> and <span>Finance</span></a>, 1st ed. Springer Cham</div>
+</div>
+<div id="ref-cass_hamiltonian_2014" class="csl-entry" role="listitem">
+<div class="csl-left-margin">9. </div><div class="csl-right-inline">Cass D, Shell K (2014) <a href="https://shop.elsevier.com/books/the-hamiltonian-approach-to-dynamic-economics/cass/978-0-12-163650-0">The <span>Hamiltonian</span> <span>Approach</span> to <span>Dynamic</span> <span>Economics</span></a>, 1st ed. Elsevier, Academic Press</div>
+</div>
+<div id="ref-haven_quantum_2017" class="csl-entry" role="listitem">
+<div class="csl-left-margin">10. </div><div class="csl-right-inline">Haven E, Khrennikov AI, Robinson T (2017) <a href="https://www.worldscientific.com/doi/epdf/10.1142/q0080">Quantum <span>Methods</span> in <span>Social</span> <span>Science</span> - <span>A</span> <span>First</span> <span>Course</span></a>. World Scientific, Publishing Europe Ltd</div>
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p>© 2026 Eugenio Net. | <a href="https://eugenionet.github.io/physecon/index.pdf">PDF script</a> | Update at <a href="https://eugenionet.github.io/physecon/">eugenionet.github.io/physecon</a> | <a href="mailto:eugenionetweb@gmail.com?subject=Working%20Paper%20Economy-Physics&amp;body=Body%20text">Contact</a> to collaborate</p>
+</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
